@@ -1,0 +1,52 @@
+﻿@{
+    Layout = null;
+    var loginAuthenticationValidUrl= ViewBag.LoginAuthenticationValidUrl as string;
+    var redirectUrl = ViewBag.RedirectUrl as string;
+    var authenticationValues = ViewBag.AuthenticationValues as string;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+        // Build the JSON object from userToken
+        fetch("@loginAuthenticationValidUrl", {
+            method: "POST",
+            credentials: "include", // <-- important!
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(@Html.Raw(authenticationValues))
+        })
+        .then(response => {
+            // If the target is an API, handle the response here
+            // If you want to redirect after POST, use:
+
+            if (response.redirected) {
+                window.location.href = "@redirectUrl";
+            } else {
+                window.location.href = "@redirectUrl";
+            }
+
+            @*if (response.redirected) {
+                window.open("@redirectUrl", "_blank");
+                window.close();
+            } else {
+                window.open("@redirectUrl", "_blank");
+                window.close();
+            }*@
+        })
+        .catch(error => {
+            alert("Error posting JSON: " + error);
+        });
+
+    </script>
+    <noscript>
+        JavaScript is required for this operation.
+    </noscript>
+</body>
+</html>

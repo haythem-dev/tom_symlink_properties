@@ -1,0 +1,127 @@
+﻿/* login.css - Custom styles for the login page */
+
+/*.btn-3d {
+    background: linear-gradient(180deg, #e0e0e0 0%, #bdbdbd 100%);
+    border: 1px solid #888;
+    border-radius: 6px;
+    box-shadow: 0 4px 0 #888, 0 4px 10px rgba(0,0,0,0.15);
+    color: #333;
+    font-weight: bold;
+    padding: 8px 24px;
+    transition: box-shadow 0.1s, transform 0.1s;
+}
+
+    .btn-3d:active {
+        box-shadow: 0 2px 0 #888, 0 2px 5px rgba(0,0,0,0.15);
+        transform: translateY(2px);
+    }
+
+.picture-box {*/
+    /*        width: 120px;
+        height: 120px;*/
+    /*border: 2px solid #888;
+    border-radius: 8px;
+    margin: 0 auto 24px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
+}
+
+    .picture-box img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 8px;
+    }
+
+.page-background-class {
+    background-image: url(../Images/UADMLogin.bmp);
+    align-content: center;
+    align-self: center;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+}*/
+/* ...existing styles... */
+
+/*body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}*/
+
+/* Centered and Bootstrap-enhanced login page styles */
+
+.background {
+    background-image: url('../Images/UADMLoginWeb.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 10px 40px; /* increase horizontal padding */
+    border-radius: 12px;
+    box-shadow: 0 0 24px rgba(0,0,0,0.15);
+    width: 100%;
+    max-width: 650px; /* increase max width for horizontal layout */
+    text-align: center;
+}
+
+.btn-block {
+    width: 100% !important;
+    min-width: 0;
+    max-width: none;
+    font-size: 18px;
+    padding: 12px 0;
+    border-radius: 6px;
+    margin: 0;
+    display: block;
+}
+
+.form-group.row {
+    margin-bottom: 9px !important;
+}
+
+.login-container h2 {
+    margin-bottom: 18px;
+}
+
+.login-container .form-group {
+    margin-bottom: 9px;
+}
+
+.login-container .btn-block {
+    font-size: 18px;
+    padding: 12px 0;
+    border-radius: 6px;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.login-container input,
+.login-container select {
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.form-group.row label.col-form-label {
+    text-align: left !important;
+    font-weight: bold !important;
+}
+
+@media (max-width: 500px) {
+    .login-container {
+        padding: 20px 10px;
+        max-width: 95vw;
+    }
+}

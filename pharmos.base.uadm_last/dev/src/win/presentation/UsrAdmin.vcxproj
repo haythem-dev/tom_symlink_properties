@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{58DE0195-DDBB-3F23-A896-0862977848D0}</ProjectGuid>
+    <Keyword>Win64Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>UsrAdmin</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)win\presentation\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UsrAdmin.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UsrAdmin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)win\presentation\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UsrAdmin.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UsrAdmin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(SolutionDir)\win\presentation\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UsrAdmin.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UsrAdmin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(SolutionDir)\win\presentation\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UsrAdmin.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UsrAdmin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\unix\onlineserver;$(SolutionDir)\win\business;$(SolutionDir)\win\server;$(SolutionDir)\win\constants;$(SolutionDir)\win\common;$(SolutionDir)\..\ext\servclnt\include;$(SolutionDir)\win\libappuadm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;EBUG;_AFXDLL;_CRT_SECURE_NO_WARNINGS;NO_WARN_MBCS_MFC_DEPRECATION</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(SolutionDir)\win\presentation\Debug\UsrAdmin.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;EBUG;_AFXDLL;_CRT_SECURE_NO_WARNINGS;NO_WARN_MBCS_MFC_DEPRECATION</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\unix\onlineserver;$(SolutionDir)\win\business;$(SolutionDir)\win\server;$(SolutionDir)\win\constants;$(SolutionDir)\win\common;$(SolutionDir)\..\ext\servclnt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)\unix\onlineserver;$(SolutionDir)\win\business;$(SolutionDir)\win\server;$(SolutionDir)\win\constants;$(SolutionDir)\win\common;$(SolutionDir)\..\ext\servclnt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\unix\onlineserver\Debug\libuadmonlsrv.lib;..\business\Debug\libbusiness.lib;..\common\Debug\libcommon.lib;..\constants\Debug\libconstants.lib;..\server\Debug\libserver.lib;..\libappuadm\2019_shared\Debug\libappuadm.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscgmmeb.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsvoodoo.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccdate.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscczlib.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccutil.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccstring.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccpattern.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscmlogin.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscgmctrl.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscgmmultilang.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsaccodbc.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsaccvdoo.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsaccess.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscbmeb.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)/win/presentation/Debug/UsrAdmin.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)/win/presentation/Debug/UsrAdmin.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <PostBuildEvent>
+      <Command>call $(SolutionDir)win\copy-postbuild.bat $(ProjectName) $(Platform) $(Configuration) $(SolutionDir) $(OutDir)</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>post build copy process</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\unix\onlineserver;$(SolutionDir)\win\business;$(SolutionDir)\win\server;$(SolutionDir)\win\constants;$(SolutionDir)\win\common;$(SolutionDir)\..\ext\servclnt\include;$(SolutionDir)\win\libappuadm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_AFXDLL;_CRT_SECURE_NO_WARNINGS;NO_WARN_MBCS_MFC_DEPRECATION</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>$(SolutionDir)\win\presentation\Release\UsrAdmin.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_AFXDLL;_CRT_SECURE_NO_WARNINGS;NO_WARN_MBCS_MFC_DEPRECATION</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\unix\onlineserver;$(SolutionDir)\win\business;$(SolutionDir)\win\server;$(SolutionDir)\win\constants;$(SolutionDir)\win\common;$(SolutionDir)\..\ext\servclnt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)\unix\onlineserver;$(SolutionDir)\win\business;$(SolutionDir)\win\server;$(SolutionDir)\win\constants;$(SolutionDir)\win\common;$(SolutionDir)\..\ext\servclnt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\unix\onlineserver\Release\libuadmonlsrv.lib;..\libappuadm\2019_shared\Release\libappuadm.lib;..\business\Release\libbusiness.lib;..\common\Release\libcommon.lib;..\constants\Release\libconstants.lib;..\server\Release\libserver.lib;$(SolutionDir)\..\ext\servclnt\lib\Release\libscgmmeb.lib;$(SolutionDir)\..\ext\servclnt\lib\Release\libscsvoodoo.lib;$(SolutionDir)\..\ext\servclnt\lib\Release\libsccdate.lib;$(SolutionDir)\..\ext\servclnt\lib\Release\libscczlib.lib;$(SolutionDir)\..\ext\servclnt\lib\Release\libsccutil.lib;$(SolutionDir)\..\ext\servclnt\lib\Release\libsccstring.lib;$(SolutionDir)\..\ext\servclnt\lib\Release\libsccpattern.lib;$(SolutionDir)\..\ext\servclnt\lib\Release\libscmlogin.lib;$(SolutionDir)\..\ext\servclnt\lib\Release\libscgmctrl.lib;$(SolutionDir)\..\ext\servclnt\lib\Release\libscgmmultilang.lib;$(SolutionDir)\..\ext\servclnt\lib\Release\libscsaccodbc.lib;$(SolutionDir)\..\ext\servclnt\lib\Release\libscsaccvdoo.lib;$(SolutionDir)\..\ext\servclnt\lib\Release\libscsaccess.lib;$(SolutionDir)\..\ext\servclnt\lib\Release\libscbmeb.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)/win/presentation/Release/UsrAdmin.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)/win/presentation/Release/UsrAdmin.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\unix\onlineserver;$(SolutionDir)\win\business;$(SolutionDir)\win\server;$(SolutionDir)\win\constants;$(SolutionDir)\win\common;$(SolutionDir)\..\ext\servclnt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_AFXDLL;_CRT_SECURE_NO_WARNINGS;NO_WARN_MBCS_MFC_DEPRECATION</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>$(SolutionDir)\win\presentation\MinSizeRel\UsrAdmin.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_AFXDLL;_CRT_SECURE_NO_WARNINGS;NO_WARN_MBCS_MFC_DEPRECATION</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\unix\onlineserver;$(SolutionDir)\win\business;$(SolutionDir)\win\server;$(SolutionDir)\win\constants;$(SolutionDir)\win\common;$(SolutionDir)\..\ext\servclnt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)\unix\onlineserver;$(SolutionDir)\win\business;$(SolutionDir)\win\server;$(SolutionDir)\win\constants;$(SolutionDir)\win\common;$(SolutionDir)\..\ext\servclnt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\unix\onlineserver\MinSizeRel\libuadmonlsrv.lib;..\business\MinSizeRel\libbusiness.lib;..\common\MinSizeRel\libcommon.lib;..\constants\MinSizeRel\libconstants.lib;..\server\MinSizeRel\libserver.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscgmmeb.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsvoodoo.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccdate.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscczlib.lib;..\common\MinSizeRel\libcommon.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccutil.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccstring.lib;..\constants\MinSizeRel\libconstants.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccpattern.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscmlogin.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccutil.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscgmctrl.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscgmmultilang.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccpattern.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsaccodbc.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsaccvdoo.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsaccess.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccstring.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsvoodoo.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccdate.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscczlib.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscbmeb.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscmlogin.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccutil.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscgmctrl.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscgmmultilang.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccpattern.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsaccvdoo.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsaccess.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccstring.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsvoodoo.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccdate.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscczlib.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscgmctrl.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscgmmultilang.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccpattern.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsaccvdoo.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsvoodoo.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccdate.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscczlib.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscbmeb.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsaccess.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccstring.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)/win/presentation/MinSizeRel/UsrAdmin.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)/win/presentation/MinSizeRel/UsrAdmin.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\unix\onlineserver;$(SolutionDir)\win\business;$(SolutionDir)\win\server;$(SolutionDir)\win\constants;$(SolutionDir)\win\common;$(SolutionDir)\..\ext\servclnt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_AFXDLL;_CRT_SECURE_NO_WARNINGS;NO_WARN_MBCS_MFC_DEPRECATION</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(SolutionDir)\win\presentation\RelWithDebInfo\UsrAdmin.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_AFXDLL;_CRT_SECURE_NO_WARNINGS;NO_WARN_MBCS_MFC_DEPRECATION</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\unix\onlineserver;$(SolutionDir)\win\business;$(SolutionDir)\win\server;$(SolutionDir)\win\constants;$(SolutionDir)\win\common;$(SolutionDir)\..\ext\servclnt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)\unix\onlineserver;$(SolutionDir)\win\business;$(SolutionDir)\win\server;$(SolutionDir)\win\constants;$(SolutionDir)\win\common;$(SolutionDir)\..\ext\servclnt\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\unix\onlineserver\RelWithDebInfo\libuadmonlsrv.lib;..\business\RelWithDebInfo\libbusiness.lib;..\common\RelWithDebInfo\libcommon.lib;..\constants\RelWithDebInfo\libconstants.lib;..\server\RelWithDebInfo\libserver.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscgmmeb.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsvoodoo.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccdate.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscczlib.lib;..\common\RelWithDebInfo\libcommon.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccutil.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccstring.lib;..\constants\RelWithDebInfo\libconstants.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccpattern.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscmlogin.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccutil.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscgmctrl.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscgmmultilang.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccpattern.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsaccodbc.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsaccvdoo.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsaccess.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccstring.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsvoodoo.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccdate.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscczlib.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscbmeb.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscmlogin.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccutil.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscgmctrl.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscgmmultilang.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccpattern.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsaccvdoo.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsaccess.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccstring.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsvoodoo.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccdate.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscczlib.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscgmctrl.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscgmmultilang.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccpattern.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsaccvdoo.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsvoodoo.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccdate.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscczlib.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscbmeb.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libscsaccess.lib;$(SolutionDir)\..\ext\servclnt\lib\Debug\libsccstring.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)/win/presentation/RelWithDebInfo/UsrAdmin.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)/win/presentation/RelWithDebInfo/UsrAdmin.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="PDlgDllUserPara.cpp" />
+    <ClCompile Include="PDlgDllUsertype.cpp" />
+    <ClCompile Include="PDlgUserManager.cpp" />
+    <ClCompile Include="PDlgUserParaDetail.cpp" />
+    <ClCompile Include="PDlgUserParaListCtrl.cpp" />
+    <ClCompile Include="PDlgUsertypeDetail.cpp" />
+    <ClCompile Include="PDlgUsertypeListCtrl.cpp" />
+    <ClInclude Include="PDlgDllUserPara.h" />
+    <ClInclude Include="PDlgDllUsertype.h" />
+    <ClInclude Include="PDlgUserManager.h" />
+    <ClInclude Include="PDlgUserParaDetail.h" />
+    <ClInclude Include="PDlgUserParaListCtrl.h" />
+    <ClInclude Include="PDlgUsertypeDetail.h" />
+    <ClInclude Include="PDlgUsertypeListCtrl.h" />
+    <None Include="$(SolutionDir)\win\presentation\uadm.config.ini">
+    </None>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PCmn.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PCmn.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgAbout.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgAbout.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgAdmRights.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgAdmRights.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgExpRights.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgExpRights.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgRiAnalog.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgRiAnalog.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgAppDetail.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgAppDetail.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgDllAppModRi.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgDllAppModRi.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgModDetail.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgModDetail.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgRightDetail.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgRightDetail.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgBrRegDetail.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgBrRegDetail.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgCorBrReg.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgCorBrReg.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgDllBrReg.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgDllBrReg.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgDllGroup.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgDllGroup.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgGroupDetail.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgGroupDetail.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgDllLangText.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgDllLangText.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgLangDetail.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgLangDetail.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgDllPara.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgDllPara.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgParaDetail.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgParaDetail.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgDllPrev.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgDllPrev.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgDllText.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgDllText.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgTextDetail.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgTextDetail.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgCorGrpUsr.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgCorGrpUsr.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgExpressCorUsr.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgExpressCorUsr.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgGroupList.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgGroupList.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgAppListCtrl.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgAppListCtrl.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgBranchListCtrl.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgBranchListCtrl.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgGroupListCtrl.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgGroupListCtrl.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgLangListCtrl.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgLangListCtrl.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgModListCtrl.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgModListCtrl.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgParaListCtrl.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgParaListCtrl.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgPrevListCtrl.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgPrevListCtrl.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgRegionListCtrl.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgRegionListCtrl.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgRiAnalysisListCtrl.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgRiAnalysisListCtrl.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgRightListCtrl.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgRightListCtrl.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgTextListCtrl.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgTextListCtrl.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgUserListCtrl.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgUserListCtrl.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgUsrAnalysisListCtrl.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgUsrAnalysisListCtrl.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgUsrGroupAnalysisListCtrl.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgUsrGroupAnalysisListCtrl.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgUsrRightAnalysisListCtrl.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgUsrRightAnalysisListCtrl.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgPW.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgPW.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgRiAnalysis.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgRiAnalysis.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgUsrAnalysis.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgUsrAnalysis.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgBiDefault.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgBiDefault.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgUserDetail.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgUserDetail.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgUserList.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgUserList.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgUsrRightAnalysis.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgUsrRightAnalysis.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PCmdLineInfo.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PCmdLineInfo.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDocUA.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDocUA.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PMainFrm.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PMainFrm.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\presentation.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\presentation.h" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\StdAfx.h" />
+    <None Include="$(SolutionDir)\win\presentation\hand.cur">
+    </None>
+    <None Include="$(SolutionDir)\win\presentation\icon1.ico">
+    </None>
+    <None Include="$(SolutionDir)\win\presentation\phoenix.ico">
+    </None>
+    <ResourceCompile Include="$(SolutionDir)\win\presentation\presentation.rc" />
+    <None Include="$(SolutionDir)\win\presentation\presentation.rc2">
+    </None>
+    <ClInclude Include="$(SolutionDir)\win\presentation\resource.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\ExportCsv.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\ExportCsv.h" />
+    <ClCompile Include="$(SolutionDir)\win\presentation\PViewMain.cpp" />
+    <ClInclude Include="$(SolutionDir)\win\presentation\PViewMain.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(SolutionDir)\win\business\libbusiness.vcxproj">
+      <Project>{A1205C08-2257-3543-9275-B33F68C9F166}</Project>
+      <Name>libbusiness</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\win\common\libcommon.vcxproj">
+      <Project>{E5598469-5776-3516-8D8A-073FCC3CEE4D}</Project>
+      <Name>libcommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\win\constants\libconstants.vcxproj">
+      <Project>{622B56B6-B2EB-37D4-AEDA-F1607FC2F643}</Project>
+      <Name>libconstants</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\win\server\libserver.vcxproj">
+      <Project>{9F781536-6575-3038-AD19-F6D5170A1AB1}</Project>
+      <Name>libserver</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\unix\onlineserver\libuadmonlsrv.vcxproj">
+      <Project>{0B54CEE6-798A-3AF4-895C-168B1059B163}</Project>
+      <Name>libuadmonlsrv</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

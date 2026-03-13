@@ -1,0 +1,62 @@
+﻿{
+  "Countries": [
+    { "Key": "EN", "Name": "England" },
+    { "Key": "DE", "Name": "Deutschland", "IsDefault": true },
+    { "Key": "FR", "Name": "Francais" },
+    { "Key": "BG", "Name": "Bulgarian" },
+    { "Key": "HR", "Name": "Hrvatski" }
+  ],
+
+  "Languages": [
+    { "Key": "EN", "Name": "English" },
+    { "Key": "DE", "Name": "Deutsch", "IsDefault": true },
+    { "Key": "FR", "Name": "Francais" },
+    { "Key": "BG", "Name": "Bulgarian" },
+    { "Key": "HR", "Name": "Hrvatski" }
+  ],
+
+  "Environments": [
+    { "Key": "DEV", "Name": "Development", "IsDefault": true },
+    { "Key": "TST", "Name": "Test" },
+    { "Key": "ACC", "Name": "Acceptance" },
+    { "Key": "PRD", "Name": "Production" }
+  ],
+
+  "Applications": [
+    {
+      "Key": "CUSTOMERTOURMANAGER",
+      "Name": "Customer Tours Maintenance",
+      "DefaultUserTokenExpirationMinutes": 1440,
+      "DefaultLoginRedirectUrl": "/Home/Index",
+      "DefaultLoginAuthenticationValidUrl": "/UadmLogin/AuthenticationValid",
+
+      "HideApplications": false,
+      "HideEnvironments": false,
+      "HideCountries": true,
+      "HideApplicationItems": true,
+      "HideLanguages": false,
+
+      "SupportedLanguages": [
+        {
+          "Key": "EN",
+          "Name": "English"
+        },
+        {
+          "Key": "DE",
+          "Name": "Deutsch",
+          "IsDefault": true
+        }
+      ],
+      "SupportedEnvironments": {
+        "ACC": {
+          "https://groupapps.phoenix.loc/customertoursmaintenance-test": {
+            "IsDefault": true,
+            "ApplicationId": "5f6c6128-dde7-4525-8839-11a67289cd5a",
+            "LoginAuthenticationValidUrl": "/CustomerDeliveryRunManager/Index",
+            "LoginRedirectUrl": "/CustomerDeliveryRunManager/Index"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+﻿{
+  "Countries": [
+    { "Key": "EN", "Name": "England" },
+    { "Key": "DE", "Name": "Deutschland", "IsDefault": true },
+    { "Key": "FR", "Name": "Francais" },
+    { "Key": "BG", "Name": "Bulgarian" },
+    { "Key": "HR", "Name": "Hrvatski" }
+  ],
+
+  "Languages": [
+    { "Key": "EN", "Name": "English" },
+    { "Key": "DE", "Name": "Deutsch", "IsDefault": true },
+    { "Key": "FR", "Name": "Francais" },
+    { "Key": "BG", "Name": "Bulgarian" },
+    { "Key": "HR", "Name": "Hrvatski" }
+  ],
+
+  "Environments": [
+    { "Key": "DEV", "Name": "Development", "UseNewPasswordRules": false, "IsDefault": true },
+    { "Key": "TST", "Name": "Test" },
+    { "Key": "ACC", "Name": "Acceptance" },
+    { "Key": "PRD", "Name": "Production" }
+  ],
+
+  "Applications": [
+    {
+      "Key": "CUSTOMERTOURMANAGER",
+      "Name": "Customer Tours Maintenance",
+      "DefaultUserTokenExpirationMinutes": 720,
+      "DefaultLoginRedirectUrl": "/Home/Index",
+      "DefaultLoginAuthenticationValidUrl": "/UadmLogin/AuthenticationValid",
+
+      "HideApplications": false,
+      "HideEnvironments": false,
+      "HideCountries": true,
+      "HideApplicationItems": true,
+      "HideLanguages": false,
+
+      "SupportedLanguages": [
+        {
+          "Key": "EN",
+          "Name": "English"
+        },
+        {
+          "Key": "DE",
+          "Name": "Deutsch",
+          "IsDefault": true
+        }
+      ],
+      "SupportedEnvironments": {
+        "DEV": {
+          "e3bb3599-8905-4d4b-b24d-d37d55254137": {
+            "IsDefault": true,
+            "LoginAuthenticationValidUrl": "https://localhost/ctm/CustomerDeliveryRunManager/Index",
+            "LoginRedirectUrl": "https://localhost/ctm/CustomerDeliveryRunManager/Index"
+          },
+          "https://localhost:44327": {
+            "IsDefault": true,
+            "UserTokenExpirationMinutes": 5,
+            "ApplicationId": "401f0467-c2cf-4250-8db5-e026db7e7b31",
+            "LoginAuthenticationValidUrl": "/Home/Index",
+            "LoginRedirectUrl": "/Home/Index",
+            "XApplicationRedirectController": "Home"
+          },
+          "https://localhost/ctm": {
+            "IsDefault": true,
+            "UserTokenExpirationMinutes": 6,
+            "ApplicationId": "cf31542a-6bdc-4b14-abd2-22ff71bbdbaf",
+            "LoginAuthenticationValidUrl": "/CustomerDeliveryRunManager/Index",
+            "LoginRedirectUrl": "/CustomerDeliveryRunManager/Index"
+          },
+          "https://localhost:44328": {
+            "LoginAuthenticationValidUrl": "/CustomerDeliveryRunManager/Index",
+            "LoginRedirectUrl": "/CustomerDeliveryRunManager/Index"
+          }
+        },
+        "TST": {
+        },
+        "ACC": {
+          "https://groupapps.phoenix.loc/customertoursmaintenance-test": {
+            "IsDefault": false,
+            "ApplicationId": "5f6c6128-dde7-4525-8839-11a67289cd5a",
+            "LoginAuthenticationValidUrl": "/CustomerDeliveryRunManager/Index",
+            "LoginRedirectUrl": "/CustomerDeliveryRunManager/Index"
+          },
+          "https://localhost/ctm_test": {
+            "IsDefault": false,
+            "ApplicationId": "355c7a87-394e-49db-8966-232998c10cdd",
+            "LoginAuthenticationValidUrl": "/CustomerDeliveryRunManager/Index",
+            "LoginRedirectUrl": "/CustomerDeliveryRunManager/Index"
+          },
+          "https://denu00dt0251/ctm": {
+            "IsDefault": true,
+            "ApplicationId": "cbb56290-c97d-4738-996c-203bd50abac7",
+            "LoginAuthenticationValidUrl": "/CustomerDeliveryRunManager/Index",
+            "LoginRedirectUrl": "/CustomerDeliveryRunManager/Index"
+          }
+        },
+        "PRD": {
+          "https://groupapps.phoenix.loc/customertoursmaintenance": {
+            "IsDefault": false,
+            "ApplicationId": "92399096-d1cc-49f9-b821-d2e8aa3c03b2",
+            "LoginAuthenticationValidUrl": "/CustomerDeliveryRunManager/Index",
+            "LoginRedirectUrl": "/CustomerDeliveryRunManager/Index"
+          }
+        }
+      }
+    },
+    {
+      "Key": "CSC",
+      "Name": "CSC Batches",
+      "DefaultUserTokenExpirationMinutes": 2,
+      "DefaultLoginRedirectUrl": "/UadmLogin/Index",
+      "SupportedEnvironments": {
+        "DEV": {
+          "4687d4f5-3a16-41d9-9d80-6231e30c0427": {
+            "IsDefault": true,
+            "LoginAuthenticationValidUrl": "https://localhost:44327/Home/Index"
+          },
+
+          "https://cscbatches.dev.phoenix.loc": { "IsDefault": false }
+        },
+        "PRD": {
+          "https://localhost:44348": { "IsDefault": true }
+        }
+      }
+    }
+  ]
+}

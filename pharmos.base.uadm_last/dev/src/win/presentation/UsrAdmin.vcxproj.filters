@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PCmn.cpp">
+      <Filter>CmnCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgAbout.cpp">
+      <Filter>Dialog\About</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgAdmRights.cpp">
+      <Filter>Dialog\AdmRights</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgExpRights.cpp">
+      <Filter>Dialog\AdmRights</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgRiAnalog.cpp">
+      <Filter>Dialog\AdmRights</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgAppDetail.cpp">
+      <Filter>Dialog\DLLAppModRight</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgDllAppModRi.cpp">
+      <Filter>Dialog\DLLAppModRight</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgModDetail.cpp">
+      <Filter>Dialog\DLLAppModRight</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgRightDetail.cpp">
+      <Filter>Dialog\DLLAppModRight</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgBrRegDetail.cpp">
+      <Filter>Dialog\DLLBranchRegion</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgCorBrReg.cpp">
+      <Filter>Dialog\DLLBranchRegion</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgDllBrReg.cpp">
+      <Filter>Dialog\DLLBranchRegion</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgDllGroup.cpp">
+      <Filter>Dialog\DLLGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgGroupDetail.cpp">
+      <Filter>Dialog\DLLGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgDllLangText.cpp">
+      <Filter>Dialog\DLLLang</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgLangDetail.cpp">
+      <Filter>Dialog\DLLLang</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgDllPara.cpp">
+      <Filter>Dialog\DLLPara</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgParaDetail.cpp">
+      <Filter>Dialog\DLLPara</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgDllPrev.cpp">
+      <Filter>Dialog\DLLPrevious</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgDllText.cpp">
+      <Filter>Dialog\DLLText</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgTextDetail.cpp">
+      <Filter>Dialog\DLLText</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgCorGrpUsr.cpp">
+      <Filter>Dialog\Group</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgExpressCorUsr.cpp">
+      <Filter>Dialog\Group</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgGroupList.cpp">
+      <Filter>Dialog\Group</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgAppListCtrl.cpp">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgBranchListCtrl.cpp">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgGroupListCtrl.cpp">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgLangListCtrl.cpp">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgModListCtrl.cpp">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgParaListCtrl.cpp">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgPrevListCtrl.cpp">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgRegionListCtrl.cpp">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgRiAnalysisListCtrl.cpp">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgRightListCtrl.cpp">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgTextListCtrl.cpp">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgUserListCtrl.cpp">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgUsrAnalysisListCtrl.cpp">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgUsrGroupAnalysisListCtrl.cpp">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgUsrRightAnalysisListCtrl.cpp">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgPW.cpp">
+      <Filter>Dialog\Password</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgRiAnalysis.cpp">
+      <Filter>Dialog\RightAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgUsrAnalysis.cpp">
+      <Filter>Dialog\RightAnalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgBiDefault.cpp">
+      <Filter>Dialog\User</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgUserDetail.cpp">
+      <Filter>Dialog\User</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgUserList.cpp">
+      <Filter>Dialog\User</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDlgUsrRightAnalysis.cpp">
+      <Filter>Dialog\Userrights</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PCmdLineInfo.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PDocUA.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PMainFrm.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\presentation.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\ExportCsv.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)\win\presentation\PViewMain.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="PDlgDllUsertype.cpp">
+      <Filter>Dialog\DLLUsertype</Filter>
+    </ClCompile>
+    <ClCompile Include="PDlgUsertypeDetail.cpp">
+      <Filter>Dialog\DLLUsertype</Filter>
+    </ClCompile>
+    <ClCompile Include="PDlgUsertypeListCtrl.cpp">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="PDlgUserParaListCtrl.cpp">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="PDlgDllUserPara.cpp">
+      <Filter>Dialog\DLLUserPara</Filter>
+    </ClCompile>
+    <ClCompile Include="PDlgUserParaDetail.cpp">
+      <Filter>Dialog\DLLUserPara</Filter>
+    </ClCompile>
+    <ClCompile Include="PDlgUserManager.cpp">
+      <Filter>Dialog\UserManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PCmn.h">
+      <Filter>CmnCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgAbout.h">
+      <Filter>Dialog\About</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgAdmRights.h">
+      <Filter>Dialog\AdmRights</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgExpRights.h">
+      <Filter>Dialog\AdmRights</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgRiAnalog.h">
+      <Filter>Dialog\AdmRights</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgAppDetail.h">
+      <Filter>Dialog\DLLAppModRight</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgDllAppModRi.h">
+      <Filter>Dialog\DLLAppModRight</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgModDetail.h">
+      <Filter>Dialog\DLLAppModRight</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgRightDetail.h">
+      <Filter>Dialog\DLLAppModRight</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgBrRegDetail.h">
+      <Filter>Dialog\DLLBranchRegion</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgCorBrReg.h">
+      <Filter>Dialog\DLLBranchRegion</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgDllBrReg.h">
+      <Filter>Dialog\DLLBranchRegion</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgDllGroup.h">
+      <Filter>Dialog\DLLGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgGroupDetail.h">
+      <Filter>Dialog\DLLGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgDllLangText.h">
+      <Filter>Dialog\DLLLang</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgLangDetail.h">
+      <Filter>Dialog\DLLLang</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgDllPara.h">
+      <Filter>Dialog\DLLPara</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgParaDetail.h">
+      <Filter>Dialog\DLLPara</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgDllPrev.h">
+      <Filter>Dialog\DLLPrevious</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgDllText.h">
+      <Filter>Dialog\DLLText</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgTextDetail.h">
+      <Filter>Dialog\DLLText</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgCorGrpUsr.h">
+      <Filter>Dialog\Group</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgExpressCorUsr.h">
+      <Filter>Dialog\Group</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgGroupList.h">
+      <Filter>Dialog\Group</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgAppListCtrl.h">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgBranchListCtrl.h">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgGroupListCtrl.h">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgLangListCtrl.h">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgModListCtrl.h">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgParaListCtrl.h">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgPrevListCtrl.h">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgRegionListCtrl.h">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgRiAnalysisListCtrl.h">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgRightListCtrl.h">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgTextListCtrl.h">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgUserListCtrl.h">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgUsrAnalysisListCtrl.h">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgUsrGroupAnalysisListCtrl.h">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgUsrRightAnalysisListCtrl.h">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgPW.h">
+      <Filter>Dialog\Password</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgRiAnalysis.h">
+      <Filter>Dialog\RightAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgUsrAnalysis.h">
+      <Filter>Dialog\RightAnalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgBiDefault.h">
+      <Filter>Dialog\User</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgUserDetail.h">
+      <Filter>Dialog\User</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgUserList.h">
+      <Filter>Dialog\User</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDlgUsrRightAnalysis.h">
+      <Filter>Dialog\Userrights</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PCmdLineInfo.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PDocUA.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PMainFrm.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\presentation.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\StdAfx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\resource.h">
+      <Filter>Ressourcen</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\ExportCsv.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)\win\presentation\PViewMain.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="PDlgDllUsertype.h">
+      <Filter>Dialog\DLLUsertype</Filter>
+    </ClInclude>
+    <ClInclude Include="PDlgUsertypeDetail.h">
+      <Filter>Dialog\DLLUsertype</Filter>
+    </ClInclude>
+    <ClInclude Include="PDlgUsertypeListCtrl.h">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="PDlgUserParaListCtrl.h">
+      <Filter>Dialog\ListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="PDlgDllUserPara.h">
+      <Filter>Dialog\DLLUserPara</Filter>
+    </ClInclude>
+    <ClInclude Include="PDlgUserParaDetail.h">
+      <Filter>Dialog\DLLUserPara</Filter>
+    </ClInclude>
+    <ClInclude Include="PDlgUserManager.h">
+      <Filter>Dialog\UserManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SolutionDir)\win\presentation\hand.cur">
+      <Filter>Ressourcen</Filter>
+    </None>
+    <None Include="$(SolutionDir)\win\presentation\icon1.ico">
+      <Filter>Ressourcen</Filter>
+    </None>
+    <None Include="$(SolutionDir)\win\presentation\phoenix.ico">
+      <Filter>Ressourcen</Filter>
+    </None>
+    <None Include="$(SolutionDir)\win\presentation\presentation.rc2">
+      <Filter>Ressourcen</Filter>
+    </None>
+    <None Include="$(SolutionDir)\win\presentation\uadm.config.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(SolutionDir)\win\presentation\presentation.rc">
+      <Filter>Ressourcen</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CmnCtrl">
+      <UniqueIdentifier>{BB067516-17E5-3CF4-8EFD-11C1227C1184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{28C0B311-2C96-3DA4-BF22-10A5875B4E1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\About">
+      <UniqueIdentifier>{530CF90B-FD2A-3F65-B7DC-EF676A24C24F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\AdmRights">
+      <UniqueIdentifier>{0779CE35-D7DD-3409-8CF9-AA74A336EDCA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\DLLAppModRight">
+      <UniqueIdentifier>{20B7EEEA-5354-3C51-A950-9200FF579D35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\DLLBranchRegion">
+      <UniqueIdentifier>{E6E0A7D4-DC75-3D8E-A30A-9C9F4B706D0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\DLLGroup">
+      <UniqueIdentifier>{8969A4AF-1D4C-3CB2-A9B9-9EA4732862FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\DLLLang">
+      <UniqueIdentifier>{AB64C051-EA10-33A9-9012-13794D53A69D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\DLLPara">
+      <UniqueIdentifier>{C7C66872-510F-3091-BF55-AACB4D453B38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\DLLPrevious">
+      <UniqueIdentifier>{5EB9B48E-53D3-32A5-B6C1-DF6E9986EC4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\DLLText">
+      <UniqueIdentifier>{0676EA97-44A6-3D1E-A2F1-18BEDB108C4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\Group">
+      <UniqueIdentifier>{699E0977-58B6-3D2A-94EF-3BB165AFF449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\ListCtrl">
+      <UniqueIdentifier>{824D3E44-2847-3D6C-920F-64DA43B2FADF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\Password">
+      <UniqueIdentifier>{41044804-82FC-330A-8C9A-DA9B05231328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\RightAnalysis">
+      <UniqueIdentifier>{329D2312-CA7F-30D2-B967-C8F138D94F87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\User">
+      <UniqueIdentifier>{08C065F1-E455-3990-947A-98DCCFB56433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\Userrights">
+      <UniqueIdentifier>{E77341CF-DE9C-37D0-B0F6-9D8B1BFE186D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{88051780-C8F1-336F-8212-EB5D0CA3D67D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcen">
+      <UniqueIdentifier>{842C8F7B-A0CA-3BDA-AC56-1608FA0F8E4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{397D7E87-F3C2-35E6-9BC1-1BA502272E41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{628B9F30-9285-34F5-97D5-B7F8A53D5799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\DLLUsertype">
+      <UniqueIdentifier>{50ec29ff-dd88-4ca2-9901-4cec752c79ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\DLLUserPara">
+      <UniqueIdentifier>{a162799d-d93c-45be-9324-9c685447f700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\UserManager">
+      <UniqueIdentifier>{dbab465a-7aa4-458c-8f68-8a6a761643e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
