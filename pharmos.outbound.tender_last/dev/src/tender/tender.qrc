@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/widget">
+        <file>resources/status_exclamation.png</file>
+        <file>resources/status_okay.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+#ifndef GUARD_TENDER_DEFINITIONS_H
+#define GUARD_TENDER_DEFINITIONS_H
+
+#define tender_APPLICATION_NAME "Tender"
+
+#endif

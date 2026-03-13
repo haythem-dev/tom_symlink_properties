@@ -1,0 +1,835 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="x64|Win32">
+      <Configuration>x64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="x64|x64">
+      <Configuration>x64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{37204A51-E617-41E4-9C16-B43AE13110E6}</ProjectGuid>
+    <RootNamespace>libtender</RootNamespace>
+    <Keyword>Qt4VS</Keyword>
+    <ProjectName>libtender</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='x64|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='x64|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='x64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='x64|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">Debug\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='x64|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='x64|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='x64|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='x64|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='x64|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <PreBuildEventUseInBuild>true</PreBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <PreBuildEventUseInBuild>true</PreBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\ext\pplib\include;$(SolutionDir)..\ext\kscclient\include;$(QTDIR)\include;.;$(SolutionDir)/tender;$(SolutionDir)/libtender;$(SolutionDir)..\ext\libutil\include;$(SolutionDir)..\ext\ssuk\basar\include;$(SolutionDir)..\ext\ssuk\log4cplus\include;$(SolutionDir)..\ext\ssuk\boost;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)libtender.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)libtender.lib</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\ext\pplib\include;$(SolutionDir)..\ext\kscclient\include;$(QTDIR)\include;.;$(SolutionDir)/tender;$(SolutionDir)/libtender;$(SolutionDir)..\ext\libutil\include;$(SolutionDir)..\ext\ssuk\basar\include;$(SolutionDir)..\ext\log4cplus\include;$(SolutionDir)..\ext\boost\include;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(SolutionDir)..\ext\thrift\include;$(ProjectDir)gen-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)libtender.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)libtender.lib</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\ext\openssl\lib;$(SolutionDir)..\ext\thrift\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>thriftmdd.lib;thriftzmdd.lib;libcrypto.lib;libssl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>cmd.exe /c $(ProjectDir)\pre_build.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\ext\pplib\include;$(SolutionDir)..\ext\kscclient\include;$(QTDIR)\include;.;$(SolutionDir)/tender;$(SolutionDir)/libtender;$(SolutionDir)..\ext\libutil\include;$(SolutionDir)..\ext\ssuk\basar\include;$(SolutionDir)..\ext\ssuk\log4cplus\include;$(SolutionDir)..\ext\ssuk\boost;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)libtender.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)libtender.lib</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='x64|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\ext\pplib\include;$(SolutionDir)..\ext\kscclient\include;$(QTDIR)\include;.;$(SolutionDir)/tender;$(SolutionDir)/libtender;$(SolutionDir)..\ext\libutil\include;$(SolutionDir)..\ext\ssuk\basar\include;$(SolutionDir)..\ext\ssuk\log4cplus\include;$(SolutionDir)..\ext\ssuk\boost;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)libtender.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)libtender.lib</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\ext\pplib\include;$(SolutionDir)..\ext\kscclient\include;.;$(SolutionDir)/tender;$(SolutionDir)/libtender;$(SolutionDir)..\ext\libutil\include;$(SolutionDir)..\ext\ssuk\basar\include;$(SolutionDir)..\ext\ssuk\log4cplus\include;$(SolutionDir)..\ext\ssuk\boost;$(QTDIR)\include;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)libtender.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\ext\pplib\include;$(SolutionDir)..\ext\kscclient\include;.;$(SolutionDir)/tender;$(SolutionDir)/libtender;$(SolutionDir)..\ext\libutil\include;$(SolutionDir)..\ext\ssuk\basar\include;$(SolutionDir)..\ext\log4cplus\include;$(SolutionDir)..\ext\boost\include;$(QTDIR)\include;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(ProjectDir)gen-cpp;$(SolutionDir)..\ext\thrift\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)libtender.lib</OutputFile>
+      <AdditionalDependencies>thriftmd.lib;thriftzmd.lib;libcrypto.lib;libssl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\ext\openssl\lib;$(SolutionDir)..\ext\thrift\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <PreBuildEvent>
+      <Command>cmd.exe /c $(ProjectDir)\pre_build.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="componentmanager\scheduleddeliveryconnectedfactory.cpp" />
+    <ClCompile Include="componentmanager\scheduleddeliveryfactorybase.cpp" />
+    <ClCompile Include="componentmanager\tenderconnectedfactory.cpp" />
+    <ClCompile Include="componentmanager\tenderfactorybase.cpp" />
+    <ClCompile Include="domainmodule\article\articlecollectiondm.cpp" />
+    <ClCompile Include="domainmodule\article\articlepricedm.cpp" />
+    <ClCompile Include="domainmodule\article\businesstypemapper.cpp" />
+    <ClCompile Include="domainmodule\cscordercustomer\cscordercustomercollectiondm.cpp" />
+    <ClCompile Include="domainmodule\cscorder\cscclienthelper.cpp" />
+    <ClCompile Include="domainmodule\cscorder\cscorderdm.cpp" />
+    <ClCompile Include="domainmodule\cscorder\cscorderposition.cpp" />
+    <ClCompile Include="domainmodule\customerlist\customerlistdm.cpp" />
+    <ClCompile Include="domainmodule\customer\customercollectiondm.cpp" />
+    <ClCompile Include="domainmodule\partner\partnercollectiondm.cpp" />
+    <ClCompile Include="domainmodule\pharmacychain\pharmacychaincollectiondm.cpp" />
+    <ClCompile Include="domainmodule\pharmacygroup\pharmacygroupcollectiondm.cpp" />
+    <ClCompile Include="domainmodule\purchaseorderproposal\purchaseorderproposaldm.cpp" />
+    <ClCompile Include="domainmodule\scheduleddelivery\schedule.cpp" />
+    <ClCompile Include="domainmodule\scheduleddelivery\scheduleddeliverycollectiondm.cpp" />
+    <ClCompile Include="domainmodule\scheduleddelivery\scheduleddeliverydm.cpp" />
+    <ClCompile Include="domainmodule\scheduleddelivery\scheduleddeliveryheader.cpp" />
+    <ClCompile Include="domainmodule\scheduleddelivery\scheduleddeliveryimportcollection.cpp" />
+    <ClCompile Include="domainmodule\scheduleddelivery\scheduleddeliverypositioncollection.cpp" />
+    <ClCompile Include="domainmodule\supplier\suppliercollectiondm.cpp" />
+    <ClCompile Include="domainmodule\tender\tendercollectiondm.cpp" />
+    <ClCompile Include="domainmodule\tender\tenderdm.cpp" />
+    <ClCompile Include="domainmodule\tender\tenderheader.cpp" />
+    <ClCompile Include="domainmodule\tender\tenderimportcollection.cpp" />
+    <ClCompile Include="domainmodule\tender\tenderpositioncollection.cpp" />
+    <ClCompile Include="domainmodule\tender\tenderprogressdm.cpp" />
+    <ClCompile Include="domainmodule\tender\tenderprotocoldm.cpp" />
+    <ClCompile Include="domainmodule\tender\tenderstatecollection.cpp" />
+    <ClCompile Include="domainmodule\tender\tendertypecollection.cpp" />
+    <ClCompile Include="exception\fileopenexception.cpp" />
+    <ClCompile Include="gen-cpp\articleinquiryperioddatetypeenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\articleinquiryperioddatetypeenum_types.cpp" />
+    <ClCompile Include="gen-cpp\batchstatusenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\batchstatusenum_types.cpp" />
+    <ClCompile Include="gen-cpp\bookingtypeenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\bookingtypeenum_types.cpp" />
+    <ClCompile Include="gen-cpp\cremacloseenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\cremacloseenum_types.cpp" />
+    <ClCompile Include="gen-cpp\cremaemailtypeenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\cremaemailtypeenum_types.cpp" />
+    <ClCompile Include="gen-cpp\cremauserlevelenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\cremauserlevelenum_types.cpp" />
+    <ClCompile Include="gen-cpp\crema_constants.cpp" />
+    <ClCompile Include="gen-cpp\crema_types.cpp" />
+    <ClCompile Include="gen-cpp\critlevelenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\critlevelenum_types.cpp" />
+    <ClCompile Include="gen-cpp\cscbase_constants.cpp" />
+    <ClCompile Include="gen-cpp\cscbase_types.cpp" />
+    <ClCompile Include="gen-cpp\csccallback_constants.cpp" />
+    <ClCompile Include="gen-cpp\csccallback_types.cpp" />
+    <ClCompile Include="gen-cpp\csccustomer_constants.cpp" />
+    <ClCompile Include="gen-cpp\csccustomer_types.cpp" />
+    <ClCompile Include="gen-cpp\cscinquiry_constants.cpp" />
+    <ClCompile Include="gen-cpp\cscinquiry_types.cpp" />
+    <ClCompile Include="gen-cpp\cscmsv3_constants.cpp" />
+    <ClCompile Include="gen-cpp\cscmsv3_types.cpp" />
+    <ClCompile Include="gen-cpp\cscorder_constants.cpp" />
+    <ClCompile Include="gen-cpp\cscorder_types.cpp" />
+    <ClCompile Include="gen-cpp\CscServiceBase.cpp" />
+    <ClCompile Include="gen-cpp\CscServiceBatch.cpp" />
+    <ClCompile Include="gen-cpp\CscServiceOnline.cpp" />
+    <ClCompile Include="gen-cpp\cscservice_constants.cpp" />
+    <ClCompile Include="gen-cpp\cscservice_types.cpp" />
+    <ClCompile Include="gen-cpp\csctypes_constants.cpp" />
+    <ClCompile Include="gen-cpp\csctypes_types.cpp" />
+    <ClCompile Include="gen-cpp\deliveryadvice_constants.cpp" />
+    <ClCompile Include="gen-cpp\deliveryadvice_types.cpp" />
+    <ClCompile Include="gen-cpp\documentarchiveinformation_constants.cpp" />
+    <ClCompile Include="gen-cpp\documentarchiveinformation_types.cpp" />
+    <ClCompile Include="gen-cpp\documenttypeenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\documenttypeenum_types.cpp" />
+    <ClCompile Include="gen-cpp\kindofdiscountenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\kindofdiscountenum_types.cpp" />
+    <ClCompile Include="gen-cpp\languageenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\languageenum_types.cpp" />
+    <ClCompile Include="gen-cpp\messagecodeenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\messagecodeenum_types.cpp" />
+    <ClCompile Include="gen-cpp\orderrelationnotypeenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\orderrelationnotypeenum_types.cpp" />
+    <ClCompile Include="gen-cpp\orderremarktypeenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\orderremarktypeenum_types.cpp" />
+    <ClCompile Include="gen-cpp\origintypeenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\origintypeenum_types.cpp" />
+    <ClCompile Include="gen-cpp\paymentsfilterenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\paymentsfilterenum_types.cpp" />
+    <ClCompile Include="gen-cpp\pickingtypeenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\pickingtypeenum_types.cpp" />
+    <ClCompile Include="gen-cpp\positiontypeenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\positiontypeenum_types.cpp" />
+    <ClCompile Include="gen-cpp\pricetypeenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\pricetypeenum_types.cpp" />
+    <ClCompile Include="gen-cpp\reservationtypeenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\reservationtypeenum_types.cpp" />
+    <ClCompile Include="gen-cpp\returnacceptancecheckresultenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\returnacceptancecheckresultenum_types.cpp" />
+    <ClCompile Include="gen-cpp\returnreasonenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\returnreasonenum_types.cpp" />
+    <ClCompile Include="gen-cpp\returns_constants.cpp" />
+    <ClCompile Include="gen-cpp\returns_types.cpp" />
+    <ClCompile Include="gen-cpp\returntypeenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\returntypeenum_types.cpp" />
+    <ClCompile Include="gen-cpp\shipmenttracking_constants.cpp" />
+    <ClCompile Include="gen-cpp\shipmenttracking_types.cpp" />
+    <ClCompile Include="gen-cpp\weekdayenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\weekdayenum_types.cpp" />
+    <ClCompile Include="gen-cpp\xmlinfolevelenum_constants.cpp" />
+    <ClCompile Include="gen-cpp\xmlinfolevelenum_types.cpp" />
+    <ClCompile Include="infrastructure\accessor\article\articlecollectionacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\article\articlepriceacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\cmnaccessor.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='x64|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='x64|x64'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='x64|x64'">cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cmnaccessor.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="infrastructure\accessor\cscordercustomer\cscordercustomercollectionacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\customerlist\customerlistacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\customer\customercollectionacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\partner\partnercollectionacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\pharmacychain\pharmacychaincollectionacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\pharmacygroup\pharmacygroupcollectionacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\purchaseorderproposal\purchaseorderproposalacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\scheduleddelivery\scheduleddeliverycollectionacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\scheduleddelivery\scheduleddeliveryheaderacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\scheduleddelivery\scheduleddeliverypositionsacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\supplier\suppliercollectionacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\tender\tendercollectionacc.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='x64|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">infrastructure/accessor/cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">infrastructure/accessor/cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">infrastructure/accessor/cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='x64|x64'">infrastructure/accessor/cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">infrastructure/accessor/cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">infrastructure/accessor/cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='x64|x64'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="infrastructure\accessor\tender\tenderheaderacc.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='x64|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">infrastructure/accessor/cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">infrastructure/accessor/cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">infrastructure/accessor/cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='x64|x64'">infrastructure/accessor/cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">infrastructure/accessor/cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">infrastructure/accessor/cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='x64|x64'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="infrastructure\accessor\tender\tenderpositionsacc.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='x64|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">infrastructure/accessor/cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">infrastructure/accessor/cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">infrastructure/accessor/cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='x64|x64'">infrastructure/accessor/cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">infrastructure/accessor/cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">infrastructure/accessor/cmnaccessor.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='x64|x64'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)cmnaccessor.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="infrastructure\accessor\tender\tenderprogressacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\tender\tenderprotocolacc.cpp" />
+    <ClCompile Include="infrastructure\countrycodemapper.cpp" />
+    <ClCompile Include="infrastructure\cscclient\cscclientconnection.cpp" />
+    <ClCompile Include="infrastructure\cscclient\cscclientparameterproxy.cpp" />
+    <ClCompile Include="infrastructure\purchasedbconn\purchasedbparameterproxy.cpp" />
+    <ClCompile Include="loggerpool\tenderloggerpool.cpp" />
+    <ClCompile Include="infrastructure\libtenderapplcompmgr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="componentmanager\ischeduleddeliveryconnectedfactory.h" />
+    <ClInclude Include="componentmanager\ischeduleddeliveryconnectedfactoryptr.h" />
+    <ClInclude Include="componentmanager\itenderconnectedfactory.h" />
+    <ClInclude Include="componentmanager\itenderconnectedfactoryptr.h" />
+    <ClInclude Include="componentmanager\scheduleddeliveryconnectedfactory.h" />
+    <ClInclude Include="componentmanager\scheduleddeliveryconnectedfactoryptr.h" />
+    <ClInclude Include="componentmanager\scheduleddeliveryfactorybase.h" />
+    <ClInclude Include="componentmanager\scheduleddeliveryfactorybaseptr.h" />
+    <ClInclude Include="componentmanager\tenderconnectedfactory.h" />
+    <ClInclude Include="componentmanager\tenderconnectedfactoryptr.h" />
+    <ClInclude Include="componentmanager\tenderfactorybase.h" />
+    <ClInclude Include="componentmanager\tenderfactorybaseptr.h" />
+    <ClInclude Include="domainmodule\article\articlecollectiondm.h" />
+    <ClInclude Include="domainmodule\article\articlecollectiondmptr.h" />
+    <ClInclude Include="domainmodule\article\articlepricedm.h" />
+    <ClInclude Include="domainmodule\article\articlepricedmptr.h" />
+    <ClInclude Include="domainmodule\article\businesstypeenum.h" />
+    <ClInclude Include="domainmodule\article\businesstypemapper.h" />
+    <ClInclude Include="domainmodule\article\iarticlecollectiondm.h" />
+    <ClInclude Include="domainmodule\article\iarticlecollectiondmptr.h" />
+    <ClInclude Include="domainmodule\article\iarticlepricedm.h" />
+    <ClInclude Include="domainmodule\article\iarticlepricedmptr.h" />
+    <ClInclude Include="domainmodule\constants.h" />
+    <ClInclude Include="domainmodule\cscordercustomer\cscordercustomercollectiondm.h" />
+    <ClInclude Include="domainmodule\cscordercustomer\cscordercustomercollectiondmptr.h" />
+    <ClInclude Include="domainmodule\cscordercustomer\icscordercustomercollectiondm.h" />
+    <ClInclude Include="domainmodule\cscordercustomer\icscordercustomercollectiondmptr.h" />
+    <ClInclude Include="domainmodule\cscorder\cscclienthelper.h" />
+    <ClInclude Include="domainmodule\cscorder\cscorderdm.h" />
+    <ClInclude Include="domainmodule\cscorder\cscorderdmptr.h" />
+    <ClInclude Include="domainmodule\cscorder\cscorderposition.h" />
+    <ClInclude Include="domainmodule\cscorder\cscorderpositionptr.h" />
+    <ClInclude Include="domainmodule\cscorder\icscorder.h" />
+    <ClInclude Include="domainmodule\cscorder\icscorderposition.h" />
+    <ClInclude Include="domainmodule\cscorder\icscorderpositionptr.h" />
+    <ClInclude Include="domainmodule\cscorder\icscorderptr.h" />
+    <ClInclude Include="domainmodule\customerlist\customerlistdm.h" />
+    <ClInclude Include="domainmodule\customerlist\customerlistdmptr.h" />
+    <ClInclude Include="domainmodule\customerlist\icustomerlistdm.h" />
+    <ClInclude Include="domainmodule\customerlist\icustomerlistdmptr.h" />
+    <ClInclude Include="domainmodule\customer\customercollectiondm.h" />
+    <ClInclude Include="domainmodule\customer\customercollectiondmptr.h" />
+    <ClInclude Include="domainmodule\customer\icustomercollectiondm.h" />
+    <ClInclude Include="domainmodule\customer\icustomercollectiondmptr.h" />
+    <ClInclude Include="domainmodule\libtender_properties_definitions.h" />
+    <ClInclude Include="domainmodule\partner\ipartnercollectiondm.h" />
+    <ClInclude Include="domainmodule\partner\ipartnercollectiondmptr.h" />
+    <ClInclude Include="domainmodule\partner\partnercollectiondm.h" />
+    <ClInclude Include="domainmodule\partner\partnercollectiondmptr.h" />
+    <ClInclude Include="domainmodule\pharmacychain\ipharmacychaincollectiondm.h" />
+    <ClInclude Include="domainmodule\pharmacychain\ipharmacychaincollectiondmptr.h" />
+    <ClInclude Include="domainmodule\pharmacychain\pharmacychaincollectiondm.h" />
+    <ClInclude Include="domainmodule\pharmacychain\pharmacychaincollectiondmptr.h" />
+    <ClInclude Include="domainmodule\pharmacygroup\ipharmacygroupcollectiondm.h" />
+    <ClInclude Include="domainmodule\pharmacygroup\ipharmacygroupcollectiondmptr.h" />
+    <ClInclude Include="domainmodule\pharmacygroup\pharmacygroupcollectiondm.h" />
+    <ClInclude Include="domainmodule\pharmacygroup\pharmacygroupcollectiondmptr.h" />
+    <ClInclude Include="domainmodule\purchaseorderproposal\ipurchaseorderproposal.h" />
+    <ClInclude Include="domainmodule\purchaseorderproposal\ipurchaseorderproposalptr.h" />
+    <ClInclude Include="domainmodule\purchaseorderproposal\purchaseorderproposaldm.h" />
+    <ClInclude Include="domainmodule\purchaseorderproposal\purchaseorderproposaldmptr.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\ischedule.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddelivery.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddeliverycollectiondm.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddeliverycollectiondmptr.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddeliveryheader.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddeliveryheaderptr.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddeliveryimportcollection.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddeliveryimportcollectionptr.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddeliverypositioncollection.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddeliverypositioncollectionptr.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddeliveryptr.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleptr.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\schedule.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliverycollectiondm.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliverycollectiondmptr.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliverydm.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliverydmptr.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliveryheader.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliveryheaderptr.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliveryimportcollection.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliveryimportcollectionptr.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliveryimportstruct.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliverypositioncollection.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliverypositioncollectionptr.h" />
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleptr.h" />
+    <ClInclude Include="domainmodule\supplier\isuppliercollectiondm.h" />
+    <ClInclude Include="domainmodule\supplier\isuppliercollectiondmptr.h" />
+    <ClInclude Include="domainmodule\supplier\suppliercollectiondm.h" />
+    <ClInclude Include="domainmodule\supplier\suppliercollectiondmptr.h" />
+    <ClInclude Include="domainmodule\tender\itender.h" />
+    <ClInclude Include="domainmodule\tender\itendercollectiondm.h" />
+    <ClInclude Include="domainmodule\tender\itendercollectiondmptr.h" />
+    <ClInclude Include="domainmodule\tender\itenderheader.h" />
+    <ClInclude Include="domainmodule\tender\itenderheaderptr.h" />
+    <ClInclude Include="domainmodule\tender\itenderimportcollection.h" />
+    <ClInclude Include="domainmodule\tender\itenderimportcollectionptr.h" />
+    <ClInclude Include="domainmodule\tender\itenderpositioncollection.h" />
+    <ClInclude Include="domainmodule\tender\itenderpositioncollectionptr.h" />
+    <ClInclude Include="domainmodule\tender\itenderprogress.h" />
+    <ClInclude Include="domainmodule\tender\itenderprogressptr.h" />
+    <ClInclude Include="domainmodule\tender\itenderprotocol.h" />
+    <ClInclude Include="domainmodule\tender\itenderprotocolptr.h" />
+    <ClInclude Include="domainmodule\tender\itenderptr.h" />
+    <ClInclude Include="domainmodule\tender\tendercollectiondm.h" />
+    <ClInclude Include="domainmodule\tender\tendercollectiondmptr.h" />
+    <ClInclude Include="domainmodule\tender\tenderdm.h" />
+    <ClInclude Include="domainmodule\tender\tenderdmptr.h" />
+    <ClInclude Include="domainmodule\tender\tenderheader.h" />
+    <ClInclude Include="domainmodule\tender\tenderheaderptr.h" />
+    <ClInclude Include="domainmodule\tender\tenderimportcollection.h" />
+    <ClInclude Include="domainmodule\tender\tenderimportcollectionptr.h" />
+    <ClInclude Include="domainmodule\tender\tenderimportstruct.h" />
+    <ClInclude Include="domainmodule\tender\tenderpositioncollection.h" />
+    <ClInclude Include="domainmodule\tender\tenderpositioncollectionptr.h" />
+    <ClInclude Include="domainmodule\tender\tenderprogressdm.h" />
+    <ClInclude Include="domainmodule\tender\tenderprogressdmptr.h" />
+    <ClInclude Include="domainmodule\tender\tenderprotocoldm.h" />
+    <ClInclude Include="domainmodule\tender\tenderprotocoldmptr.h" />
+    <CustomBuild Include="domainmodule\tender\tenderstatecollection.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='x64|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">
+      </Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='x64|x64'">
+      </Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">
+      </Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='x64|x64'">
+      </Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='x64|Win32'">
+      </Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='x64|x64'">
+      </Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Command>
+    </CustomBuild>
+    <ClInclude Include="domainmodule\tender\tenderstatecollectionptr.h" />
+    <ClInclude Include="domainmodule\tender\tenderstateenum.h" />
+    <ClInclude Include="domainmodule\tender\tendertypecollection.h" />
+    <ClInclude Include="domainmodule\tender\tendertypecollectionptr.h" />
+    <ClInclude Include="domainmodule\tender\tendertypeenum.h" />
+    <ClInclude Include="exception\fileopenexception.h" />
+    <ClInclude Include="gen-cpp\articleinquiryperioddatetypeenum_constants.h" />
+    <ClInclude Include="gen-cpp\articleinquiryperioddatetypeenum_types.h" />
+    <ClInclude Include="gen-cpp\batchstatusenum_constants.h" />
+    <ClInclude Include="gen-cpp\batchstatusenum_types.h" />
+    <ClInclude Include="gen-cpp\bookingtypeenum_constants.h" />
+    <ClInclude Include="gen-cpp\bookingtypeenum_types.h" />
+    <ClInclude Include="gen-cpp\cremacloseenum_constants.h" />
+    <ClInclude Include="gen-cpp\cremacloseenum_types.h" />
+    <ClInclude Include="gen-cpp\cremaemailtypeenum_constants.h" />
+    <ClInclude Include="gen-cpp\cremaemailtypeenum_types.h" />
+    <ClInclude Include="gen-cpp\cremauserlevelenum_constants.h" />
+    <ClInclude Include="gen-cpp\cremauserlevelenum_types.h" />
+    <ClInclude Include="gen-cpp\crema_constants.h" />
+    <ClInclude Include="gen-cpp\crema_types.h" />
+    <ClInclude Include="gen-cpp\critlevelenum_constants.h" />
+    <ClInclude Include="gen-cpp\critlevelenum_types.h" />
+    <ClInclude Include="gen-cpp\cscbase_constants.h" />
+    <ClInclude Include="gen-cpp\cscbase_types.h" />
+    <ClInclude Include="gen-cpp\csccallback_constants.h" />
+    <ClInclude Include="gen-cpp\csccallback_types.h" />
+    <ClInclude Include="gen-cpp\csccustomer_constants.h" />
+    <ClInclude Include="gen-cpp\csccustomer_types.h" />
+    <ClInclude Include="gen-cpp\cscinquiry_constants.h" />
+    <ClInclude Include="gen-cpp\cscinquiry_types.h" />
+    <ClInclude Include="gen-cpp\cscmsv3_constants.h" />
+    <ClInclude Include="gen-cpp\cscmsv3_types.h" />
+    <ClInclude Include="gen-cpp\cscorder_constants.h" />
+    <ClInclude Include="gen-cpp\cscorder_types.h" />
+    <ClInclude Include="gen-cpp\CscServiceBase.h" />
+    <ClInclude Include="gen-cpp\CscServiceBatch.h" />
+    <ClInclude Include="gen-cpp\CscServiceOnline.h" />
+    <ClInclude Include="gen-cpp\cscservice_constants.h" />
+    <ClInclude Include="gen-cpp\cscservice_types.h" />
+    <ClInclude Include="gen-cpp\csctypes_constants.h" />
+    <ClInclude Include="gen-cpp\csctypes_types.h" />
+    <ClInclude Include="gen-cpp\deliveryadvice_constants.h" />
+    <ClInclude Include="gen-cpp\deliveryadvice_types.h" />
+    <ClInclude Include="gen-cpp\documentarchiveinformation_constants.h" />
+    <ClInclude Include="gen-cpp\documentarchiveinformation_types.h" />
+    <ClInclude Include="gen-cpp\documenttypeenum_constants.h" />
+    <ClInclude Include="gen-cpp\documenttypeenum_types.h" />
+    <ClInclude Include="gen-cpp\kindofdiscountenum_constants.h" />
+    <ClInclude Include="gen-cpp\kindofdiscountenum_types.h" />
+    <ClInclude Include="gen-cpp\languageenum_constants.h" />
+    <ClInclude Include="gen-cpp\languageenum_types.h" />
+    <ClInclude Include="gen-cpp\messagecodeenum_constants.h" />
+    <ClInclude Include="gen-cpp\messagecodeenum_types.h" />
+    <ClInclude Include="gen-cpp\orderrelationnotypeenum_constants.h" />
+    <ClInclude Include="gen-cpp\orderrelationnotypeenum_types.h" />
+    <ClInclude Include="gen-cpp\orderremarktypeenum_constants.h" />
+    <ClInclude Include="gen-cpp\orderremarktypeenum_types.h" />
+    <ClInclude Include="gen-cpp\origintypeenum_constants.h" />
+    <ClInclude Include="gen-cpp\origintypeenum_types.h" />
+    <ClInclude Include="gen-cpp\paymentsfilterenum_constants.h" />
+    <ClInclude Include="gen-cpp\paymentsfilterenum_types.h" />
+    <ClInclude Include="gen-cpp\pickingtypeenum_constants.h" />
+    <ClInclude Include="gen-cpp\pickingtypeenum_types.h" />
+    <ClInclude Include="gen-cpp\positiontypeenum_constants.h" />
+    <ClInclude Include="gen-cpp\positiontypeenum_types.h" />
+    <ClInclude Include="gen-cpp\pricetypeenum_constants.h" />
+    <ClInclude Include="gen-cpp\pricetypeenum_types.h" />
+    <ClInclude Include="gen-cpp\reservationtypeenum_constants.h" />
+    <ClInclude Include="gen-cpp\reservationtypeenum_types.h" />
+    <ClInclude Include="gen-cpp\returnacceptancecheckresultenum_constants.h" />
+    <ClInclude Include="gen-cpp\returnacceptancecheckresultenum_types.h" />
+    <ClInclude Include="gen-cpp\returnreasonenum_constants.h" />
+    <ClInclude Include="gen-cpp\returnreasonenum_types.h" />
+    <ClInclude Include="gen-cpp\returns_constants.h" />
+    <ClInclude Include="gen-cpp\returns_types.h" />
+    <ClInclude Include="gen-cpp\returntypeenum_constants.h" />
+    <ClInclude Include="gen-cpp\returntypeenum_types.h" />
+    <ClInclude Include="gen-cpp\shipmenttracking_constants.h" />
+    <ClInclude Include="gen-cpp\shipmenttracking_types.h" />
+    <ClInclude Include="gen-cpp\weekdayenum_constants.h" />
+    <ClInclude Include="gen-cpp\weekdayenum_types.h" />
+    <ClInclude Include="gen-cpp\xmlinfolevelenum_constants.h" />
+    <ClInclude Include="gen-cpp\xmlinfolevelenum_types.h" />
+    <ClInclude Include="infrastructure\accessor\article\articlecollectionacc.h" />
+    <ClInclude Include="infrastructure\accessor\article\articlecollectionacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\article\articlepriceacc.h" />
+    <ClInclude Include="infrastructure\accessor\article\articlepriceacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\cmnaccessor.h" />
+    <ClInclude Include="infrastructure\accessor\cscordercustomer\cscordercustomercollectionacc.h" />
+    <ClInclude Include="infrastructure\accessor\cscordercustomer\cscordercustomercollectionacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\customerlist\customerlistacc.h" />
+    <ClInclude Include="infrastructure\accessor\customerlist\customerlistacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\customer\customercollectionacc.h" />
+    <ClInclude Include="infrastructure\accessor\customer\customercollectionacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\partner\partnercollectionacc.h" />
+    <ClInclude Include="infrastructure\accessor\partner\partnercollectionacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\pharmacychain\pharmacychaincollectionacc.h" />
+    <ClInclude Include="infrastructure\accessor\pharmacychain\pharmacychaincollectionacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\pharmacygroup\pharmacygroupcollectionacc.h" />
+    <ClInclude Include="infrastructure\accessor\pharmacygroup\pharmacygroupcollectionacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\purchaseorderproposal\purchaseorderproposalacc.h" />
+    <ClInclude Include="infrastructure\accessor\purchaseorderproposal\purchaseorderproposalacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\scheduleddelivery\scheduleddeliveryacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\scheduleddelivery\scheduleddeliverycollectionacc.h" />
+    <ClInclude Include="infrastructure\accessor\scheduleddelivery\scheduleddeliverycollectionacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\scheduleddelivery\scheduleddeliveryheaderacc.h" />
+    <ClInclude Include="infrastructure\accessor\scheduleddelivery\scheduleddeliveryheaderacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\scheduleddelivery\scheduleddeliverypositionsacc.h" />
+    <ClInclude Include="infrastructure\accessor\scheduleddelivery\scheduleddeliverypositionsacc_definition.h" />
+    <ClInclude Include="infrastructure\accessor\supplier\suppliercollectionacc.h" />
+    <ClInclude Include="infrastructure\accessor\supplier\suppliercollectionacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\tender\tenderacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\tender\tendercollectionacc.h" />
+    <ClInclude Include="infrastructure\accessor\tender\tendercollectionacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\tender\tenderheaderacc.h" />
+    <ClInclude Include="infrastructure\accessor\tender\tenderheaderacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\tender\tenderpositionsacc.h" />
+    <ClInclude Include="infrastructure\accessor\tender\tenderpositionsacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\tender\tenderprogressacc.h" />
+    <ClInclude Include="infrastructure\accessor\tender\tenderprogressacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\tender\tenderprotocolacc.h" />
+    <ClInclude Include="infrastructure\accessor\tender\tenderprotocolacc_definitions.h" />
+    <ClInclude Include="infrastructure\countrycodemapper.h" />
+    <ClInclude Include="infrastructure\countryidenum.h" />
+    <ClInclude Include="infrastructure\cscclient\cscclientconnection.h" />
+    <ClInclude Include="infrastructure\cscclient\cscclientconnectionptr.h" />
+    <ClInclude Include="infrastructure\cscclient\cscclientparameterkeys.h" />
+    <ClInclude Include="infrastructure\cscclient\cscclientparameterproxy.h" />
+    <ClInclude Include="infrastructure\cscclient\cscclientparameterproxyptr.h" />
+    <ClInclude Include="infrastructure\cscclient\icscclientconnection.h" />
+    <ClInclude Include="infrastructure\cscclient\icscclientconnectionptr.h" />
+    <ClInclude Include="infrastructure\cscclient\icscclientparameterproxy.h" />
+    <ClInclude Include="infrastructure\cscclient\icscclientparameterproxyptr.h" />
+    <ClInclude Include="infrastructure\purchasedbconn\ipurchasedbparameterproxy.h" />
+    <ClInclude Include="infrastructure\purchasedbconn\ipurchasedbparameterproxyptr.h" />
+    <ClInclude Include="infrastructure\purchasedbconn\purchasedbparameterkeys.h" />
+    <ClInclude Include="infrastructure\purchasedbconn\purchasedbparameterproxy.h" />
+    <ClInclude Include="infrastructure\purchasedbconn\purchasedbparameterproxyptr.h" />
+    <ClInclude Include="loggerpool\tenderloggerpool.h" />
+    <ClInclude Include="infrastructure\libtenderapplcompmgr.h" />
+    <ClInclude Include="infrastructure\libtenderapplcompmgrptr.h" />
+    <ClInclude Include="tender_version.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tender.cfg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Qt5Version_x0020_Win32="5.2.0" Qt5Version_x0020_x64="$(DefaultQtVersion)" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,1622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LoggerPool">
+      <UniqueIdentifier>{82a7460e-cb18-41a6-8f28-ec514b9e7775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LoggerPool\ConfigFile">
+      <UniqueIdentifier>{56a8b586-1e35-4c96-9a15-21c570b6fa2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exception">
+      <UniqueIdentifier>{77352ca9-64a0-437b-baec-0eccb4269101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers">
+      <UniqueIdentifier>{ab348218-2665-4f54-97ab-df0413aa9cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ApplCompMgr">
+      <UniqueIdentifier>{644078ce-3fad-4ef6-b613-1f6863b0329e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ApplCompMgr\Interface">
+      <UniqueIdentifier>{09c858e3-4b08-4467-a1c3-12e66804ddbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ApplCompMgr\Impl">
+      <UniqueIdentifier>{a385e6c5-a901-4026-b2ad-308b745762bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure">
+      <UniqueIdentifier>{ebad6c02-f21f-4a02-9737-253cf69d5aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor">
+      <UniqueIdentifier>{0b896236-b2b4-4f04-95cf-46ab258ac6fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\TenderFactory">
+      <UniqueIdentifier>{e48870d3-d0a9-4fa7-87e7-f9eb7a101604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\TenderFactory\TenderFactoryBase">
+      <UniqueIdentifier>{9f3aaa15-ff39-4b21-911d-dfad746e0216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\TenderFactory\TenderConnectedFactory">
+      <UniqueIdentifier>{27fc542f-19b2-4aa3-a0a2-ccbb6f3e9ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\TenderFactory\TenderConnectedFactory\Impl">
+      <UniqueIdentifier>{f840d703-64ad-41f9-8b8d-e4319e1a8a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\TenderFactory\TenderConnectedFactory\Interface">
+      <UniqueIdentifier>{5e01370d-62ad-4af5-ad75-7bf95e867593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\TenderCollection">
+      <UniqueIdentifier>{4679fb30-a198-4089-9c3f-ddd467e29627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\Tender">
+      <UniqueIdentifier>{7637b729-778c-4266-af4d-5d2370cdc34a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\Common">
+      <UniqueIdentifier>{810c8ba4-6dad-4e48-b2f1-4203fa09b080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\Tender\TenderPositions">
+      <UniqueIdentifier>{38dab225-ec1d-48fc-af30-33c413c07cee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\Tender\TenderHeader">
+      <UniqueIdentifier>{02e010d0-8acc-424c-baa2-f65dfee71c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\ArticleCollection">
+      <UniqueIdentifier>{7f117c03-98f9-4053-bfaf-6991503ffd07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\CustomerCollection">
+      <UniqueIdentifier>{b8bd3c14-5424-4830-95a8-5ba8cd99fec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\ScheduledDelivery">
+      <UniqueIdentifier>{86f72ba5-5987-4c3a-8402-5aa29aa8f01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\ScheduledDeliveryCollection">
+      <UniqueIdentifier>{44b28559-ff85-44e0-a804-1b74c9b38ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\ScheduledDelivery\ScheduledDeliveryHeader">
+      <UniqueIdentifier>{10898347-d230-4e5c-89a8-ec227d369727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\ScheduledDelivery\ScheduledDeliveryPositions">
+      <UniqueIdentifier>{a740c5ae-553e-44f7-a5dd-5f76d5264a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\CountryCodeMapper">
+      <UniqueIdentifier>{6e2dc1a6-992d-4414-b2af-8f3e4c2ddcb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ScheduledDeliveryFactory">
+      <UniqueIdentifier>{485ee909-7ddc-4c7c-8bad-aa61b1e23ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ScheduledDeliveryFactory\ScheduledDeliveryFactoryBase">
+      <UniqueIdentifier>{350a9ac5-7d8a-480b-b178-3ed1409dd69c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ScheduledDeliveryFactory\ScheduledDeliveryConnectedFactory">
+      <UniqueIdentifier>{978587a1-5248-4806-9e73-5d647bdd6928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ScheduledDeliveryFactory\ScheduledDeliveryConnectedFactory\Impl">
+      <UniqueIdentifier>{c4fd0267-db5c-42ce-bf83-5fadc4b45ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ScheduledDeliveryFactory\ScheduledDeliveryConnectedFactory\Interface">
+      <UniqueIdentifier>{1192f42b-89ca-4bd0-8089-389118ec2c81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule">
+      <UniqueIdentifier>{acf1e055-7d37-46a9-a7ad-d011f9d8dabb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender">
+      <UniqueIdentifier>{1b55226a-509f-4806-bbcf-aa9dfb08a770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\ScheduledDelivery">
+      <UniqueIdentifier>{4587c4c7-8f8c-4314-ae15-12394acbd92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\ScheduledDelivery\Schedule">
+      <UniqueIdentifier>{9f710af9-7ecc-4c9f-9b7b-b34b8fe7871a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\ScheduledDelivery\Schedule\Impl">
+      <UniqueIdentifier>{ac1c07fc-78ff-4f44-ab66-f33daac5cca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\ScheduledDelivery\Schedule\Interface">
+      <UniqueIdentifier>{e3346bb0-43a2-4441-840a-a0cc30648428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\PurchaseOrderProposal">
+      <UniqueIdentifier>{67ab1010-98d6-4404-a3d1-b4b98f880111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\PurchaseOrderProposal">
+      <UniqueIdentifier>{2f4ce15e-0433-4399-8879-c075d98c2899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\PartnerCollection">
+      <UniqueIdentifier>{f6ee6060-a7ba-40a5-aac1-835e39c34a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\PurchaseDBConnection">
+      <UniqueIdentifier>{68c376d4-c95d-406f-88f4-1fe86715bb60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\PurchaseDBConnection\Impl">
+      <UniqueIdentifier>{aef44928-0054-4f69-bc24-d6f226060413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\PurchaseDBConnection\Interface">
+      <UniqueIdentifier>{2fbe21ce-5c26-4455-a617-cc19aa243346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\TenderProgress">
+      <UniqueIdentifier>{2fc4c8b3-a954-47b2-8507-35ac037955fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\PharmacyChainCollection">
+      <UniqueIdentifier>{08944556-f69b-47f5-8db0-0371ec33a476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\ScheduledDelivery\ScheduledDeliveryImportCollection">
+      <UniqueIdentifier>{8b8eb0cf-a284-4cbc-84c1-3415481068f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\ScheduledDelivery\ScheduledDeliveryImportCollection\Impl">
+      <UniqueIdentifier>{18e05be4-6526-4b3c-a8ca-a0d6548f3433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\ScheduledDelivery\ScheduledDeliveryImportCollection\Interface">
+      <UniqueIdentifier>{cbdd42d8-3b7f-4a3f-9ae6-7103c38242d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\CustomerList">
+      <UniqueIdentifier>{1d53afe7-3c32-4db6-88ff-a28fa20b42a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\CustomerList\Impl">
+      <UniqueIdentifier>{e3a26b25-811d-4ade-8ace-49b05bc42f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\CustomerList\Interface">
+      <UniqueIdentifier>{3ce92cf2-30e9-431c-aab1-56faf2575aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\CustomerList">
+      <UniqueIdentifier>{78566a4b-27ec-41fc-9b98-8241921f6a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\CscClient">
+      <UniqueIdentifier>{c8f35748-de4e-44b1-a7d1-ff069fe7bf87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\CscClient\Connection">
+      <UniqueIdentifier>{3e8c8c1b-4913-411a-8076-d4cf1f1584dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\CscClient\ParameterProxy">
+      <UniqueIdentifier>{ab00195d-b789-4e8e-86e2-88b3ab5fd4d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\CscClient\ParameterProxy\Impl">
+      <UniqueIdentifier>{107eb5e6-2433-4d88-b6f8-52cef894fb76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\CscClient\ParameterProxy\Interface">
+      <UniqueIdentifier>{4dcf1684-b6e3-4330-8493-cf54c0041d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\CscClient\Connection\Impl">
+      <UniqueIdentifier>{8883c6b9-2dbf-4f57-a729-5dc4e6b27d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\CscClient\Connection\Interface">
+      <UniqueIdentifier>{b44b171f-ee93-4ccf-bb33-a10178a7ca81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\CscOrder">
+      <UniqueIdentifier>{06306f7d-5741-4a82-a328-9c869171bdc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\CscOrder\CscOrderDM">
+      <UniqueIdentifier>{9a2c6ab6-b562-47a0-8e7d-76dc3bad7aa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\CscOrder\CscOrderPosition">
+      <UniqueIdentifier>{765c4c0c-ee69-4dc3-a229-f9757d65b71d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\CscOrder\CscOrderDM\Impl">
+      <UniqueIdentifier>{a0d2dc26-86e2-4548-90fc-c8742fa12b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\CscOrder\CscOrderDM\Interface">
+      <UniqueIdentifier>{20c34654-4a17-4152-891f-6447d8596f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\CscOrder\CscOrderPosition\Impl">
+      <UniqueIdentifier>{61654495-3f96-451a-9ca5-aff70ce2b570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\CscOrder\CscOrderPosition\Interface">
+      <UniqueIdentifier>{7434c41d-2570-4cb7-a201-3e0d4689af28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\TenderProtocol">
+      <UniqueIdentifier>{6edb2bd1-dff4-4f76-8e6d-06c7377acb79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\ArticlePrice">
+      <UniqueIdentifier>{218ee7ac-d0d8-4ad8-92c0-f074351a8a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Picker">
+      <UniqueIdentifier>{71bd53e8-a80c-4670-a79a-3ae9205948fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\PharmacyGroup">
+      <UniqueIdentifier>{2a65a28e-42da-4fa2-be12-9659a357932f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\PharmacyGroup\Impl">
+      <UniqueIdentifier>{ca9b5a04-eee2-412d-9ba6-0b1246abde6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\PharmacyGroup\Interface">
+      <UniqueIdentifier>{bf4bb698-2fd9-4843-93f7-fcd542c17c05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\PharmacyGroup">
+      <UniqueIdentifier>{9d24d49d-2e37-4e51-a91a-ae1bedf0f5e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\CscOrderCustomer">
+      <UniqueIdentifier>{b9fc0e00-6e83-4ff9-bcb2-d04a6d887876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\SupplierCollection">
+      <UniqueIdentifier>{95647c2c-5264-4d52-8f32-81dfbf934f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\CscOrderCustomer">
+      <UniqueIdentifier>{6ccec176-bda8-4b96-b57c-fff493751e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\CscOrderCustomer\Impl">
+      <UniqueIdentifier>{ce91837e-1f56-4ab4-9e61-1baaf697a9f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\CscOrderCustomer\Interface">
+      <UniqueIdentifier>{103de005-3749-42a5-aba3-e24e3d1813cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Supplier">
+      <UniqueIdentifier>{0ec5e312-72f3-4d2f-91ec-1308ab866fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Supplier\Impl">
+      <UniqueIdentifier>{093bfe23-dade-4043-84d7-e27f9d17a588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Supplier\Interface">
+      <UniqueIdentifier>{1d83c3eb-d156-4e50-b003-3e21e36d956f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\PurchaseOrderProposal\Impl">
+      <UniqueIdentifier>{3c807266-824e-4468-8881-3f64a44545bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\PurchaseOrderProposal\Interface">
+      <UniqueIdentifier>{e5319abb-dcc6-4902-9a76-3699750b93a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\Impl">
+      <UniqueIdentifier>{aa4b2a92-781b-4dc2-a57e-8ba45bf8cb38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\Interface">
+      <UniqueIdentifier>{55143e96-b328-4a86-8ad0-c2a308ffe806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderCollectionDM">
+      <UniqueIdentifier>{225a2a94-662d-40c9-985a-06c0e70cd269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderCollectionDM\Impl">
+      <UniqueIdentifier>{f5275155-4cfb-4056-9f92-a39d5b0d3f3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderCollectionDM\Interface">
+      <UniqueIdentifier>{ad8d6976-a849-4476-8057-8af7df920fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderHeader">
+      <UniqueIdentifier>{a90606b7-fb66-4bc1-9ee1-0c04a287df3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderHeader\Impl">
+      <UniqueIdentifier>{5844b81c-5b7a-4f83-801d-72f5278e09bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderHeader\Interface">
+      <UniqueIdentifier>{eaeb2ce7-c7e0-4a5f-84fc-6c238f812ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderImport">
+      <UniqueIdentifier>{cdc8c4dc-1836-474c-a1d9-ee20e0b15a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderImport\Interface">
+      <UniqueIdentifier>{c6294ff8-88a3-463e-a943-8050fc25c319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderImport\Impl">
+      <UniqueIdentifier>{fde97670-b2b3-4ae9-ac34-5200389cbb4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderPositionCollection">
+      <UniqueIdentifier>{2ff1bcd9-866a-441c-863e-6a92db88c5ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderPositionCollection\Impl">
+      <UniqueIdentifier>{6e710fbd-df67-4ff9-81a7-fa77c95ef040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderPositionCollection\Interface">
+      <UniqueIdentifier>{99a8334c-7930-4b34-a06a-46be9b12dd54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderProgressDM">
+      <UniqueIdentifier>{f8a7e3d8-e17a-4f5c-b0d7-11454a7b5cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderProgressDM\Impl">
+      <UniqueIdentifier>{6b6130c2-dec7-4460-b6ee-b16884c3755d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderProgressDM\Interface">
+      <UniqueIdentifier>{be7f3833-124e-47e6-be82-6bd78d448647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderProtocol">
+      <UniqueIdentifier>{7dd62805-69b1-4c4c-9177-a5b809476df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderProtocol\Impl">
+      <UniqueIdentifier>{ec81272e-df28-4f64-9125-ab295cd0e6b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderProtocol\Interface">
+      <UniqueIdentifier>{160b5fa8-98b0-4414-becc-892462cf0396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderState">
+      <UniqueIdentifier>{5043f09d-89af-4eea-a745-41504cf601b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Tender\TenderType">
+      <UniqueIdentifier>{9a09b845-3a8b-4c8b-9f1a-b9b2d5fa6da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\ScheduledDelivery\ScheduledDelivery">
+      <UniqueIdentifier>{d3ad1528-e83e-4326-bc85-6f5688652472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\ScheduledDelivery\ScheduledDelivery\ScheduledDeliveryHeader">
+      <UniqueIdentifier>{5478fa8a-fdad-4bcf-9e29-7882199a586e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\ScheduledDelivery\ScheduledDelivery\ScheduledDeliveryHeader\Impl">
+      <UniqueIdentifier>{8b19e6f0-125e-416e-8716-2b3539fb29cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\ScheduledDelivery\ScheduledDelivery\ScheduledDeliveryHeader\Interface">
+      <UniqueIdentifier>{54112f07-2971-4da8-9324-484f10b63968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\ScheduledDelivery\ScheduledDelivery\ScheduledDeliveryPostionCollection">
+      <UniqueIdentifier>{1c64540f-2445-40e9-90b6-825b542c5639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\ScheduledDelivery\ScheduledDelivery\ScheduledDeliveryPostionCollection\Interface">
+      <UniqueIdentifier>{6587ed6c-e154-426e-86a4-7628f97e0b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\ScheduledDelivery\ScheduledDelivery\ScheduledDeliveryPostionCollection\Impl">
+      <UniqueIdentifier>{c68cbe38-6568-4783-a5c1-364c19ce3ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\ScheduledDelivery\ScheduledDelivery\Impl">
+      <UniqueIdentifier>{25a5ae8f-8de2-4225-a449-23150aab50c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\ScheduledDelivery\ScheduledDelivery\Interface">
+      <UniqueIdentifier>{940c955a-b8cf-4bf8-806f-dd5dc4e6e16a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\ScheduledDelivery\ScheduledDeliveryCollection">
+      <UniqueIdentifier>{1c63ab10-6c8a-48b5-a1e7-d02827da3ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\ScheduledDelivery\ScheduledDeliveryCollection\Impl">
+      <UniqueIdentifier>{7c6bf611-2b71-4aa9-b29f-61b6a257d2b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\ScheduledDelivery\ScheduledDeliveryCollection\Interface">
+      <UniqueIdentifier>{6e5f12da-046c-4bbb-97a6-dde0dde7dad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Picker\ArticleCollection">
+      <UniqueIdentifier>{e0b312c4-b9ae-4f14-94f5-0e31b3dedbd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Picker\ArticleCollection\Impl">
+      <UniqueIdentifier>{e1961e16-3847-47a1-ad0b-a3d88855188a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Picker\ArticleCollection\Interface">
+      <UniqueIdentifier>{c19284c9-ea32-47e8-bfd0-c89634661d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Picker\ArticleCollection\BusinessType">
+      <UniqueIdentifier>{4fdaaebe-5da7-417b-8fe9-630e284dcf82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Picker\ArticlePrice">
+      <UniqueIdentifier>{f525c75c-e1c2-4957-9c9e-0eac10785709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Picker\ArticlePrice\Impl">
+      <UniqueIdentifier>{b0d3387d-6712-46d7-b271-6441a6bbc562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Picker\ArticlePrice\Interface">
+      <UniqueIdentifier>{561b7dc1-0a8b-4c6d-8cb0-553598292d95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Picker\CustomerCollection">
+      <UniqueIdentifier>{75df121e-c012-4607-982b-4f1cb70a2629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Picker\CustomerCollection\Interface">
+      <UniqueIdentifier>{ade7da8c-aade-4f51-98d1-be5854d979fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Picker\CustomerCollection\Impl">
+      <UniqueIdentifier>{e3cff7e7-f572-4cc6-9e48-12ec22d2af2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Picker\PartnerCollection">
+      <UniqueIdentifier>{140323f1-e716-4268-abd3-d26cbd639e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Picker\PartnerCollection\Impl">
+      <UniqueIdentifier>{5bd59e9f-908b-4e73-9212-78544b103905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Picker\PartnerCollection\Interface">
+      <UniqueIdentifier>{0826b718-0eeb-41c7-a8a1-d3a1f00e2610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Picker\PharmacyChainCollection">
+      <UniqueIdentifier>{48c4b5c3-2a55-4735-b59e-c2c5053756da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Picker\PharmacyChainCollection\Impl">
+      <UniqueIdentifier>{a1aeb8cf-6059-4b79-b5cf-3d8121ef050b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModule\Picker\PharmacyChainCollection\Interface">
+      <UniqueIdentifier>{6f5ed549-f2ce-42f5-a1d1-310b2e424afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{8e0bd8a2-8738-44fe-94b3-cc263729c819}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{e0358839-1cff-478a-85ce-0763ab4bdb1f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Infrastructure\libtenderapplcompmgr.cpp">
+      <Filter>ComponentManagers\ApplCompMgr\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="LoggerPool\tenderLoggerPool.cpp">
+      <Filter>LoggerPool</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\tender\tendercollectiondm.cpp">
+      <Filter>DomainModule\Tender\TenderCollectionDM\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\tender\tenderdm.cpp">
+      <Filter>DomainModule\Tender\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\tenderconnectedfactory.cpp">
+      <Filter>ComponentManagers\TenderFactory\TenderConnectedFactory\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\tenderfactorybase.cpp">
+      <Filter>ComponentManagers\TenderFactory\TenderFactoryBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\Accessor\tender\tendercollectionacc.cpp">
+      <Filter>Infrastructure\Accessor\TenderCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\Accessor\cmnAccessor.cpp">
+      <Filter>Infrastructure\Accessor\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\tender\tenderpositioncollection.cpp">
+      <Filter>DomainModule\Tender\TenderPositionCollection\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\tender\tenderheader.cpp">
+      <Filter>DomainModule\Tender\TenderHeader\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\Accessor\tender\tenderpositionsacc.cpp">
+      <Filter>Infrastructure\Accessor\Tender\TenderPositions</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\Accessor\tender\tenderheaderacc.cpp">
+      <Filter>Infrastructure\Accessor\Tender\TenderHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\article\articlecollectiondm.cpp">
+      <Filter>DomainModule\Picker\ArticleCollection\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\Accessor\article\articlecollectionacc.cpp">
+      <Filter>Infrastructure\Accessor\ArticleCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\Accessor\customer\customercollectionacc.cpp">
+      <Filter>Infrastructure\Accessor\CustomerCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\customer\customercollectiondm.cpp">
+      <Filter>DomainModule\Picker\CustomerCollection\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\Accessor\partner\partnercollectionacc.cpp">
+      <Filter>Infrastructure\Accessor\PartnerCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\partner\partnercollectiondm.cpp">
+      <Filter>DomainModule\Picker\PartnerCollection\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\scheduleddelivery\scheduleddeliveryheader.cpp">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDelivery\ScheduledDeliveryHeader\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\scheduleddelivery\scheduleddeliverypositioncollection.cpp">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDelivery\ScheduledDeliveryPostionCollection\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\scheduleddelivery\scheduleddeliverydm.cpp">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDelivery\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\scheduleddelivery\schedule.cpp">
+      <Filter>DomainModule\ScheduledDelivery\Schedule\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\Accessor\scheduleddelivery\scheduleddeliverypositionsacc.cpp">
+      <Filter>Infrastructure\Accessor\ScheduledDelivery\ScheduledDeliveryPositions</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\Accessor\scheduleddelivery\scheduleddeliveryheaderacc.cpp">
+      <Filter>Infrastructure\Accessor\ScheduledDelivery\ScheduledDeliveryHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\Accessor\scheduleddelivery\scheduleddeliverycollectionacc.cpp">
+      <Filter>Infrastructure\Accessor\ScheduledDeliveryCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\tender\tenderstatecollection.cpp">
+      <Filter>DomainModule\Tender\TenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\tender\tendertypecollection.cpp">
+      <Filter>DomainModule\Tender\TenderType</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\countrycodemapper.cpp">
+      <Filter>Infrastructure\CountryCodeMapper</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\scheduleddeliveryfactorybase.cpp">
+      <Filter>ComponentManagers\ScheduledDeliveryFactory\ScheduledDeliveryFactoryBase</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\scheduleddeliveryconnectedfactory.cpp">
+      <Filter>ComponentManagers\ScheduledDeliveryFactory\ScheduledDeliveryConnectedFactory\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\scheduleddelivery\scheduleddeliverycollectiondm.cpp">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDeliveryCollection\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\article\businesstypemapper.cpp">
+      <Filter>DomainModule\Picker\ArticleCollection\BusinessType</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\Accessor\purchaseorderproposal\purchaseorderproposalacc.cpp">
+      <Filter>Infrastructure\Accessor\PurchaseOrderProposal</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\purchaseorderproposal\purchaseorderproposaldm.cpp">
+      <Filter>DomainModule\PurchaseOrderProposal\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\tender\tenderprogressdm.cpp">
+      <Filter>DomainModule\Tender\TenderProgressDM\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\Accessor\tender\tenderprogressacc.cpp">
+      <Filter>Infrastructure\Accessor\TenderProgress</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\purchasedbconn\purchasedbparameterproxy.cpp">
+      <Filter>Infrastructure\PurchaseDBConnection\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="exception\fileopenexception.cpp">
+      <Filter>Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\tender\tenderimportcollection.cpp">
+      <Filter>DomainModule\Tender\TenderImport\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\pharmacychain\pharmacychaincollectiondm.cpp">
+      <Filter>DomainModule\Picker\PharmacyChainCollection\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\Accessor\pharmacychain\pharmacychaincollectionacc.cpp">
+      <Filter>Infrastructure\Accessor\PharmacyChainCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\scheduleddelivery\scheduleddeliveryimportcollection.cpp">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDeliveryImportCollection\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\customerlist\customerlistdm.cpp">
+      <Filter>DomainModule\CustomerList\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\Accessor\customerlist\customerlistacc.cpp">
+      <Filter>Infrastructure\Accessor\CustomerList</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\cscclient\cscclientparameterproxy.cpp">
+      <Filter>Infrastructure\CscClient\ParameterProxy\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\cscclient\cscclientconnection.cpp">
+      <Filter>Infrastructure\CscClient\Connection\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\cscorder\cscclienthelper.cpp">
+      <Filter>DomainModule\CscOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\Accessor\tender\tenderprotocolacc.cpp">
+      <Filter>Infrastructure\Accessor\TenderProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\tender\tenderprotocoldm.cpp">
+      <Filter>DomainModule\Tender\TenderProtocol\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\cscorder\cscorderposition.cpp">
+      <Filter>DomainModule\CscOrder\CscOrderPosition\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\cscorder\cscorderdm.cpp">
+      <Filter>DomainModule\CscOrder\CscOrderDM\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\Accessor\article\articlepriceacc.cpp">
+      <Filter>Infrastructure\Accessor\ArticlePrice</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\article\articlepricedm.cpp">
+      <Filter>DomainModule\Picker\ArticlePrice\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\pharmacygroup\pharmacygroupcollectiondm.cpp">
+      <Filter>DomainModule\PharmacyGroup\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\Accessor\pharmacygroup\pharmacygroupcollectionacc.cpp">
+      <Filter>Infrastructure\Accessor\PharmacyGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\Accessor\CscOrderCustomer\CscOrderCustomercollectionacc.cpp">
+      <Filter>Infrastructure\Accessor\CscOrderCustomer</Filter>
+    </ClCompile>
+    <ClCompile Include="Infrastructure\Accessor\supplier\suppliercollectionacc.cpp">
+      <Filter>Infrastructure\Accessor\SupplierCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\CscOrderCustomer\CscOrderCustomercollectiondm.cpp">
+      <Filter>DomainModule\CscOrderCustomer\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\supplier\suppliercollectiondm.cpp">
+      <Filter>DomainModule\Supplier\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\batchstatusenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\batchstatusenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\bookingtypeenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\bookingtypeenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\critlevelenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\critlevelenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\cscbase_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\cscbase_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\csccallback_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\csccallback_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\cscinquiry_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\cscinquiry_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\cscmsv3_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\cscmsv3_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\cscorder_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\cscorder_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\CscServiceBase.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\CscServiceBatch.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\CscServiceOnline.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\cscservice_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\cscservice_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\csctypes_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\csctypes_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\deliveryadvice_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\deliveryadvice_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\documentarchiveinformation_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\documentarchiveinformation_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\documenttypeenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\documenttypeenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\kindofdiscountenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\kindofdiscountenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\languageenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\languageenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\messagecodeenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\messagecodeenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\orderrelationnotypeenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\orderrelationnotypeenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\orderremarktypeenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\orderremarktypeenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\origintypeenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\origintypeenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\pickingtypeenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\pickingtypeenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\positiontypeenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\positiontypeenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\pricetypeenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\pricetypeenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\reservationtypeenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\reservationtypeenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\returnacceptancecheckresultenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\returnacceptancecheckresultenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\returnreasonenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\returnreasonenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\returns_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\returns_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\returntypeenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\returntypeenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\shipmenttracking_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\shipmenttracking_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\weekdayenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\weekdayenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\xmlinfolevelenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\xmlinfolevelenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\articleinquiryperioddatetypeenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\articleinquiryperioddatetypeenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\crema_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\crema_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\cremacloseenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\cremacloseenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\cremaemailtypeenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\cremaemailtypeenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\cremauserlevelenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\cremauserlevelenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\csccustomer_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\csccustomer_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\paymentsfilterenum_constants.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\paymentsfilterenum_types.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Infrastructure\libtenderapplcompmgr.h">
+      <Filter>ComponentManagers\ApplCompMgr\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\libtenderapplcompmgrptr.h">
+      <Filter>ComponentManagers\ApplCompMgr\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="LoggerPool\tenderLoggerPool.h">
+      <Filter>LoggerPool</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\libtender_properties_definitions.h">
+      <Filter>DomainModule</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tendercollectiondm.h">
+      <Filter>DomainModule\Tender\TenderCollectionDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tendercollectiondmptr.h">
+      <Filter>DomainModule\Tender\TenderCollectionDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\itendercollectiondm.h">
+      <Filter>DomainModule\Tender\TenderCollectionDM\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\itendercollectiondmptr.h">
+      <Filter>DomainModule\Tender\TenderCollectionDM\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tenderdm.h">
+      <Filter>DomainModule\Tender\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tenderdmptr.h">
+      <Filter>DomainModule\Tender\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\itender.h">
+      <Filter>DomainModule\Tender\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\itenderptr.h">
+      <Filter>DomainModule\Tender\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\tenderconnectedfactory.h">
+      <Filter>ComponentManagers\TenderFactory\TenderConnectedFactory\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\tenderconnectedfactoryptr.h">
+      <Filter>ComponentManagers\TenderFactory\TenderConnectedFactory\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\itenderconnectedfactory.h">
+      <Filter>ComponentManagers\TenderFactory\TenderConnectedFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\itenderconnectedfactoryptr.h">
+      <Filter>ComponentManagers\TenderFactory\TenderConnectedFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\tenderfactorybase.h">
+      <Filter>ComponentManagers\TenderFactory\TenderFactoryBase</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\tenderfactorybaseptr.h">
+      <Filter>ComponentManagers\TenderFactory\TenderFactoryBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\tender\tendercollectionacc.h">
+      <Filter>Infrastructure\Accessor\TenderCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\tender\tendercollectionacc_definitions.h">
+      <Filter>Infrastructure\Accessor\TenderCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\tender\tenderacc_definitions.h">
+      <Filter>Infrastructure\Accessor\Tender</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\cmnAccessor.h">
+      <Filter>Infrastructure\Accessor\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\itenderheader.h">
+      <Filter>DomainModule\Tender\TenderHeader\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\itenderheaderptr.h">
+      <Filter>DomainModule\Tender\TenderHeader\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\itenderpositioncollection.h">
+      <Filter>DomainModule\Tender\TenderPositionCollection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\itenderpositioncollectionptr.h">
+      <Filter>DomainModule\Tender\TenderPositionCollection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tenderpositioncollection.h">
+      <Filter>DomainModule\Tender\TenderPositionCollection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tenderpositioncollectionptr.h">
+      <Filter>DomainModule\Tender\TenderPositionCollection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tenderheader.h">
+      <Filter>DomainModule\Tender\TenderHeader\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tenderheaderptr.h">
+      <Filter>DomainModule\Tender\TenderHeader\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\tender\tenderpositionsacc_definitions.h">
+      <Filter>Infrastructure\Accessor\Tender\TenderPositions</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\tender\tenderpositionsacc.h">
+      <Filter>Infrastructure\Accessor\Tender\TenderPositions</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\tender\tenderheaderacc_definitions.h">
+      <Filter>Infrastructure\Accessor\Tender\TenderHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\tender\tenderheaderacc.h">
+      <Filter>Infrastructure\Accessor\Tender\TenderHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\article\articlecollectiondm.h">
+      <Filter>DomainModule\Picker\ArticleCollection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\article\articlecollectiondmptr.h">
+      <Filter>DomainModule\Picker\ArticleCollection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\article\iarticlecollectiondm.h">
+      <Filter>DomainModule\Picker\ArticleCollection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\article\iarticlecollectiondmptr.h">
+      <Filter>DomainModule\Picker\ArticleCollection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\article\articlecollectionacc.h">
+      <Filter>Infrastructure\Accessor\ArticleCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\article\articlecollectionacc_definitions.h">
+      <Filter>Infrastructure\Accessor\ArticleCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\customer\icustomercollectiondm.h">
+      <Filter>DomainModule\Picker\CustomerCollection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\customer\icustomercollectiondmptr.h">
+      <Filter>DomainModule\Picker\CustomerCollection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\customer\customercollectionacc.h">
+      <Filter>Infrastructure\Accessor\CustomerCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\customer\customercollectionacc_definitions.h">
+      <Filter>Infrastructure\Accessor\CustomerCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\customer\customercollectiondm.h">
+      <Filter>DomainModule\Picker\CustomerCollection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\customer\customercollectiondmptr.h">
+      <Filter>DomainModule\Picker\CustomerCollection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\partner\partnercollectionacc.h">
+      <Filter>Infrastructure\Accessor\PartnerCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\partner\partnercollectionacc_definitions.h">
+      <Filter>Infrastructure\Accessor\PartnerCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\partner\partnercollectiondm.h">
+      <Filter>DomainModule\Picker\PartnerCollection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\partner\partnercollectiondmptr.h">
+      <Filter>DomainModule\Picker\PartnerCollection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliveryheaderptr.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDelivery\ScheduledDeliveryHeader\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliveryheader.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDelivery\ScheduledDeliveryHeader\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddeliveryheader.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDelivery\ScheduledDeliveryHeader\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddeliveryheaderptr.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDelivery\ScheduledDeliveryHeader\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliverypositioncollection.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDelivery\ScheduledDeliveryPostionCollection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliverypositioncollectionptr.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDelivery\ScheduledDeliveryPostionCollection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddeliverypositioncollection.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDelivery\ScheduledDeliveryPostionCollection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddeliverypositioncollectionptr.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDelivery\ScheduledDeliveryPostionCollection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddelivery.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDelivery\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddeliveryptr.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDelivery\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliverydm.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDelivery\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliverydmptr.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDelivery\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\schedule.h">
+      <Filter>DomainModule\ScheduledDelivery\Schedule\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\ischedule.h">
+      <Filter>DomainModule\ScheduledDelivery\Schedule\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleptr.h">
+      <Filter>DomainModule\ScheduledDelivery\Schedule\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleptr.h">
+      <Filter>DomainModule\ScheduledDelivery\Schedule\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddeliverycollectiondm.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDeliveryCollection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddeliverycollectiondmptr.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDeliveryCollection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliverycollectiondmptr.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDeliveryCollection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliverycollectiondm.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDeliveryCollection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\scheduleddelivery\scheduleddeliveryacc_definitions.h">
+      <Filter>Infrastructure\Accessor\ScheduledDelivery</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\scheduleddelivery\scheduleddeliverypositionsacc.h">
+      <Filter>Infrastructure\Accessor\ScheduledDelivery\ScheduledDeliveryPositions</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\scheduleddelivery\scheduleddeliverypositionsacc_definition.h">
+      <Filter>Infrastructure\Accessor\ScheduledDelivery\ScheduledDeliveryPositions</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\scheduleddelivery\scheduleddeliveryheaderacc.h">
+      <Filter>Infrastructure\Accessor\ScheduledDelivery\ScheduledDeliveryHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\scheduleddelivery\scheduleddeliveryheaderacc_definitions.h">
+      <Filter>Infrastructure\Accessor\ScheduledDelivery\ScheduledDeliveryHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\scheduleddelivery\scheduleddeliverycollectionacc.h">
+      <Filter>Infrastructure\Accessor\ScheduledDeliveryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\scheduleddelivery\scheduleddeliverycollectionacc_definitions.h">
+      <Filter>Infrastructure\Accessor\ScheduledDeliveryCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tenderstatecollectionptr.h">
+      <Filter>DomainModule\Tender\TenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tenderstateenum.h">
+      <Filter>DomainModule\Tender\TenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tendertypecollection.h">
+      <Filter>DomainModule\Tender\TenderType</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tendertypecollectionptr.h">
+      <Filter>DomainModule\Tender\TenderType</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tendertypeenum.h">
+      <Filter>DomainModule\Tender\TenderType</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\countrycodemapper.h">
+      <Filter>Infrastructure\CountryCodeMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\countryidenum.h">
+      <Filter>Infrastructure\CountryCodeMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\scheduleddeliveryfactorybase.h">
+      <Filter>ComponentManagers\ScheduledDeliveryFactory\ScheduledDeliveryFactoryBase</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\scheduleddeliveryfactorybaseptr.h">
+      <Filter>ComponentManagers\ScheduledDeliveryFactory\ScheduledDeliveryFactoryBase</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\ischeduleddeliveryconnectedfactory.h">
+      <Filter>ComponentManagers\ScheduledDeliveryFactory\ScheduledDeliveryConnectedFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\ischeduleddeliveryconnectedfactoryptr.h">
+      <Filter>ComponentManagers\ScheduledDeliveryFactory\ScheduledDeliveryConnectedFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\scheduleddeliveryconnectedfactory.h">
+      <Filter>ComponentManagers\ScheduledDeliveryFactory\ScheduledDeliveryConnectedFactory\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\scheduleddeliveryconnectedfactoryptr.h">
+      <Filter>ComponentManagers\ScheduledDeliveryFactory\ScheduledDeliveryConnectedFactory\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\partner\ipartnercollectiondmptr.h">
+      <Filter>DomainModule\Picker\PartnerCollection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\partner\ipartnercollectiondm.h">
+      <Filter>DomainModule\Picker\PartnerCollection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\article\businesstypeenum.h">
+      <Filter>DomainModule\Picker\ArticleCollection\BusinessType</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\article\businesstypemapper.h">
+      <Filter>DomainModule\Picker\ArticleCollection\BusinessType</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\purchaseorderproposal\purchaseorderproposalacc.h">
+      <Filter>Infrastructure\Accessor\PurchaseOrderProposal</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\purchaseorderproposal\purchaseorderproposalacc_definitions.h">
+      <Filter>Infrastructure\Accessor\PurchaseOrderProposal</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\purchaseorderproposal\ipurchaseorderproposal.h">
+      <Filter>DomainModule\PurchaseOrderProposal\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\purchaseorderproposal\ipurchaseorderproposalptr.h">
+      <Filter>DomainModule\PurchaseOrderProposal\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\purchaseorderproposal\purchaseorderproposaldm.h">
+      <Filter>DomainModule\PurchaseOrderProposal\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\purchaseorderproposal\purchaseorderproposaldmptr.h">
+      <Filter>DomainModule\PurchaseOrderProposal\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tenderprogressdm.h">
+      <Filter>DomainModule\Tender\TenderProgressDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tenderprogressdmptr.h">
+      <Filter>DomainModule\Tender\TenderProgressDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\itenderprogress.h">
+      <Filter>DomainModule\Tender\TenderProgressDM\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\itenderprogressptr.h">
+      <Filter>DomainModule\Tender\TenderProgressDM\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\tender\tenderprogressacc.h">
+      <Filter>Infrastructure\Accessor\TenderProgress</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\tender\tenderprogressacc_definitions.h">
+      <Filter>Infrastructure\Accessor\TenderProgress</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\purchasedbconn\ipurchasedbparameterproxy.h">
+      <Filter>Infrastructure\PurchaseDBConnection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\purchasedbconn\ipurchasedbparameterproxyptr.h">
+      <Filter>Infrastructure\PurchaseDBConnection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\purchasedbconn\purchasedbparameterproxy.h">
+      <Filter>Infrastructure\PurchaseDBConnection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\purchasedbconn\purchasedbparameterproxyptr.h">
+      <Filter>Infrastructure\PurchaseDBConnection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\purchasedbconn\purchasedbparameterkeys.h">
+      <Filter>Infrastructure\PurchaseDBConnection</Filter>
+    </ClInclude>
+    <ClInclude Include="exception\fileopenexception.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\itenderimportcollection.h">
+      <Filter>DomainModule\Tender\TenderImport\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\itenderimportcollectionptr.h">
+      <Filter>DomainModule\Tender\TenderImport\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tenderimportstruct.h">
+      <Filter>DomainModule\Tender\TenderImport\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tenderimportcollection.h">
+      <Filter>DomainModule\Tender\TenderImport\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tenderimportcollectionptr.h">
+      <Filter>DomainModule\Tender\TenderImport\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\pharmacychain\ipharmacychaincollectiondm.h">
+      <Filter>DomainModule\Picker\PharmacyChainCollection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\pharmacychain\ipharmacychaincollectiondmptr.h">
+      <Filter>DomainModule\Picker\PharmacyChainCollection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\pharmacychain\pharmacychaincollectiondm.h">
+      <Filter>DomainModule\Picker\PharmacyChainCollection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\pharmacychain\pharmacychaincollectiondmptr.h">
+      <Filter>DomainModule\Picker\PharmacyChainCollection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\pharmacychain\pharmacychaincollectionacc.h">
+      <Filter>Infrastructure\Accessor\PharmacyChainCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\pharmacychain\pharmacychaincollectionacc_definitions.h">
+      <Filter>Infrastructure\Accessor\PharmacyChainCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliveryimportcollection.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDeliveryImportCollection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliveryimportcollectionptr.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDeliveryImportCollection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddeliveryimportcollection.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDeliveryImportCollection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\scheduleddeliveryimportstruct.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDeliveryImportCollection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\scheduleddelivery\ischeduleddeliveryimportcollectionptr.h">
+      <Filter>DomainModule\ScheduledDelivery\ScheduledDeliveryImportCollection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\customerlist\icustomerlistdm.h">
+      <Filter>DomainModule\CustomerList\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\customerlist\icustomerlistdmptr.h">
+      <Filter>DomainModule\CustomerList\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\customerlist\customerlistdm.h">
+      <Filter>DomainModule\CustomerList\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\customerlist\customerlistdmptr.h">
+      <Filter>DomainModule\CustomerList\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\customerlist\customerlistacc.h">
+      <Filter>Infrastructure\Accessor\CustomerList</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\customerlist\customerlistacc_definitions.h">
+      <Filter>Infrastructure\Accessor\CustomerList</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\cscclient\cscclientparameterkeys.h">
+      <Filter>Infrastructure\CscClient</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\cscclient\icscclientconnectionptr.h">
+      <Filter>Infrastructure\CscClient\Connection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\cscclient\icscclientparameterproxy.h">
+      <Filter>Infrastructure\CscClient\ParameterProxy\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\cscclient\icscclientparameterproxyptr.h">
+      <Filter>Infrastructure\CscClient\ParameterProxy\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\cscclient\cscclientparameterproxy.h">
+      <Filter>Infrastructure\CscClient\ParameterProxy\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\cscclient\cscclientparameterproxyptr.h">
+      <Filter>Infrastructure\CscClient\ParameterProxy\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\cscclient\cscclientconnectionptr.h">
+      <Filter>Infrastructure\CscClient\Connection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\cscorder\cscclienthelper.h">
+      <Filter>DomainModule\CscOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\tender\tenderprotocolacc.h">
+      <Filter>Infrastructure\Accessor\TenderProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\tender\tenderprotocolacc_definitions.h">
+      <Filter>Infrastructure\Accessor\TenderProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\itenderprotocol.h">
+      <Filter>DomainModule\Tender\TenderProtocol\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\itenderprotocolptr.h">
+      <Filter>DomainModule\Tender\TenderProtocol\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tenderprotocoldm.h">
+      <Filter>DomainModule\Tender\TenderProtocol\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\tender\tenderprotocoldmptr.h">
+      <Filter>DomainModule\Tender\TenderProtocol\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\cscclient\icscclientconnection.h">
+      <Filter>Infrastructure\CscClient\Connection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\cscorder\icscorder.h">
+      <Filter>DomainModule\CscOrder\CscOrderDM\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\cscorder\icscorderptr.h">
+      <Filter>DomainModule\CscOrder\CscOrderDM\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\cscorder\icscorderposition.h">
+      <Filter>DomainModule\CscOrder\CscOrderPosition\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\cscorder\icscorderpositionptr.h">
+      <Filter>DomainModule\CscOrder\CscOrderPosition\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\cscorder\cscorderposition.h">
+      <Filter>DomainModule\CscOrder\CscOrderPosition\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\cscorder\cscorderpositionptr.h">
+      <Filter>DomainModule\CscOrder\CscOrderPosition\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\cscorder\cscorderdm.h">
+      <Filter>DomainModule\CscOrder\CscOrderDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\cscorder\cscorderdmptr.h">
+      <Filter>DomainModule\CscOrder\CscOrderDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\cscclient\cscclientconnection.h">
+      <Filter>Infrastructure\CscClient\Connection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\article\articlepriceacc.h">
+      <Filter>Infrastructure\Accessor\ArticlePrice</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\article\articlepriceacc_definitions.h">
+      <Filter>Infrastructure\Accessor\ArticlePrice</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\article\iarticlepricedm.h">
+      <Filter>DomainModule\Picker\ArticlePrice\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\article\iarticlepricedmptr.h">
+      <Filter>DomainModule\Picker\ArticlePrice\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\article\articlepricedm.h">
+      <Filter>DomainModule\Picker\ArticlePrice\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\article\articlepricedmptr.h">
+      <Filter>DomainModule\Picker\ArticlePrice\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\constants.h">
+      <Filter>DomainModule</Filter>
+    </ClInclude>
+    <ClInclude Include="tender_version.h" />
+    <ClInclude Include="domainmodule\pharmacygroup\pharmacygroupcollectiondm.h">
+      <Filter>DomainModule\PharmacyGroup\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\pharmacygroup\pharmacygroupcollectiondmptr.h">
+      <Filter>DomainModule\PharmacyGroup\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\pharmacygroup\ipharmacygroupcollectiondmptr.h">
+      <Filter>DomainModule\PharmacyGroup\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\pharmacygroup\ipharmacygroupcollectiondm.h">
+      <Filter>DomainModule\PharmacyGroup\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\pharmacygroup\pharmacygroupcollectionacc_definitions.h">
+      <Filter>Infrastructure\Accessor\PharmacyGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\pharmacygroup\pharmacygroupcollectionacc.h">
+      <Filter>Infrastructure\Accessor\PharmacyGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\CscOrderCustomer\CscOrderCustomercollectionacc.h">
+      <Filter>Infrastructure\Accessor\CscOrderCustomer</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\CscOrderCustomer\CscOrderCustomercollectionacc_definitions.h">
+      <Filter>Infrastructure\Accessor\CscOrderCustomer</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\supplier\suppliercollectionacc.h">
+      <Filter>Infrastructure\Accessor\SupplierCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="Infrastructure\Accessor\supplier\suppliercollectionacc_definitions.h">
+      <Filter>Infrastructure\Accessor\SupplierCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\CscOrderCustomer\iCscOrderCustomercollectiondm.h">
+      <Filter>DomainModule\CscOrderCustomer\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\CscOrderCustomer\iCscOrderCustomercollectiondmptr.h">
+      <Filter>DomainModule\CscOrderCustomer\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\CscOrderCustomer\CscOrderCustomercollectiondm.h">
+      <Filter>DomainModule\CscOrderCustomer\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\CscOrderCustomer\CscOrderCustomercollectiondmptr.h">
+      <Filter>DomainModule\CscOrderCustomer\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\supplier\suppliercollectiondm.h">
+      <Filter>DomainModule\Supplier\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\supplier\suppliercollectiondmptr.h">
+      <Filter>DomainModule\Supplier\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\supplier\isuppliercollectiondm.h">
+      <Filter>DomainModule\Supplier\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\supplier\isuppliercollectiondmptr.h">
+      <Filter>DomainModule\Supplier\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\batchstatusenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\batchstatusenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\bookingtypeenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\bookingtypeenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\critlevelenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\critlevelenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\cscbase_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\cscbase_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\csccallback_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\csccallback_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\cscinquiry_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\cscinquiry_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\cscmsv3_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\cscmsv3_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\cscorder_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\cscorder_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\CscServiceBase.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\CscServiceBatch.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\CscServiceOnline.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\cscservice_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\cscservice_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\csctypes_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\csctypes_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\deliveryadvice_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\deliveryadvice_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\documentarchiveinformation_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\documentarchiveinformation_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\documenttypeenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\documenttypeenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\kindofdiscountenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\kindofdiscountenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\languageenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\languageenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\messagecodeenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\messagecodeenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\orderrelationnotypeenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\orderrelationnotypeenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\orderremarktypeenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\orderremarktypeenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\origintypeenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\origintypeenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\pickingtypeenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\pickingtypeenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\positiontypeenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\positiontypeenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\pricetypeenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\pricetypeenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\reservationtypeenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\reservationtypeenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\returnacceptancecheckresultenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\returnacceptancecheckresultenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\returnreasonenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\returnreasonenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\returns_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\returns_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\returntypeenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\returntypeenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\shipmenttracking_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\shipmenttracking_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\weekdayenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\weekdayenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\xmlinfolevelenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\xmlinfolevelenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\articleinquiryperioddatetypeenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\articleinquiryperioddatetypeenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\crema_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\crema_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\cremacloseenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\cremacloseenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\cremaemailtypeenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\cremaemailtypeenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\cremauserlevelenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\cremauserlevelenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\csccustomer_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\csccustomer_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\paymentsfilterenum_constants.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\paymentsfilterenum_types.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tender.cfg">
+      <Filter>LoggerPool\ConfigFile</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="domainmodule\tender\tenderstatecollection.h">
+      <Filter>DomainModule\Tender\TenderState</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

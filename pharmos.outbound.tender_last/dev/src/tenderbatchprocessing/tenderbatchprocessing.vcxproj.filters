@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{028F4CB2-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\ApplController">
+      <UniqueIdentifier>{028F4D40-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase">
+      <UniqueIdentifier>{028F4DBE-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\MainUC">
+      <UniqueIdentifier>{028F4E9D-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure">
+      <UniqueIdentifier>{028F54A3-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\CommandLine">
+      <UniqueIdentifier>{028F5501-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Login">
+      <UniqueIdentifier>{028F555E-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers">
+      <UniqueIdentifier>{028F589D-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ApplCompMgr">
+      <UniqueIdentifier>{028F58FB-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ApplCompMgr\Impl">
+      <UniqueIdentifier>{028F5A11-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\InfrastructureCompMgr">
+      <UniqueIdentifier>{028F5A6E-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LoggerPool">
+      <UniqueIdentifier>{d0e6ac91-1273-4376-ab5f-79e93bea3c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules">
+      <UniqueIdentifier>{b19ca0ae-1662-4c67-b492-df52be17e837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions">
+      <UniqueIdentifier>{484c4413-fc29-4703-82e2-ab9bfe7082c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ApplCompMgr\Interface">
+      <UniqueIdentifier>{028F5958-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ApplCompMgr\Interface\UseCaseGetter">
+      <UniqueIdentifier>{028F59B5-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ApplCompMgr\Interface\CmdLineParameterGetter">
+      <UniqueIdentifier>{143e861b-367f-4db3-827d-eb67e87b713e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\CommandLine\CmdLineArguments">
+      <UniqueIdentifier>{88834003-24bc-4f3f-969c-cd20197d7eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Setup">
+      <UniqueIdentifier>{d47b0dcf-2215-4371-bd63-81aed8d89314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Setup\Impl">
+      <UniqueIdentifier>{85a9d4ff-d6c6-4105-ab66-1045fdcc2ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Setup\Interface">
+      <UniqueIdentifier>{2f61d24b-7eaf-48cf-89ac-9f7f763af53c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\MailAlerter">
+      <UniqueIdentifier>{35b43463-d3fa-4e1e-bbc1-6911af70bbc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\MailAlerter\Alert">
+      <UniqueIdentifier>{515b8f08-8790-4ed7-aa96-daec6c4ce5b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\MailAlerter\Alert\Impl">
+      <UniqueIdentifier>{26491594-69b7-471c-8a2f-70e2dc28115d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\MailAlerter\Alert\Interface">
+      <UniqueIdentifier>{bf7a647b-f900-4975-af86-18886af424c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\MailAlerter\ParameterProxy">
+      <UniqueIdentifier>{890344a5-be05-4984-b750-10412a4a81c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\MailAlerter\ParameterProxy\Interface">
+      <UniqueIdentifier>{2665f8df-ed16-4828-8fd5-108f0c5dcf21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\MailAlerter\ParameterProxy\Impl">
+      <UniqueIdentifier>{248c9650-c272-4b5f-85df-1c7f25bdc4ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OMGCalcDM">
+      <UniqueIdentifier>{7eb08c8f-3916-490a-ae42-a33d8361bf5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OMGTransferDM">
+      <UniqueIdentifier>{70dc5a44-f15b-4f4c-9250-9a5722f9e65f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OMGTransferDM\Impl">
+      <UniqueIdentifier>{f3749b0b-611f-46d7-bca4-bc8075953a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OMGTransferDM\Interface">
+      <UniqueIdentifier>{ca734911-8aa1-4aa8-9ae0-29072f49f6da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\OMGCalcAcc">
+      <UniqueIdentifier>{ee318ac0-b388-4176-ad5f-1446b16326e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\OMGTransferAcc">
+      <UniqueIdentifier>{6c0aa81b-3c83-4599-8d4e-585459a0f7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OMGCalcDM\Impl">
+      <UniqueIdentifier>{a8e28d32-6509-4d8c-9c96-52f0465771ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OMGCalcDM\Interface">
+      <UniqueIdentifier>{e2ad8288-6b07-4aff-8ae8-7a78e489ee33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\OMGTransferUC">
+      <UniqueIdentifier>{99726a80-e20b-47d9-bac0-61e2bac2b79d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\OMGCalc">
+      <UniqueIdentifier>{cc38b169-8cac-4409-9796-221d73bd4a1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\OMGCalc\OMGCalcUC">
+      <UniqueIdentifier>{47a49fe5-c8ce-4268-8bff-f75a284b5663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\OMGCalc\OMGCustomerCalcUC">
+      <UniqueIdentifier>{c2873d28-9693-4cc2-b2ed-959d3287a7b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\OMGCalc\OMGSupplierCalcUC">
+      <UniqueIdentifier>{e62c5ce5-88d8-4c15-84b2-05fcf9062e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OMGCustomerCalcDM">
+      <UniqueIdentifier>{fbbd111a-325c-443e-8ceb-e20515bd15aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OMGCustomerCalcDM\Impl">
+      <UniqueIdentifier>{c664b8e5-fa9e-4ecc-b5df-dbd8ae7c76a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OMGCustomerCalcDM\Interface">
+      <UniqueIdentifier>{9099bd1a-3347-483f-bf27-aaea2a75978d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OMGSupplierCalcDM">
+      <UniqueIdentifier>{00cc0fdf-ff48-4b10-b6f4-41e046c7cc1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OMGSupplierCalcDM\Impl">
+      <UniqueIdentifier>{0e8a6222-1b87-4ae5-989a-a87a4aeda460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OMGSupplierCalcDM\Interface">
+      <UniqueIdentifier>{399e5dfc-a198-4672-8a72-482f27e1a9f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\OMGCustomerCalcAcc">
+      <UniqueIdentifier>{20f93789-2ee6-46b0-9b3d-f1b457825477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\OMGSupplierCalcAcc">
+      <UniqueIdentifier>{cca0381c-1aa9-4d29-88c3-ca6d55797017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\RemoteProcedure">
+      <UniqueIdentifier>{c28e2667-fe24-4a4e-b740-eda8d4fc7f7b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="usecase\mainuc.cpp">
+      <Filter>UseCase\MainUC</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="loggerpool\loggerpool.cpp">
+      <Filter>LoggerPool</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\mail\mailalert.cpp">
+      <Filter>Infrastructure\MailAlerter\Alert\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\mail\mailparameterproxy.cpp">
+      <Filter>Infrastructure\MailAlerter\ParameterProxy\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="version.c">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\tenderbatchprocessingapplcompmgr.cpp">
+      <Filter>ComponentManagers\ApplCompMgr\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\tenderbatchprocessinginfrastructurecompmgr.cpp">
+      <Filter>ComponentManagers\InfrastructureCompMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\tenderbatchprocessingcmdlineevaluator.cpp">
+      <Filter>Infrastructure\CommandLine</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\tenderbatchprocessingapplctrl.cpp">
+      <Filter>Main\ApplController</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\tenderbatchprocessinginfrastructuresetup.cpp">
+      <Filter>Infrastructure\Setup\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\omgtransfer\omgtransferdm.cpp">
+      <Filter>DomainModules\OMGTransferDM\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\omgtransfer\omgtransferacc.cpp">
+      <Filter>Infrastructure\OMGTransferAcc</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\omgcalc\omgcalcacc.cpp">
+      <Filter>Infrastructure\OMGCalcAcc</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\omgcalc\omgcalcdm.cpp">
+      <Filter>DomainModules\OMGCalcDM\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\omgcalcuc.cpp">
+      <Filter>UseCase\OMGCalc\OMGCalcUC</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\omgtransferuc.cpp">
+      <Filter>UseCase\OMGTransferUC</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\omgsuppliercalcuc.cpp">
+      <Filter>UseCase\OMGCalc\OMGSupplierCalcUC</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\omgcustomercalcuc.cpp">
+      <Filter>UseCase\OMGCalc\OMGCustomerCalcUC</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\omgcustomercalc\omgcustomercalcdm.cpp">
+      <Filter>DomainModules\OMGCustomerCalcDM\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\omgsuppliercalc\omgsuppliercalcdm.cpp">
+      <Filter>DomainModules\OMGSupplierCalcDM\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\omgcustomercalc\omgcustomercalcacc.cpp">
+      <Filter>Infrastructure\OMGCustomerCalcAcc</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\omgsuppliercalc\omgsuppliercalcacc.cpp">
+      <Filter>Infrastructure\OMGSupplierCalcAcc</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\remoteprocedure\remoteprocedureacc.cpp">
+      <Filter>Infrastructure\RemoteProcedure</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="usecase\mainuc.h">
+      <Filter>UseCase\MainUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\mainucptr.h">
+      <Filter>UseCase\MainUC</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\login_definitions.h">
+      <Filter>Infrastructure\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="loggerpool\loggerpool.h">
+      <Filter>LoggerPool</Filter>
+    </ClInclude>
+    <ClInclude Include="icmdlineparametergetter.h">
+      <Filter>ComponentManagers\ApplCompMgr\Interface\CmdLineParameterGetter</Filter>
+    </ClInclude>
+    <ClInclude Include="icmdlineparametergetterptr.h">
+      <Filter>ComponentManagers\ApplCompMgr\Interface\CmdLineParameterGetter</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\iusecasegetter.h">
+      <Filter>ComponentManagers\ApplCompMgr\Interface\UseCaseGetter</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\iusecasegetterptr.h">
+      <Filter>ComponentManagers\ApplCompMgr\Interface\UseCaseGetter</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\imailalert.h">
+      <Filter>Infrastructure\MailAlerter\Alert\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\imailalertptr.h">
+      <Filter>Infrastructure\MailAlerter\Alert\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\mailalert.h">
+      <Filter>Infrastructure\MailAlerter\Alert\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\mailalertptr.h">
+      <Filter>Infrastructure\MailAlerter\Alert\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\imailparameterproxy.h">
+      <Filter>Infrastructure\MailAlerter\ParameterProxy\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\imailparameterproxyptr.h">
+      <Filter>Infrastructure\MailAlerter\ParameterProxy\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\mailparameterproxy.h">
+      <Filter>Infrastructure\MailAlerter\ParameterProxy\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\mailparameterproxyptr.h">
+      <Filter>Infrastructure\MailAlerter\ParameterProxy\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\mailparameterkeys.h">
+      <Filter>Infrastructure\MailAlerter</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\tenderbatchprocessingapplcompmgr.h">
+      <Filter>ComponentManagers\ApplCompMgr\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\tenderbatchprocessingapplcompmgrptr.h">
+      <Filter>ComponentManagers\ApplCompMgr\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\tenderbatchprocessinginfrastructurecompmgr.h">
+      <Filter>ComponentManagers\InfrastructureCompMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\tenderbatchprocessinginfrastructurecompmgrptr.h">
+      <Filter>ComponentManagers\InfrastructureCompMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="tenderbatchprocessing_property_definitions.h">
+      <Filter>DomainModules</Filter>
+    </ClInclude>
+    <ClInclude Include="tenderbatchprocessingcmelinearguments.h">
+      <Filter>Infrastructure\CommandLine\CmdLineArguments</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\tenderbatchprocessingcmdlineevaluator.h">
+      <Filter>Infrastructure\CommandLine</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\tenderbatchprocessinginfrastructuresetupptr.h">
+      <Filter>Infrastructure\Setup\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\itenderbatchprocessinglogingetter.h">
+      <Filter>Infrastructure\Setup\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\itenderbatchprocessinglogingetterptr.h">
+      <Filter>Infrastructure\Setup\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\tenderbatchprocessingapplctrl.h">
+      <Filter>Main\ApplController</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\tenderbatchprocessingcmdline_definitions.h">
+      <Filter>Infrastructure\CommandLine</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\tenderbatchprocessinginfrastructuresetup.h">
+      <Filter>Infrastructure\Setup\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\omgtransfer\iomgtransfer.h">
+      <Filter>DomainModules\OMGTransferDM\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\omgtransfer\iomgtransferptr.h">
+      <Filter>DomainModules\OMGTransferDM\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\omgtransfer\omgtransferdmptr.h">
+      <Filter>DomainModules\OMGTransferDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\omgtransfer\omgtransferdm.h">
+      <Filter>DomainModules\OMGTransferDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\omgtransfer\omgtransferacc.h">
+      <Filter>Infrastructure\OMGTransferAcc</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\omgtransfer\omgtransferacc_definitions.h">
+      <Filter>Infrastructure\OMGTransferAcc</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\omgcalc\omgcalcacc_definitions.h">
+      <Filter>Infrastructure\OMGCalcAcc</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\omgcalc\omgcalcacc.h">
+      <Filter>Infrastructure\OMGCalcAcc</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\omgcalc\iomgcalc.h">
+      <Filter>DomainModules\OMGCalcDM\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\omgcalc\iomgcalcptr.h">
+      <Filter>DomainModules\OMGCalcDM\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\omgcalc\omgcalcdm.h">
+      <Filter>DomainModules\OMGCalcDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\omgcalc\omgcalcdmptr.h">
+      <Filter>DomainModules\OMGCalcDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\omgcalcuc.h">
+      <Filter>UseCase\OMGCalc\OMGCalcUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\omgtransferucptr.h">
+      <Filter>UseCase\OMGTransferUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\omgcalcucptr.h">
+      <Filter>UseCase\OMGCalc\OMGCalcUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\omgtransferuc.h">
+      <Filter>UseCase\OMGTransferUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\omgsuppliercalcuc.h">
+      <Filter>UseCase\OMGCalc\OMGSupplierCalcUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\omgcustomercalcuc.h">
+      <Filter>UseCase\OMGCalc\OMGCustomerCalcUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\omgcustomercalcucptr.h">
+      <Filter>UseCase\OMGCalc\OMGCustomerCalcUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\omgsuppliercalcucptr.h">
+      <Filter>UseCase\OMGCalc\OMGSupplierCalcUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\iomgcalcbaseuc.h">
+      <Filter>UseCase\OMGCalc</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\iomgcalcbaseucptr.h">
+      <Filter>UseCase\OMGCalc</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\omgcustomercalc\omgcustomercalcdm.h">
+      <Filter>DomainModules\OMGCustomerCalcDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\omgcustomercalc\omgcustomercalcdmptr.h">
+      <Filter>DomainModules\OMGCustomerCalcDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\omgcustomercalc\iomgcustomercalc.h">
+      <Filter>DomainModules\OMGCustomerCalcDM\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\omgcustomercalc\iomgcustomercalcptr.h">
+      <Filter>DomainModules\OMGCustomerCalcDM\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\omgsuppliercalc\iomgsuppliercalc.h">
+      <Filter>DomainModules\OMGSupplierCalcDM\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\omgsuppliercalc\iomgsuppliercalcptr.h">
+      <Filter>DomainModules\OMGSupplierCalcDM\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\omgsuppliercalc\omgsuppliercalcdm.h">
+      <Filter>DomainModules\OMGSupplierCalcDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\omgsuppliercalc\omgsuppliercalcdmptr.h">
+      <Filter>DomainModules\OMGSupplierCalcDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\omgcustomercalc\omgcustomercalcacc.h">
+      <Filter>Infrastructure\OMGCustomerCalcAcc</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\omgcustomercalc\omgcustomercalcacc_definitions.h">
+      <Filter>Infrastructure\OMGCustomerCalcAcc</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\omgsuppliercalc\omgsuppliercalcacc.h">
+      <Filter>Infrastructure\OMGSupplierCalcAcc</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\omgsuppliercalc\omgsuppliercalcacc_definitions.h">
+      <Filter>Infrastructure\OMGSupplierCalcAcc</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\remoteprocedure\remoteprocedureacc_definitions.h">
+      <Filter>Infrastructure\RemoteProcedure</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\remoteprocedure\remoteprocedureacc.h">
+      <Filter>Infrastructure\RemoteProcedure</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

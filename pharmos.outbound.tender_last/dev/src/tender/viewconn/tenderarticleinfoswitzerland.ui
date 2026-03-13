@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tenderArticleInfoSwitzerland</class>
+ <widget class="QGroupBox" name="tenderArticleInfoSwitzerland">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>911</width>
+    <height>81</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Article Info</string>
+  </property>
+  <property name="title">
+   <string>Article Details</string>
+  </property>
+  <widget class="QLineEdit" name="leArticleNo">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>0</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblArticleCode">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>70</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Article Code:</string>
+   </property>
+  </widget>
+   <widget class="QLineEdit" name="leArticleCode">
+     <property name="geometry">
+       <rect>
+         <x>80</x>
+         <y>20</y>
+         <width>80</width>
+         <height>20</height>
+       </rect>
+     </property>
+     <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+       </sizepolicy>
+     </property>
+   </widget>
+   <widget class="QPushButton" name="pbArticleCode">
+     <property name="geometry">
+       <rect>
+         <x>160</x>
+         <y>20</y>
+         <width>30</width>
+         <height>20</height>
+       </rect>
+     </property>
+     <property name="focusPolicy">
+       <enum>Qt::ClickFocus</enum>
+     </property>
+     <property name="text">
+       <string>...</string>
+     </property>
+   </widget>
+   <widget class="QLabel" name="lblArticleName">
+     <property name="geometry">
+       <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>70</width>
+         <height>20</height>
+       </rect>
+     </property>
+     <property name="text">
+       <string>Article Name:</string>
+     </property>
+   </widget>
+   <widget class="QLineEdit" name="leArticleName">
+     <property name="enabled">
+       <bool>false</bool>
+     </property>
+     <property name="geometry">
+       <rect>
+         <x>80</x>
+         <y>50</y>
+         <width>160</width>
+         <height>20</height>
+       </rect>
+     </property>
+     <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+       </sizepolicy>
+     </property>
+   </widget>
+  <widget class="QLabel" name="lblQuantity">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>20</y>
+     <width>110</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quantity:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leQuantity">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>20</y>
+     <width>60</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblOwnQuotaQty">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>50</y>
+     <width>110</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Own Quota Qty:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leOwnQuotaQty">
+    <property name="geometry">
+      <rect>
+        <x>370</x>
+        <y>50</y>
+        <width>60</width>
+        <height>20</height>
+      </rect>
+    </property>
+    <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+      </sizepolicy>
+    </property>
+  </widget>
+  <widget class="QLabel" name="lblDiscount">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>20</y>
+     <width>110</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Discount [%]:</string>
+   </property>
+  </widget>
+   <widget class="QLineEdit" name="leDiscount">
+     <property name="geometry">
+       <rect>
+         <x>570</x>
+         <y>20</y>
+         <width>80</width>
+         <height>20</height>
+       </rect>
+     </property>
+     <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+       </sizepolicy>
+     </property>
+   </widget>
+  <widget class="QCheckBox" name="cbOwnQuotaFlag">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>50</y>
+     <width>110</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Own Quota</string>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cbRecallFlag">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>50</y>
+     <width>120</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Recall Flag</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblDiscountCalcFrom">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>20</y>
+     <width>120</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Discount calc. from:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cmbDiscountCalcFrom">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>20</y>
+     <width>60</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+   <widget class="QLabel" name="lblDiscountApplyTo">
+     <property name="geometry">
+       <rect>
+         <x>700</x>
+         <y>50</y>
+         <width>120</width>
+         <height>20</height>
+       </rect>
+     </property>
+     <property name="text">
+       <string>Discount applied to:</string>
+     </property>
+   </widget>
+   <widget class="QComboBox" name="cmbDiscountApplyTo">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>50</y>
+     <width>60</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>leArticleCode</tabstop>
+  <tabstop>leArticleName</tabstop>
+  <tabstop>leQuantity</tabstop>
+  <tabstop>leDiscount</tabstop>
+  <tabstop>leOwnQuotaQty</tabstop>
+  <tabstop>cbOwnQuotaFlag</tabstop>
+  <tabstop>leArticleNo</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

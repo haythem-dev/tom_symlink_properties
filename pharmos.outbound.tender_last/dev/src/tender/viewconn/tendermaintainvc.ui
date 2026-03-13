@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TenderMaintainVC</class>
+ <widget class="QDialog" name="TenderMaintainVC">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1061</width>
+    <height>781</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TDR-03 Tender Maintenance</string>
+  </property>
+  <widget class="QGroupBox" name="gbDetails">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>1041</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Details</string>
+   </property>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>1021</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tbItems">
+     <attribute name="title">
+      <string>Items</string>
+     </attribute>
+     <widget class="BasarTableWidget" name="tblItems">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>991</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectRows</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbAddItem">
+      <property name="geometry">
+       <rect>
+        <x>920</x>
+        <y>466</y>
+        <width>91</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add item</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbDeleteItem">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>400</y>
+        <width>91</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Delete item</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbModifyItem">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>400</y>
+        <width>91</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Modify item</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbCancelModifyItem">
+      <property name="geometry">
+       <rect>
+        <x>920</x>
+        <y>436</y>
+        <width>91</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbNewItem">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>400</y>
+        <width>91</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>New item</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pbAddAndNewItem">
+      <property name="geometry">
+       <rect>
+        <x>920</x>
+        <y>496</y>
+        <width>91</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add &amp;&amp; New</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>430</y>
+        <width>901</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="articleInfoLayout"/>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tbScheduling">
+     <attribute name="title">
+      <string>Scheduling</string>
+     </attribute>
+     <widget class="QGroupBox" name="grpDeliveries">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>391</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Deliveries</string>
+      </property>
+      <widget class="BasarTableWidget" name="tblDeliveries">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>351</width>
+         <height>411</height>
+        </rect>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <property name="selectionBehavior">
+        <enum>QAbstractItemView::SelectRows</enum>
+       </property>
+      </widget>
+      <widget class="QWidget" name="horizontalLayoutWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>450</y>
+         <width>374</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QPushButton" name="pbAddDelivery">
+          <property name="text">
+           <string>Add delivery...</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pbModifyDelivery">
+          <property name="text">
+           <string>Modify delivery...</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pbClone">
+          <property name="text">
+           <string>Clone delivery...</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pbDeleteDelivery">
+          <property name="text">
+           <string>Delete delivery</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="grpDeliveryItems">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>10</y>
+        <width>591</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Delivery items</string>
+      </property>
+      <widget class="BasarTableWidget" name="tblDeliveryItems">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>551</width>
+         <height>411</height>
+        </rect>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <property name="selectionBehavior">
+        <enum>QAbstractItemView::SelectRows</enum>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pbSave">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>750</y>
+     <width>115</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbClose">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>750</y>
+     <width>115</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbSaveAndContinue">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>750</y>
+     <width>115</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Save &amp;&amp; Continue</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1041</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="contractInfoLayout">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetNoConstraint</enum>
+    </property>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pbCreateOrders">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>750</y>
+     <width>115</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Create Orders</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>BasarTableWidget</class>
+   <extends>QTableWidget</extends>
+   <header>libbasarqtwidget_tablewidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>pbNewItem</tabstop>
+  <tabstop>pbModifyItem</tabstop>
+  <tabstop>pbDeleteItem</tabstop>
+  <tabstop>pbAddAndNewItem</tabstop>
+  <tabstop>pbAddItem</tabstop>
+  <tabstop>pbCancelModifyItem</tabstop>
+  <tabstop>pbSave</tabstop>
+  <tabstop>pbSaveAndContinue</tabstop>
+  <tabstop>pbClose</tabstop>
+  <tabstop>pbAddDelivery</tabstop>
+  <tabstop>pbModifyDelivery</tabstop>
+  <tabstop>tblDeliveries</tabstop>
+  <tabstop>pbClone</tabstop>
+  <tabstop>pbDeleteDelivery</tabstop>
+  <tabstop>tblDeliveryItems</tabstop>
+  <tabstop>tblItems</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

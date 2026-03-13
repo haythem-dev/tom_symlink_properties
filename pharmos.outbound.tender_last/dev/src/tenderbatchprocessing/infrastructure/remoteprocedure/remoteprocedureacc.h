@@ -1,0 +1,21 @@
+#ifndef GUARD_TENDERBATCHPROCESSING_INFRASTRUCTURE_ACCESSOR_REMOTE_PROCEDURE_ACC_H
+#define GUARD_TENDERBATCHPROCESSING_INFRASTRUCTURE_ACCESSOR_REMOTE_PROCEDURE_ACC_H
+
+#include <libutil/accessor.h>
+
+namespace tenderbatchprocessing
+{
+namespace infrastructure
+{
+namespace accessor
+{
+namespace remoteProcedure
+{
+	BEGIN_QUERY_BUILDER_DECLARATION( CallRemoteProcedure )
+	END_BUILDER_DECLARATION
+}
+}
+}
+}
+
+#endif //end GUARD_TENDERBATCHPROCESSING_INFRASTRUCTURE_ACCESSOR_REMOTE_PROCEDURE_ACC_H

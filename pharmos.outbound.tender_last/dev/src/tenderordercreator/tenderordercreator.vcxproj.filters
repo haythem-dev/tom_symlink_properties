@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{028F4CB2-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\ApplController">
+      <UniqueIdentifier>{028F4D40-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase">
+      <UniqueIdentifier>{028F4DBE-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\MainUC">
+      <UniqueIdentifier>{028F4E9D-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure">
+      <UniqueIdentifier>{028F54A3-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\CommandLine">
+      <UniqueIdentifier>{028F5501-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Login">
+      <UniqueIdentifier>{028F555E-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers">
+      <UniqueIdentifier>{028F589D-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ApplCompMgr">
+      <UniqueIdentifier>{028F58FB-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ApplCompMgr\Impl">
+      <UniqueIdentifier>{028F5A11-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\InfrastructureCompMgr">
+      <UniqueIdentifier>{028F5A6E-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LoggerPool">
+      <UniqueIdentifier>{d0e6ac91-1273-4376-ab5f-79e93bea3c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules">
+      <UniqueIdentifier>{b19ca0ae-1662-4c67-b492-df52be17e837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions">
+      <UniqueIdentifier>{484c4413-fc29-4703-82e2-ab9bfe7082c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ApplCompMgr\Interface">
+      <UniqueIdentifier>{028F5958-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ApplCompMgr\Interface\UseCaseGetter">
+      <UniqueIdentifier>{028F59B5-6BF6-1014-A801-0F8A44E7906D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ApplCompMgr\Interface\CmdLineParameterGetter">
+      <UniqueIdentifier>{143e861b-367f-4db3-827d-eb67e87b713e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\CommandLine\CmdLineArguments">
+      <UniqueIdentifier>{88834003-24bc-4f3f-969c-cd20197d7eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Setup">
+      <UniqueIdentifier>{d47b0dcf-2215-4371-bd63-81aed8d89314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Setup\Impl">
+      <UniqueIdentifier>{85a9d4ff-d6c6-4105-ab66-1045fdcc2ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Setup\Interface">
+      <UniqueIdentifier>{2f61d24b-7eaf-48cf-89ac-9f7f763af53c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\MailAlerter">
+      <UniqueIdentifier>{35b43463-d3fa-4e1e-bbc1-6911af70bbc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\MailAlerter\Alert">
+      <UniqueIdentifier>{515b8f08-8790-4ed7-aa96-daec6c4ce5b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\MailAlerter\Alert\Impl">
+      <UniqueIdentifier>{26491594-69b7-471c-8a2f-70e2dc28115d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\MailAlerter\Alert\Interface">
+      <UniqueIdentifier>{bf7a647b-f900-4975-af86-18886af424c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\MailAlerter\ParameterProxy">
+      <UniqueIdentifier>{890344a5-be05-4984-b750-10412a4a81c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\MailAlerter\ParameterProxy\Interface">
+      <UniqueIdentifier>{2665f8df-ed16-4828-8fd5-108f0c5dcf21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\MailAlerter\ParameterProxy\Impl">
+      <UniqueIdentifier>{248c9650-c272-4b5f-85df-1c7f25bdc4ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="infrastructure\tenderordercreatorapplctrl.cpp">
+      <Filter>Main\ApplController</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\mainuc.cpp">
+      <Filter>UseCase\MainUC</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\tenderordercreatorcmdlineevaluator.cpp">
+      <Filter>Infrastructure\CommandLine</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="loggerpool\loggerpool.cpp">
+      <Filter>LoggerPool</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\tenderordercreatorapplcompmgr.cpp">
+      <Filter>ComponentManagers\ApplCompMgr\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\tenderordercreatorinfrastructurecompmgr.cpp">
+      <Filter>ComponentManagers\InfrastructureCompMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\tenderordercreatorinfrastructuresetup.cpp">
+      <Filter>Infrastructure\Setup\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\mail\mailalert.cpp">
+      <Filter>Infrastructure\MailAlerter\Alert\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\mail\mailparameterproxy.cpp">
+      <Filter>Infrastructure\MailAlerter\ParameterProxy\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="version.c">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="infrastructure\tenderordercreatorapplctrl.h">
+      <Filter>Main\ApplController</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\mainuc.h">
+      <Filter>UseCase\MainUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\mainucptr.h">
+      <Filter>UseCase\MainUC</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\tenderordercreatorcmdlineevaluator.h">
+      <Filter>Infrastructure\CommandLine</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\login_definitions.h">
+      <Filter>Infrastructure\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="tenderordercreator_definitions.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="loggerpool\loggerpool.h">
+      <Filter>LoggerPool</Filter>
+    </ClInclude>
+    <ClInclude Include="tenderordercreator_property_definitions.h">
+      <Filter>DomainModules</Filter>
+    </ClInclude>
+    <ClInclude Include="icmdlineparametergetter.h">
+      <Filter>ComponentManagers\ApplCompMgr\Interface\CmdLineParameterGetter</Filter>
+    </ClInclude>
+    <ClInclude Include="icmdlineparametergetterptr.h">
+      <Filter>ComponentManagers\ApplCompMgr\Interface\CmdLineParameterGetter</Filter>
+    </ClInclude>
+    <ClInclude Include="tenderordercreatorcmelinearguments.h">
+      <Filter>Infrastructure\CommandLine\CmdLineArguments</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\tenderordercreatorcmdline_definitions.h">
+      <Filter>Infrastructure\CommandLine</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\tenderordercreatorapplcompmgrptr.h">
+      <Filter>ComponentManagers\ApplCompMgr\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\tenderordercreatorapplcompmgr.h">
+      <Filter>ComponentManagers\ApplCompMgr\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\tenderordercreatorinfrastructurecompmgrptr.h">
+      <Filter>ComponentManagers\InfrastructureCompMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\tenderordercreatorinfrastructurecompmgr.h">
+      <Filter>ComponentManagers\InfrastructureCompMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\iusecasegetter.h">
+      <Filter>ComponentManagers\ApplCompMgr\Interface\UseCaseGetter</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\iusecasegetterptr.h">
+      <Filter>ComponentManagers\ApplCompMgr\Interface\UseCaseGetter</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\itenderordercreatorlogingetter.h">
+      <Filter>Infrastructure\Setup\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\itenderordercreatorlogingetterptr.h">
+      <Filter>Infrastructure\Setup\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\tenderordercreatorinfrastructuresetup.h">
+      <Filter>Infrastructure\Setup\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\tenderordercreatorinfrastructuresetupptr.h">
+      <Filter>Infrastructure\Setup\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\imailalert.h">
+      <Filter>Infrastructure\MailAlerter\Alert\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\imailalertptr.h">
+      <Filter>Infrastructure\MailAlerter\Alert\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\mailalert.h">
+      <Filter>Infrastructure\MailAlerter\Alert\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\mailalertptr.h">
+      <Filter>Infrastructure\MailAlerter\Alert\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\imailparameterproxy.h">
+      <Filter>Infrastructure\MailAlerter\ParameterProxy\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\imailparameterproxyptr.h">
+      <Filter>Infrastructure\MailAlerter\ParameterProxy\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\mailparameterproxy.h">
+      <Filter>Infrastructure\MailAlerter\ParameterProxy\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\mailparameterproxyptr.h">
+      <Filter>Infrastructure\MailAlerter\ParameterProxy\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\mailparameterkeys.h">
+      <Filter>Infrastructure\MailAlerter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

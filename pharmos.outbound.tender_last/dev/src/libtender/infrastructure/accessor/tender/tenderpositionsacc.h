@@ -1,0 +1,43 @@
+#ifndef GUARD_LIBTENDER_INFRASTRUCTURE_ACCESSOR_TENDERPOSITIONSACC_H
+#define GUARD_LIBTENDER_INFRASTRUCTURE_ACCESSOR_TENDERPOSITIONSACC_H
+
+//
+//
+//using basar::db::aspect::SQLStringBuilder;
+
+namespace libtender
+{
+namespace infrastructure
+{
+namespace accessor
+{
+namespace tender
+{
+BEGIN_QUERY_BUILDER_DECLARATION( SelectTenderPositionsByKeyFR )
+END_BUILDER_DECLARATION
+
+BEGIN_QUERY_BUILDER_DECLARATION( SelectTenderPositionsByKeyRS )
+END_BUILDER_DECLARATION
+
+BEGIN_QUERY_BUILDER_DECLARATION( SelectTenderPositionsByKeyBG )
+END_BUILDER_DECLARATION
+
+BEGIN_QUERY_BUILDER_DECLARATION( SelectTenderPositionsByKeyCH )
+END_BUILDER_DECLARATION
+
+BEGIN_WRITE_BUILDER_DECLARATION( InsertTenderPosition )
+END_BUILDER_DECLARATION
+
+BEGIN_WRITE_BUILDER_DECLARATION( UpdateTenderPosition )
+END_BUILDER_DECLARATION
+
+BEGIN_WRITE_BUILDER_DECLARATION( DeleteTenderPosition )
+END_BUILDER_DECLARATION
+
+} // end namespace tender
+} // end namespace accessor
+} // end namespace infrastructure
+} // end namespace libtender
+
+#endif //end GUARD_LIBTENDER_INFRASTRUCTURE_ACCESSOR_TENDERPOSITIONSACC_H
+

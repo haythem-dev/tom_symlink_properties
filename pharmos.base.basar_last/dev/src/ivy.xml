@@ -1,0 +1,50 @@
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one
+   or more contributor license agreements.  See the NOTICE file
+   distributed with this work for additional information
+   regarding copyright ownership.  The ASF licenses this file
+   to you under the Apache License, Version 2.0 (the
+   "License"); you may not use this file except in compliance
+   with the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing,
+   software distributed under the License is distributed on an
+   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+   KIND, either express or implied.  See the License for the
+   specific language governing permissions and limitations
+   under the License.
+-->
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+  <info organisation="eu.phoenixgroup" module="ssuk" revision="01.14.01.04-${platform}"/>
+
+  <configurations>
+    <conf name="win64"/>
+    <conf name="win32"/>
+    <conf name="aix"/>
+    <conf name="compile" visibility="private"/>
+  </configurations>
+
+  <publications>
+    <artifact name="ssuk" type="zip" ext="zip"    conf="win64"/>
+    <artifact name="ssuk" type="zip" ext="zip"    conf="win32"/>
+    <artifact name="ssuk" type="zip" ext="tar.gz" conf="aix"/>
+  </publications>
+
+  <dependencies>
+    <dependency org="org.boost"       name="boost"              rev="1.70.0-1-${platform}"/>
+    <dependency org="net.sourceforge" name="log4cplus"          rev="1.2.2-7-${platform}"/>
+    <dependency org="com.ghostscript" name="ghostscript"        rev="10.02.0-${platform}"       conf="compile->*"/>
+    <dependency org="org.libssh2"     name="libssh2"            rev="1.8.1-7-${platform}"      conf="compile->*"/>
+    <dependency org="org.openldap"    name="openldap"           rev="2.4.47-6-${platform}"     conf="aix+compile->*"/>
+    <dependency org="com.bossoftware" name="tcaccess_libraries" rev="08.00-SP20-4-${platform}" conf="win32+compile,win64+compile->*"/>
+    <dependency org="com.github"      name="unittestpp"         rev="2.0.0-6-${platform}"      conf="compile->*"/>
+    <dependency org="io.qt"           name="qt5"                rev="5.13.0-2-${platform}"     conf="win32,win64"/>
+    <dependency org="io.qt"           name="qt5"                rev="5.13.0-2-${platform}"     conf="win32+compile,win64+compile->*"/>
+    <dependency org="io.qt"           name="qt5"                rev="5.6.3-5-${platform}"      conf="aix"/>
+    <dependency org="io.qt"           name="qt5"                rev="5.6.3-5-${platform}"      conf="aix+compile->*"/>
+    <dependency org="nl.doxygen"      name="doxygen"            rev="1.8.15-1-${platform}"     conf="win32+compile,win64+compile->*"/>
+    <dependency org="eu.phoenixgroup" name="uadm"               rev="01.03.07.05-${platform}"          conf="win64+compile->*"/>
+  </dependencies>
+</ivy-module>

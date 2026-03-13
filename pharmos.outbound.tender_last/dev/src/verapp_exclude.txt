@@ -1,0 +1,30 @@
+;exclude.txt
+;
+;List of files which should be excluded from vera++ processing.
+;The path is relative to the path where the command was executed.
+;
+
+;generatedfiles
+tender\viewconn\GeneratedFiles\Debug\moc_mainvc.cpp
+tender\viewconn\GeneratedFiles\Debug\moc_tendermaintainvc.cpp
+tender\viewconn\GeneratedFiles\Debug\moc_tenderoverviewvc.cpp
+tender\viewconn\GeneratedFiles\Debug\moc_tendersearchcriteriafrance.cpp
+tender\viewconn\GeneratedFiles\Debug\moc_tendersearchcriteriabulgaria.cpp
+tender\viewconn\GeneratedFiles\Debug\moc_tendersearchcriteriaserbia.cpp
+tender\viewconn\GeneratedFiles\Release\moc_mainvc.cpp
+tender\viewconn\GeneratedFiles\Release\moc_tendermaintainvc.cpp
+tender\viewconn\GeneratedFiles\Release\moc_tenderoverviewvc.cpp
+tender\viewconn\GeneratedFiles\Release\moc_tendersearchcriteriafrance.cpp
+tender\viewconn\GeneratedFiles\Release\moc_tendersearchcriteriabulgaria.cpp
+tender\viewconn\GeneratedFiles\Release\moc_tendersearchcriteriaserbia.cpp
+
+
+;ui files
+tender\viewconn\GeneratedFiles\ui_mainwindow.h
+tender\viewconn\GeneratedFiles\ui_tendermaintainvc.h
+tender\viewconn\GeneratedFiles\ui_tenderoverviewvc.h
+tender\viewconn\GeneratedFiles\ui_tendersearchcriteriafrance.h
+tender\viewconn\GeneratedFiles\ui_tendersearchcriteriabulgaria.h
+tender\viewconn\GeneratedFiles\ui_tendersearchcriteriaserbia.h
+
+

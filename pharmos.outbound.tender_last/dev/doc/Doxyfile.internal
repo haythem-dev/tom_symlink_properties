@@ -1,0 +1,13 @@
+@INCLUDE               = Doxyfile
+
+OUTPUT_DIRECTORY       = ./codedocu/internal
+LAYOUT_FILE            = DoxygenLayout.xml
+INTERNAL_DOCS          = YES
+INPUT                  = ../src/libtender/tender_version.h
+ALIASES                = "en=\par Recent changes:" \
+                         "de=\par Änderungen:" \
+                         "customer=\if customer" \
+                         "endcustomer=\endif"
+
+ENABLED_SECTIONS       =
+INTERNAL_DOCS          = YES

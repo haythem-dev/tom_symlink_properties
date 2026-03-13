@@ -1,0 +1,37 @@
+#ifndef GUARD_TENDERBATCHPROCESSING_PROPERTY_DEFINITIONS_H
+#define GUARD_TENDERBATCHPROCESSING_PROPERTY_DEFINITIONS_H
+
+#include <libbasarproperty_definitions.h>
+#include <libbasarproperty_propertydescription.h>
+#include <libbasarproperty_definitions.h>
+
+namespace tenderbatchprocessing
+{
+namespace properties
+{
+    CONST_PROPERTY_DESCRIPTION( ARTICLE_NAME, "articlename", basar::STRING )
+    CONST_PROPERTY_DESCRIPTION( ARTICLE_NO, "articleno", basar::INT32 )
+    CONST_PROPERTY_DESCRIPTION( BRANCH_NO, "branchno", basar::INT16 )
+    CONST_PROPERTY_DESCRIPTION( BASE_PRICE, "baseprice", basar::DECIMAL )
+    CONST_PROPERTY_DESCRIPTION( CUSTOMER_NO, "customerno", basar::INT32 )
+    CONST_PROPERTY_DESCRIPTION( DELIVERY_QTY, "deliveryqty", basar::INT32 )
+    CONST_PROPERTY_DESCRIPTION( DISCOUNT_PCT, "discountpct", basar::DECIMAL )
+    CONST_PROPERTY_DESCRIPTION( DOSAGE, "dosage", basar::STRING )
+    CONST_PROPERTY_DESCRIPTION( INVOICE_DATE, "invoicedate", basar::INT32 )
+    CONST_PROPERTY_DESCRIPTION( INVOICE_NO, "invoiceno", basar::INT32 )
+    CONST_PROPERTY_DESCRIPTION( INVOICE_TIME, "invoicetime", basar::INT32 )
+    CONST_PROPERTY_DESCRIPTION( ORDER_DATE, "orderdate", basar::INT32 )
+    CONST_PROPERTY_DESCRIPTION( ORDER_NO, "orderno", basar::INT32 )
+    CONST_PROPERTY_DESCRIPTION( PHARMACY_GROUPID, "pharmacygroupid", basar::STRING )
+    CONST_PROPERTY_DESCRIPTION( SUPPLIER_NO, "supplierno", basar::INT32 )
+    CONST_PROPERTY_DESCRIPTION( TRANSFERRED_FLAG, "transferredflag", basar::INT16 )
+    CONST_PROPERTY_DESCRIPTION( TENDER_NO, "tenderno", basar::INT32 )
+    CONST_PROPERTY_DESCRIPTION( UNIT, "unit", basar::STRING )
+
+	CONST_PROPERTY_DESCRIPTION( PROCEDURE_NAME, "procedure_name", basar::STRING )
+	CONST_PROPERTY_DESCRIPTION( PROCEDURE_DATA, "procedure_data", basar::STRING )
+	CONST_PROPERTY_DESCRIPTION( PROCEDURE_RESULT, "param", basar::STRING )
+}
+}
+
+#endif //GUARD_TENDERBATCHPROCESSING_PROPERTY_DEFINITIONS_H

@@ -1,0 +1,1523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Multilang">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="UseCase">
+      <UniqueIdentifier>{6f23af3b-0c06-475d-9abc-331f2cab67c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector">
+      <UniqueIdentifier>{a1e69cdb-76e7-49a6-b8e4-ea06c53447a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\MainVC">
+      <UniqueIdentifier>{f0d759ef-c7fb-46e7-9748-1b3fac1ac85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+    </Filter>
+    <Filter Include="Infrastructure">
+      <UniqueIdentifier>{f1a31a59-caf2-416d-8e63-ff58009e36d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\Generated Files\Debug">
+      <UniqueIdentifier>{198c1e02-2956-4a9d-a555-204683d7e13c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+    </Filter>
+    <Filter Include="ComponentManagers">
+      <UniqueIdentifier>{9a7c526f-4241-431b-944e-c50d5f6dc8f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ApplCompMgr">
+      <UniqueIdentifier>{a463d05c-81ca-4b86-ae7e-d846f8477d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ApplCompMgr\Interface">
+      <UniqueIdentifier>{2b33778f-3c84-4260-8eca-720d2ca3a034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ApplCompMgr\Interface\UseCaseGetter">
+      <UniqueIdentifier>{65854fc7-f784-4a2e-9ea5-952be45baaee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\ApplCompMgr\Impl">
+      <UniqueIdentifier>{07cb2f23-66a5-44a1-bb17-df52b2fe4f33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManagers\InfrastructureCompMgr">
+      <UniqueIdentifier>{0c0dad1e-69ee-42ab-bbe5-45785c545eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\TenderMaintainVC">
+      <UniqueIdentifier>{c1fecc8e-4ebf-43c0-aead-7c3cf59648b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\TenderMaintainUC">
+      <UniqueIdentifier>{df343a7e-fa8e-4090-8292-993f6b807a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\TenderOverviewVC">
+      <UniqueIdentifier>{fb6f57c1-ceda-4021-8bde-1aab495c1413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\TenderOverviewVC\TenderSearchCriteria">
+      <UniqueIdentifier>{7f3b7888-4151-4600-9570-ba2792b5c35c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\TenderOverviewVC\TenderSearchCriteria\Serbia">
+      <UniqueIdentifier>{0f13fd13-2eda-45df-9637-df75f806a4ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\TenderOverviewVC\TenderSearchCriteria\France">
+      <UniqueIdentifier>{74723877-bc99-42be-979c-3859256ae112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\Generated Files\Release">
+      <UniqueIdentifier>{3707d09e-8df3-4d05-9631-6dc653c3e8ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\Generated Files\Template">
+      <UniqueIdentifier>{c6a0ece8-d632-43cc-b6bf-86173ddbe2f4}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="ViewConnector\Generated Files\Test">
+      <UniqueIdentifier>{267ed34c-1719-4999-b937-8cd837fd7cec}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="ViewConnector\Generated Files\UnitTest_Release">
+      <UniqueIdentifier>{515a6393-48cc-4c4e-a605-c87a9ad9269a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="ViewConnector\Generated Files\UnitTest">
+      <UniqueIdentifier>{516fad5e-eb21-48fb-9351-1d4ef20ab551}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="ViewConnector\TenderOverviewVC\TenderSearchCriteria\Bulgaria">
+      <UniqueIdentifier>{ee535f0d-c93f-46c8-a4f1-3eb63508acf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\PickerVC">
+      <UniqueIdentifier>{fb6bbe7d-dc86-4ca8-850b-cfa73de4d0f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\PickerVC\Article">
+      <UniqueIdentifier>{c48232b1-ef9e-4599-809c-e2ff3b907966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\PickerVC\Partner">
+      <UniqueIdentifier>{855e4c59-2ffe-4b6c-8ba3-568b4c8e9b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\PickerVC\Customer">
+      <UniqueIdentifier>{7b60407a-997d-4ccc-98ac-92a78426553f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\PickerUC">
+      <UniqueIdentifier>{b98d7483-bbd3-4d1c-af5c-a3a79d658622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\PickerUC\Article">
+      <UniqueIdentifier>{18d36a5a-f214-4f53-ba2e-8a97e2d088f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\PickerUC\Partner">
+      <UniqueIdentifier>{00973212-0845-473b-87b6-bb83685e37b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\PickerUC\Customer">
+      <UniqueIdentifier>{5ad705a0-519c-4466-8714-2a6048d10cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\ScheduledDeliveryMaintainUC">
+      <UniqueIdentifier>{87dee3a9-58fb-4922-aa62-20c3c4e6e4d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\PickerUC\Interface">
+      <UniqueIdentifier>{b8a8ed5c-0274-4cc9-8aee-22ed10fd7b46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\Util">
+      <UniqueIdentifier>{a45f0f08-f861-447d-91bd-24bcfb614300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\MainUC">
+      <UniqueIdentifier>{00734cd1-bdbe-4d12-a98e-992dfde8615b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\TenderImportUC">
+      <UniqueIdentifier>{3157ec42-d2d9-4e31-8cd7-ed5e6914fe32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\TenderImportVC">
+      <UniqueIdentifier>{37779699-e652-4718-a685-5601f6734de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\PickerVC\PharmacyChain">
+      <UniqueIdentifier>{71b043cc-a06e-4a89-aee0-867fcd780ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\PickerUC\PharmacyChain">
+      <UniqueIdentifier>{07a663ea-bea1-49eb-8ee1-995ad17c6f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\TenderMaintainVC\ContractInfo">
+      <UniqueIdentifier>{9b51649b-ec52-40f7-96d9-6cf64cd30fb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\TenderMaintainVC\ContractInfo\Bulgaria">
+      <UniqueIdentifier>{2b75b92a-39f8-4a09-b55d-f56c35187109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\TenderMaintainVC\ContractInfo\France">
+      <UniqueIdentifier>{ddf6fbfb-d980-42ca-b6c8-89838025a65c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\TenderMaintainVC\ContractInfo\Serbia">
+      <UniqueIdentifier>{ddf544f1-1197-4709-84b5-370bdc1300df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\CustomerListMaintainVC">
+      <UniqueIdentifier>{a2fb4d55-39cc-4ea7-a475-e7e38417f17e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\CustomerListMaintainUC">
+      <UniqueIdentifier>{50fdaf1b-4afb-4c9a-87c8-bfb2ef3d1802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\TenderInvoiceVC">
+      <UniqueIdentifier>{f9575ea0-23fb-4b37-abc7-6e7bffdb7c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\TenderInvoiceUC">
+      <UniqueIdentifier>{d0b0eb3a-5760-490d-9028-d1a06170496c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\ScheduledDeliveryMaintainVC">
+      <UniqueIdentifier>{65fddc54-7fea-4b4a-901f-ed7721ad8bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\TenderOverviewUC">
+      <UniqueIdentifier>{c39e67f5-e3a0-4817-acb6-e81f1d8ef0b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\TenderProtocolVC">
+      <UniqueIdentifier>{2b6a360a-e2de-4bdd-98f1-30c8ad3f8c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\TenderProtocolUC">
+      <UniqueIdentifier>{6a90da6c-ff3e-4dbc-8180-1b4177aa117b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\TenderMaintainVC\ContractInfo\Switzerland">
+      <UniqueIdentifier>{43f2f2c7-b293-4809-97aa-1a6fe19bd56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\TenderOverviewVC\TenderSearchCriteria\Switzerland">
+      <UniqueIdentifier>{9951de5b-4993-4576-a4ff-be0be40cf63d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\TenderMaintainVC\ArticleDetail">
+      <UniqueIdentifier>{1da7990c-8c7e-4b1a-9841-63462df5f9de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\TenderMaintainVC\ArticleDetail\Switzerland">
+      <UniqueIdentifier>{cb72f0a5-2eab-4ed3-8950-047266bc8d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\TenderMaintainVC\ArticleDetail\Others">
+      <UniqueIdentifier>{ed659793-2219-41db-b8fa-ccaef847d4eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\OMGOrderUC">
+      <UniqueIdentifier>{259445e8-719f-454f-8a31-a87b3cde901c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\PickerUC\PharmacyGroup">
+      <UniqueIdentifier>{cf9665fb-e9cb-4a5b-893c-f76f8ef67746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\CSCOrderUC">
+      <UniqueIdentifier>{89c83635-d059-463d-a0b1-abf71aea9d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\CSCOrderMaintainUC">
+      <UniqueIdentifier>{e94a0653-83b3-4b70-8ff8-bd025cf63ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\CSCOrderMaintainVC">
+      <UniqueIdentifier>{3931935a-0e5b-43f7-943f-9058047a11f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\TenderStateUC">
+      <UniqueIdentifier>{dfc447b2-1be8-4968-80b6-2fff26e4e1d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\PickerVC\Supplier">
+      <UniqueIdentifier>{0b0ab6f7-5629-4a88-89be-a191218ca78f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\PickerUC\Supplier">
+      <UniqueIdentifier>{37fba132-a4e8-4ad2-a65e-a68f10701939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Setup">
+      <UniqueIdentifier>{039a91a3-a9ad-490d-9e22-c0f0e420357d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\CustomerSelectionVC">
+      <UniqueIdentifier>{ef700277-9b04-494f-9600-73913834074a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCase\CustomerSelectionUC">
+      <UniqueIdentifier>{86bb403f-3a97-433d-a3a7-41dda9a02eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{869424f9-92a7-45ac-92a6-5850ed0f26b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\ApplController">
+      <UniqueIdentifier>{aad9292c-8d94-467f-8fcc-059d7f352fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnector\PickerVC\PharmacyGroup">
+      <UniqueIdentifier>{bac6a03d-1162-4a15-9114-6c7b13bc15d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Dateien">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="ViewConnector\Transformer">
+      <UniqueIdentifier>{59652c9c-7256-4c7e-b58d-98c481599c52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="usecase\mainuc.cpp">
+      <Filter>UseCase\MainUC</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\mainvc.cpp">
+      <Filter>ViewConnector\MainVC</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\tenderapplcompmgr.cpp">
+      <Filter>ComponentManagers\ApplCompMgr\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_mainvc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\tendermaintainvc.cpp">
+      <Filter>ViewConnector\TenderMaintainVC</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_tendermaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\tenderinfrastructurecompmgr.cpp">
+      <Filter>ComponentManagers\InfrastructureCompMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\tenderapplctrl.cpp">
+      <Filter>Main\ApplController</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\tendermaintainuc.cpp">
+      <Filter>UseCase\TenderMaintainUC</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_tendersearchcriteriafrance.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\tenderoverviewuc.cpp">
+      <Filter>UseCase\TenderOverviewUC</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\tenderoverviewvc.cpp">
+      <Filter>ViewConnector\TenderOverviewVC</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_tenderoverviewvc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\tendersearchcriteriafrance.cpp">
+      <Filter>ViewConnector\TenderOverviewVC\TenderSearchCriteria\France</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\tendersearchcriteriabulgaria.cpp">
+      <Filter>ViewConnector\TenderOverviewVC\TenderSearchCriteria\Bulgaria</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\tendersearchcriteriaserbia.cpp">
+      <Filter>ViewConnector\TenderOverviewVC\TenderSearchCriteria\Serbia</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_mainvc.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_tendermaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_tenderoverviewvc.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_tendersearchcriteriafrance.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\articlepickeruc.cpp">
+      <Filter>UseCase\PickerUC\Article</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\articlepickervc.cpp">
+      <Filter>ViewConnector\PickerVC\Article</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_articlepickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_articlepickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_articlepickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_articlepickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_articlepickervc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_articlepickervc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\partnerpickeruc.cpp">
+      <Filter>UseCase\PickerUC\Partner</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\partnerpickervc.cpp">
+      <Filter>ViewConnector\PickerVC\Partner</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\customerpickervc.cpp">
+      <Filter>ViewConnector\PickerVC\Customer</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\customerpickeruc.cpp">
+      <Filter>UseCase\PickerUC\Customer</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_partnerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_partnerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_partnerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_partnerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_partnerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_partnerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\scheduleddeliverymaintainvc.cpp">
+      <Filter>ViewConnector\ScheduledDeliveryMaintainVC</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\scheduleddeliverymaintainuc.cpp">
+      <Filter>UseCase\ScheduledDeliveryMaintainUC</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\util.cpp">
+      <Filter>ViewConnector\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\doublevalidator.cpp">
+      <Filter>ViewConnector\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\inputvalidator.cpp">
+      <Filter>ViewConnector\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_inputvalidator.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_inputvalidator.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_inputvalidator.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_inputvalidator.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_inputvalidator.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_inputvalidator.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\qvalidatoritemdelegate.cpp">
+      <Filter>ViewConnector\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\businesstypetransformer.cpp">
+      <Filter>ViewConnector\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\checkboxtabletransformer.cpp">
+      <Filter>ViewConnector\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\tenderimport\tenderimportfilereader.cpp">
+      <Filter>UseCase\TenderImportUC</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\tenderimport\tenderimportparser.cpp">
+      <Filter>UseCase\TenderImportUC</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\tenderimport\tenderimportuc.cpp">
+      <Filter>UseCase\TenderImportUC</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\tenderimport\tenderimportvc.cpp">
+      <Filter>ViewConnector\TenderImportVC</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_tenderimportvc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_tenderimportvc.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_tenderimportvc.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_tenderimportvc.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_tenderimportvc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_tenderimportvc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\tenderimport\tenderimportchecker.cpp">
+      <Filter>UseCase\TenderImportUC</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\pharmacychainpickervc.cpp">
+      <Filter>ViewConnector\PickerVC\PharmacyChain</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_pharmacychainpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_pharmacychainpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_pharmacychainpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_pharmacychainpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_pharmacychainpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_pharmacychainpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\pharmacychainpickeruc.cpp">
+      <Filter>UseCase\PickerUC\PharmacyChain</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\tendercontractinfofrance.cpp">
+      <Filter>ViewConnector\TenderMaintainVC\ContractInfo\France</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_tendercontractinfofrance.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_tendercontractinfofrance.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_tendercontractinfofrance.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_tendercontractinfofrance.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_tendercontractinfofrance.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_tendercontractinfofrance.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_tendersearchcriteriaserbia.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_tendersearchcriteriaserbia.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_tendersearchcriteriaserbia.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_tendersearchcriteriaserbia.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_tendersearchcriteriaserbia.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_tendersearchcriteriaserbia.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\tendercontractinfoserbia.cpp">
+      <Filter>ViewConnector\TenderMaintainVC\ContractInfo\Serbia</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_tendercontractinfoserbia.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_tendercontractinfoserbia.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_tendercontractinfoserbia.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_tendercontractinfoserbia.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_tendercontractinfoserbia.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_tendercontractinfoserbia.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\tendercontractinfobulgaria.cpp">
+      <Filter>ViewConnector\TenderMaintainVC\ContractInfo\Bulgaria</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_tendersearchcriteriabulgaria.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_tendersearchcriteriabulgaria.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_tendersearchcriteriabulgaria.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_tendersearchcriteriabulgaria.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_tendersearchcriteriabulgaria.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_tendersearchcriteriabulgaria.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_tendercontractinfobulgaria.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_tendercontractinfobulgaria.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_tendercontractinfobulgaria.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_tendercontractinfobulgaria.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_tendercontractinfobulgaria.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_tendercontractinfobulgaria.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\customerlistmaintainvc.cpp">
+      <Filter>ViewConnector\CustomerListMaintainVC</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\customerlistmaintainuc.cpp">
+      <Filter>UseCase\CustomerListMaintainUC</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_customerlistmaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_customerlistmaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_customerlistmaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_customerlistmaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_customerlistmaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_customerlistmaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\tenderinvoicesvc.cpp">
+      <Filter>ViewConnector\TenderInvoiceVC</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_tenderinvoicesvc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_tenderinvoicesvc.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_tenderinvoicesvc.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_tenderinvoicesvc.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_tenderinvoicesvc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_tenderinvoicesvc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\tenderprotocolvc.cpp">
+      <Filter>ViewConnector\TenderProtocolVC</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\tenderprotocoluc.cpp">
+      <Filter>UseCase\TenderProtocolUC</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\tenderinvoiceuc.cpp">
+      <Filter>UseCase\TenderInvoiceUC</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_tenderimportpositionshelpvc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_tenderimportpositionshelpvc.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_tenderimportpositionshelpvc.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_tenderimportpositionshelpvc.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_tenderimportpositionshelpvc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_tenderimportpositionshelpvc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_tenderimportscheduleddeliveryhelpvc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_tenderimportscheduleddeliveryhelpvc.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_tenderimportscheduleddeliveryhelpvc.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_tenderimportscheduleddeliveryhelpvc.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_tenderimportscheduleddeliveryhelpvc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_tenderimportscheduleddeliveryhelpvc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_tenderprotocolvc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_tenderprotocolvc.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_tenderprotocolvc.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_tenderprotocolvc.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_tenderprotocolvc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_tenderprotocolvc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_scheduleddeliverymaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_scheduleddeliverymaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_scheduleddeliverymaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_scheduleddeliverymaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_scheduleddeliverymaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_scheduleddeliverymaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\rowcolourtransformer.cpp">
+      <Filter>ViewConnector\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\tendercontractinfoswitzerland.cpp">
+      <Filter>ViewConnector\TenderMaintainVC\ContractInfo\Switzerland</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_tendercontractinfoswitzerland.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_tendercontractinfoswitzerland.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_tendercontractinfoswitzerland.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_tendercontractinfoswitzerland.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_tendercontractinfoswitzerland.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_tendercontractinfoswitzerland.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\tendersearchcriteriaswitzerland.cpp">
+      <Filter>ViewConnector\TenderOverviewVC\TenderSearchCriteria\Switzerland</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_tendersearchcriteriaswitzerland.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_tendersearchcriteriaswitzerland.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_tendersearchcriteriaswitzerland.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_tendersearchcriteriaswitzerland.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_tendersearchcriteriaswitzerland.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_tendersearchcriteriaswitzerland.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\tenderarticleinfoswitzerland.cpp">
+      <Filter>ViewConnector\TenderMaintainVC\ArticleDetail\Switzerland</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_tenderarticleinfoswitzerland.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_tenderarticleinfoswitzerland.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_tenderarticleinfoswitzerland.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_tenderarticleinfoswitzerland.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_tenderarticleinfoswitzerland.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_tenderarticleinfoswitzerland.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\tenderarticleinfo.cpp">
+      <Filter>ViewConnector\TenderMaintainVC\ArticleDetail\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_tenderarticleinfo.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_tenderarticleinfo.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_tenderarticleinfo.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_tenderarticleinfo.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_tenderarticleinfo.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_tenderarticleinfo.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\omgorderuc.cpp">
+      <Filter>UseCase\OMGOrderUC</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\businessstatetransformer.cpp">
+      <Filter>ViewConnector\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_pharmacygrouppickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_pharmacygrouppickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_pharmacygrouppickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\pharmacygrouppickervc.cpp">
+      <Filter>ViewConnector\PickerVC\PharmacyGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\pharmacygrouppickeruc.cpp">
+      <Filter>UseCase\PickerUC\PharmacyGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\cscorderuc.cpp">
+      <Filter>UseCase\CSCOrderUC</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\cscordermaintainuc.cpp">
+      <Filter>UseCase\CSCOrderMaintainUC</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\cscordermaintainvc.cpp">
+      <Filter>ViewConnector\CSCOrderMaintainVC</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_cscordermaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_cscordermaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_cscordermaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_cscordermaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_cscordermaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_cscordermaintainvc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\tenderstateuc.cpp">
+      <Filter>UseCase\TenderStateUC</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_supplierpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_supplierpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_supplierpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_supplierpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_supplierpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_supplierpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\supplierpickeruc.cpp">
+      <Filter>UseCase\PickerUC\Supplier</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\tendertinfrastructuresetup.cpp">
+      <Filter>Infrastructure\Setup</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\customerselectionvc.cpp">
+      <Filter>ViewConnector\CustomerSelectionVC</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Debug\moc_customerselectionvc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Release\moc_customerselectionvc.cpp">
+      <Filter>ViewConnector\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_customerselectionvc.cpp">
+      <Filter>ViewConnector\Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Test\moc_customerselectionvc.cpp">
+      <Filter>ViewConnector\Generated Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest_Release\moc_customerselectionvc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest_Release</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\UnitTest\moc_customerselectionvc.cpp">
+      <Filter>ViewConnector\Generated Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\customerselectionuc.cpp">
+      <Filter>UseCase\CustomerSelectionUC</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\tendertinfrastructuresetup.cpp">
+      <Filter>Infrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\supplierpickervc.cpp">
+      <Filter>ViewConnector\PickerVC\Supplier</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="version.c">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\Template\moc_customerpickervc.cpp">
+      <Filter>ViewConnector\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\transformer\discountflags_transformer.cpp">
+      <Filter>ViewConnector\Transformer</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\GeneratedFiles\qrc_tender.cpp">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="usecase\mainuc.h">
+      <Filter>UseCase\MainUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\mainucptr.h">
+      <Filter>UseCase\MainUC</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\mainvcptr.h">
+      <Filter>ViewConnector\MainVC</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\iusecasegetter.h">
+      <Filter>ComponentManagers\ApplCompMgr\Interface\UseCaseGetter</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\iusecasegetterptr.h">
+      <Filter>ComponentManagers\ApplCompMgr\Interface\UseCaseGetter</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\tenderapplcompmgr.h">
+      <Filter>ComponentManagers\ApplCompMgr\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\tenderapplcompmgrptr.h">
+      <Filter>ComponentManagers\ApplCompMgr\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_mainwindow.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_tendermaintainvc.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\tenderinfrastructurecompmgr.h">
+      <Filter>ComponentManagers\InfrastructureCompMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\tenderinfrastructurecompmgrptr.h">
+      <Filter>ComponentManagers\InfrastructureCompMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\tenderapplctrl.h">
+      <Filter>Main\ApplController</Filter>
+    </ClInclude>
+    <ClInclude Include="tender_definitions.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tendermaintainuc.h">
+      <Filter>UseCase\TenderMaintainUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tenderoverviewuc.h">
+      <Filter>UseCase\TenderOverviewUC</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_tenderoverviewvc.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\tenderoverviewvcptr.h">
+      <Filter>ViewConnector\TenderOverviewVC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tenderoverviewucptr.h">
+      <Filter>UseCase\TenderOverviewUC</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\itendersearchcriteria.h">
+      <Filter>ViewConnector\TenderOverviewVC\TenderSearchCriteria</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\tendermaintainvcptr.h">
+      <Filter>ViewConnector\TenderMaintainVC</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\articlepickervcptr.h">
+      <Filter>ViewConnector\PickerVC\Article</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\articlepickeruc.h">
+      <Filter>UseCase\PickerUC\Article</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\articlepickerucptr.h">
+      <Filter>UseCase\PickerUC\Article</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\partnerpickeruc.h">
+      <Filter>UseCase\PickerUC\Partner</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\partnerpickerucptr.h">
+      <Filter>UseCase\PickerUC\Partner</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\partnerpickervcptr.h">
+      <Filter>ViewConnector\PickerVC\Partner</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\customerpickervcptr.h">
+      <Filter>ViewConnector\PickerVC\Customer</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\customerpickeruc.h">
+      <Filter>UseCase\PickerUC\Customer</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\customerpickerucptr.h">
+      <Filter>UseCase\PickerUC\Customer</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_customerpickervc.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_articlepickervc.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_partnerpickervc.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_tendersearchcriteriafrance.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\itendersearchcriteriaptr.h">
+      <Filter>ViewConnector\TenderOverviewVC\TenderSearchCriteria</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_tendersearchcriteriabulgaria.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_scheduleddeliverymaintain.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\scheduleddeliverymaintainvcptr.h">
+      <Filter>ViewConnector\ScheduledDeliveryMaintainVC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\scheduleddeliverymaintainuc.h">
+      <Filter>UseCase\ScheduledDeliveryMaintainUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\scheduleddeliverymaintainucptr.h">
+      <Filter>UseCase\ScheduledDeliveryMaintainUC</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\util.h">
+      <Filter>ViewConnector\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\doublevalidator.h">
+      <Filter>ViewConnector\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\ipickeruc.h">
+      <Filter>UseCase\PickerUC\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\ipickerucptr.h">
+      <Filter>UseCase\PickerUC\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\qvalidatoritemdelegate.h">
+      <Filter>ViewConnector\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\businesstypetransformer.h">
+      <Filter>ViewConnector\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\checkboxtabletransformer.h">
+      <Filter>ViewConnector\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tendermaintainucptr.h">
+      <Filter>UseCase\TenderMaintainUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tenderimport\iprogress.h">
+      <Filter>UseCase\TenderImportUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tenderimport\iprogressptr.h">
+      <Filter>UseCase\TenderImportUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tenderimport\tenderimportfilereader.h">
+      <Filter>UseCase\TenderImportUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tenderimport\tenderimportparser.h">
+      <Filter>UseCase\TenderImportUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tenderimport\tenderimportuc.h">
+      <Filter>UseCase\TenderImportUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tenderimport\tenderimportucptr.h">
+      <Filter>UseCase\TenderImportUC</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_tenderimportvc.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tenderimport\tenderimportchecker.h">
+      <Filter>UseCase\TenderImportUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tenderimport\ierrorhandler.h">
+      <Filter>UseCase\TenderImportUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tenderimport\ierrorhandlerptr.h">
+      <Filter>UseCase\TenderImportUC</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\tenderimport\tenderimportvcptr.h">
+      <Filter>ViewConnector\TenderImportVC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tenderimport\tenderimportfilereaderptr.h">
+      <Filter>UseCase\TenderImportUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tenderimport\tenderimportcheckerptr.h">
+      <Filter>UseCase\TenderImportUC</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_tendersearchcriteriaserbia.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_pharmacychainpickervc.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\pharmacychainpickervcptr.h">
+      <Filter>ViewConnector\PickerVC\PharmacyChain</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\pharmacychainpickeruc.h">
+      <Filter>UseCase\PickerUC\PharmacyChain</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\pharmacychainpickerucptr.h">
+      <Filter>UseCase\PickerUC\PharmacyChain</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\itendercontractinfo.h">
+      <Filter>ViewConnector\TenderMaintainVC\ContractInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\itendercontractinfoptr.h">
+      <Filter>ViewConnector\TenderMaintainVC\ContractInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_tendercontractinfofrance.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_tendercontractinfoserbia.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_tendercontractinfobulgaria.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_customerlistmaintainvc.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\customerlistmaintainvcptr.h">
+      <Filter>ViewConnector\CustomerListMaintainVC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\customerlistmaintainuc.h">
+      <Filter>UseCase\CustomerListMaintainUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\customerlistmaintainucptr.h">
+      <Filter>UseCase\CustomerListMaintainUC</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_tenderinvoicesvc.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\tenderinvoicesvcptr.h">
+      <Filter>ViewConnector\TenderInvoiceVC</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_tenderprotocolvc.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\tenderprotocolvcptr.h">
+      <Filter>ViewConnector\TenderProtocolVC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tenderprotocoluc.h">
+      <Filter>UseCase\TenderProtocolUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tenderprotocolucptr.h">
+      <Filter>UseCase\TenderProtocolUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tenderinvoiceuc.h">
+      <Filter>UseCase\TenderInvoiceUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tenderinvoiceucptr.h">
+      <Filter>UseCase\TenderInvoiceUC</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_tenderimportpositionshelpvc.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_tenderimportscheduleddeliveryhelpvc.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\rowcolourtransformer.h">
+      <Filter>ViewConnector\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_tendersearchcriteriaswitzerland.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_tenderarticleinfoswitzerland.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\itenderarticleinfo.h">
+      <Filter>ViewConnector\TenderMaintainVC\ArticleDetail</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\itenderarticleinfoptr.h">
+      <Filter>ViewConnector\TenderMaintainVC\ArticleDetail</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_tenderarticleinfo.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\omgorderuc.h">
+      <Filter>UseCase\OMGOrderUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\omgorderucptr.h">
+      <Filter>UseCase\OMGOrderUC</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\ischeduleddeliverymaintainvcptr.h">
+      <Filter>ViewConnector\ScheduledDeliveryMaintainVC</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\businessstatetransformer.h">
+      <Filter>ViewConnector\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_pharmacygrouppickervc.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\pharmacygrouppickeruc.h">
+      <Filter>UseCase\PickerUC\PharmacyGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\pharmacygrouppickerucptr.h">
+      <Filter>UseCase\PickerUC\PharmacyGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\pharmacygrouppickervcptr.h">
+      <Filter>ViewConnector\PickerVC\PharmacyGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\cscorderuc.h">
+      <Filter>UseCase\CSCOrderUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\cscorderucptr.h">
+      <Filter>UseCase\CSCOrderUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\cscordermaintainucptr.h">
+      <Filter>UseCase\CSCOrderMaintainUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\cscordermaintainuc.h">
+      <Filter>UseCase\CSCOrderMaintainUC</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_cscordermaintainvc.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\icscordermaintain.h">
+      <Filter>ViewConnector\CSCOrderMaintainVC</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\icscordermaintainvcptr.h">
+      <Filter>ViewConnector\CSCOrderMaintainVC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tenderstateuc.h">
+      <Filter>UseCase\TenderStateUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tenderstateucptr.h">
+      <Filter>UseCase\TenderStateUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\itenderstateuc.h">
+      <Filter>UseCase\TenderStateUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\itenderstateucptr.h">
+      <Filter>UseCase\TenderStateUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\statevalidationenum.h">
+      <Filter>UseCase\TenderStateUC</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\GeneratedFiles\ui_supplierpickervc.h">
+      <Filter>ViewConnector\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\supplierpickervcptr.h">
+      <Filter>ViewConnector\PickerVC\Supplier</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\supplierpickeruc.h">
+      <Filter>UseCase\PickerUC\Supplier</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\supplierpickerucptr.h">
+      <Filter>UseCase\PickerUC\Supplier</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\flagtransformer.hpp">
+      <Filter>ViewConnector\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\ischeduleddeliverymaintain.h">
+      <Filter>ViewConnector\ScheduledDeliveryMaintainVC</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\tenderinfrastructuresetup.h">
+      <Filter>Infrastructure\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\tenderinfrastructuresetupptr.h">
+      <Filter>Infrastructure\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\customerselectionvcptr.h">
+      <Filter>ViewConnector\CustomerSelectionVC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\customerselectionuc.h">
+      <Filter>UseCase\CustomerSelectionUC</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\customerselectionucptr.h">
+      <Filter>UseCase\CustomerSelectionUC</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\ilanguagefileloadergetter.h">
+      <Filter>ComponentManagers\InfrastructureCompMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\ilanguagefileloadergetterptr.h">
+      <Filter>ComponentManagers\InfrastructureCompMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\tenderinfrastructuresetup.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\tenderinfrastructuresetupptr.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\transformer\discountflags_transformer.h">
+      <Filter>ViewConnector\Transformer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="viewconn\mainvc.h">
+      <Filter>ViewConnector\MainVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\mainwindow.ui">
+      <Filter>ViewConnector\MainVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tendermaintainvc.h">
+      <Filter>ViewConnector\TenderMaintainVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tendermaintainvc.ui">
+      <Filter>ViewConnector\TenderMaintainVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="multilang\tender_de.ts">
+      <Filter>Multilang</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tenderoverviewvc.h">
+      <Filter>ViewConnector\TenderOverviewVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tenderoverviewvc.ui">
+      <Filter>ViewConnector\TenderOverviewVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tendersearchcriteriafrance.h">
+      <Filter>ViewConnector\TenderOverviewVC\TenderSearchCriteria\France</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tendersearchcriteriabulgaria.h">
+      <Filter>ViewConnector\TenderOverviewVC\TenderSearchCriteria\Bulgaria</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tendersearchcriteriaserbia.h">
+      <Filter>ViewConnector\TenderOverviewVC\TenderSearchCriteria\Serbia</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\articlepickervc.h">
+      <Filter>ViewConnector\PickerVC\Article</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\customerpickervc.ui">
+      <Filter>ViewConnector\PickerVC\Customer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\customerpickervc.h">
+      <Filter>ViewConnector\PickerVC\Customer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\articlepickervc.ui">
+      <Filter>ViewConnector\PickerVC\Article</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\partnerpickervc.h">
+      <Filter>ViewConnector\PickerVC\Partner</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\partnerpickervc.ui">
+      <Filter>ViewConnector\PickerVC\Partner</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tendersearchcriteriafrance.ui">
+      <Filter>ViewConnector\TenderOverviewVC\TenderSearchCriteria\France</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tendersearchcriteriabulgaria.ui">
+      <Filter>ViewConnector\TenderOverviewVC\TenderSearchCriteria\Bulgaria</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\scheduleddeliverymaintain.ui">
+      <Filter>ViewConnector\ScheduledDeliveryMaintainVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\scheduleddeliverymaintainvc.h">
+      <Filter>ViewConnector\ScheduledDeliveryMaintainVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\inputvalidator.h">
+      <Filter>ViewConnector\Util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tenderimport\tenderimportvc.h">
+      <Filter>ViewConnector\TenderImportVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tenderimport\tenderimportvc.ui">
+      <Filter>ViewConnector\TenderImportVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tendersearchcriteriaserbia.ui">
+      <Filter>ViewConnector\TenderOverviewVC\TenderSearchCriteria\Serbia</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\pharmacychainpickervc.ui">
+      <Filter>ViewConnector\PickerVC\PharmacyChain</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\pharmacychainpickervc.h">
+      <Filter>ViewConnector\PickerVC\PharmacyChain</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tendercontractinfofrance.h">
+      <Filter>ViewConnector\TenderMaintainVC\ContractInfo\France</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tendercontractinfofrance.ui">
+      <Filter>ViewConnector\TenderMaintainVC\ContractInfo\France</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tendercontractinfoserbia.h">
+      <Filter>ViewConnector\TenderMaintainVC\ContractInfo\Serbia</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tendercontractinfoserbia.ui">
+      <Filter>ViewConnector\TenderMaintainVC\ContractInfo\Serbia</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tendercontractinfobulgaria.h">
+      <Filter>ViewConnector\TenderMaintainVC\ContractInfo\Bulgaria</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tendercontractinfobulgaria.ui">
+      <Filter>ViewConnector\TenderMaintainVC\ContractInfo\Bulgaria</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\customerlistmaintainvc.ui">
+      <Filter>ViewConnector\CustomerListMaintainVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\customerlistmaintainvc.h">
+      <Filter>ViewConnector\CustomerListMaintainVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tenderinvoicesvc.h">
+      <Filter>ViewConnector\TenderInvoiceVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tenderinvoicesvc.ui">
+      <Filter>ViewConnector\TenderInvoiceVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tenderprotocolvc.h">
+      <Filter>ViewConnector\TenderProtocolVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tenderprotocolvc.ui">
+      <Filter>ViewConnector\TenderProtocolVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tenderimport\tenderimportpositionshelpvc.ui">
+      <Filter>ViewConnector\TenderImportVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tenderimport\tenderimportscheduleddeliveryhelpvc.ui">
+      <Filter>ViewConnector\TenderImportVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tenderimport\tenderimportpositionshelpvc.h">
+      <Filter>ViewConnector\TenderImportVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tenderimport\tenderimportscheduleddeliveryhelpvc.h">
+      <Filter>ViewConnector\TenderImportVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tendercontractinfoswitzerland.h">
+      <Filter>ViewConnector\TenderMaintainVC\ContractInfo\Switzerland</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tendercontractinfoswitzerland.ui">
+      <Filter>ViewConnector\TenderMaintainVC\ContractInfo\Switzerland</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tendersearchcriteriaswitzerland.h">
+      <Filter>ViewConnector\TenderOverviewVC\TenderSearchCriteria\Switzerland</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tendersearchcriteriaswitzerland.ui">
+      <Filter>ViewConnector\TenderOverviewVC\TenderSearchCriteria\Switzerland</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tenderarticleinfoswitzerland.h">
+      <Filter>ViewConnector\TenderMaintainVC\ArticleDetail\Switzerland</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tenderarticleinfoswitzerland.ui">
+      <Filter>ViewConnector\TenderMaintainVC\ArticleDetail\Switzerland</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tenderarticleinfo.h">
+      <Filter>ViewConnector\TenderMaintainVC\ArticleDetail\Others</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\tenderarticleinfo.ui">
+      <Filter>ViewConnector\TenderMaintainVC\ArticleDetail\Others</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\pharmacygrouppickervc.ui">
+      <Filter>ViewConnector\PickerVC\PharmacyGroup</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\pharmacygrouppickervc.h">
+      <Filter>ViewConnector\PickerVC\PharmacyGroup</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\cscordermaintainvc.h">
+      <Filter>ViewConnector\CSCOrderMaintainVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\cscordermaintainvc.ui">
+      <Filter>ViewConnector\CSCOrderMaintainVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\supplierpickervc.h">
+      <Filter>ViewConnector\PickerVC\Supplier</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\supplierpickervc.ui">
+      <Filter>ViewConnector\PickerVC\Supplier</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\customerselectionvc.h">
+      <Filter>ViewConnector\CustomerSelectionVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\customerselectionvc.ui">
+      <Filter>ViewConnector\CustomerSelectionVC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="multilang\tender_bg.ts">
+      <Filter>Multilang</Filter>
+    </CustomBuild>
+    <CustomBuild Include="multilang\tender_de.ts">
+      <Filter>Multilang</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tender.qrc">
+      <Filter>Resource Dateien</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="multilang\tender_rs.ts">
+      <Filter>Multilang</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\status_exclamation.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+    <Image Include="resources\status_okay.png">
+      <Filter>Resource Dateien</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

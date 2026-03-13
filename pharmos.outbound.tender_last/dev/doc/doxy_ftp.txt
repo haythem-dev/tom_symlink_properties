@@ -1,0 +1,11 @@
+OPEN groupapps.phoenix.loc
+ftp.outbound
+stepRU7e
+CD tender/internal
+PUT codedocu\internal\html\index.html
+PUT codedocu\internal\html\page1.html
+CD ../customer
+PUT codedocu\customer\html\index.html
+PUT codedocu\customer\html\page1.html
+DISCONNECT
+QUIT
