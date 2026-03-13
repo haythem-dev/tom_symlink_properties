@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="log4cplus">
+      <UniqueIdentifier>{11a26a90-f50f-47db-a7f2-9c62fa190a29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General">
+      <UniqueIdentifier>{784b1a59-8a12-4c5f-af77-0b0a721f004d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="make">
+      <UniqueIdentifier>{538124b2-e112-46b4-9792-35b38b911621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules">
+      <UniqueIdentifier>{f68260be-2d58-4a1d-a1b9-54d32ce183ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Accessors">
+      <UniqueIdentifier>{694e58ea-4379-49ca-bd5d-b3400353a572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="basarutils.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="batchorderdm.cpp">
+      <Filter>DomainModules</Filter>
+    </ClCompile>
+    <ClCompile Include="cscinidm.cpp">
+      <Filter>DomainModules</Filter>
+    </ClCompile>
+    <ClCompile Include="cscorderdm.cpp">
+      <Filter>DomainModules</Filter>
+    </ClCompile>
+    <ClCompile Include="actionorderacc.cpp">
+      <Filter>DomainModules\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="batchorderacc.cpp">
+      <Filter>DomainModules\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="batchorderposacc.cpp">
+      <Filter>DomainModules\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="cscinfosacc.cpp">
+      <Filter>DomainModules\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="csciniacc.cpp">
+      <Filter>DomainModules\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="customerblockedacc.cpp">
+      <Filter>DomainModules\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="searchorderacc.cpp">
+      <Filter>DomainModules\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="libcscbatch_loggerpool.cpp">
+      <Filter>log4cplus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basarutils.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="batchorderdm.h">
+      <Filter>DomainModules</Filter>
+    </ClInclude>
+    <ClInclude Include="cscinidm.h">
+      <Filter>DomainModules</Filter>
+    </ClInclude>
+    <ClInclude Include="cscorderdm.h">
+      <Filter>DomainModules</Filter>
+    </ClInclude>
+    <ClInclude Include="cscorderdmptr.h">
+      <Filter>DomainModules</Filter>
+    </ClInclude>
+    <ClInclude Include="actionorderacc.h">
+      <Filter>DomainModules\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="batchorderacc.h">
+      <Filter>DomainModules\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="batchorderposacc.h">
+      <Filter>DomainModules\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="cscinfosacc.h">
+      <Filter>DomainModules\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="csciniacc.h">
+      <Filter>DomainModules\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="customerblockedacc.h">
+      <Filter>DomainModules\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="searchorderacc.h">
+      <Filter>DomainModules\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="libcscbatch_definitions.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="libcscbatch_loggerpool.h">
+      <Filter>log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="csc_batches_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="makefile">
+      <Filter>make</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+#ifndef GUARD_TRANSFER_ORDER_POS_INPREPARATION_COLLECTION_ACC_H
+#define GUARD_TRANSFER_ORDER_POS_INPREPARATION_COLLECTION_ACC_H
+
+namespace libabbauw
+{
+namespace acc_transfer_order_in_preparation
+{
+using basar::db::aspect::SQLStringBuilder;
+
+BEGIN_QUERY_BUILDER_DECLARATION( SelectCurrentTransferOrderPosInPreparationCollection )
+END_BUILDER_DECLARATION
+
+BEGIN_WRITE_BUILDER_DECLARATION( InsertTransferOrderPosInPreparationCollection )
+END_BUILDER_DECLARATION
+
+BEGIN_WRITE_BUILDER_DECLARATION( UpdateTransferOrderPosInPreparationCollection )
+END_BUILDER_DECLARATION
+
+BEGIN_WRITE_BUILDER_DECLARATION( DeleteTransferOrderPosInPreparationCollection )
+END_BUILDER_DECLARATION
+
+} // end namespace acc_transfer_order_in_preparation
+} // end namespace libabbauw
+
+#endif // GUARD_TRANSFER_ORDER_IN_PREPARATION_ACC_H

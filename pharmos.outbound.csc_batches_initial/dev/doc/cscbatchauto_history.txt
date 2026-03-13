@@ -1,0 +1,169 @@
+\page page3 cscbatchauto
+
+________________________________________________________________________________________
+\version	01.10.02.07
+\date		09.03.2016
+\internal
+- Versionsabfrage verbessert.
+\endinternal 
+
+________________________________________________________________________________________
+\version	01.10.02.06
+\date		09.03.2016
+\internal
+- BG: Chargenrückrufe ("BC") immer direkt abschliessen.
+\endinternal 
+
+________________________________________________________________________________________
+\version	01.10.02.05
+\date		03.09.2015
+\internal
+- RS-DGEP: purchaseorderno durchschleifen über SetOrderRelationNo.
+- Adaption to SSUK 01.10.01.00
+\endinternal 
+
+________________________________________________________________________________________
+\version	01.10.02.04
+\date		18.09.2014
+\internal
+- Adjustments for ROLPH-BG: provide batch from gipositionpreinfo to CSC (table kdauftragposcharge")
+- Adaption to SSUK 01.10.00.00
+\endinternal
+\~german
+\~english
+\~
+________________________________________________________________________________________
+\version	01.10.02.03
+\date		20.05.2014
+\internal
+- Adjustments for ROLPH-BG: 'a' / 'DI'-orders are released immediately, not postponed as it was before
+- This was not active before because cscbatchlib has to be compiled separately on unix.
+- Additional test blog before orderclosing in Trace
+\endinternal
+\~german
+\~english
+\~
+________________________________________________________________________________________
+\version	01.10.02.02
+\date		28.03.2014
+\internal
+- Adjustments for ABBA: No exception but return in kscclientwrapper-openOrder-method
+- Adjustments for ROLPH-BG: 'a' / 'DI'-orders are released immediately, not postponed as it was before
+\endinternal
+\~german
+\~english
+\~
+
+________________________________________________________________________________________
+\version	01.10.02.01
+\date		17.02.2014
+\internal
+- Adjustments for ABBA-UW: improved kscclient: with rebateinkind
+\endinternal
+\~german
+\~english
+\~
+
+________________________________________________________________________________________
+\version	01.10.02.00
+\date		28.01.2014
+\internal
+- Adjustments for ABBA-UW
+- ssuk-Version is 1.9.0.0 in the meantime
+\endinternal
+\~german
+\~english
+\~
+
+________________________________________________________________________________________
+\version	01.10.01.00
+\date		28.08.2012
+\internal
+- Adjustments for unix foundation
+- Upgrading ssuk-Version from 1.7.0.0 to 1.8.0.2
+\endinternal
+\~german
+\~english
+\~
+
+________________________________________________________________________________________
+\version	01.10.00.00
+\date		21.03.2011
+\internal
+- Resultcode für kscOpenOrderReferenceVZ im Fehler mitgeben
+\endinternal
+\~german
+\~english
+\~
+
+________________________________________________________________________________________
+\version	01.09.00.00
+\date		08.02.2011
+\internal
+- Da es jetzt mehrere Preisdatensätze pro Artikel geben kann, muss der Join eingeschränkt werden (auf Preistyp 0 = Freiverkauf)
+\endinternal
+\~german
+\~english
+\~
+
+________________________________________________________________________________________
+\version	01.08.00.00
+\date		10.12.2010
+\internal
+- Erweiterung um Artikelcode (ERNUM) in Positionsansicht
+\endinternal
+\~german
+\~english
+\~
+
+________________________________________________________________________________________
+\version	01.07.00.00
+\date		21.03.2010
+\internal
+- gebaut mit neuem kscserver nach Buffererweiterung
+\endinternal
+\~german
+\~english
+\~
+
+________________________________________________________________________________________
+\version	01.04.03.00
+\date		22.01.2010
+\internal
+- Statusmeldung nach Anmeldung an User Admin
+\endinternal
+\~german
+\~english
+\~
+
+________________________________________________________________________________________
+\version	01.04.02.00
+\date		13.01.2010
+\internal
+- Abfrage, ob Test per File login4test.cfg, nicht mehr cscbatchauto_test.txt
+\endinternal
+\~german
+\~english
+\~
+
+________________________________________________________________________________________
+\version	01.02.00.00
+\date		15.01.2009
+\internal
+- Lesen der Parameter aus Parameter-Datei ../data/cscbatchauto.params
+\endinternal
+\~german
+\~english
+\~
+
+________________________________________________________________________________________
+\version	01.01.00.01
+\date		17.11.2008
+\internal
+- Erste Version
+\endinternal
+\~german
+\~english
+\~
+
+ */

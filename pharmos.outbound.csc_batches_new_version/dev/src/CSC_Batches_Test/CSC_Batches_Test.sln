@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CSC_Batches_Test", "CSC_Batches_Test.vcproj", "{23A63EAF-399E-420E-845F-47734F02F1AF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		UnitTest_Debug = UnitTest_Debug
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{23A63EAF-399E-420E-845F-47734F02F1AF}.Debug.ActiveCfg = Debug|Win32
+		{23A63EAF-399E-420E-845F-47734F02F1AF}.Debug.Build.0 = Debug|Win32
+		{23A63EAF-399E-420E-845F-47734F02F1AF}.Release.ActiveCfg = Release|Win32
+		{23A63EAF-399E-420E-845F-47734F02F1AF}.Release.Build.0 = Release|Win32
+		{23A63EAF-399E-420E-845F-47734F02F1AF}.UnitTest_Debug.ActiveCfg = UnitTest_Debug|Win32
+		{23A63EAF-399E-420E-845F-47734F02F1AF}.UnitTest_Debug.Build.0 = UnitTest_Debug|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

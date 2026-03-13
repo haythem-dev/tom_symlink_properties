@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="UseCases">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="DomainModules">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="DomainModules\GetOrdersFromEdifactFlatfiles">
+      <UniqueIdentifier>{ee7c2207-4ea2-47ba-a7b2-3fd1a2f41317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\GetOrdersFromEdifactFlatfiles\EdiTransferOrder">
+      <UniqueIdentifier>{835d7c4f-171f-4abb-8377-690f7f587e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines">
+      <UniqueIdentifier>{7a420510-8f84-470d-8d11-aa9c7d5e3854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLineFactory">
+      <UniqueIdentifier>{32b5cfbb-2cc6-45cf-8ebb-51d1c8757b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLineIdentifier">
+      <UniqueIdentifier>{d7e8e183-f8c0-42e5-8f17-819b44098628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\GetOrdersFromEdifactFlatfiles\EdifactFlatfilesToTransferOrdersMapper">
+      <UniqueIdentifier>{022186fe-63a5-452b-909a-98af2a0c06e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\CompleteDataAndPutToDBDM">
+      <UniqueIdentifier>{130e1360-950f-4d17-a760-8df2bfc7fd11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\CompleteDataAndPutToDBDM\ArticleDM">
+      <UniqueIdentifier>{f53440f1-b24b-43a4-869c-48404d005dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\CompleteDataAndPutToDBDM\ArticleDM\Accessor">
+      <UniqueIdentifier>{deb1ccc4-6111-403c-925f-a7401c8b2550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\CompleteDataAndPutToDBDM\CustomerDM">
+      <UniqueIdentifier>{5a116537-073d-41db-b3c1-fb06f3338356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\CompleteDataAndPutToDBDM\CustomerDM\Accessor">
+      <UniqueIdentifier>{51715ddc-e767-44ef-b5f6-ca628e5529f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\CompleteDataAndPutToDBDM\ManufacturerDM">
+      <UniqueIdentifier>{7b66d76a-a7ab-4b83-a029-a7fa311bdee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\CompleteDataAndPutToDBDM\ManufacturerDM\Accessor">
+      <UniqueIdentifier>{508b5c19-1cbd-4e92-89ab-752fd6e1242c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\CompleteDataAndPutToDBDM\AbbauwOrderDM">
+      <UniqueIdentifier>{8576f20b-2b07-476a-85be-aecb8f803c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\CompleteDataAndPutToDBDM\AbbauwOrderDM\Accessor">
+      <UniqueIdentifier>{8fc7be70-7d29-42e8-b148-4c4a02dba588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Exceptions">
+      <UniqueIdentifier>{09cdf339-5e40-43c3-a0df-488512ac0ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransactionGuard">
+      <UniqueIdentifier>{0a546ec6-3d70-4093-827c-79386fbec334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="main\cmdLine">
+      <UniqueIdentifier>{0c91b266-8dc3-4602-b1f6-264aa9f926e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\appInitializer">
+      <UniqueIdentifier>{705b0705-662c-4ec3-9e7c-e27930b66999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\userAdmin">
+      <UniqueIdentifier>{c6864e2e-c56a-4a3c-aec5-9381aa0bd0c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\appSession">
+      <UniqueIdentifier>{b9a86730-e39c-4349-9271-ab9a1f65b1ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dbconnection">
+      <UniqueIdentifier>{3a4b5c5b-e10a-4abb-b187-855c8eae2dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="make">
+      <UniqueIdentifier>{d551d971-b021-45e7-9ee6-7cb58c514458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log4cplus">
+      <UniqueIdentifier>{465640eb-886b-482d-a5cf-ba6f5f8fd6c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log4cplus\ConfigFile">
+      <UniqueIdentifier>{286594b2-2e30-4fe1-acea-0c3514688bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE">
+      <UniqueIdentifier>{aa39c00f-cff0-4200-be4c-90017e53afd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH">
+      <UniqueIdentifier>{9b9ce2ac-2547-4070-9d8e-a29309aa76cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\CompleteDataAndPutToDBDM\DelivererDM">
+      <UniqueIdentifier>{6442e24d-28f8-420a-b1b1-a0d0f00a5b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\CompleteDataAndPutToDBDM\DelivererDM\Accessor">
+      <UniqueIdentifier>{43d5ab43-b9a6-4d45-80af-6c834f70f804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProtocol">
+      <UniqueIdentifier>{22e4e0d3-22c8-4588-91e6-6b47145b94e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProtocol\Accessor">
+      <UniqueIdentifier>{5a8f70f0-1de7-480d-ad60-5655c8baf3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mail">
+      <UniqueIdentifier>{bce7246a-f4b5-4d6e-aaba-d397036acb09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="editransferorder.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdiTransferOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="positionsegment.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdiTransferOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="edilinefactory.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLineFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="edilineidentifier.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLineIdentifier</Filter>
+    </ClCompile>
+    <ClCompile Include="editransferordermapper.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactFlatfilesToTransferOrdersMapper</Filter>
+    </ClCompile>
+    <ClCompile Include="articleconsultantdm.cpp">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\ArticleDM</Filter>
+    </ClCompile>
+    <ClCompile Include="articleacc.cpp">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\ArticleDM\Accessor</Filter>
+    </ClCompile>
+    <ClCompile Include="customerconsultantdm.cpp">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\CustomerDM</Filter>
+    </ClCompile>
+    <ClCompile Include="customeracc.cpp">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\CustomerDM\Accessor</Filter>
+    </ClCompile>
+    <ClCompile Include="manufacturerconsultantdm.cpp">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\ManufacturerDM</Filter>
+    </ClCompile>
+    <ClCompile Include="manufactureracc.cpp">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\ManufacturerDM\Accessor</Filter>
+    </ClCompile>
+    <ClCompile Include="abbauworderdm.cpp">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\AbbauwOrderDM</Filter>
+    </ClCompile>
+    <ClCompile Include="orderheadacc.cpp">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\AbbauwOrderDM\Accessor</Filter>
+    </ClCompile>
+    <ClCompile Include="orderposacc.cpp">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\AbbauwOrderDM\Accessor</Filter>
+    </ClCompile>
+    <ClCompile Include="abbauwexception.cpp">
+      <Filter>DomainModules\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="dataacquisitionexception.cpp">
+      <Filter>DomainModules\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="datastoringexception.cpp">
+      <Filter>DomainModules\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="flatfileordirexception.cpp">
+      <Filter>DomainModules\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="unprocessableexception.cpp">
+      <Filter>DomainModules\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="transactionguard.cpp">
+      <Filter>DomainModules\TransactionGuard</Filter>
+    </ClCompile>
+    <ClCompile Include="abbauwappl.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="abbauwcmdlineevaluator.cpp">
+      <Filter>main\cmdLine</Filter>
+    </ClCompile>
+    <ClCompile Include="appinitializer.cpp">
+      <Filter>main\appInitializer</Filter>
+    </ClCompile>
+    <ClCompile Include="appinitializerexception.cpp">
+      <Filter>main\appInitializer</Filter>
+    </ClCompile>
+    <ClCompile Include="appsession.cpp">
+      <Filter>main\appSession</Filter>
+    </ClCompile>
+    <ClCompile Include="dbifxconnection.cpp">
+      <Filter>dbconnection</Filter>
+    </ClCompile>
+    <ClCompile Include="loggerpool.cpp">
+      <Filter>log4cplus</Filter>
+    </ClCompile>
+    <ClCompile Include="bgmline.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClCompile>
+    <ClCompile Include="dtmline.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClCompile>
+    <ClCompile Include="imdline.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClCompile>
+    <ClCompile Include="irrelevantline.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClCompile>
+    <ClCompile Include="linline.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClCompile>
+    <ClCompile Include="nadline.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClCompile>
+    <ClCompile Include="pcdline.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClCompile>
+    <ClCompile Include="qtyline.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClCompile>
+    <ClCompile Include="unbline.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClCompile>
+    <ClCompile Include="unhline.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClCompile>
+    <ClCompile Include="unsline.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClCompile>
+    <ClCompile Include="untline.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClCompile>
+    <ClCompile Include="unzline.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClCompile>
+    <ClCompile Include="unh_01_line.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClCompile>
+    <ClCompile Include="uns_97_line.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClCompile>
+    <ClCompile Include="bgm_02_line.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClCompile>
+    <ClCompile Include="imd_09_line.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClCompile>
+    <ClCompile Include="nad_04_line.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClCompile>
+    <ClCompile Include="dtm_03_line.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClCompile>
+    <ClCompile Include="lin_08_line.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClCompile>
+    <ClCompile Include="qty_10_line.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClCompile>
+    <ClCompile Include="irrelevant_de_line.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClCompile>
+    <ClCompile Include="pcd_06_line.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClCompile>
+    <ClCompile Include="unb_00_line.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClCompile>
+    <ClCompile Include="alc_05_line.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClCompile>
+    <ClCompile Include="ftx_11_line.cpp">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClCompile>
+    <ClCompile Include="delivererconsultantdm.cpp">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\DelivererDM</Filter>
+    </ClCompile>
+    <ClCompile Include="delivereracc.cpp">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\DelivererDM\Accessor</Filter>
+    </ClCompile>
+    <ClCompile Include="orderheadprotocolacc.cpp">
+      <Filter>DomainModules\OrderProtocol\Accessor</Filter>
+    </ClCompile>
+    <ClCompile Include="orderposcollectionprotocolacc.cpp">
+      <Filter>DomainModules\OrderProtocol\Accessor</Filter>
+    </ClCompile>
+    <ClCompile Include="orderheadprotocoldm.cpp">
+      <Filter>DomainModules\OrderProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="orderposcollectionprotocoldm.cpp">
+      <Filter>DomainModules\OrderProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="orderprotocolexception.cpp">
+      <Filter>DomainModules\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="version.c">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\mail\mailalert.cpp">
+      <Filter>mail</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="editransferorder.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdiTransferOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="positionsegment.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdiTransferOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="edilinefactory.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLineFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ediline_definitions.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLineIdentifier</Filter>
+    </ClInclude>
+    <ClInclude Include="edilineidentifier.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLineIdentifier</Filter>
+    </ClInclude>
+    <ClInclude Include="editransferordermapper.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactFlatfilesToTransferOrdersMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="editransferordermapper_definitions.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactFlatfilesToTransferOrdersMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="transferordermapperbase.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactFlatfilesToTransferOrdersMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="edi_input_accessor_definitions.h">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM</Filter>
+    </ClInclude>
+    <ClInclude Include="edi_input_definitions.h">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM</Filter>
+    </ClInclude>
+    <ClInclude Include="edi_input_properties_definitions.h">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM</Filter>
+    </ClInclude>
+    <ClInclude Include="articleconsultantdm.h">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\ArticleDM</Filter>
+    </ClInclude>
+    <ClInclude Include="articleacc.h">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\ArticleDM\Accessor</Filter>
+    </ClInclude>
+    <ClInclude Include="customerconsultantdm.h">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\CustomerDM</Filter>
+    </ClInclude>
+    <ClInclude Include="customeracc.h">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\CustomerDM\Accessor</Filter>
+    </ClInclude>
+    <ClInclude Include="manufacturerconsultantdm.h">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\ManufacturerDM</Filter>
+    </ClInclude>
+    <ClInclude Include="manufactureracc.h">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\ManufacturerDM\Accessor</Filter>
+    </ClInclude>
+    <ClInclude Include="abbauworderdm.h">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\AbbauwOrderDM</Filter>
+    </ClInclude>
+    <ClInclude Include="orderheadacc.h">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\AbbauwOrderDM\Accessor</Filter>
+    </ClInclude>
+    <ClInclude Include="orderposacc.h">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\AbbauwOrderDM\Accessor</Filter>
+    </ClInclude>
+    <ClInclude Include="abbauwexception.h">
+      <Filter>DomainModules\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="dataacquisitionexception.h">
+      <Filter>DomainModules\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="datastoringexception.h">
+      <Filter>DomainModules\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="flatfileordirexception.h">
+      <Filter>DomainModules\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="unprocessableexception.h">
+      <Filter>DomainModules\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="transactionguard.h">
+      <Filter>DomainModules\TransactionGuard</Filter>
+    </ClInclude>
+    <ClInclude Include="abbauwappl.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="abbauwappl_definitions.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="abbauwcmdlineevaluator.h">
+      <Filter>main\cmdLine</Filter>
+    </ClInclude>
+    <ClInclude Include="abbauwcmdlineevaluatorptr.h">
+      <Filter>main\cmdLine</Filter>
+    </ClInclude>
+    <ClInclude Include="abbauwcmdlineoption_definitions.h">
+      <Filter>main\cmdLine</Filter>
+    </ClInclude>
+    <ClInclude Include="appargs.h">
+      <Filter>main\cmdLine</Filter>
+    </ClInclude>
+    <ClInclude Include="appinitializer.h">
+      <Filter>main\appInitializer</Filter>
+    </ClInclude>
+    <ClInclude Include="appinitializerexception.h">
+      <Filter>main\appInitializer</Filter>
+    </ClInclude>
+    <ClInclude Include="useradminlogin_definitions.h">
+      <Filter>main\userAdmin</Filter>
+    </ClInclude>
+    <ClInclude Include="appsession.h">
+      <Filter>main\appSession</Filter>
+    </ClInclude>
+    <ClInclude Include="appsessionptr.h">
+      <Filter>main\appSession</Filter>
+    </ClInclude>
+    <ClInclude Include="dbifxconnection.h">
+      <Filter>dbconnection</Filter>
+    </ClInclude>
+    <ClInclude Include="loggerpool.h">
+      <Filter>log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="unzline.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClInclude>
+    <ClInclude Include="bgmline.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClInclude>
+    <ClInclude Include="dtmline.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClInclude>
+    <ClInclude Include="edifactline.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClInclude>
+    <ClInclude Include="imdline.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClInclude>
+    <ClInclude Include="irrelevantline.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClInclude>
+    <ClInclude Include="linline.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClInclude>
+    <ClInclude Include="nadline.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClInclude>
+    <ClInclude Include="pcdline.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClInclude>
+    <ClInclude Include="qtyline.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClInclude>
+    <ClInclude Include="unbline.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClInclude>
+    <ClInclude Include="unhline.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClInclude>
+    <ClInclude Include="unsline.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClInclude>
+    <ClInclude Include="untline.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesCH</Filter>
+    </ClInclude>
+    <ClInclude Include="unh_01_line.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClInclude>
+    <ClInclude Include="uns_97_line.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClInclude>
+    <ClInclude Include="bgm_02_line.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClInclude>
+    <ClInclude Include="imd_09_line.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClInclude>
+    <ClInclude Include="nad_04_line.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClInclude>
+    <ClInclude Include="dtm_03_line.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClInclude>
+    <ClInclude Include="lin_08_line.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClInclude>
+    <ClInclude Include="qty_10_line.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClInclude>
+    <ClInclude Include="irrelevant_de_line.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClInclude>
+    <ClInclude Include="pcd_06_line.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClInclude>
+    <ClInclude Include="unb_00_line.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClInclude>
+    <ClInclude Include="alc_05_line.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClInclude>
+    <ClInclude Include="ftx_11_line.h">
+      <Filter>DomainModules\GetOrdersFromEdifactFlatfiles\EdifactLines\EdifactLinesDE</Filter>
+    </ClInclude>
+    <ClInclude Include="delivererconsultantdm.h">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\DelivererDM</Filter>
+    </ClInclude>
+    <ClInclude Include="delivereracc.h">
+      <Filter>DomainModules\CompleteDataAndPutToDBDM\DelivererDM\Accessor</Filter>
+    </ClInclude>
+    <ClInclude Include="orderheadprotocolacc.h">
+      <Filter>DomainModules\OrderProtocol\Accessor</Filter>
+    </ClInclude>
+    <ClInclude Include="orderposcollectionprotocolacc.h">
+      <Filter>DomainModules\OrderProtocol\Accessor</Filter>
+    </ClInclude>
+    <ClInclude Include="orderheadprotocoldm.h">
+      <Filter>DomainModules\OrderProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="orderposcollectionprotocoldm.h">
+      <Filter>DomainModules\OrderProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="orderprotocol_definitions.h">
+      <Filter>DomainModules\OrderProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="orderprotocolexception.h">
+      <Filter>DomainModules\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\imailalert.h">
+      <Filter>mail</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\imailalertptr.h">
+      <Filter>mail</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\mailalert.h">
+      <Filter>mail</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\mailalertptr.h">
+      <Filter>mail</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\mail\mailparameterkeys.h">
+      <Filter>mail</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="appargs.inl">
+      <Filter>main\cmdLine</Filter>
+    </None>
+    <None Include="appsession.inl">
+      <Filter>main\appSession</Filter>
+    </None>
+    <None Include="cscbatchesediinput.cfg">
+      <Filter>log4cplus\ConfigFile</Filter>
+    </None>
+    <None Include="makefile">
+      <Filter>make</Filter>
+    </None>
+  </ItemGroup>
+</Project>

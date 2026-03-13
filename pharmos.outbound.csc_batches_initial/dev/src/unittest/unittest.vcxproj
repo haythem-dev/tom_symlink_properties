@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{95608456-A1D0-4221-9416-612794D38F45}</ProjectGuid>
+    <RootNamespace>UnitTest</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\ext\unittest++\include;$(SolutionDir)..\..\ext\libutil\include;$(SolutionDir)..\..\ext\ssuk\basar\include;$(SolutionDir)..\..\ext\ssuk\log4cplus\include;$(SolutionDir)..\..\ext\ssuk\boost;$(QTDIR)\include;$(QTDIR)\include\QtCore;$(SolutionDir)..\..\src\CSC_Batches_History;$(SolutionDir)..\..\src\CSC_Batches_OrderProposal;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE; UNITTESST2_TOBECHANGED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>cmnut.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)cmnut.pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/WX
+ %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libbasarcmnutil.lib;libbasardbsql.lib;libbasardbaspect.lib;libbasarproperty.lib;libbasarlogin.lib;libbasarappl.lib;libbasarguitie.lib;libbasarguiqt.lib;libbasarqtwidget.lib;liblog4cplus.lib;unittest++.lib;QtCored4.lib;libutil.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)CSCUnitTest.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>$(MARATHON_CSC_BATCHES)\ext\unittest++\lib\$(Configuration);$(MARATHON_CSC_BATCHES)\ext\ssuk\basar\lib\$(Configuration);$(MARATHON_CSC_BATCHES)\ext\ssuk\log4cplus\lib\$(Configuration);$(QTDIR)\lib;$(MARATHON_CSC_BATCHES)\ext\ssuk\boost\lib;$(MARATHON_CSC_BATCHES)\ext\libutil\lib\$(Configuration);$(MARATHON_CSC_BATCHES)\src\CSC_Batches_OrderProposal\$(Configuration);$(MARATHON_CSC_BATCHES)\src\CSC_Batches_History\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>false</OptimizeReferences>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Message>start unittest $(Configuration)</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\ext\unittest++\include;$(SolutionDir)..\..\ext\libutil\include;$(SolutionDir)..\..\ext\ssuk\basar\include;$(SolutionDir)..\..\ext\log4cplus\include;$(SolutionDir)..\..\ext\boost\include;$(QTDIR)\include;$(QTDIR)\include\QtCore;$(SolutionDir)..\..\src\CSC_Batches_History;$(SolutionDir)..\..\src\CSC_Batches_OrderProposal;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE; UNITTESST2_TOBECHANGED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>cmnut.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)cmnut.pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/WX
+ %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libbasarcmnutil.lib;libbasardbsql.lib;libbasardbaspect.lib;libbasarproperty.lib;libbasarlogin.lib;libbasarappl.lib;libbasarguitie.lib;libbasarguiqt.lib;libbasarqtwidget.lib;log4cplus.lib;unittest++.lib;QtCored4.lib;libutil.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)CSCUnitTest.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>$(MARATHON_CSC_BATCHES)\ext\unittest++\lib\$(Configuration);$(MARATHON_CSC_BATCHES)\ext\ssuk\basar\lib\$(Configuration);$(MARATHON_CSC_BATCHES)\ext\log4cplus\lib\$(Configuration);$(QTDIR)\lib;$(MARATHON_CSC_BATCHES)\ext\boost\lib;$(MARATHON_CSC_BATCHES)\ext\libutil\lib\$(Configuration);$(MARATHON_CSC_BATCHES)\src\CSC_Batches_OrderProposal\$(Configuration);$(MARATHON_CSC_BATCHES)\src\CSC_Batches_History\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>false</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Message>start unittest $(Configuration)</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\ext\unittest++\include;$(SolutionDir)..\..\ext\libutil\include;$(SolutionDir)..\..\ext\ssuk\basar\include;$(SolutionDir)..\..\ext\ssuk\log4cplus\include;$(SolutionDir)..\..\ext\ssuk\boost;$(QTDIR)\include;$(QTDIR)\include\QtCore;$(SolutionDir)..\..\src\CSC_Batches_History;$(SolutionDir)..\..\src\CSC_Batches_OrderProposal;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>cmnut.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)cmnut.pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/WX
+ %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libbasarcmnutil.lib;libbasardbsql.lib;libbasardbaspect.lib;libbasarproperty.lib;libbasarlogin.lib;libbasarappl.lib;libbasarguitie.lib;libbasarguiqt.lib;libbasarqtwidget.lib;liblog4cplus.lib;unittest++.lib;QtCore4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)CSCUnitTest.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>$(MARATHON_CSC_BATCHES)\src\irm\$(Configuration);$(MARATHON_CSC_BATCHES)\src\libirm\$(Configuration);$(MARATHON_CSC_BATCHES)\ext\unittest++\lib\$(Configuration);$(MARATHON_CSC_BATCHES)\ext\ssuk\basar\lib\$(Configuration);$(MARATHON_CSC_BATCHES)\ext\ssuk\log4cplus\lib\$(Configuration);$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Message>start unittest $(Configuration)</Message>
+      <Command>if not defined CISERVER start /b /d$(MARATHON_CSC_BATCHES)\ext\ssuk\sharedlib\release $(TargetPath)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\ext\unittest++\include;$(SolutionDir)..\..\ext\libutil\include;$(SolutionDir)..\..\ext\ssuk\basar\include;$(SolutionDir)..\..\ext\log4cplus\include;$(SolutionDir)..\..\ext\ssuk\boost;$(QTDIR)\include;$(QTDIR)\include\QtCore;$(SolutionDir)..\..\src\CSC_Batches_History;$(SolutionDir)..\..\src\CSC_Batches_OrderProposal;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>cmnut.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)cmnut.pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/WX
+ %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libbasarcmnutil.lib;libbasardbsql.lib;libbasardbaspect.lib;libbasarproperty.lib;libbasarlogin.lib;libbasarappl.lib;libbasarguitie.lib;libbasarguiqt.lib;libbasarqtwidget.lib;log4cplus.lib;unittest++.lib;QtCore4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)CSCUnitTest.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>$(MARATHON_CSC_BATCHES)\src\irm\$(Configuration);$(MARATHON_CSC_BATCHES)\src\libirm\$(Configuration);$(MARATHON_CSC_BATCHES)\ext\unittest++\lib\$(Configuration);$(MARATHON_CSC_BATCHES)\ext\ssuk\basar\lib\$(Configuration);$(MARATHON_CSC_BATCHES)\ext\log4cplus\lib\$(Configuration);$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Message>start unittest $(Configuration)</Message>
+      <Command>if not defined CISERVER start /b /d$(MARATHON_CSC_BATCHES)\ext\ssuk\sharedlib\release $(TargetPath)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="cscunittest.cfg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="orderproporderproposalbatchtest.cpp" />
+    <ClCompile Include="pubatchoporderproposalbatchtest.cpp" />
+    <ClCompile Include="copybatchordertest.cpp" />
+    <ClCompile Include="orderproposaltest.cpp" />
+    <ClCompile Include="dbfixturebase.cpp" />
+    <ClCompile Include="testfixturebase.cpp" />
+    <ClCompile Include="orderproporderproposalbatchtestfixture.cpp" />
+    <ClCompile Include="pubatchoporderproposalbatchtestfixture.cpp" />
+    <ClCompile Include="copybatchordertestfixture.cpp" />
+    <ClCompile Include="orderproposaltestfixture.cpp" />
+    <ClCompile Include="cmnut.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="testcollection.cpp" />
+    <ClCompile Include="testnamecollection.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="testselectionlist.cpp" />
+    <ClCompile Include="testutils.cpp" />
+    <ClCompile Include="unittestappl.cpp" />
+    <ClCompile Include="unittestconnection.cpp" />
+    <ClCompile Include="unittesthelper.cpp" />
+    <ClCompile Include="main.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeaderOutputFile>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dbfixturebase.h" />
+    <ClInclude Include="testfixturebase.h" />
+    <ClInclude Include="orderproporderproposalbatchtestfixture.h" />
+    <ClInclude Include="pubatchoporderproposalbatchtestfixture.h" />
+    <ClInclude Include="copybatchordertestfixture.h" />
+    <ClInclude Include="orderproposaltestfixture.h" />
+    <ClInclude Include="cmnut.h" />
+    <ClInclude Include="testcollection.h" />
+    <ClInclude Include="testnamecollection.h" />
+    <ClInclude Include="testselectionlist.h" />
+    <ClInclude Include="testutils.h" />
+    <ClInclude Include="unittestappl.h" />
+    <ClInclude Include="unittestconnection.h" />
+    <ClInclude Include="unittesthelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\cscbatchauto\cscbatchauto.vcxproj">
+      <Project>{9ce6c012-d2cf-4b7b-9ee4-c1f1b109909c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\csc\CSC_Batches.vcxproj">
+      <Project>{380c9e83-fef9-4410-9d90-3fe05a1fb31e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\CSC_Batches_Edi_Input\CSC_Batches_Edi_Input.vcxproj">
+      <Project>{8f83afe3-0fd7-4de2-99c3-80d9c1d61409}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\CSC_Batches_OrderProposal\CSC_Batches_OrderProposal.vcxproj">
+      <Project>{b453ba98-a1b6-4261-accf-5489828df31f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\libabbauw\libabbauw.vcxproj">
+      <Project>{a1979f59-c89d-4c1f-8182-e052b07dd948}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\libbatch\libbatch.vcxproj">
+      <Project>{e13f264c-8464-442d-9e8a-183b08e5c7d2}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\libcscbatch\libcscbatch.vcxproj">
+      <Project>{459a8910-841c-46ef-afad-10176014b106}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Qt5Version_x0020_Win32="5.2.0" Qt5Version_x0020_x64="$(DefaultQtVersion)" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

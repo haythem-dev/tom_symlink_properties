@@ -1,0 +1,1787 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DomainModules">
+      <UniqueIdentifier>{dadc2c79-807f-4f68-a020-2eee341e52dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\_common">
+      <UniqueIdentifier>{51382c67-79ad-413e-bf2f-29bc32e78332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\ParameterDM">
+      <UniqueIdentifier>{419808f0-e4a6-4d35-ab74-347a78444db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\ParameterDM\Accessors">
+      <UniqueIdentifier>{665f4141-ada8-46c8-aa5d-1c4b0f5153f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\ParameterDM\Interfaces">
+      <UniqueIdentifier>{413633b7-14d7-430e-aec9-552f0e976019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{9911243f-215b-4d97-9c08-701dc372d038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="multilang">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="ComponentManager">
+      <UniqueIdentifier>{5c23ceb1-7d42-470b-82c9-8a70e6d4f97a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\_common\DMBase">
+      <UniqueIdentifier>{71e9bdbc-610b-4fc8-8820-1aae57494f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder">
+      <UniqueIdentifier>{5d373563-f3cc-4324-b870-35f6bbe329f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderInPreparationDM">
+      <UniqueIdentifier>{7de52f68-01d0-4a4b-ab8e-c21771ca4ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderHead">
+      <UniqueIdentifier>{950dae9f-b3b7-4d15-a94c-164e4c713641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderHead\Accessors">
+      <UniqueIdentifier>{39e63d5a-4799-4e34-9402-3bdad9e8b071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderHead\Accessors\PropertyStateChecker">
+      <UniqueIdentifier>{3a0a3ad2-9e0f-40b8-9cc8-622dfea3273a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderHead\Interfaces">
+      <UniqueIdentifier>{e4e0943e-38d1-4dd5-b474-7497ef31c9e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderPosCollection">
+      <UniqueIdentifier>{8bc1cf94-c029-4943-8096-12ec39e113ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderPosCollection\Accessors">
+      <UniqueIdentifier>{de27633f-84c6-4f09-ba9a-0c7a92c967ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderPosCollection\Accessors\PropertyStateChecker">
+      <UniqueIdentifier>{b10b9761-32da-4ebd-9548-cf14a7425713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderPosCollection\Interfaces">
+      <UniqueIdentifier>{ac904b3c-2b99-4b05-95cc-7b67c356de8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderInPreparationDM\Interfaces">
+      <UniqueIdentifier>{9ed25b36-5337-4183-a787-ec0e109b2003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderCreationDM">
+      <UniqueIdentifier>{9f1d6daa-276a-4de0-be3e-fe9453a67de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderCreationDM\Interfaces">
+      <UniqueIdentifier>{bd07c04f-6b5a-4fbf-a605-3c1931a40ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderDM">
+      <UniqueIdentifier>{7e7e51fa-c2a6-44de-81a9-c2c756ab7ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderDM\TransferOrderPosCollection">
+      <UniqueIdentifier>{ebeed646-8333-4901-b8cc-888b92aca24a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderDM\TransferOrderPosCollection\Accessors">
+      <UniqueIdentifier>{a16dbcde-73d2-4947-9b1b-b5e8d9a7ab93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderDM\TransferOrderPosCollection\Interfaces">
+      <UniqueIdentifier>{ece55056-bd1c-47d1-b199-6076a4e37482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderDM\Interfaces">
+      <UniqueIdentifier>{60a62c0c-4942-4906-ae35-3ec05b076890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderHeadCollectionDM">
+      <UniqueIdentifier>{5b662e94-16fb-40b3-9389-859d3420f49f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderHeadCollectionDM\Accessors">
+      <UniqueIdentifier>{56d86186-039a-436f-907e-4d4446e0704c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderHeadCollectionDM\Interfaces">
+      <UniqueIdentifier>{32ffb851-c882-4d01-a3bf-77c6df580989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Article">
+      <UniqueIdentifier>{18827db5-a88f-4a16-8020-5a90e31720ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Article\ArticleCollectionDM">
+      <UniqueIdentifier>{14b3e146-3bc9-4ba4-8fd9-546a1308f3e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Article\ArticleCollectionDM\Accessors">
+      <UniqueIdentifier>{d659f96c-6c27-40cf-8153-f950628e30ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Article\ArticleCollectionDM\Interfaces">
+      <UniqueIdentifier>{71b83384-7027-4c71-a118-1bd44c966282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderDM\TransferOrderPosCollection\Accessors\PropertyStateChecker">
+      <UniqueIdentifier>{fb3613aa-2726-481e-9894-ea27b8898603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Impl">
+      <UniqueIdentifier>{5a5b0e52-da8c-4232-b200-a3f421b8c0d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Interface">
+      <UniqueIdentifier>{aba55ce9-f885-40c8-af18-cc9ef2a406a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderSplitDM">
+      <UniqueIdentifier>{e135a877-c4d4-4b5a-8944-049fb5494602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderSplitDM\Interfaces">
+      <UniqueIdentifier>{51f013c7-40ca-4289-b72c-33898ab088bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderSplitDM\SplittingPolicy">
+      <UniqueIdentifier>{152e73c7-ef59-43ba-bb23-c2fd40e8b5b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderSplitDM\SplittingPolicy\Impl">
+      <UniqueIdentifier>{04bb9f1d-823a-4323-97f6-ee876d303f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderSplitDM\SplittingPolicy\Interface">
+      <UniqueIdentifier>{15cb6a55-69ed-47de-b19a-d6a23e732899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderDM\TransferOrderHead">
+      <UniqueIdentifier>{664cbbff-b7f3-4e07-99db-8b730b089137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderDM\TransferOrderHead\Accessors">
+      <UniqueIdentifier>{18f975bc-a9af-4ab7-bba6-98187541b4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderDM\TransferOrderHead\Accessors\PropertyStateChecker">
+      <UniqueIdentifier>{e354f74d-e4d9-472e-b74e-e37024496eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderDM\TransferOrderHead\Interfaces">
+      <UniqueIdentifier>{e8a291a9-8880-4d35-978b-bef8dbe6dee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Article\ArticleConsultantDM">
+      <UniqueIdentifier>{09a3ca48-4a71-40e7-9349-8ae4a552b1de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Article\ArticleConsultantDM\Accessor">
+      <UniqueIdentifier>{eb26b3e0-20db-4043-ab70-f6e3cb2658be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Article\ArticleConsultantDM\Interfaces">
+      <UniqueIdentifier>{c9419426-1ae9-47a2-8302-3db51ecb9463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\common">
+      <UniqueIdentifier>{c51a92f7-962d-4291-9446-27218fade400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories">
+      <UniqueIdentifier>{115857c8-6870-4de5-925c-cc60d1283808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\TransferOrderFactory">
+      <UniqueIdentifier>{b609cfa1-d73f-4b13-b616-0ab71cdcb19d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\TransferOrderFactory\Interface">
+      <UniqueIdentifier>{45e10ff8-df8e-4794-9083-c5f3ee3e8e6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\TransferOrderFactory\Impl">
+      <UniqueIdentifier>{94e426be-5f89-4fa6-966c-0731a9d2545f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\TransferOrderHeadFactory">
+      <UniqueIdentifier>{f8f28fd9-8d6a-43f5-bc05-b9f6e2b8b203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\TransferOrderHeadFactory\Impl">
+      <UniqueIdentifier>{5fecdd1e-de7b-4f15-b9b9-6b007c9a1ef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\TransferOrderHeadFactory\Interface">
+      <UniqueIdentifier>{2077b911-650b-4786-9f73-76c802dfd4ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\TransferOrderHeadCollectionFactory">
+      <UniqueIdentifier>{e0715cf8-86bd-4ce3-a0ff-d9c8efd88682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\TransferOrderHeadCollectionFactory\Impl">
+      <UniqueIdentifier>{c60f9cc7-8296-42bb-b613-8cdb66ce6ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\TransferOrderHeadCollectionFactory\Interface">
+      <UniqueIdentifier>{88cd97ec-9900-4d78-af7d-d3210a9c302f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\CSCOrder">
+      <UniqueIdentifier>{3a55baa9-d02c-489e-974b-c19aac2188d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\CSCOrder\Interfaces">
+      <UniqueIdentifier>{5096f388-3cf1-499a-9d39-01fe2eb2907c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\CSCOrder\CSCOrderDM">
+      <UniqueIdentifier>{c4223827-4b0f-4801-8ce4-5fada9a4abb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\CSCOrder\CSCOrderDM\CSCInterface">
+      <UniqueIdentifier>{742bae53-05c3-46af-b8c0-3ff06b2dcce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\PurchaseOrderSupplierDM">
+      <UniqueIdentifier>{5277156e-e06c-470a-81e2-863393eb8c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\PurchaseOrderSupplierDM\Accessors">
+      <UniqueIdentifier>{e83d0935-89fa-424b-ab13-7df7176896f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\PurchaseOrderSupplierDM\Interfaces">
+      <UniqueIdentifier>{55fe5bc5-5cae-4813-8520-6bc1f4d74d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Customer">
+      <UniqueIdentifier>{6d31b237-00da-4dc3-ab59-fd10c0e86735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Customer\CustomerDM">
+      <UniqueIdentifier>{4b2e4b8d-ec4b-493f-8f4b-8e0b1378a99d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Customer\CustomerCollectionDM">
+      <UniqueIdentifier>{e6264fb6-dd3d-485c-bb5d-b43e246a4bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Customer\CustomerCollectionDM\Accessors">
+      <UniqueIdentifier>{a4076d02-d82d-4474-9e7a-e09fadc52d07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Customer\CustomerCollectionDM\Interfaces">
+      <UniqueIdentifier>{d1311fb1-e4ce-4d4f-ab08-f5758945e973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Customer\CustomerDM\Accessors">
+      <UniqueIdentifier>{517f127a-610d-47da-8f89-cb2e6036e8a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Customer\CustomerDM\Interfaces">
+      <UniqueIdentifier>{c51cc1f7-5782-47ff-8840-2b734f176607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProposal">
+      <UniqueIdentifier>{4a7926d1-f9c0-4012-b60c-c62e433fedeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderDM\Proxy">
+      <UniqueIdentifier>{42a6d6da-30c0-4a0b-a238-150b51cdc452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\TransferOrderDMGetter">
+      <UniqueIdentifier>{bd60779c-2145-4536-af20-390a712871d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\TransferOrderDMGetter\Impl">
+      <UniqueIdentifier>{4118cb0d-16f7-4228-9253-a4bed0c22642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\TransferOrderDMGetter\Interface">
+      <UniqueIdentifier>{2238075e-a8a9-4a7f-8cc5-22819012950b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderHeadCollectionDM\Proxy">
+      <UniqueIdentifier>{388ea152-f9dd-4976-b6d0-b517f44c7c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\TransferOrderHeadCollectionDMGetter">
+      <UniqueIdentifier>{ebad21f8-07f4-4c41-9322-605ce8f50909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\TransferOrderHeadCollectionDMGetter\Impl">
+      <UniqueIdentifier>{7fbb3db9-6732-4566-bf75-00449e1b1f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\TransferOrderHeadCollectionDMGetter\Interface">
+      <UniqueIdentifier>{d5d1312f-e188-46e8-a371-fd832660d703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lock">
+      <UniqueIdentifier>{da32b87f-ac22-408b-8909-5bfacef45d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lock\Interface">
+      <UniqueIdentifier>{0ff0bc4e-ee64-4dbc-be0e-569a7d5d0639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lock\Impl">
+      <UniqueIdentifier>{5371a414-2561-4abb-a826-35162a6baa95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure">
+      <UniqueIdentifier>{324ab470-0b24-4b8e-8b38-14a1f239c107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor">
+      <UniqueIdentifier>{774a9c02-3438-4334-8bfb-4aacc175fd01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exceptions">
+      <UniqueIdentifier>{861beb22-4b6e-424f-8da4-64c019453d4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderPositionDM">
+      <UniqueIdentifier>{ac1896bb-6739-4496-b7d5-b7263e42bb74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderPositionDM\Interfaces">
+      <UniqueIdentifier>{639ad2d5-4cbc-4c54-911a-15fad30dcaa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\TransferOrderPositionDM\Impl">
+      <UniqueIdentifier>{8d39a86e-15c2-4836-addb-0d0c4a0e57c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\PurchaseBatchOrder">
+      <UniqueIdentifier>{98de88e3-75ab-4d6c-925a-8deb2bf57ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\PurchaseBatchOrder\PurchaseBatchOrderPosDM">
+      <UniqueIdentifier>{7bac4139-a2ba-409e-b7d5-073b130db8e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\PurchaseBatchOrder\PurchaseBatchOrderPosDM\Impl">
+      <UniqueIdentifier>{f915f895-3736-40d0-9ba8-36e888bf6423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\PurchaseBatchOrder\PurchaseBatchOrderPosDM\Interfaces">
+      <UniqueIdentifier>{5c9f4508-60de-4d2c-b8e7-9eacb854b76d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Stock">
+      <UniqueIdentifier>{33a229d9-fd32-44a8-a146-d894240c7b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Stock\StockCollectionDM">
+      <UniqueIdentifier>{c4773334-775f-4e6c-8272-85b7fffbfcff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Stock\StockCollectionDM\Accessors">
+      <UniqueIdentifier>{41c6e0f5-a313-4997-8b3d-a7408d4400b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Stock\StockCollectionDM\Interfaces">
+      <UniqueIdentifier>{c32d906a-ea50-4d18-9eea-31981467725c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\common\ReserveQuantityFactor">
+      <UniqueIdentifier>{4df8c7c0-a3fb-446d-8a97-94d4052cdc25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\common\ReserveQuantityFactor\Impl">
+      <UniqueIdentifier>{800d011c-75b8-4b52-b584-b204fb8bbf5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\TransferOrder\common\ReserveQuantityFactor\Interface">
+      <UniqueIdentifier>{44bccb7f-f802-422c-abbc-fee48688cd60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loggerpool">
+      <UniqueIdentifier>{0e28b8a2-1127-4f9b-9ab9-15c15710faae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\OrderProposal">
+      <UniqueIdentifier>{eb69ad23-62dd-4bf1-a7d8-e49483879a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\OrderProposal\OrderProposalACC">
+      <UniqueIdentifier>{4ba3ff07-44b1-4482-bbc1-1639b3b073d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\PurchaseBatchOrder">
+      <UniqueIdentifier>{fa13dd2d-0c35-4300-87fd-68f4c587a85b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\PurchaseBatchOrder\PurchaseBatchOrderPosACC">
+      <UniqueIdentifier>{d950ddc6-1da1-48cc-b9fd-1ef482e4c867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\TransferOrder">
+      <UniqueIdentifier>{a287e58e-9e65-4214-b13e-64df5c9c1635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\TransferOrder\TransferOrderPositionACC">
+      <UniqueIdentifier>{5124050c-3274-42a8-ba4f-51efc5adc0da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\BatchOrder">
+      <UniqueIdentifier>{bd20c783-ca9a-42e4-a088-e96beaa3219b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\BatchOrder\BatchOrderCollectionACC">
+      <UniqueIdentifier>{69874865-1867-4133-bbe1-0fef2bae24c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\BatchOrder">
+      <UniqueIdentifier>{2fe4dcb8-761e-4cf4-a743-0ce9c3a7490c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\BatchOrder\BatchOrderCollectionDM">
+      <UniqueIdentifier>{883cec4c-a19d-4d49-8e37-7d4614261f95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\BatchOrder\BatchOrderCollectionDM\Interface">
+      <UniqueIdentifier>{0d875446-0b36-445d-b0dd-6cad9ce6e90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\BatchOrder\BatchOrderCollectionDM\Impl">
+      <UniqueIdentifier>{1c03ce7e-603a-4ccb-bcc5-35a26cfc23ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\BatchOrder\BatchOrderDM">
+      <UniqueIdentifier>{8411710c-4a2c-477d-8bb2-1d6cdaab7e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\BatchOrder\BatchOrderDM\Impl">
+      <UniqueIdentifier>{5b7d5d10-3201-464f-9f32-3bb4481e8839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\BatchOrder\BatchOrderDM\Interface">
+      <UniqueIdentifier>{a5e1c786-69b4-4608-bc2c-fb46593ce311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProposal\OrderProposal">
+      <UniqueIdentifier>{297c3bd0-e3f2-494b-a44c-aaf271015d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProposal\OrderProposal\Interfaces">
+      <UniqueIdentifier>{a9ea9a78-08ff-4d76-9036-c8b782416def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProposal\OrderProposal\OrderProposalDM">
+      <UniqueIdentifier>{57ee51f2-f9d3-4aeb-ad58-d3ef8296284d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProposal\OrderProposal\OrderProposalUpdateDM">
+      <UniqueIdentifier>{2dd6a362-9aaa-484a-8b4f-c473adea8a81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\OrderPoposalFactory">
+      <UniqueIdentifier>{0614f2a2-10f0-46b7-9ad7-bcf11c59c070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\OrderPoposalFactory\Impl">
+      <UniqueIdentifier>{6751f327-3757-4b0c-a35e-ee752b7c7f33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\OrderPoposalFactory\Interface">
+      <UniqueIdentifier>{787ed2b9-e8eb-48f0-8905-772bd67dc79b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProposal\OrderProposalCreator">
+      <UniqueIdentifier>{49b073be-6612-4a30-adbd-fe1dcd3abb92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProposal\OrderProposalCreator\Impl">
+      <UniqueIdentifier>{26d7f8bf-25c3-4568-9eda-ae2836f2f9cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProposal\OrderProposalCreator\Interface">
+      <UniqueIdentifier>{c92231ec-4b1d-4994-b9c3-3b790ee64bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\OrderProposalCollectionFactory">
+      <UniqueIdentifier>{2908a021-0fb6-4b08-9060-9a52a476f0f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\OrderProposalCollectionFactory\Impl">
+      <UniqueIdentifier>{8c7e49c0-7df6-4286-8733-8dce2ad32a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\OrderProposalCollectionFactory\Interface">
+      <UniqueIdentifier>{927f35e0-48bb-4cf5-8b71-8c6f371f1ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\OrderProposalCollectionACC">
+      <UniqueIdentifier>{3e5659cf-3d00-4389-a805-9f3aea458f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProposal\OrderProposalCollection">
+      <UniqueIdentifier>{aefc921a-e015-47c5-a266-6cc6a0cc1d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProposal\OrderProposalCollection\Proxy">
+      <UniqueIdentifier>{435c2d96-f69f-48ad-abd0-bf1f91f2b78b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProposal\OrderProposalCollection\Proxy\Impl">
+      <UniqueIdentifier>{055c5cb4-92de-472a-b1c1-6c738b55e8b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProposal\OrderProposalCollection\Proxy\Interface">
+      <UniqueIdentifier>{c6d6170f-d971-4066-bce1-33d312108723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProposal\OrderProposalCollection\OrderProposalCollectionDM">
+      <UniqueIdentifier>{97599e08-09d8-4e86-b456-b396d8f5aa00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProposal\OrderProposalCollection\Interfaces">
+      <UniqueIdentifier>{7900741c-7800-4b36-95cd-fe64b5cf8a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\BatchOrderFactory">
+      <UniqueIdentifier>{6c65f669-f63e-4dfc-91bf-684ac9e01219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\BatchOrderFactory\Impl">
+      <UniqueIdentifier>{bbb0d06e-8992-4fa3-a68a-9ca6dd1520d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\BatchOrderFactory\Interface">
+      <UniqueIdentifier>{76ffad74-09b8-4f27-9f40-67b847b12ec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\BatchOrder\BatchOrderDM\OrderHead">
+      <UniqueIdentifier>{f1988d89-e827-42e3-85c6-ef97ea5b1e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\BatchOrder\BatchOrderDM\PositionCollection">
+      <UniqueIdentifier>{333eb1a2-c168-4abe-bf16-921e713dac8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\BatchOrder\BatchOrderDM\PositionCollection\Impl">
+      <UniqueIdentifier>{fa409ace-68e9-4ca2-a153-fda0dc7166f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\BatchOrder\BatchOrderDM\PositionCollection\Interface">
+      <UniqueIdentifier>{0dbc451c-f4db-46a0-93a8-da84b67eaee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\BatchOrder\BatchOrderPositionCollectionACC">
+      <UniqueIdentifier>{5824a6dc-9dba-48b7-9eac-6fdcaaa11eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\BatchOrder\BatchOrderDM\OrderHead\Impl">
+      <UniqueIdentifier>{1cb01a79-e9e4-4784-b2c1-0f39d4ad22c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\BatchOrder\BatchOrderDM\OrderHead\Interface">
+      <UniqueIdentifier>{1db8c151-2b57-4a48-b8c8-9e991f1f4ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\BatchOrder\BatchOrderHeadACC">
+      <UniqueIdentifier>{07827e09-cb37-4610-876d-fdb7022e355c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\cscclient">
+      <UniqueIdentifier>{3b624e7c-0d80-4f90-b7a7-3ecea0575806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\cscclient\exceptions">
+      <UniqueIdentifier>{28615288-5435-42bd-8ab0-7e6621eb75d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderStatus">
+      <UniqueIdentifier>{f61baab6-8452-4a08-b12d-807283ce61ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\TransferOrderPositionFactory">
+      <UniqueIdentifier>{f96e82c7-ca91-4724-affe-fcf1e5143fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\TransferOrderPositionFactory\Impl">
+      <UniqueIdentifier>{d0f1db32-4772-4ac6-b1ec-942d24f10293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\Factories\TransferOrderPositionFactory\Interface">
+      <UniqueIdentifier>{baee3d2f-e871-4ba5-8cfa-1bf0de06e1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\BatchOrder\BatchOrderDM\Proxy">
+      <UniqueIdentifier>{a206c686-686f-4e51-bcef-57fea250f8d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\OrderProtocol">
+      <UniqueIdentifier>{ff5f0b38-96e1-4387-9cb9-a29e6c3b94e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\OrderProtocol\OrderHeadProtocol">
+      <UniqueIdentifier>{709d26ec-f85f-4bd1-94df-d93eedbefe2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\OrderProtocol\OrderPosProtocol">
+      <UniqueIdentifier>{c7158fbd-e61e-4927-b422-1b54133a65fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProtocol">
+      <UniqueIdentifier>{90173230-0424-4fd3-9364-097e14603c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProtocol\Impl">
+      <UniqueIdentifier>{865c9ef7-7e7f-4fa8-b24b-b8fe774fc2dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProtocol\Interface">
+      <UniqueIdentifier>{3434e783-d940-47c0-8343-1032e71b7c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProtocol\OrderPosCollectionProtocol">
+      <UniqueIdentifier>{9203fdcd-1604-49a9-aaa8-0c9b87792745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProtocol\OrderPosCollectionProtocol\Impl">
+      <UniqueIdentifier>{586eeab9-80b7-4e44-b357-97ecbabfeee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProtocol\OrderPosCollectionProtocol\Interface">
+      <UniqueIdentifier>{6b36e7b7-fd61-4789-93a6-a6aade398797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProtocol\OrderHeadProtocol">
+      <UniqueIdentifier>{95abff57-14b0-4aae-8859-e9d3a17da38f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProtocol\OrderHeadProtocol\Impl">
+      <UniqueIdentifier>{7d3c018b-9490-407a-a6b4-d02b0e6e41eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProtocol\OrderHeadProtocol\Interface">
+      <UniqueIdentifier>{3bc61b57-0bed-404c-b808-7d84647d201f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\ManufacturerDM">
+      <UniqueIdentifier>{d02d8b65-eb3e-413e-b29f-7c119a816189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\ManufacturerDM\Accessors">
+      <UniqueIdentifier>{f7d4f095-e90a-44d8-b6d1-ec25afda4005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\ManufacturerDM\Interfaces">
+      <UniqueIdentifier>{6f4eae2e-b054-438d-9921-bfe3fb72a7bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cmnaccessor.cpp">
+      <Filter>DomainModules\_common</Filter>
+    </ClCompile>
+    <ClCompile Include="cmndm.cpp">
+      <Filter>DomainModules\_common</Filter>
+    </ClCompile>
+    <ClCompile Include="dmbase.cpp">
+      <Filter>DomainModules\_common\DMBase</Filter>
+    </ClCompile>
+    <ClCompile Include="parameterdm.cpp">
+      <Filter>DomainModules\ParameterDM</Filter>
+    </ClCompile>
+    <ClCompile Include="parameteracc.cpp">
+      <Filter>DomainModules\ParameterDM\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderheadinpreparationpropertystatechecker.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderHead\Accessors\PropertyStateChecker</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderheadinpreparationacc.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderHead\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderheadinpreparation.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderHead</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderposinpreparationcollection.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderPosCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="itransferorderposinpreparationcollection.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderPosCollection\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderposinpreparationcollectionpropertystatechecker.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderPosCollection\Accessors\PropertyStateChecker</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderposinpreparationcollectionacc.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderPosCollection\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderinpreparationdm.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM</Filter>
+    </ClCompile>
+    <ClCompile Include="transferordercreationdm.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderCreationDM</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderposcollectionacc.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderPosCollection\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderposcollection.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderPosCollection</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderdm.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderheadcollectionacc.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderHeadCollectionDM\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderheadcollectiondm.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderHeadCollectionDM</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderheadacc.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderHead\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderhead.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderHead</Filter>
+    </ClCompile>
+    <ClCompile Include="articlecollectiondm.cpp">
+      <Filter>DomainModules\Article\ArticleCollectionDM</Filter>
+    </ClCompile>
+    <ClCompile Include="articlecollectionacc.cpp">
+      <Filter>DomainModules\Article\ArticleCollectionDM\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="stockcollectionacc.cpp">
+      <Filter>DomainModules\Stock\StockCollectionDM\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="stockcollectiondm.cpp">
+      <Filter>DomainModules\Stock\StockCollectionDM</Filter>
+    </ClCompile>
+    <ClCompile Include="articleconsultantacc.cpp">
+      <Filter>DomainModules\Article\ArticleConsultantDM\Accessor</Filter>
+    </ClCompile>
+    <ClCompile Include="articleconsultantdm.cpp">
+      <Filter>DomainModules\Article\ArticleConsultantDM</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderposcollectionpropertystatechecker.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderPosCollection\Accessors\PropertyStateChecker</Filter>
+    </ClCompile>
+    <ClCompile Include="transferordersplitdm.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderSplitDM</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderheadpropertystatechecker.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderHead\Accessors\PropertyStateChecker</Filter>
+    </ClCompile>
+    <ClCompile Include="colorsplittingpolicy.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderSplitDM\SplittingPolicy\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="narcoticsrefrigeratedsplittingpolicy.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderSplitDM\SplittingPolicy\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="sortorder.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="cscorderdm.cpp">
+      <Filter>DomainModules\CSCOrder\CSCOrderDM</Filter>
+    </ClCompile>
+    <ClCompile Include="manufactureracc.cpp">
+      <Filter>DomainModules\ManufacturerDM\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="manufacturerdm.cpp">
+      <Filter>DomainModules\ManufacturerDM</Filter>
+    </ClCompile>
+    <ClCompile Include="purchaseordersupplieracc.cpp">
+      <Filter>DomainModules\PurchaseOrderSupplierDM\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="purchaseordersupplierdm.cpp">
+      <Filter>DomainModules\PurchaseOrderSupplierDM</Filter>
+    </ClCompile>
+    <ClCompile Include="customercollectiondm.cpp">
+      <Filter>DomainModules\Customer\CustomerCollectionDM</Filter>
+    </ClCompile>
+    <ClCompile Include="customercollectionacc.cpp">
+      <Filter>DomainModules\Customer\CustomerCollectionDM\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="customeracc.cpp">
+      <Filter>DomainModules\Customer\CustomerDM\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="customerdm.cpp">
+      <Filter>DomainModules\Customer\CustomerDM</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderprotectionproxy.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="yiteratormatcher.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderheadcollectionprotectionproxy.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderHeadCollectionDM\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderpositiondm.cpp">
+      <Filter>DomainModules\TransferOrder\TransferOrderPositionDM\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="purchasebatchorderposdm.cpp">
+      <Filter>DomainModules\PurchaseBatchOrder\PurchaseBatchOrderPosDM\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="orderstatus.cpp">
+      <Filter>DomainModules\OrderStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="reservequantityfactorgetter.cpp">
+      <Filter>DomainModules\TransferOrder\common\ReserveQuantityFactor\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\dmcomponentmanager.cpp">
+      <Filter>ComponentManager\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\transferorderdmgetter.cpp">
+      <Filter>ComponentManager\Factories\TransferOrderDMGetter\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\transferorderlockeddmgetter.cpp">
+      <Filter>ComponentManager\Factories\TransferOrderDMGetter\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\transferorderfactory.cpp">
+      <Filter>ComponentManager\Factories\TransferOrderFactory\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\transferorderheadcollectiondmgetter.cpp">
+      <Filter>ComponentManager\Factories\TransferOrderHeadCollectionDMGetter\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\transferorderheadcollectionlockeddmgetter.cpp">
+      <Filter>ComponentManager\Factories\TransferOrderHeadCollectionDMGetter\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\transferorderheadcollectionfactory.cpp">
+      <Filter>ComponentManager\Factories\TransferOrderHeadCollectionFactory\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\transferorderheadfactory.cpp">
+      <Filter>ComponentManager\Factories\TransferOrderHeadFactory\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\transferorderpositionconnectedfactory.cpp">
+      <Filter>ComponentManager\Factories\TransferOrderPositionFactory\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="loggerpool\libabbauw_loggerpool.cpp">
+      <Filter>loggerpool</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\accessor\orderproposal\orderproposalacc.cpp">
+      <Filter>Infrastructure\Accessor\OrderProposal\OrderProposalACC</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\accessor\purchasebatchorder\purchasebatchorderposacc.cpp">
+      <Filter>Infrastructure\Accessor\PurchaseBatchOrder\PurchaseBatchOrderPosACC</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\accessor\transferorder\transferorderpositionacc.cpp">
+      <Filter>Infrastructure\Accessor\TransferOrder\TransferOrderPositionACC</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\orderproposalfactory.cpp">
+      <Filter>ComponentManager\Factories\OrderPoposalFactory\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\orderproposal\orderproposaldm.cpp">
+      <Filter>DomainModules\OrderProposal\OrderProposal\OrderProposalDM</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\orderproposal\orderproposalupdatedm.cpp">
+      <Filter>DomainModules\OrderProposal\OrderProposal\OrderProposalUpdateDM</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\orderproposal\orderproposalcreatordm.cpp">
+      <Filter>DomainModules\OrderProposal\OrderProposalCreator\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\orderproposalcollectionfactory.cpp">
+      <Filter>ComponentManager\Factories\OrderProposalCollectionFactory\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\accessor\orderproposal\orderproposalcollectionacc.cpp">
+      <Filter>Infrastructure\Accessor\OrderProposalCollectionACC</Filter>
+    </ClCompile>
+    <ClCompile Include="customerlockedexception.cpp">
+      <Filter>exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\orderproposal\orderproposalcollectionprotectionproxy.cpp">
+      <Filter>DomainModules\OrderProposal\OrderProposalCollection\Proxy\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\orderproposal\orderproposalcollectiondm.cpp">
+      <Filter>DomainModules\OrderProposal\OrderProposalCollection\OrderProposalCollectionDM</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\accessor\batchorder\batchordercollectionacc.cpp">
+      <Filter>Infrastructure\Accessor\BatchOrder\BatchOrderCollectionACC</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\batchorder\batchordercollectiondm.cpp">
+      <Filter>DomainModules\BatchOrder\BatchOrderCollectionDM\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\batchorder\batchorderdm.cpp">
+      <Filter>DomainModules\BatchOrder\BatchOrderDM\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="componentmanager\batchorderconnectedfactory.cpp">
+      <Filter>ComponentManager\Factories\BatchOrderFactory\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptions\ordernotfoundexception.cpp">
+      <Filter>exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptions\orderreleaseexception.cpp">
+      <Filter>exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptions\outofsyncexception.cpp">
+      <Filter>exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptions\parameterexception.cpp">
+      <Filter>exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\batchorder\batchorderpositioncollection.cpp">
+      <Filter>DomainModules\BatchOrder\BatchOrderDM\PositionCollection\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\accessor\batchorder\batchorderpositioncollectionacc.cpp">
+      <Filter>Infrastructure\Accessor\BatchOrder\BatchOrderPositionCollectionACC</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\batchorder\batchorderhead.cpp">
+      <Filter>DomainModules\BatchOrder\BatchOrderDM\OrderHead\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\accessor\batchorder\batchorderheadacc.cpp">
+      <Filter>Infrastructure\Accessor\BatchOrder\BatchOrderHeadACC</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\cscclient\cscclient.cpp">
+      <Filter>Infrastructure\cscclient</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\cscclient\cscclientexception.cpp">
+      <Filter>Infrastructure\cscclient\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\cscclient\outofboundsexception.cpp">
+      <Filter>Infrastructure\cscclient\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptions\orderlockedexception.cpp">
+      <Filter>exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptions\orderproposalexception.cpp">
+      <Filter>exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\batchorder\batchorderprotectionproxy.cpp">
+      <Filter>DomainModules\BatchOrder\BatchOrderDM\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="orderlockfactory.cpp">
+      <Filter>Lock\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptions\ordersplitexception.cpp">
+      <Filter>exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="bitfieldresolver.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\orderprotocol\orderprotocoldm.cpp">
+      <Filter>DomainModules\OrderProtocol\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\orderprotocol\orderposcollectionprotocoldm.cpp">
+      <Filter>DomainModules\OrderProtocol\OrderPosCollectionProtocol\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="domainmodule\orderprotocol\orderheadprotocoldm.cpp">
+      <Filter>DomainModules\OrderProtocol\OrderHeadProtocol\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\accessor\orderprotocol\orderheadprotocolacc.cpp">
+      <Filter>Infrastructure\Accessor\OrderProtocol\OrderHeadProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructure\accessor\orderprotocol\orderposprotocolacc.cpp">
+      <Filter>Infrastructure\Accessor\OrderProtocol\OrderPosProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptions\tendercreationexception.cpp">
+      <Filter>exceptions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cmnaccessor.h">
+      <Filter>DomainModules\_common</Filter>
+    </ClInclude>
+    <ClInclude Include="cmndm.h">
+      <Filter>DomainModules\_common</Filter>
+    </ClInclude>
+    <ClInclude Include="accessorexecuteparameterization.h">
+      <Filter>DomainModules\_common\DMBase</Filter>
+    </ClInclude>
+    <ClInclude Include="dmbase.h">
+      <Filter>DomainModules\_common\DMBase</Filter>
+    </ClInclude>
+    <ClInclude Include="parameter_definitions.h">
+      <Filter>DomainModules\ParameterDM</Filter>
+    </ClInclude>
+    <ClInclude Include="parameterdm.h">
+      <Filter>DomainModules\ParameterDM</Filter>
+    </ClInclude>
+    <ClInclude Include="parameterdmptr.h">
+      <Filter>DomainModules\ParameterDM</Filter>
+    </ClInclude>
+    <ClInclude Include="parameterinitparams.h">
+      <Filter>DomainModules\ParameterDM</Filter>
+    </ClInclude>
+    <ClInclude Include="parameteracc.h">
+      <Filter>DomainModules\ParameterDM\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="iorderparameter.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iorderparameterptr.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iparameter.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iparameterdm.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iparameterdmptr.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iparameteredit.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iparametereditptr.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iparameterptr.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iuserfiltersettings.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iuserfiltersettingsptr.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="libabbauw_definitions.h" />
+    <ClInclude Include="libabbauw_properties_definitions.h" />
+    <ClInclude Include="articleinitparams.h">
+      <Filter>DomainModules\Article\ArticleCollectionDM</Filter>
+    </ClInclude>
+    <ClInclude Include="ifindarticle.h">
+      <Filter>DomainModules\Article\ArticleCollectionDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ifindarticleptr.h">
+      <Filter>DomainModules\Article\ArticleCollectionDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderheadinpreparationpropertystatechecker.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderHead\Accessors\PropertyStateChecker</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderheadinpreparationacc.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderHead\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderheadinpreparation_definitions.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderHead</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderheadinpreparationinitparams.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderHead</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderheadinpreparation.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderHead\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderheadinpreparationptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderHead\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderheadinpreparation.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderHead</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderheadinpreparationptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderHead</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderposinpreparationcollection.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderPosCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderposinpreparationcollection_definitions.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderPosCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderposinpreparationcollectioninitparams.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderPosCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderposinpreparationcollectionptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderPosCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderposinpreparationcollectionptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderPosCollection\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderposinpreparationcollectionpropertystatechecker.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderPosCollection\Accessors\PropertyStateChecker</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderposinpreparationcollectionacc.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\TransferOrderPosCollection\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderinpreparationdm.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderinpreparationdm.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="transferordercreationdm.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderCreationDM</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderposcollectionacc.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderPosCollection\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderposcollection.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderPosCollection\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderposcollectionptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderPosCollection\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderposcollection_definitions.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderPosCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderposcollection.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderPosCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderposcollectionptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderPosCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderposcollectioninitparams.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderPosCollection</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderdm.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderdmptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderheadcollectionacc.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderHeadCollectionDM\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderheadcollection_definitions.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderHeadCollectionDM</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderheadcollectioninitparams.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderHeadCollectionDM</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderheadcollectiondm.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderHeadCollectionDM</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderheadcollectiondmptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderHeadCollectionDM</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderheadacc.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderHead\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderhead.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderHead\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderheadptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderHead\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderhead.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderHead</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderhead_definitions.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderHead</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderheadinitparams.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderHead</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderheadptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderHead</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferordercreationdm.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderCreationDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferordercreationdmptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderCreationDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="transferordercreationdmptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderCreationDM</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderinpreparationdmptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderinpreparationinitparams.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderinpreparationdmptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderInPreparationDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iordertypecollectionparameter.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iordertypecollectionparameterptr.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="articlecollectiondm.h">
+      <Filter>DomainModules\Article\ArticleCollectionDM</Filter>
+    </ClInclude>
+    <ClInclude Include="articlecollectiondm_definitions.h">
+      <Filter>DomainModules\Article\ArticleCollectionDM</Filter>
+    </ClInclude>
+    <ClInclude Include="articlecollectiondmptr.h">
+      <Filter>DomainModules\Article\ArticleCollectionDM</Filter>
+    </ClInclude>
+    <ClInclude Include="articlecollectionacc.h">
+      <Filter>DomainModules\Article\ArticleCollectionDM\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="stockcollectionacc.h">
+      <Filter>DomainModules\Stock\StockCollectionDM\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="stockcollection_definitions.h">
+      <Filter>DomainModules\Stock\StockCollectionDM</Filter>
+    </ClInclude>
+    <ClInclude Include="stockcollectiondm.h">
+      <Filter>DomainModules\Stock\StockCollectionDM</Filter>
+    </ClInclude>
+    <ClInclude Include="stockcollectiondmptr.h">
+      <Filter>DomainModules\Stock\StockCollectionDM</Filter>
+    </ClInclude>
+    <ClInclude Include="stockcollectioninitparams.h">
+      <Filter>DomainModules\Stock\StockCollectionDM</Filter>
+    </ClInclude>
+    <ClInclude Include="istockcollectiondm.h">
+      <Filter>DomainModules\Stock\StockCollectionDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="istockcollectiondmptr.h">
+      <Filter>DomainModules\Stock\StockCollectionDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="istockparameter.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="istockparameterptr.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="accessor_datetypes_common.h">
+      <Filter>DomainModules\_common</Filter>
+    </ClInclude>
+    <ClInclude Include="articleconsultantacc.h">
+      <Filter>DomainModules\Article\ArticleConsultantDM\Accessor</Filter>
+    </ClInclude>
+    <ClInclude Include="ifindarticleprice.h">
+      <Filter>DomainModules\Article\ArticleConsultantDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ifindarticlepriceptr.h">
+      <Filter>DomainModules\Article\ArticleConsultantDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="articleconsultantinitparams.h">
+      <Filter>DomainModules\Article\ArticleConsultantDM</Filter>
+    </ClInclude>
+    <ClInclude Include="articleconsultantdm.h">
+      <Filter>DomainModules\Article\ArticleConsultantDM</Filter>
+    </ClInclude>
+    <ClInclude Include="articleconsultantdm_definitions.h">
+      <Filter>DomainModules\Article\ArticleConsultantDM</Filter>
+    </ClInclude>
+    <ClInclude Include="articleconsultantdmptr.h">
+      <Filter>DomainModules\Article\ArticleConsultantDM</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderposcollectionpropertystatechecker.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderPosCollection\Accessors\PropertyStateChecker</Filter>
+    </ClInclude>
+    <ClInclude Include="iordertypegetter.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iordertypegetterptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="transferordersplitdm.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderSplitDM</Filter>
+    </ClInclude>
+    <ClInclude Include="transferordersplitdmptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderSplitDM</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderheadpropertystatechecker.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\TransferOrderHead\Accessors\PropertyStateChecker</Filter>
+    </ClInclude>
+    <ClInclude Include="colorsplittingpolicy.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderSplitDM\SplittingPolicy\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="isplittingpolicy.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderSplitDM\SplittingPolicy\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="narcoticsrefrigeratedsplittingpolicy.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderSplitDM\SplittingPolicy\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="isplittingpolicyptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderSplitDM\SplittingPolicy\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="iordercreationparameter.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iordercreationparameterptr.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferordersplitdm.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderSplitDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferordersplitdmptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderSplitDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sortorder.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="icscordercreator.h">
+      <Filter>DomainModules\CSCOrder\CSCOrderDM\CSCInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="icscordercreatorptr.h">
+      <Filter>DomainModules\CSCOrder\CSCOrderDM\CSCInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="cscorderdm.h">
+      <Filter>DomainModules\CSCOrder\CSCOrderDM</Filter>
+    </ClInclude>
+    <ClInclude Include="cscorderdmptr.h">
+      <Filter>DomainModules\CSCOrder\CSCOrderDM</Filter>
+    </ClInclude>
+    <ClInclude Include="cscorderinitparams.h">
+      <Filter>DomainModules\CSCOrder\CSCOrderDM</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderheadcollectionfinder.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderHeadCollectionDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderheadcollectionfinderptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderHeadCollectionDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderheadcollectionchanger.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderHeadCollectionDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderheadcollectionchangerptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderHeadCollectionDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderheadcollectiondm.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderHeadCollectionDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderheadcollectiondmptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderHeadCollectionDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderheadcollectiongetter.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderHeadCollectionDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderheadcollectiongetterptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderHeadCollectionDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="icscorderreleaser.h">
+      <Filter>DomainModules\CSCOrder\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="icscorderreleaserptr.h">
+      <Filter>DomainModules\CSCOrder\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iordercheckparameter.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iordercheckparameterptr.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iorderreleaseparameter.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iorderreleaseparameterptr.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="manufactureracc.h">
+      <Filter>DomainModules\ManufacturerDM\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="ifindmanufacturer.h">
+      <Filter>DomainModules\ManufacturerDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ifindmanufacturerptr.h">
+      <Filter>DomainModules\ManufacturerDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="manufacturerdm.h">
+      <Filter>DomainModules\ManufacturerDM</Filter>
+    </ClInclude>
+    <ClInclude Include="manufacturerdm_definitions.h">
+      <Filter>DomainModules\ManufacturerDM</Filter>
+    </ClInclude>
+    <ClInclude Include="manufacturerinitparams.h">
+      <Filter>DomainModules\ManufacturerDM</Filter>
+    </ClInclude>
+    <ClInclude Include="purchaseordersupplieracc.h">
+      <Filter>DomainModules\PurchaseOrderSupplierDM\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="purchaseordersupplierdm_definitions.h">
+      <Filter>DomainModules\PurchaseOrderSupplierDM</Filter>
+    </ClInclude>
+    <ClInclude Include="purchaseordersupplierdm.h">
+      <Filter>DomainModules\PurchaseOrderSupplierDM</Filter>
+    </ClInclude>
+    <ClInclude Include="purchaseordersupplierdmptr.h">
+      <Filter>DomainModules\PurchaseOrderSupplierDM</Filter>
+    </ClInclude>
+    <ClInclude Include="ifindpurchaseordersupplier.h">
+      <Filter>DomainModules\PurchaseOrderSupplierDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ifindpurchaseordersupplierptr.h">
+      <Filter>DomainModules\PurchaseOrderSupplierDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="icustomercollectionfinder.h">
+      <Filter>DomainModules\Customer\CustomerCollectionDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="icustomercollectionfinderptr.h">
+      <Filter>DomainModules\Customer\CustomerCollectionDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="customercollectiondm.h">
+      <Filter>DomainModules\Customer\CustomerCollectionDM</Filter>
+    </ClInclude>
+    <ClInclude Include="customercollectionacc.h">
+      <Filter>DomainModules\Customer\CustomerCollectionDM\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="customercollectiondm_definitions.h">
+      <Filter>DomainModules\Customer\CustomerCollectionDM</Filter>
+    </ClInclude>
+    <ClInclude Include="customercollectioninitparams.h">
+      <Filter>DomainModules\Customer\CustomerCollectionDM</Filter>
+    </ClInclude>
+    <ClInclude Include="customeracc.h">
+      <Filter>DomainModules\Customer\CustomerDM\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="customerdm_definitions.h">
+      <Filter>DomainModules\Customer\CustomerDM</Filter>
+    </ClInclude>
+    <ClInclude Include="icustomerfinder.h">
+      <Filter>DomainModules\Customer\CustomerDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="icustomerfinderptr.h">
+      <Filter>DomainModules\Customer\CustomerDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="customerdm.h">
+      <Filter>DomainModules\Customer\CustomerDM</Filter>
+    </ClInclude>
+    <ClInclude Include="customerinitparams.h">
+      <Filter>DomainModules\Customer\CustomerDM</Filter>
+    </ClInclude>
+    <ClInclude Include="icustomergetter.h">
+      <Filter>DomainModules\Customer\CustomerDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="icustomergetterptr.h">
+      <Filter>DomainModules\Customer\CustomerDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferordergetter.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferordergetterptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderprotectionproxy.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderprotectionproxyptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="yiteratormatcher.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderheadcollectionprotectionproxy.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderHeadCollectionDM\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderheadcollectionprotectionproxyptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderHeadCollectionDM\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderpositiondm.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderPositionDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderposition.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderPositionDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderpositionptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderPositionDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderpositiondmptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderPositionDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorder.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderptr.h">
+      <Filter>DomainModules\TransferOrder\TransferOrderDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="purchasebatchorderposdmptr.h">
+      <Filter>DomainModules\PurchaseBatchOrder\PurchaseBatchOrderPosDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="purchasebatchorderposdm.h">
+      <Filter>DomainModules\PurchaseBatchOrder\PurchaseBatchOrderPosDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="ipurchasebatchorderposupdater.h">
+      <Filter>DomainModules\PurchaseBatchOrder\PurchaseBatchOrderPosDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ipurchasebatchorderposupdaterptr.h">
+      <Filter>DomainModules\PurchaseBatchOrder\PurchaseBatchOrderPosDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ireserveqtyfactorparameter.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ireserveqtyfactorparameterptr.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="orderstatus.h">
+      <Filter>DomainModules\OrderStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="reservequantityfactortype.h">
+      <Filter>DomainModules\TransferOrder\common\ReserveQuantityFactor</Filter>
+    </ClInclude>
+    <ClInclude Include="reservequantityfactorgetter.h">
+      <Filter>DomainModules\TransferOrder\common\ReserveQuantityFactor\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="ireservequantityfactorgetter.h">
+      <Filter>DomainModules\TransferOrder\common\ReserveQuantityFactor\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ireservequantityfactorgetterptr.h">
+      <Filter>DomainModules\TransferOrder\common\ReserveQuantityFactor\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="reservequantityfactorgetterptr.h">
+      <Filter>DomainModules\TransferOrder\common\ReserveQuantityFactor\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\dmcomponentmanager.h">
+      <Filter>ComponentManager\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\dmcomponentmanagerptr.h">
+      <Filter>ComponentManager\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\icscordergetter.h">
+      <Filter>ComponentManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\icscordergetterptr.h">
+      <Filter>ComponentManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\ireservequantityfactorgetterfactory.h">
+      <Filter>ComponentManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\ireservequantityfactorgetterfactoryptr.h">
+      <Filter>ComponentManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\itransferorderheadgetter.h">
+      <Filter>ComponentManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\itransferorderheadgetterptr.h">
+      <Filter>ComponentManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\itransferorderposcollectiongetter.h">
+      <Filter>ComponentManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\itransferorderposcollectiongetterptr.h">
+      <Filter>ComponentManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\transferorderdmgetter.h">
+      <Filter>ComponentManager\Factories\TransferOrderDMGetter\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\transferorderlockeddmgetter.h">
+      <Filter>ComponentManager\Factories\TransferOrderDMGetter\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\itransferorderdmgetter.h">
+      <Filter>ComponentManager\Factories\TransferOrderDMGetter\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\itransferorderdmgetterptr.h">
+      <Filter>ComponentManager\Factories\TransferOrderDMGetter\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\transferorderfactory.h">
+      <Filter>ComponentManager\Factories\TransferOrderFactory\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\transferorderfactoryptr.h">
+      <Filter>ComponentManager\Factories\TransferOrderFactory\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\icreatesplittedheadfactory.h">
+      <Filter>ComponentManager\Factories\TransferOrderFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\icreatesplittedheadfactoryptr.h">
+      <Filter>ComponentManager\Factories\TransferOrderFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\itransferorderfactory.h">
+      <Filter>ComponentManager\Factories\TransferOrderFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\itransferorderfactoryptr.h">
+      <Filter>ComponentManager\Factories\TransferOrderFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\transferorderheadcollectiondmgetter.h">
+      <Filter>ComponentManager\Factories\TransferOrderHeadCollectionDMGetter\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\transferorderheadcollectionlockeddmgetter.h">
+      <Filter>ComponentManager\Factories\TransferOrderHeadCollectionDMGetter\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\itransferorderheadcollectiondmgetter.h">
+      <Filter>ComponentManager\Factories\TransferOrderHeadCollectionDMGetter\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\itransferorderheadcollectiondmgetterptr.h">
+      <Filter>ComponentManager\Factories\TransferOrderHeadCollectionDMGetter\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\itransferorderheadcollectionfactory.h">
+      <Filter>ComponentManager\Factories\TransferOrderHeadCollectionFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\itransferorderheadcollectionfactoryptr.h">
+      <Filter>ComponentManager\Factories\TransferOrderHeadCollectionFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\transferorderheadcollectionfactory.h">
+      <Filter>ComponentManager\Factories\TransferOrderHeadCollectionFactory\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\transferorderheadcollectionfactoryptr.h">
+      <Filter>ComponentManager\Factories\TransferOrderHeadCollectionFactory\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\transferorderheadfactory.h">
+      <Filter>ComponentManager\Factories\TransferOrderHeadFactory\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\transferorderheadfactoryptr.h">
+      <Filter>ComponentManager\Factories\TransferOrderHeadFactory\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\itransferorderheadfactory.h">
+      <Filter>ComponentManager\Factories\TransferOrderHeadFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\itransferorderheadfactoryptr.h">
+      <Filter>ComponentManager\Factories\TransferOrderHeadFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\transferorderpositionconnectedfactory.h">
+      <Filter>ComponentManager\Factories\TransferOrderPositionFactory\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\transferorderpositionconnectedfactoryptr.h">
+      <Filter>ComponentManager\Factories\TransferOrderPositionFactory\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\itransferorderpositionconnectedfactory.h">
+      <Filter>ComponentManager\Factories\TransferOrderPositionFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\itransferorderpositionconnectedfactoryptr.h">
+      <Filter>ComponentManager\Factories\TransferOrderPositionFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="loggerpool\libabbauw_loggerpool.h">
+      <Filter>loggerpool</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\accessor\orderproposal\orderproposalacc.h">
+      <Filter>Infrastructure\Accessor\OrderProposal\OrderProposalACC</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\accessor\orderproposal\orderproposalacc_definitions.h">
+      <Filter>Infrastructure\Accessor\OrderProposal\OrderProposalACC</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\accessor\purchasebatchorder\purchasebatchorderposacc.h">
+      <Filter>Infrastructure\Accessor\PurchaseBatchOrder\PurchaseBatchOrderPosACC</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\accessor\purchasebatchorder\purchasebatchorderposacc_definitions.h">
+      <Filter>Infrastructure\Accessor\PurchaseBatchOrder\PurchaseBatchOrderPosACC</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\accessor\transferorder\transferorderpositionacc.h">
+      <Filter>Infrastructure\Accessor\TransferOrder\TransferOrderPositionACC</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\accessor\transferorder\transferorderpositionacc_definitions.h">
+      <Filter>Infrastructure\Accessor\TransferOrder\TransferOrderPositionACC</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\accessor\batchorder\batchordercollectionacc.h">
+      <Filter>Infrastructure\Accessor\BatchOrder\BatchOrderCollectionACC</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\accessor\batchorder\batchordercollectionacc_definitions.h">
+      <Filter>Infrastructure\Accessor\BatchOrder\BatchOrderCollectionACC</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\batchorder\batchordercollectiondm.h">
+      <Filter>DomainModules\BatchOrder\BatchOrderCollectionDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\batchorder\batchordercollectiondmptr.h">
+      <Filter>DomainModules\BatchOrder\BatchOrderCollectionDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\batchorder\ibatchordercollectionfinder.h">
+      <Filter>DomainModules\BatchOrder\BatchOrderCollectionDM\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\batchorder\ibatchordercollectionfinderptr.h">
+      <Filter>DomainModules\BatchOrder\BatchOrderCollectionDM\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\batchorder\ibatchorder.h">
+      <Filter>DomainModules\BatchOrder\BatchOrderDM\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\batchorder\ibatchorderptr.h">
+      <Filter>DomainModules\BatchOrder\BatchOrderDM\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\batchorder\batchorderdm.h">
+      <Filter>DomainModules\BatchOrder\BatchOrderDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\batchorder\batchorderdmptr.h">
+      <Filter>DomainModules\BatchOrder\BatchOrderDM\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\ibatchorderconnectedfactory.h">
+      <Filter>ComponentManager\Factories\BatchOrderFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\ibatchorderconnectedfactoryptr.h">
+      <Filter>ComponentManager\Factories\BatchOrderFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\batchorderconnectedfactory.h">
+      <Filter>ComponentManager\Factories\BatchOrderFactory\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\batchorderconnectedfactoryptr.h">
+      <Filter>ComponentManager\Factories\BatchOrderFactory\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\ordernotfoundexception.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\orderreleaseexception.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\outofsyncexception.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\parameterexception.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\orderproposalfactory.h">
+      <Filter>ComponentManager\Factories\OrderPoposalFactory\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\iorderproposalcreator.h">
+      <Filter>DomainModules\OrderProposal\OrderProposalCreator\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\iorderproposalcreatorptr.h">
+      <Filter>DomainModules\OrderProposal\OrderProposalCreator\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\iorderproposal.h">
+      <Filter>DomainModules\OrderProposal\OrderProposal\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\iorderproposalptr.h">
+      <Filter>DomainModules\OrderProposal\OrderProposal\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\orderproposaldm.h">
+      <Filter>DomainModules\OrderProposal\OrderProposal\OrderProposalDM</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\orderproposaldmptr.h">
+      <Filter>DomainModules\OrderProposal\OrderProposal\OrderProposalDM</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\orderproposalupdatedm.h">
+      <Filter>DomainModules\OrderProposal\OrderProposal\OrderProposalUpdateDM</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\orderproposalupdatedmptr.h">
+      <Filter>DomainModules\OrderProposal\OrderProposal\OrderProposalUpdateDM</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\iorderproposalfactory.h">
+      <Filter>ComponentManager\Factories\OrderPoposalFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\iorderproposalfactoryptr.h">
+      <Filter>ComponentManager\Factories\OrderPoposalFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\orderproposalcreatordm.h">
+      <Filter>DomainModules\OrderProposal\OrderProposalCreator\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\orderproposalcreatordmptr.h">
+      <Filter>DomainModules\OrderProposal\OrderProposalCreator\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\orderproposalfactoryptr.h">
+      <Filter>ComponentManager\Factories\OrderPoposalFactory\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\iorderproposalcollectionfactory.h">
+      <Filter>ComponentManager\Factories\OrderProposalCollectionFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\iorderproposalcollectionfactoryptr.h">
+      <Filter>ComponentManager\Factories\OrderProposalCollectionFactory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\orderproposalcollectionfactory.h">
+      <Filter>ComponentManager\Factories\OrderProposalCollectionFactory\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\accessor\orderproposal\orderproposalcollectionacc.h">
+      <Filter>Infrastructure\Accessor\OrderProposalCollectionACC</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\accessor\orderproposal\orderproposalcollectionacc_definitions.h">
+      <Filter>Infrastructure\Accessor\OrderProposalCollectionACC</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\iorderproposalcollection.h">
+      <Filter>DomainModules\OrderProposal\OrderProposalCollection\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\iorderproposalcollectionfinder.h">
+      <Filter>DomainModules\OrderProposal\OrderProposalCollection\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\iorderproposalcollectionfinderptr.h">
+      <Filter>DomainModules\OrderProposal\OrderProposalCollection\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\iorderproposalcollectionptr.h">
+      <Filter>DomainModules\OrderProposal\OrderProposalCollection\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="trafficlightcolorsenum.h">
+      <Filter>DomainModules\TransferOrder\common</Filter>
+    </ClInclude>
+    <ClInclude Include="customerlockedexception.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="idaystocolorparameter.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="idaystocolorparameterptr.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\iorderproposalcollectionprotectionproxygetterptr.h">
+      <Filter>ComponentManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="componentmanager\iorderproposalcollectionprotectionproxygetter.h">
+      <Filter>ComponentManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\orderproposalcollectionprotectionproxyptr.h">
+      <Filter>DomainModules\OrderProposal\OrderProposalCollection\Proxy\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\orderproposalcollectionprotectionproxy.h">
+      <Filter>DomainModules\OrderProposal\OrderProposalCollection\Proxy\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\iorderproposalcollectionprotectionproxy.h">
+      <Filter>DomainModules\OrderProposal\OrderProposalCollection\Proxy\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\iorderproposalcollectionprotectionproxyptr.h">
+      <Filter>DomainModules\OrderProposal\OrderProposalCollection\Proxy\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\orderproposalcollectiondmptr.h">
+      <Filter>DomainModules\OrderProposal\OrderProposalCollection\OrderProposalCollectionDM</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderproposal\orderproposalcollectiondm.h">
+      <Filter>DomainModules\OrderProposal\OrderProposalCollection\OrderProposalCollectionDM</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\batchorder\batchorderpositioncollection.h">
+      <Filter>DomainModules\BatchOrder\BatchOrderDM\PositionCollection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\batchorder\batchorderpositioncollectionptr.h">
+      <Filter>DomainModules\BatchOrder\BatchOrderDM\PositionCollection\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\batchorder\ibatchorderpositioncollectionfinder.h">
+      <Filter>DomainModules\BatchOrder\BatchOrderDM\PositionCollection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\batchorder\ibatchorderpositioncollectionfinderptr.h">
+      <Filter>DomainModules\BatchOrder\BatchOrderDM\PositionCollection\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\accessor\batchorder\batchorderpositioncollectionacc.h">
+      <Filter>Infrastructure\Accessor\BatchOrder\BatchOrderPositionCollectionACC</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\accessor\batchorder\batchorderpositioncollectionacc_definitions.h">
+      <Filter>Infrastructure\Accessor\BatchOrder\BatchOrderPositionCollectionACC</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\batchorder\batchorderhead.h">
+      <Filter>DomainModules\BatchOrder\BatchOrderDM\OrderHead\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\batchorder\batchorderheadptr.h">
+      <Filter>DomainModules\BatchOrder\BatchOrderDM\OrderHead\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\accessor\batchorder\batchorderheadacc_definitions.h">
+      <Filter>Infrastructure\Accessor\BatchOrder\BatchOrderHeadACC</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\accessor\batchorder\batchorderheadacc.h">
+      <Filter>Infrastructure\Accessor\BatchOrder\BatchOrderHeadACC</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\batchorder\ibatchorderheadfinder.h">
+      <Filter>DomainModules\BatchOrder\BatchOrderDM\OrderHead\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\batchorder\ibatchorderheadfinderptr.h">
+      <Filter>DomainModules\BatchOrder\BatchOrderDM\OrderHead\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\cscclient\cscclient.h">
+      <Filter>Infrastructure\cscclient</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\cscclient\cscclientexception.h">
+      <Filter>Infrastructure\cscclient\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\cscclient\outofboundsexception.h">
+      <Filter>Infrastructure\cscclient\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="iordergetter.h">
+      <Filter>DomainModules\CSCOrder\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iordergetterptr.h">
+      <Filter>DomainModules\CSCOrder\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\orderlockedexception.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\orderproposalexception.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\batchorder\batchorderprotectionproxy.h">
+      <Filter>DomainModules\BatchOrder\BatchOrderDM\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\batchorder\batchorderprotectionproxyptr.h">
+      <Filter>DomainModules\BatchOrder\BatchOrderDM\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="iorderlockfactory.h">
+      <Filter>Lock\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="iorderlockfactoryptr.h">
+      <Filter>Lock\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="orderlockfactory.h">
+      <Filter>Lock\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="orderlockfactoryptr.h">
+      <Filter>Lock\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\ordersplitexception.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="bitfieldresolver.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderprotocol\iorderprotocol.h">
+      <Filter>DomainModules\OrderProtocol\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderprotocol\iorderprotocolptr.h">
+      <Filter>DomainModules\OrderProtocol\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderprotocol\orderprotocoldm.h">
+      <Filter>DomainModules\OrderProtocol\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderprotocol\orderprotocoldmptr.h">
+      <Filter>DomainModules\OrderProtocol\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderprotocol\orderprotocolenums.h">
+      <Filter>DomainModules\OrderProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderprotocol\iorderheadprotocol.h">
+      <Filter>DomainModules\OrderProtocol\OrderHeadProtocol\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderprotocol\iorderheadprotocolptr.h">
+      <Filter>DomainModules\OrderProtocol\OrderHeadProtocol\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderprotocol\iorderposcollectionprotocol.h">
+      <Filter>DomainModules\OrderProtocol\OrderPosCollectionProtocol\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderprotocol\iorderposcollectionprotocolptr.h">
+      <Filter>DomainModules\OrderProtocol\OrderPosCollectionProtocol\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderprotocol\orderposcollectionprotocoldm.h">
+      <Filter>DomainModules\OrderProtocol\OrderPosCollectionProtocol\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderprotocol\orderposcollectionprotocoldmptr.h">
+      <Filter>DomainModules\OrderProtocol\OrderPosCollectionProtocol\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderprotocol\orderheadprotocoldm.h">
+      <Filter>DomainModules\OrderProtocol\OrderHeadProtocol\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="domainmodule\orderprotocol\orderheadprotocoldmptr.h">
+      <Filter>DomainModules\OrderProtocol\OrderHeadProtocol\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\accessor\orderprotocol\orderheadprotocolacc.h">
+      <Filter>Infrastructure\Accessor\OrderProtocol\OrderHeadProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\accessor\orderprotocol\orderheadprotocolacc_definitions.h">
+      <Filter>Infrastructure\Accessor\OrderProtocol\OrderHeadProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\accessor\orderprotocol\orderposprotocolacc.h">
+      <Filter>Infrastructure\Accessor\OrderProtocol\OrderPosProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructure\accessor\orderprotocol\orderposprotocolacc_definitions.h">
+      <Filter>Infrastructure\Accessor\OrderProtocol\OrderPosProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="iinterfacesettings.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iinterfacesettingsptr.h">
+      <Filter>DomainModules\ParameterDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\tendercreationexception.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="multilang\libabbauw_de.ts">
+      <Filter>multilang</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="componentmanager\orderproposalcollectionfactoryptr.h">
+      <Filter>ComponentManager\Factories\OrderProposalCollectionFactory\Impl</Filter>
+    </None>
+  </ItemGroup>
+</Project>

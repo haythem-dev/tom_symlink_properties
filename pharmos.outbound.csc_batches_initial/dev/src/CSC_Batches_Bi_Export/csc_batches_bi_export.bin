@@ -1,0 +1,296 @@
+                             #!/usr/bin/ksh
+
+###############################################################################
+# Script to unload ordewishes(Bestellwuensche) from ABBA-UW to BI
+# Xin Zhou
+# 19.08.2013
+# 21.01.14 kes  Filename without date/timestamp, "successfaull" -> "successfull"
+# 23.01.14 kes  Archive (move) the old file DWHABBAUW.19 to DWHABBAUW.19.Z beforeDacreating the new one
+# 26.03.14 kes  The last (tenth) field of file DWHABBAUW.19 should contain EK-Bestellnr, but not a FALSE-flag
+# 26.03.14 kes  The exported textfields didn't match the requirements: articlename should be 30 chars, einheit should be 9 chars
+# 16.03.16 kes  The two Germanies ND and SD get new filenames for export: DWHABBAUW.99.ND and DWHABBAUW.99.SD. Archive in similar manner. 
+###############################################################################
+
+#-----------------------------------------------------------------------------#
+# READ IN GLOBAL VARIABLES
+#-----------------------------------------------------------------------------#
+. $(dirname $0)/../vars/ksc_batch_global.vars
+
+
+################################ constants ####################################
+mkdir -p ${LOG_PATH}
+
+VERSION=1.0.0.3
+
+
+################################ f_db_dest_env ################################
+    function f_db_dest_env {
+      if [[ "bg" = "$2" ]] ; then
+        export CLIENT_LOCALE=bg_bg.8859-5
+        export DB_LOCALE=bg_bg.8859-5
+        export DBMONEY=.
+        export DBDATE="MDY4/"
+        export GL_DATE=%m/%d/%iY
+      else
+        unset CLIENT_LOCALE
+        unset DB_LOCALE
+        export DBMONEY=,
+        unset DBDATE
+        unset GL_DATE
+      fi
+    } # f_db_dest_env
+
+
+#################################### main ########################################
+#
+##################################################################################
+
+  
+################################ help ############################################
+if [[ "-h" == "$1" || "-?" == "$1" ]]; then
+    echo 
+    echo $(basename $0) 
+    echo    
+    echo "To export ABBA-UW (Bestellwuensche) into BI,"
+    echo "please execute this shellscript by typing:"    
+    echo "$(basename $0) -country COUNTRYID -db DBNAME -vz VZNR -hnr HNR -pzn PZN -startdate STARTDATE -enddate ENDDATE"    
+    echo "An Example to execute the program for Switzerland:" 
+	echo "$(basename $0) -country ch -db och21 -vz 12 -hnr 4 -pzn all -startdate 20130615 -enddate 20130731"
+    exit 1
+fi
+ 
+  
+################################ check parameters ################################
+if (( $# < 10 || $# > 10 )); then    
+    echo "ERROR! The number of parameters is false. For help please type in:" 
+    echo "$(basename $0) -h" 
+    exit 2
+fi
+
+DB="$4"
+
+####################set database, landname and branchno###########################
+case "$2" in 
+				"de1")
+				LANDNAME="D"
+				BRANCHNO=99				
+				LANDEXTENTION=".ND"
+						;;
+				"de2")
+				LANDNAME="D"
+				BRANCHNO=99				
+				LANDEXTENTION=".SD"
+						;;
+				"ch")
+				LANDNAME="CH"
+				BRANCHNO=19
+				LANDEXTENTION=""
+						;;
+				"at")
+				LANDNAME="A"
+				BRANCHNO=69
+				LANDEXTENTION=""
+						;;
+				"bg")
+				LANDNAME="BG"
+				BRANCHNO=23				
+				LANDEXTENTION=""
+						;;
+				"fr")
+				LANDNAME="F"
+				BRANCHNO=49
+				LANDEXTENTION=""
+						;;
+				"hr")
+				LANDNAME="HR"
+				BRANCHNO=79				
+				LANDEXTENTION=""
+						;;
+				"rs")
+				LANDNAME="SRB"
+				BRANCHNO=84				
+				LANDEXTENTION=""
+						;;
+				* )
+           		echo "ERROR! The parameter value $2 is not found in database" 
+				echo "For help please type in:" 
+				echo "$(basename $0) -h"
+            	exit 3 
+						;;
+esac
+
+
+################################ adaptations #####################################
+#for AIX please the comment out the following row export INFORMIXDIR
+#export INFORMIXDIR=$(dirname $INFORMIXDIR)
+
+
+################################ settings ########################################
+TEMPTABLE1=temp1  
+FILENAME_DATE=`date +"%Y%m%d"`
+FILENAME_TIME=`date +"%H%M"`
+#please use the path from environment settings
+DWHABBAUW_DATA_PATH=$(dirname $0)/../data
+
+#orig 21.1.14: FILENAME="${DWHABBAUW_DATA_PATH}/DWHABBAUW" 
+#23.1.14:FILENAME="${DWHABBAUW_DATA_PATH}/DWHORDERPROPOSAL" 
+FILENAME="${DWHABBAUW_DATA_PATH}/DWHABBAUW" 
+
+#orig. 21.1.14: FILENAME2="${DWHABBAUW_DATA_PATH}/DWHABBAUW."${BRANCHNO}"."${FILENAME_DATE}"."${FILENAME_TIME}
+#23.1.14:FILENAME2="${DWHABBAUW_DATA_PATH}/DWHORDERPROPOSAL."${BRANCHNO}
+#16.03.16 orig: FILENAME2="${DWHABBAUW_DATA_PATH}/DWHABBAUW."${BRANCHNO}
+FILENAME2="${DWHABBAUW_DATA_PATH}/DWHABBAUW."${BRANCHNO}${LANDEXTENTION}
+
+#orig 21.1.14: LOGFILE=$LOG_PATH/$(basename $0)"."${FILENAME_DATE}"."${FILENAME_TIME}"."log
+#23.1.14:LOGFILE=$LOG_PATH/$(basename $0)"."${FILENAME_DATE}"."log
+LOGFILE=$LOG_PATH/$(basename $0)"."${FILENAME_DATE}"."log
+
+ 
+rm $FILENAME 2>/dev/null
+TEMPFILE="${FILENAME}.tmp"
+TEMPFILE2="${FILENAME}.tmp2"
+rm $TEMPFILE 2>/dev/null
+mkdir -p ${DWHABBAUW_DATA_PATH}
+touch ${FILENAME}
+
+echo "=============== START ================================" >>$LOGFILE
+echo "$0 $*" >>$LOGFILE
+date >>$LOGFILE
+echo "$(basename $0) Version: $VERSION" >>$LOGFILE
+echo "======================================================" >>$LOGFILE
+
+#kes 23.1.14: At first: Archivei (mv) the last created file to ".Z"-file
+ARCHIVEFILENAME="${FILENAME2}.Z"
+mv $FILENAME2 $ARCHIVEFILENAME   2>>$LOGFILE
+echo "Archive (mv) old file to $ARCHIVEFILENAME"
+
+
+###############for-loop to read all the data into one file#########################
+f_db_dest_env
+
+sql_statement0="set isolation to dirty read;"
+echo "sql_statement=$sql_statement0" >>$LOGFILE
+
+#26.03.14 kes: Original war:
+#sql_statement_select="
+#SELECT 
+#orderproposal.branchno, artikelzentral.hersteller_nr, orderproposal.articleno, artikelzentral.artikel_name, artikelzentral.einheit,
+#orderproposal.orderproposalqty, artikelpreis.preisekgrosso, artikelpreis.preisekgrosso*orderproposal.orderproposalqty as Gesamtwert, orderproposal.orderproposaltime, 'FALSE' as BESTELLT_FLAG,
+#orderproposal.purchaseorderno"
+
+sql_statement_select="
+	SELECT 
+	orderproposal.branchno, artikelzentral.hersteller_nr, orderproposal.articleno, artikelzentral.artikel_name, artikelzentral.einheit,
+	orderproposal.orderproposalqty, artikelpreis.preisekgrosso, artikelpreis.preisekgrosso*orderproposal.orderproposalqty as Gesamtwert, orderproposal.orderproposaltime, 
+	orderproposal.purchaseorderno"
+echo "sql_statement=$sql_statement_select" >>$LOGFILE
+
+sql_statement_from="
+	FROM orderproposal  
+	INNER JOIN artikelzentral ON orderproposal.articleno=artikelzentral.artikel_nr 
+	INNER JOIN artikelpreis ON orderproposal.articleno=artikelpreis.artikel_nr "
+echo "sql_statement=$sql_statement_from" >>$LOGFILE
+
+sql_statement_where_date="
+	WHERE DATE(orderproposal.orderproposaltime)>=TO_DATE('${8}', '%Y%m%d') 
+	AND 
+	DATE(orderproposal.orderproposaltime)<=TO_DATE('${10}', '%Y%m%d') "
+echo "sql_statement=$sql_statement_where_date" >>$LOGFILE
+
+
+sql_statement_and_transfertimebi="
+	AND DATE(orderproposal.transfertimebi)>=TO_DATE('99991231', '%Y%m%d') "
+echo "sql_statement=$sql_statement_and_transfertimebi" >>$LOGFILE 
+
+sql_statement_and_orderproposalqty="
+	AND (orderproposal.orderproposalqty > 0) "
+echo "sql_statement=$sql_statement_and_orderproposalqty" >>$LOGFILE 
+
+if [[ "all" = "$6" ]] ; then
+	sql_statement_and_vz=""
+	else
+	sql_statement_where_vz="AND orderproposal.branchno=$6 "
+	echo "sql_statement=$sql_statement_and_vz " >>$LOGFILE
+fi
+
+
+
+sql_statement_order_temp="
+	ORDER BY orderproposal.branchno ASC, artikelzentral.hersteller_nr ASC, orderproposal.articleno ASC, orderproposal.orderproposaltime ASC 
+	INTO TEMP ${TEMPTABLE1};"
+echo "sql_statement=$sql_statement_order_temp" >>$LOGFILE
+
+sql_statement_update_orderproposal="
+	UPDATE orderproposal
+	SET orderproposal.transfertimebi = CURRENT 
+	${sql_statement_where_date}	
+	${sql_statement_and_vz} $sql_statement_and_orderproposalqty
+	AND orderproposal.articleno IN (SELECT articleno FROM ${TEMPTABLE1}) 	
+	AND orderproposal.transfertimebi >='9999-12-31 00:00:00.0' 
+       ;"
+echo "sql_statement=$sql_statement_update_orderproposal" >>$LOGFILE	
+
+
+
+sql_statement_unload="unload to '${TEMPFILE}' delimiter ';'
+    select *  
+    from $TEMPTABLE1;"
+echo "sql_statement=$sql_statement_unload" >>$LOGFILE
+  
+sql_statement_droptemp="drop table $TEMPTABLE1;"
+echo "sql_statement=$sql_statement_droptemp" >>$LOGFILE
+
+
+################## dbaccess  #####################################################
+dbaccess ${DB} 2>>$LOGFILE <<%
+$sql_statement0
+$sql_statement_select
+$sql_statement_from
+$sql_statement_where_date
+$sql_statement_and_transfertimebi
+$sql_statement_and_orderproposalqty
+$sql_statement_and_vz
+$sql_statement_order_temp
+$sql_statement_update_orderproposal
+$sql_statement_unload
+$sql_statement_droptemp
+%
+res=$?
+if [[ $res -ne 0 ]];then
+    echo "Unload from the datatable for $2 was NOT successful"
+    exit 88  
+else
+    echo "Unload from the datatable for $2 was successful"
+fi
+
+cat ${TEMPFILE} | sed 's/,/./g' > ${TEMPFILE2}
+res=$?
+if [[ $res -ne 0 ]];then
+    echo "Setting Comma or Point was NOT successful "
+    exit 66  
+else
+    echo "Setting Comma or Point was successful"
+fi
+
+# 26.03.14 kes: original
+# awk -F';' '{printf("%05d;%010d;%010d;% -30s;% -9s;%010d;%09.2f;%015.2f;% -23s;%010d\r\n",$1,$2,$3,$4,$5,$6,$7,$8,$9,$10)}' ${TEMPFILE2} >> $FILENAME  
+
+awk -F';' '{printf("%05d;%010d;%010d;%-30.30s;%-9.9s;%010d;%09.2f;%015.2f;%-23.23s;%010d\r\n",$1,$2,$3,$4,$5,$6,$7,$8,$9,$10)}' ${TEMPFILE2} >> $FILENAME  
+res=$?
+if [[ $res -ne 0 ]];then
+    echo "Exporting and Formatting of the unloaded Data was NOT successful"
+    exit 44
+else
+    echo "Export and formatting was successful"
+fi
+
+
+cp -f $FILENAME $FILENAME2
+rm $TEMPFILE 2>/dev/null
+rm $TEMPFILE2 2>/dev/null
+rm $FILENAME 2>/dev/null
+
+
+echo "=============== END   ================================" >>$LOGFILE
+
+exit 0

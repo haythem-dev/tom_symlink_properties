@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="log4cplus">
+      <UniqueIdentifier>{6a62648d-edbd-4f2b-8ea6-03a50f81fe43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestCases">
+      <UniqueIdentifier>{3547139f-a383-4795-b523-427ac7af3035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestCases\OrderProposalBatch">
+      <UniqueIdentifier>{b7d7da5a-9576-4b20-932f-dd2a4c6a294c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestCases\CSCBatchesHistory">
+      <UniqueIdentifier>{43d29471-3455-468c-9702-201d425d98a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestFixtures">
+      <UniqueIdentifier>{5196302d-ffc9-4fe0-a876-881326a7db7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestFixtures\OrderProposalBatch">
+      <UniqueIdentifier>{43c7aa1d-c88c-4641-8771-ffcf0e0827ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestFixtures\CSCBatchesHistory">
+      <UniqueIdentifier>{7e3e5a43-afec-4e13-83b7-0a0635f24b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{9d2b96e6-b8e5-402a-87eb-f32e8c06a779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mocks">
+      <UniqueIdentifier>{6a3598ce-4f3b-4c7b-bd87-b601e63c5f62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cscunittest.cfg">
+      <Filter>log4cplus</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="orderproporderproposalbatchtest.cpp">
+      <Filter>TestCases\OrderProposalBatch</Filter>
+    </ClCompile>
+    <ClCompile Include="pubatchoporderproposalbatchtest.cpp">
+      <Filter>TestCases\OrderProposalBatch</Filter>
+    </ClCompile>
+    <ClCompile Include="copybatchordertest.cpp">
+      <Filter>TestCases\CSCBatchesHistory</Filter>
+    </ClCompile>
+    <ClCompile Include="orderproposaltest.cpp">
+      <Filter>TestCases\CSCBatchesHistory</Filter>
+    </ClCompile>
+    <ClCompile Include="dbfixturebase.cpp">
+      <Filter>TestFixtures</Filter>
+    </ClCompile>
+    <ClCompile Include="testfixturebase.cpp">
+      <Filter>TestFixtures</Filter>
+    </ClCompile>
+    <ClCompile Include="orderproporderproposalbatchtestfixture.cpp">
+      <Filter>TestFixtures\OrderProposalBatch</Filter>
+    </ClCompile>
+    <ClCompile Include="pubatchoporderproposalbatchtestfixture.cpp">
+      <Filter>TestFixtures\OrderProposalBatch</Filter>
+    </ClCompile>
+    <ClCompile Include="copybatchordertestfixture.cpp">
+      <Filter>TestFixtures\CSCBatchesHistory</Filter>
+    </ClCompile>
+    <ClCompile Include="orderproposaltestfixture.cpp">
+      <Filter>TestFixtures\CSCBatchesHistory</Filter>
+    </ClCompile>
+    <ClCompile Include="cmnut.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="testcollection.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="testnamecollection.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="testselectionlist.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="testutils.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="unittestappl.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="unittestconnection.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="unittesthelper.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dbfixturebase.h">
+      <Filter>TestFixtures</Filter>
+    </ClInclude>
+    <ClInclude Include="testfixturebase.h">
+      <Filter>TestFixtures</Filter>
+    </ClInclude>
+    <ClInclude Include="orderproporderproposalbatchtestfixture.h">
+      <Filter>TestFixtures\OrderProposalBatch</Filter>
+    </ClInclude>
+    <ClInclude Include="pubatchoporderproposalbatchtestfixture.h">
+      <Filter>TestFixtures\OrderProposalBatch</Filter>
+    </ClInclude>
+    <ClInclude Include="copybatchordertestfixture.h">
+      <Filter>TestFixtures\CSCBatchesHistory</Filter>
+    </ClInclude>
+    <ClInclude Include="orderproposaltestfixture.h">
+      <Filter>TestFixtures\CSCBatchesHistory</Filter>
+    </ClInclude>
+    <ClInclude Include="cmnut.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="testcollection.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="testnamecollection.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="testselectionlist.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="testutils.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="unittestappl.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="unittestconnection.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="unittesthelper.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

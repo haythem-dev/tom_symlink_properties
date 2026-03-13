@@ -1,0 +1,22 @@
+#ifndef GUARD_LIBABBAUW_INFRASTRUCTURE_ACCESSOR_BATCHORDER_BATCHORDERPOSITIONCOLLECTIONACC_DEFINITIONS_H
+#define GUARD_LIBABBAUW_INFRASTRUCTURE_ACCESSOR_BATCHORDER_BATCHORDERPOSITIONCOLLECTIONACC_DEFINITIONS_H
+
+namespace libabbauw
+{
+namespace infrastructure
+{
+namespace accessor
+{
+namespace batchOrder
+{
+    namespace lit
+    {
+        const basar::VarString ACC_BATCH_ORDER_POSITION_COLLECTION           = "AccBatchOrderPositionCollection";
+        const basar::VarString SELECT_BATCH_ORDER_POSITION_COLLECTION_BY_KEY = "SelectBatchOrderPositionCollectionByKey";
+    }
+}
+}
+}
+}
+
+#endif // GUARD_LIBABBAUW_INFRASTRUCTURE_ACCESSOR_BATCHORDER_BATCHORDERPOSITIONCOLLECTIONACC_DEFINITIONS_H

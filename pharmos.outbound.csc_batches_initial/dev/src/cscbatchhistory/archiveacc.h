@@ -1,0 +1,19 @@
+#ifndef GUARD_BATCHORDERARCHIVEACC_H
+#define GUARD_BATCHORDERARCHIVEACC_H
+
+#include <libbasardbaspect.h>
+#include "loggerpool.h"
+
+namespace archiveacc
+{
+	BEGIN_WRITE_BUILDER_DECLARATION(deleteBatchOrderHeadsArchive)
+	END_BUILDER_DECLARATION
+
+	BEGIN_WRITE_BUILDER_DECLARATION(deleteBatchOrderPosArchive)
+	END_BUILDER_DECLARATION
+
+	BEGIN_WRITE_BUILDER_DECLARATION(deleteBatchOrderProposalsArchive)
+	END_BUILDER_DECLARATION
+}
+
+#endif // GUARD_BATCHORDERARCHIVEACC_H

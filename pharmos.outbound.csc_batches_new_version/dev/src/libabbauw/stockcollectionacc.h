@@ -1,0 +1,25 @@
+#ifndef GUARD_LIBABBAUW_DOMMOD_STOCKCOLLECTIONACC_H
+#define GUARD_LIBABBAUW_DOMMOD_STOCKCOLLECTIONACC_H
+
+namespace libabbauw
+{
+namespace acc_stock
+{
+    using basar::db::aspect::SQLStringBuilder;
+
+    BEGIN_QUERY_BUILDER_DECLARATION( SelectPseudoStorageLocationSlot )
+    END_BUILDER_DECLARATION
+
+    BEGIN_QUERY_BUILDER_DECLARATION( SelectStock )
+    END_BUILDER_DECLARATION
+
+    BEGIN_AGGREGATE_QUERY_BUILDER_DECLARATION( SelectPredictionDate )
+    END_BUILDER_DECLARATION
+
+    BEGIN_AGGREGATE_QUERY_BUILDER_DECLARATION(SelectCMIReservedQuantity)
+    END_BUILDER_DECLARATION
+
+} // end namespace acc_stock
+} // end namespace libabbauw
+
+#endif // GUARD_LIBABBAUW_DOMMOD_STOCKCOLLECTIONACC_H

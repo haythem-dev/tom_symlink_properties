@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="UseCases">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="DomainModules">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="DomainModules\Exceptions">
+      <UniqueIdentifier>{2707e732-73c9-4db4-a135-5b92cee2d472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProposalDM">
+      <UniqueIdentifier>{395f5a42-44b4-4f25-8ed6-fb2ceaf5e41a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProposalDM\Accessors">
+      <UniqueIdentifier>{1359c9ab-8409-4eda-9ed0-5d815113523e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\OrderProposalDM\Interfaces">
+      <UniqueIdentifier>{92978a3e-bfc9-423d-a499-883b45942167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\PuBatchOrderPosDM">
+      <UniqueIdentifier>{8f45ec7a-8a4b-43e6-9d84-c6f4a4659646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\PuBatchOrderPosDM\Accessors">
+      <UniqueIdentifier>{3a365e01-3f3d-4da1-a0ba-b95f2a719016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\PuBatchOrderPosDM\Interfaces">
+      <UniqueIdentifier>{3e178ff7-47d7-4fa9-904e-c0409369003a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="main\cmdLine">
+      <UniqueIdentifier>{29c99c45-9f0d-4306-9418-24314e00b0ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\appInitializer">
+      <UniqueIdentifier>{38582353-1f9e-462b-afd6-1fc1e9e83627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\userAdmin">
+      <UniqueIdentifier>{55ff3e33-450d-40fe-b2dd-af57e6076656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\appSession">
+      <UniqueIdentifier>{4e111e6b-8b0e-4fbf-bd1e-32ad10412671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dbconnection">
+      <UniqueIdentifier>{4c8d1cc6-c74d-4312-b946-2ab2e96585a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="make">
+      <UniqueIdentifier>{31649b99-edb6-4c1c-b500-75d3d5588ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log4cplus">
+      <UniqueIdentifier>{edac97ba-875f-4f96-a8b4-f0eca3870e64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="addtopubatchorderposuc.cpp">
+      <Filter>UseCases</Filter>
+    </ClCompile>
+    <ClCompile Include="updateorderproposaluc.cpp">
+      <Filter>UseCases</Filter>
+    </ClCompile>
+    <ClCompile Include="abbauwexception.cpp">
+      <Filter>DomainModules\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="resultinfoexception.cpp">
+      <Filter>DomainModules\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="orderproposaldm.cpp">
+      <Filter>DomainModules\OrderProposalDM</Filter>
+    </ClCompile>
+    <ClCompile Include="orderproposalacc.cpp">
+      <Filter>DomainModules\OrderProposalDM\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="pubatchorderposdm.cpp">
+      <Filter>DomainModules\PuBatchOrderPosDM</Filter>
+    </ClCompile>
+    <ClCompile Include="pubatchorderposacc.cpp">
+      <Filter>DomainModules\PuBatchOrderPosDM\Accessors</Filter>
+    </ClCompile>
+    <ClCompile Include="abbauwappl.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="abbauwcmdlineevaluator.cpp">
+      <Filter>main\cmdLine</Filter>
+    </ClCompile>
+    <ClCompile Include="appinitializer.cpp">
+      <Filter>main\appInitializer</Filter>
+    </ClCompile>
+    <ClCompile Include="appinitializerexception.cpp">
+      <Filter>main\appInitializer</Filter>
+    </ClCompile>
+    <ClCompile Include="appsession.cpp">
+      <Filter>main\appSession</Filter>
+    </ClCompile>
+    <ClCompile Include="dbifxconnection.cpp">
+      <Filter>dbconnection</Filter>
+    </ClCompile>
+    <ClCompile Include="loggerpool.cpp">
+      <Filter>log4cplus</Filter>
+    </ClCompile>
+    <ClCompile Include="version.c">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="addtopubatchorderposuc.h">
+      <Filter>UseCases</Filter>
+    </ClInclude>
+    <ClInclude Include="updateorderproposaluc.h">
+      <Filter>UseCases</Filter>
+    </ClInclude>
+    <ClInclude Include="abbauwexception.h">
+      <Filter>DomainModules\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="resultinfoexception.h">
+      <Filter>DomainModules\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="orderproposaldm.h">
+      <Filter>DomainModules\OrderProposalDM</Filter>
+    </ClInclude>
+    <ClInclude Include="orderproposaldm_definitions.h">
+      <Filter>DomainModules\OrderProposalDM</Filter>
+    </ClInclude>
+    <ClInclude Include="orderproposalinitparams.h">
+      <Filter>DomainModules\OrderProposalDM</Filter>
+    </ClInclude>
+    <ClInclude Include="orderproposalacc.h">
+      <Filter>DomainModules\OrderProposalDM\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="igetorderproposal.h">
+      <Filter>DomainModules\OrderProposalDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="igetorderproposalptr.h">
+      <Filter>DomainModules\OrderProposalDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="isetorderproposal.h">
+      <Filter>DomainModules\OrderProposalDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="isetorderproposalptr.h">
+      <Filter>DomainModules\OrderProposalDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="pubatchorderposdm.h">
+      <Filter>DomainModules\PuBatchOrderPosDM</Filter>
+    </ClInclude>
+    <ClInclude Include="pubatchorderposdm_definitions.h">
+      <Filter>DomainModules\PuBatchOrderPosDM</Filter>
+    </ClInclude>
+    <ClInclude Include="pubatchorderposinitparams.h">
+      <Filter>DomainModules\PuBatchOrderPosDM</Filter>
+    </ClInclude>
+    <ClInclude Include="pubatchorderposacc.h">
+      <Filter>DomainModules\PuBatchOrderPosDM\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="igetpubatchorderpos.h">
+      <Filter>DomainModules\PuBatchOrderPosDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="igetpubatchorderposptr.h">
+      <Filter>DomainModules\PuBatchOrderPosDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="isetpubatchorderpos.h">
+      <Filter>DomainModules\PuBatchOrderPosDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="isetpubatchorderposptr.h">
+      <Filter>DomainModules\PuBatchOrderPosDM\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="abbauwappl.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="abbauwappl_definitions.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="properties_definitions.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="abbauwcmdlineevaluator.h">
+      <Filter>main\cmdLine</Filter>
+    </ClInclude>
+    <ClInclude Include="abbauwcmdlineevaluatorptr.h">
+      <Filter>main\cmdLine</Filter>
+    </ClInclude>
+    <ClInclude Include="abbauwcmdlineoption_definitions.h">
+      <Filter>main\cmdLine</Filter>
+    </ClInclude>
+    <ClInclude Include="appargs.h">
+      <Filter>main\cmdLine</Filter>
+    </ClInclude>
+    <ClInclude Include="appinitializer.h">
+      <Filter>main\appInitializer</Filter>
+    </ClInclude>
+    <ClInclude Include="appinitializerexception.h">
+      <Filter>main\appInitializer</Filter>
+    </ClInclude>
+    <ClInclude Include="useradminlogin_definitions.h">
+      <Filter>main\userAdmin</Filter>
+    </ClInclude>
+    <ClInclude Include="appsession.h">
+      <Filter>main\appSession</Filter>
+    </ClInclude>
+    <ClInclude Include="appsessionptr.h">
+      <Filter>main\appSession</Filter>
+    </ClInclude>
+    <ClInclude Include="dbifxconnection.h">
+      <Filter>dbconnection</Filter>
+    </ClInclude>
+    <ClInclude Include="loggerpool.h">
+      <Filter>log4cplus</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="appargs.inl">
+      <Filter>main\cmdLine</Filter>
+    </None>
+    <None Include="appsession.inl">
+      <Filter>main\appSession</Filter>
+    </None>
+    <None Include="makefile">
+      <Filter>make</Filter>
+    </None>
+  </ItemGroup>
+</Project>

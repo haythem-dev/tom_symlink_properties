@@ -1,0 +1,1037 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Gui">
+      <UniqueIdentifier>{ff04f616-bcc8-460a-a708-70b3c3e80f96}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="ViewConnectors">
+      <UniqueIdentifier>{4f3fa4d2-c16b-4d73-9756-6f4e56d27b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\Transformer">
+      <UniqueIdentifier>{2d2a6bef-4c98-429c-b6e8-6061cf4778f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\BVOStatus">
+      <UniqueIdentifier>{e06b1ba3-50b5-4957-93cb-97cd2e99ebc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\BVOStatus\Interfaces">
+      <UniqueIdentifier>{7d30c223-2190-4301-91ee-67ab19c3f6fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\UserSettings">
+      <UniqueIdentifier>{8666e4c6-03a6-48b0-a305-10f902bae64f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\BatchOrderEdition">
+      <UniqueIdentifier>{9f5a943f-9810-4f90-94ca-1625bf4df754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\TransferOrderPos">
+      <UniqueIdentifier>{c4e078c2-aaac-415f-abff-8ed6a3af0e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCases">
+      <UniqueIdentifier>{79d1b592-838f-4f31-8d0e-aead74f490ea}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="UseCases\BVOStatus">
+      <UniqueIdentifier>{4d86ae3b-4792-4614-9700-b7aa943627fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCases\UserSettings">
+      <UniqueIdentifier>{6a06299d-b6d7-43a0-8782-822bde6b8a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCases\BatchOrderEdition">
+      <UniqueIdentifier>{c161bb9f-889c-4400-84d1-6ea0abd5dce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCases\TransferOrderPos">
+      <UniqueIdentifier>{552d98c4-fba0-4709-9932-dd6a3e06f910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{1a4c2575-9166-48a2-b303-8a2c001724f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log4cplus">
+      <UniqueIdentifier>{0fa9bfaa-3470-4b83-b804-b7436635979d}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="log4cplus\ConfigFile">
+      <UniqueIdentifier>{4eb346ba-e58f-4d9f-8a64-da025b0d8de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="multilang">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="General">
+      <UniqueIdentifier>{94e85710-1e5e-4da5-849a-d92a74f4559e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="print">
+      <UniqueIdentifier>{b28836aa-4580-446a-9222-d52db76c1195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="print\transferorder">
+      <UniqueIdentifier>{e3df10a2-2e7d-4531-a706-4bd289f3353c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{95eac3af-e33e-40bd-8de2-b665326c5974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager">
+      <UniqueIdentifier>{a39bf9e5-b166-4cc2-8bf4-22f631c46092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\MainWindow">
+      <UniqueIdentifier>{7300d43f-ac78-4ed4-96d9-b73c857cf752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\TransferOrderCreator">
+      <UniqueIdentifier>{aec8a468-676c-4526-bcf0-948b8a873fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\TransferOrderPos\Interfaces">
+      <UniqueIdentifier>{c8e197c7-5205-4ad1-b94d-fbee65fabeb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\TransferOrderCreator\Interfaces">
+      <UniqueIdentifier>{69c4a52c-9e85-4caf-9849-f4baff5a9739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCases\TransferOrderCreator">
+      <UniqueIdentifier>{c0185e74-ee2a-4d52-abab-dab781b60099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCases\FindCustomer">
+      <UniqueIdentifier>{c7d591ec-6cb0-42c8-a067-8673b26aa92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\CustomerFinder">
+      <UniqueIdentifier>{4b58659a-43a6-43d3-befa-af8459684b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\CustomerFinder\Interfaces">
+      <UniqueIdentifier>{75a32c6e-97b1-4e57-897e-b56622d54d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCases\FindArticle">
+      <UniqueIdentifier>{1f54834a-0b15-481e-b218-43d3c3d21f33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\BatchOrderEdition\Impl">
+      <UniqueIdentifier>{1fea3caf-f097-49db-84c9-476ffed2e8ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\BatchOrderEdition\Interfaces">
+      <UniqueIdentifier>{b255eab4-8fa1-47a2-88e4-8768bd5f1d5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\TransferOrderCreator\Impl">
+      <UniqueIdentifier>{9e75bbdf-0e85-48ba-a094-13653333ee17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\TransferOrderPos\Impl">
+      <UniqueIdentifier>{e9950955-12eb-41d5-ab2c-bace9fcf7acb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\BVOStatus\Impl">
+      <UniqueIdentifier>{c9d4f9eb-7ee6-4f7d-8b7d-1f9b7e733b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\CustomerFinder\Impl">
+      <UniqueIdentifier>{ece8e389-e953-4c4c-ba85-ec6299b8ceeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\UserSettings\Interfaces">
+      <UniqueIdentifier>{4a5a8583-e32b-49a7-b86b-7c36ab34fe83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\UserSettings\Impl">
+      <UniqueIdentifier>{68be60e9-b07e-45aa-9e7a-825f3a3392ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="print\common">
+      <UniqueIdentifier>{b32c81e0-1234-4a56-a470-be8186ea93ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="print\common\Exceptions">
+      <UniqueIdentifier>{e4f7eaff-5ee4-4784-ba39-ee5c833e0629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\ChangeOrders">
+      <UniqueIdentifier>{51c6bd63-13f6-49df-a96c-4cef020203b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\ChangeOrders\Interfaces">
+      <UniqueIdentifier>{73f4a095-2d84-422d-8e0d-abf9c7aaeca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\ChangeOrders\Impl">
+      <UniqueIdentifier>{10d0bece-9c08-45e7-873a-bd2ee586798c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\ArticleFinder">
+      <UniqueIdentifier>{57e7390d-cf8f-43cd-8d63-9c6f2bfadb56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\ArticleFinder\Impl">
+      <UniqueIdentifier>{cd6698eb-3063-44e5-a876-4d1d886dbba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\ArticleFinder\Interfaces">
+      <UniqueIdentifier>{834bcbd4-1de6-416e-a69b-afa3994624b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\Util">
+      <UniqueIdentifier>{b145b3c7-dffe-4363-886f-c4f8b1585921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="print\common\Processor">
+      <UniqueIdentifier>{21b5fa3f-57da-4cad-9f0e-75c9112bdf7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="print\common\Processor\Interfaces">
+      <UniqueIdentifier>{56b2544c-75a4-436a-9444-0c61f54fdced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="print\common\Processor\Impl">
+      <UniqueIdentifier>{f2b02539-a761-4002-bd76-acabedd2abf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="print\common\Layout">
+      <UniqueIdentifier>{3373d4a4-54e7-41c5-ae5d-f93f2629609f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCases\TransferOrderChanger">
+      <UniqueIdentifier>{47867b65-b77c-4663-85e5-1bb875349a29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\ManufacturerFinder">
+      <UniqueIdentifier>{d6bc5bba-2388-4ad4-b139-5747834f3a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\ManufacturerFinder\Interfaces">
+      <UniqueIdentifier>{1c96907e-eac0-4206-a563-e9a814fe2d9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\ManufacturerFinder\Impl">
+      <UniqueIdentifier>{eea8b14e-b00e-4a80-bb72-1c2a4323772f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCases\FindManufacturer">
+      <UniqueIdentifier>{8a1f5eda-e839-4f78-b83a-045025da2764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\ApplCompMgr">
+      <UniqueIdentifier>{2312c30e-5f38-4386-b9fd-ac4adac8271b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\ApplCompMgr\Interface">
+      <UniqueIdentifier>{250105c9-293f-47df-a506-d63ed12f9ac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComponentManager\InfrastructureCompMgr">
+      <UniqueIdentifier>{6410aa7b-6982-4d24-8d3b-82e933ac5e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCases\Main">
+      <UniqueIdentifier>{ec37e51e-7f7d-4f65-8a24-1dfbc1f0f684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure">
+      <UniqueIdentifier>{7f3d1f69-2c67-4e00-9ea7-7f1335e0778f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Parameter">
+      <UniqueIdentifier>{c7ab1c44-2e7e-4a27-84b1-d27700db18eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Login">
+      <UniqueIdentifier>{ed7a42a6-e075-47af-8d94-b35ec88aaee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\CSCSession">
+      <UniqueIdentifier>{e92930b7-5652-4476-845f-41aac8e72242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\CSCSession\Interface">
+      <UniqueIdentifier>{83400270-1800-4de5-8eb6-74facf2e8eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="ViewConnectors\OrderReleaseInformation">
+      <UniqueIdentifier>{5fb3d856-f77d-43bb-8649-1900236d5bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\OrderReleaseInformation\Impl">
+      <UniqueIdentifier>{65820b6a-fff4-4444-80e2-9408e1d4c633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\OrderReleaseInformation\Interfaces">
+      <UniqueIdentifier>{49cc4944-c22f-4ab4-bc0f-e7d959d34452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\UserRights">
+      <UniqueIdentifier>{213bf09a-37f0-44dc-9d0d-d3f30c05f56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\UserRights\Impl">
+      <UniqueIdentifier>{22e69ec1-0177-4463-b9d9-68c4bfaaf1f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\UserRights\Interface">
+      <UniqueIdentifier>{05e47ef9-7e41-4a2c-9531-e8095607aa84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\BatchOrderMaintenance">
+      <UniqueIdentifier>{010bed73-b841-484d-ae95-25a145178b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\BatchOrderMaintenance\Impl">
+      <UniqueIdentifier>{fdd06274-7e94-4fd3-9b5c-e04d372b46af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\BatchOrderMaintenance\Interfaces">
+      <UniqueIdentifier>{0bbd1f78-f6f8-44af-96e3-ae2c7c8e271d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCases\BatchOrderMaintenance">
+      <UniqueIdentifier>{69c9fc75-bba9-4027-84f2-846119f76b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\CollectiveOrderWishConfirmation">
+      <UniqueIdentifier>{4764b178-c24e-4c61-a36a-bffac2b672cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\CollectiveOrderWishConfirmation\Impl">
+      <UniqueIdentifier>{1a6d84e4-f2ad-4966-8569-0dc0825fa99b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\CollectiveOrderWishConfirmation\Interfaces">
+      <UniqueIdentifier>{7260ed16-4b44-4043-80c6-6a03b587e01f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCases\CollectiveOrderWish">
+      <UniqueIdentifier>{b5c6ad02-60ee-43fb-a265-25b52e1424a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCases\BatchOrderPos">
+      <UniqueIdentifier>{23a8e5b2-470a-465c-ad5d-b125bc3694f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\BatchOrderPosition">
+      <UniqueIdentifier>{223309d3-24f8-41f1-bf1a-3eae6cb9180a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\BatchOrderPosition\Impl">
+      <UniqueIdentifier>{89165f94-216f-44c5-81db-2c62a99c29a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ViewConnectors\BatchOrderPosition\Interface">
+      <UniqueIdentifier>{56852858-a147-4237-accc-9d4ef54633d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\Services">
+      <UniqueIdentifier>{db85cfb5-1297-4db4-9c0b-2c0a3b2ae9df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\Services\CSVDataExport">
+      <UniqueIdentifier>{a85693f8-ecaa-4893-96f9-c0bc15f4aed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\Services\CSVDataExport\Impl">
+      <UniqueIdentifier>{95a46417-a971-4cde-932e-e894576c8705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\Services\CSVDataExport\Interface">
+      <UniqueIdentifier>{00601904-d7b8-4965-8830-91f925e427d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\Services\CSVDataExport\Impl\BVOStatus">
+      <UniqueIdentifier>{f0e977f4-6f08-40f5-9992-6e88235cb358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCases\TenderCreator">
+      <UniqueIdentifier>{5a87eaf5-f630-4e53-9aab-87700e454a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCases\TenderCreator\Interface">
+      <UniqueIdentifier>{524e1bd7-722c-4386-b829-b7215de159c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Setup">
+      <UniqueIdentifier>{cd467666-bbcd-4b22-bfd7-5244c2fa8f2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CSC_Batches.cfg">
+      <Filter>log4cplus\ConfigFile</Filter>
+    </None>
+    <None Include="CSC_Batches_Test.cfg">
+      <Filter>log4cplus\ConfigFile</Filter>
+    </None>
+    <None Include="ico.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="CSC_Batches.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tablecolortransformer.cpp">
+      <Filter>ViewConnectors\Transformer</Filter>
+    </ClCompile>
+    <ClCompile Include="usersettingsuc.cpp">
+      <Filter>UseCases\UserSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderprint.cpp">
+      <Filter>print\transferorder</Filter>
+    </ClCompile>
+    <ClCompile Include="waitcursor.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="filenotopenableexception.cpp">
+      <Filter>print\common\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="filenotwritableexception.cpp">
+      <Filter>print\common\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindowvc.cpp">
+      <Filter>ViewConnectors\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="batchordereditionvc.cpp">
+      <Filter>ViewConnectors\BatchOrderEdition\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="transferordercreatorvc.cpp">
+      <Filter>ViewConnectors\TransferOrderCreator\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderposvc.cpp">
+      <Filter>ViewConnectors\TransferOrderPos\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="bvostatusvc.cpp">
+      <Filter>ViewConnectors\BVOStatus\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="usersettingsvc.cpp">
+      <Filter>ViewConnectors\UserSettings\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="customerfindervc.cpp">
+      <Filter>ViewConnectors\CustomerFinder\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="batchordereditionuc.cpp">
+      <Filter>UseCases\BatchOrderEdition</Filter>
+    </ClCompile>
+    <ClCompile Include="transferordercreatoruc.cpp">
+      <Filter>UseCases\TransferOrderCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="articleattributetransformer.cpp">
+      <Filter>ViewConnectors\Transformer</Filter>
+    </ClCompile>
+    <ClCompile Include="flagtransformer.cpp">
+      <Filter>ViewConnectors\Transformer</Filter>
+    </ClCompile>
+    <ClCompile Include="ignorezerotransformer.cpp">
+      <Filter>ViewConnectors\Transformer</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderposuc.cpp">
+      <Filter>UseCases\TransferOrderPos</Filter>
+    </ClCompile>
+    <ClCompile Include="showbvostatusuc.cpp">
+      <Filter>UseCases\BVOStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="findarticleuc.cpp">
+      <Filter>UseCases\FindArticle</Filter>
+    </ClCompile>
+    <ClCompile Include="findcustomeruc.cpp">
+      <Filter>UseCases\FindCustomer</Filter>
+    </ClCompile>
+    <ClCompile Include="changeordersvc.cpp">
+      <Filter>ViewConnectors\ChangeOrders\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="articlefindervc.cpp">
+      <Filter>ViewConnectors\ArticleFinder\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="tablewidgetsorter.cpp">
+      <Filter>ViewConnectors\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="printdataprovider.cpp">
+      <Filter>print\common\Processor\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="printprocessor.cpp">
+      <Filter>print\common\Processor\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="transferorderchangeruc.cpp">
+      <Filter>UseCases\TransferOrderChanger</Filter>
+    </ClCompile>
+    <ClCompile Include="manufacturerfindervc.cpp">
+      <Filter>ViewConnectors\ManufacturerFinder\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="findmanufactureruc.cpp">
+      <Filter>UseCases\FindManufacturer</Filter>
+    </ClCompile>
+    <ClCompile Include="applcomponentmanager.cpp">
+      <Filter>ComponentManager\ApplCompMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructurecompmgr.cpp">
+      <Filter>ComponentManager\InfrastructureCompMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="mainuc.cpp">
+      <Filter>UseCases\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="cscuseradminlogin.cpp">
+      <Filter>Infrastructure\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="applparameter.cpp">
+      <Filter>Infrastructure\Parameter</Filter>
+    </ClCompile>
+    <ClCompile Include="cscsession.cpp">
+      <Filter>Infrastructure\CSCSession</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_CSC_Batches.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="doubletransformer.cpp">
+      <Filter>ViewConnectors\Transformer</Filter>
+    </ClCompile>
+    <ClCompile Include="orderreleaseinformationvc.cpp">
+      <Filter>ViewConnectors\OrderReleaseInformation\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\moc_manufacturerfindervc.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\moc_usersettingsvc.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\moc_transferorderposvc.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\moc_transferordercreatorvc.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\moc_tablewidgetsorter.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\moc_orderreleaseinformationvc.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\moc_mainwindowvc.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\moc_customerfindervc.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\moc_changeordersvc.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\moc_bvostatusvc.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\moc_articlefindervc.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="userrights.cpp">
+      <Filter>Infrastructure\UserRights\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="orderrequesttransformer.cpp">
+      <Filter>ViewConnectors\Transformer</Filter>
+    </ClCompile>
+    <ClCompile Include="collectiveorderwishconfirmationvc.cpp">
+      <Filter>ViewConnectors\CollectiveOrderWishConfirmation\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\moc_collectiveorderwishconfirmationvc.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="collectiveorderwishuc.cpp">
+      <Filter>UseCases\CollectiveOrderWish</Filter>
+    </ClCompile>
+    <ClCompile Include="mainorderdatetransformer.cpp">
+      <Filter>ViewConnectors\Transformer</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\batchordermaintenanceuc.cpp">
+      <Filter>UseCases\BatchOrderMaintenance</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\batchorderposuc.cpp">
+      <Filter>UseCases\BatchOrderPos</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\batchordermaintenancevc.cpp">
+      <Filter>ViewConnectors\BatchOrderMaintenance\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\moc_batchordermaintenancevc.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\batchorderpositionvc.cpp">
+      <Filter>ViewConnectors\BatchOrderPosition\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="viewconn\batchorderpositionvcptr.h">
+      <Filter>ViewConnectors\BatchOrderPosition\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\moc_batchorderpositionvc.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\moc_batchordereditionvc.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csvdataexportservicebase.cpp">
+      <Filter>main\Services\CSVDataExport\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="bvostatusdataexportservice.cpp">
+      <Filter>main\Services\CSVDataExport\Impl\BVOStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="usecase\tendercreatoruc.cpp">
+      <Filter>UseCases\TenderCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="cscbatchesapplctrl.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="imessagedisplayer.cpp">
+      <Filter>ViewConnectors</Filter>
+    </ClCompile>
+    <ClCompile Include="version.c">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="infrastructuresetup.cpp">
+      <Filter>Infrastructure\Setup</Filter>
+    </ClCompile>
+    <ClCompile Include="discountflags_transformer.cpp">
+      <Filter>ViewConnectors\Transformer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="generatedfiles\ui_batchordereditionvc.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedfiles\ui_bvostatusvc.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tablecolortransformer.h">
+      <Filter>ViewConnectors\Transformer</Filter>
+    </ClInclude>
+    <ClInclude Include="ibvostatusvcptr.h">
+      <Filter>ViewConnectors\BVOStatus\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itemcolorformatter.h">
+      <Filter>ViewConnectors\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="usersettingsuc.h">
+      <Filter>UseCases\UserSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="usersettingsucptr.h">
+      <Filter>UseCases\UserSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="definitions_gui.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="definitions_uadm.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderprint.h">
+      <Filter>print\transferorder</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderprintptr.h">
+      <Filter>print\transferorder</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderprint.h">
+      <Filter>print\transferorder</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderprintptr.h">
+      <Filter>print\transferorder</Filter>
+    </ClInclude>
+    <ClInclude Include="waitcursor.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="filenotopenableexception.h">
+      <Filter>print\common\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="filenotwritableexception.h">
+      <Filter>print\common\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_transferordercreatorvc.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderposvc.h">
+      <Filter>ViewConnectors\TransferOrderPos\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferorderposvcptr.h">
+      <Filter>ViewConnectors\TransferOrderPos\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferordercreatorvc.h">
+      <Filter>ViewConnectors\TransferOrderCreator\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="itransferordercreatorvcptr.h">
+      <Filter>ViewConnectors\TransferOrderCreator\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_articlefindervc.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedfiles\ui_mainwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ibatchordereditionvc.h">
+      <Filter>ViewConnectors\BatchOrderEdition\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ibatchordereditionvcptr.h">
+      <Filter>ViewConnectors\BatchOrderEdition\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="batchordereditionvcptr.h">
+      <Filter>ViewConnectors\BatchOrderEdition\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="transferordercreatorvcptr.h">
+      <Filter>ViewConnectors\TransferOrderCreator\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderposvcptr.h">
+      <Filter>ViewConnectors\TransferOrderPos\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="iusersettingsvc.h">
+      <Filter>ViewConnectors\UserSettings\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iusersettingsvcptr.h">
+      <Filter>ViewConnectors\UserSettings\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="usersettingsvcptr.h">
+      <Filter>ViewConnectors\UserSettings\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="bvostatusvcptr.h">
+      <Filter>ViewConnectors\BVOStatus\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="customerfindervcptr.h">
+      <Filter>ViewConnectors\CustomerFinder\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="icustomerfindervc.h">
+      <Filter>ViewConnectors\CustomerFinder\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="icustomerfindervcptr.h">
+      <Filter>ViewConnectors\CustomerFinder\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_customerfindervc.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="batchordereditionucptr.h">
+      <Filter>UseCases\BatchOrderEdition</Filter>
+    </ClInclude>
+    <ClInclude Include="batchordereditionuc.h">
+      <Filter>UseCases\BatchOrderEdition</Filter>
+    </ClInclude>
+    <ClInclude Include="transferordercreatorucptr.h">
+      <Filter>UseCases\TransferOrderCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="transferordercreatoruc.h">
+      <Filter>UseCases\TransferOrderCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="articleattributetransformer.h">
+      <Filter>ViewConnectors\Transformer</Filter>
+    </ClInclude>
+    <ClInclude Include="flagtransformer.h">
+      <Filter>ViewConnectors\Transformer</Filter>
+    </ClInclude>
+    <ClInclude Include="ignorezerotransformer.h">
+      <Filter>ViewConnectors\Transformer</Filter>
+    </ClInclude>
+    <ClInclude Include="iusecasegetter.h">
+      <Filter>ComponentManager\ApplCompMgr\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="iusecasegetterptr.h">
+      <Filter>ComponentManager\ApplCompMgr\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderposucptr.h">
+      <Filter>UseCases\TransferOrderPos</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderposuc.h">
+      <Filter>UseCases\TransferOrderPos</Filter>
+    </ClInclude>
+    <ClInclude Include="showbvostatusucptr.h">
+      <Filter>UseCases\BVOStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="showbvostatusuc.h">
+      <Filter>UseCases\BVOStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="findarticleucptr.h">
+      <Filter>UseCases\FindArticle</Filter>
+    </ClInclude>
+    <ClInclude Include="findarticleuc.h">
+      <Filter>UseCases\FindArticle</Filter>
+    </ClInclude>
+    <ClInclude Include="findcustomerucptr.h">
+      <Filter>UseCases\FindCustomer</Filter>
+    </ClInclude>
+    <ClInclude Include="findcustomeruc.h">
+      <Filter>UseCases\FindCustomer</Filter>
+    </ClInclude>
+    <ClInclude Include="changeordersvcptr.h">
+      <Filter>ViewConnectors\ChangeOrders\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="ichangeordersvc.h">
+      <Filter>ViewConnectors\ChangeOrders\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ichangeordersvcptr.h">
+      <Filter>ViewConnectors\ChangeOrders\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iprintlayout.h">
+      <Filter>print\common\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="iprintlayoutptr.h">
+      <Filter>print\common\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="articlefindervcptr.h">
+      <Filter>ViewConnectors\ArticleFinder\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="iarticlefindervc.h">
+      <Filter>ViewConnectors\ArticleFinder\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iarticlefindervcptr.h">
+      <Filter>ViewConnectors\ArticleFinder\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ibvostatusvc.h">
+      <Filter>ViewConnectors\BVOStatus\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="printprocessor.h">
+      <Filter>print\common\Processor\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="printdataprovider.h">
+      <Filter>print\common\Processor\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="iprintprocessor.h">
+      <Filter>print\common\Processor\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iprintprocessorptr.h">
+      <Filter>print\common\Processor\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="printlayoutbase.h">
+      <Filter>print\common\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderchangeruc.h">
+      <Filter>UseCases\TransferOrderChanger</Filter>
+    </ClInclude>
+    <ClInclude Include="transferorderchangerucptr.h">
+      <Filter>UseCases\TransferOrderChanger</Filter>
+    </ClInclude>
+    <ClInclude Include="manufacturerfindervcptr.h">
+      <Filter>ViewConnectors\ManufacturerFinder\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="imanufacturerfindervc.h">
+      <Filter>ViewConnectors\ManufacturerFinder\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="imanufacturerfindervcptr.h">
+      <Filter>ViewConnectors\ManufacturerFinder\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="findmanufactureruc.h">
+      <Filter>UseCases\FindManufacturer</Filter>
+    </ClInclude>
+    <ClInclude Include="findmanufacturerucptr.h">
+      <Filter>UseCases\FindManufacturer</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_changeordersvc.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="applcomponentmanagerptr.h">
+      <Filter>ComponentManager\ApplCompMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="applcomponentmanager.h">
+      <Filter>ComponentManager\ApplCompMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructurecompmgr.h">
+      <Filter>ComponentManager\InfrastructureCompMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="mainuc.h">
+      <Filter>UseCases\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructurecompmgrptr.h">
+      <Filter>ComponentManager\InfrastructureCompMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="mainwindowvcptr.h">
+      <Filter>ViewConnectors\MainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="applicationconfigvcptr.h">
+      <Filter>ViewConnectors\MainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="cscuseradminlogin.h">
+      <Filter>Infrastructure\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="applparameter.h">
+      <Filter>Infrastructure\Parameter</Filter>
+    </ClInclude>
+    <ClInclude Include="applparameterptr.h">
+      <Filter>Infrastructure\Parameter</Filter>
+    </ClInclude>
+    <ClInclude Include="cscsession.h">
+      <Filter>Infrastructure\CSCSession</Filter>
+    </ClInclude>
+    <ClInclude Include="icscsession.h">
+      <Filter>Infrastructure\CSCSession\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="icscsessionptr.h">
+      <Filter>Infrastructure\CSCSession\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="doubletransformer.h">
+      <Filter>ViewConnectors\Transformer</Filter>
+    </ClInclude>
+    <ClInclude Include="orderreleaseinformationvcptr.h">
+      <Filter>ViewConnectors\OrderReleaseInformation\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_orderreleaseinformationvc.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_manufacturerfindervc.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iorderreleaseinformationvc.h">
+      <Filter>ViewConnectors\OrderReleaseInformation\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="iorderreleaseinformationvcptr.h">
+      <Filter>ViewConnectors\OrderReleaseInformation\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="userrights.h">
+      <Filter>Infrastructure\UserRights\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="iuserrights.h">
+      <Filter>Infrastructure\UserRights\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="userrightsptr.h">
+      <Filter>Infrastructure\UserRights\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="iuserrightsptr.h">
+      <Filter>Infrastructure\UserRights\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="orderrequesttransformer.h">
+      <Filter>ViewConnectors\Transformer</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_batchordermaintenancevc.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_collectiveorderwishconfirmationvc.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="collectiveorderwishconfirmationvcptr.h">
+      <Filter>ViewConnectors\CollectiveOrderWishConfirmation\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="collectiveorderwishuc.h">
+      <Filter>UseCases\CollectiveOrderWish</Filter>
+    </ClInclude>
+    <ClInclude Include="collectiveorderwishucptr.h">
+      <Filter>UseCases\CollectiveOrderWish</Filter>
+    </ClInclude>
+    <ClInclude Include="icollectiveorderwishconfirmationvc.h">
+      <Filter>ViewConnectors\CollectiveOrderWishConfirmation\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="icollectiveorderwishconfirmationvcptr.h">
+      <Filter>ViewConnectors\CollectiveOrderWishConfirmation\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="mainorderdatetransformer.h">
+      <Filter>ViewConnectors\Transformer</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_batchorderpositionvc.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\batchordermaintenanceuc.h">
+      <Filter>UseCases\BatchOrderMaintenance</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\batchordermaintenanceucptr.h">
+      <Filter>UseCases\BatchOrderMaintenance</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\batchorderposuc.h">
+      <Filter>UseCases\BatchOrderPos</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\batchorderposucptr.h">
+      <Filter>UseCases\BatchOrderPos</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\ibatchordermaintenancevc.h">
+      <Filter>ViewConnectors\BatchOrderMaintenance\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\ibatchordermaintenancevcptr.h">
+      <Filter>ViewConnectors\BatchOrderMaintenance\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\batchordermaintenancevcptr.h">
+      <Filter>ViewConnectors\BatchOrderMaintenance\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\ibatchorderpositionvc.h">
+      <Filter>ViewConnectors\BatchOrderPosition\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="viewconn\ibatchorderpositionvcptr.h">
+      <Filter>ViewConnectors\BatchOrderPosition\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="icsvdataexportservice.h">
+      <Filter>main\Services\CSVDataExport\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="icsvdataexportserviceptr.h">
+      <Filter>main\Services\CSVDataExport\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="csvdataexportservicebaseptr.h">
+      <Filter>main\Services\CSVDataExport\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="bvostatusdataexportservice.h">
+      <Filter>main\Services\CSVDataExport\Impl\BVOStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="icsvexportgetter.h">
+      <Filter>ComponentManager\ApplCompMgr\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="icsvexportgetterptr.h">
+      <Filter>ComponentManager\ApplCompMgr\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\tendercreatorucptr.h">
+      <Filter>UseCases\TenderCreator</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\itendercreator.h">
+      <Filter>UseCases\TenderCreator\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="usecase\itendercreatorptr.h">
+      <Filter>UseCases\TenderCreator\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="cscbatchesapplctrl.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructuresetup.h">
+      <Filter>Infrastructure\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="infrastructuresetupptr.h">
+      <Filter>Infrastructure\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="ilanguagefileloadergetter.h">
+      <Filter>ComponentManager\InfrastructureCompMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ilanguagefileloadergetterptr.h">
+      <Filter>ComponentManager\InfrastructureCompMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="discountflags_transformer.h">
+      <Filter>ViewConnectors\Transformer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="batchordereditionvc.ui">
+      <Filter>Gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bvostatusvc.ui">
+      <Filter>Gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindow.ui">
+      <Filter>Gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="transferorderposvc.ui">
+      <Filter>Gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="usersettingsvc.ui">
+      <Filter>Gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindowvc.h">
+      <Filter>ViewConnectors\MainWindow</Filter>
+    </CustomBuild>
+    <CustomBuild Include="articlefindervc.ui">
+      <Filter>Gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="transferordercreatorvc.ui">
+      <Filter>Gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="batchordereditionvc.h">
+      <Filter>ViewConnectors\BatchOrderEdition\Impl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="transferordercreatorvc.h">
+      <Filter>ViewConnectors\TransferOrderCreator\Impl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="transferorderposvc.h">
+      <Filter>ViewConnectors\TransferOrderPos\Impl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bvostatusvc.h">
+      <Filter>ViewConnectors\BVOStatus\Impl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="usersettingsvc.h">
+      <Filter>ViewConnectors\UserSettings\Impl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="customerfindervc.h">
+      <Filter>ViewConnectors\CustomerFinder\Impl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="customerfindervc.ui">
+      <Filter>Gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="articlefindervc.h">
+      <Filter>ViewConnectors\ArticleFinder\Impl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tablewidgetsorter.h">
+      <Filter>ViewConnectors\Util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="manufacturerfindervc.h">
+      <Filter>ViewConnectors\ManufacturerFinder\Impl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="changeordersvc.ui">
+      <Filter>Gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="changeordersvc.h">
+      <Filter>ViewConnectors\ChangeOrders\Impl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CSC_Batches.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="orderreleaseinformationvc.ui">
+      <Filter>Gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="orderreleaseinformationvc.h">
+      <Filter>ViewConnectors\OrderReleaseInformation\Impl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="manufacturerfindervc.ui">
+      <Filter>Gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="batchordermaintenancevc.ui">
+      <Filter>Gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="collectiveorderwishconfirmationvc.ui">
+      <Filter>Gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="collectiveorderwishconfirmationvc.h">
+      <Filter>ViewConnectors\CollectiveOrderWishConfirmation\Impl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="batchorderpositionvc.ui">
+      <Filter>Gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\batchordermaintenancevc.h">
+      <Filter>ViewConnectors\BatchOrderMaintenance\Impl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="viewconn\batchorderpositionvc.h">
+      <Filter>ViewConnectors\BatchOrderPosition\Impl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="multilang\csc_batches_de.ts">
+      <Filter>multilang</Filter>
+    </CustomBuild>
+    <CustomBuild Include="csvdataexportservicebase.h">
+      <Filter>main\Services\CSVDataExport\Impl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="usecase\tendercreatoruc.h">
+      <Filter>UseCases\TenderCreator</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CSC_Batches.rc" />
+  </ItemGroup>
+</Project>

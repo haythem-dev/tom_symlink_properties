@@ -1,0 +1,22 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*! \file
+ *  \brief  
+ *  \author  
+ *  \date    */
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#ifndef GUARD_CSC_BATCHES_VIEWCONN_BVOSTATUSVCPTR_H
+#define GUARD_CSC_BATCHES_VIEWCONN_BVOSTATUSVCPTR_H
+
+#include <boost/shared_ptr.hpp>
+
+namespace CSC_Batches
+{
+    namespace viewConn
+    {
+        class BVOStatusVC;
+        typedef boost::shared_ptr< BVOStatusVC > BVOStatusVCPtr;
+    }
+}
+
+#endif

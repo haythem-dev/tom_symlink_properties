@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CSC_Batches_History", "CSC_Batches_History.vcproj", "{380C9E83-FEF9-4410-9D90-3FE05A1FB31E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		UnitTest = UnitTest
+		UnitTest_Debug = UnitTest_Debug
+		UnitTest_Release = UnitTest_Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{380C9E83-FEF9-4410-9D90-3FE05A1FB31E}.Debug.ActiveCfg = Debug|Win32
+		{380C9E83-FEF9-4410-9D90-3FE05A1FB31E}.Debug.Build.0 = Debug|Win32
+		{380C9E83-FEF9-4410-9D90-3FE05A1FB31E}.Release.ActiveCfg = Release|Win32
+		{380C9E83-FEF9-4410-9D90-3FE05A1FB31E}.Release.Build.0 = Release|Win32
+		{380C9E83-FEF9-4410-9D90-3FE05A1FB31E}.UnitTest.ActiveCfg = UnitTest_Debug|Win32
+		{380C9E83-FEF9-4410-9D90-3FE05A1FB31E}.UnitTest.Build.0 = UnitTest_Debug|Win32
+		{380C9E83-FEF9-4410-9D90-3FE05A1FB31E}.UnitTest_Debug.ActiveCfg = UnitTest_Debug|Win32
+		{380C9E83-FEF9-4410-9D90-3FE05A1FB31E}.UnitTest_Debug.Build.0 = UnitTest_Debug|Win32
+		{380C9E83-FEF9-4410-9D90-3FE05A1FB31E}.UnitTest_Release.ActiveCfg = UnitTest_Release|Win32
+		{380C9E83-FEF9-4410-9D90-3FE05A1FB31E}.UnitTest_Release.Build.0 = UnitTest_Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

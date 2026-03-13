@@ -1,0 +1,8 @@
+#ifndef LIBABBAUW_ACCESSOR_DATETYPES_COMMON_H
+#define LIBABBAUW_ACCESSOR_DATETYPES_COMMON_H
+
+#define NULLVAL_SQL_DATE_STR                  "'99991231'"
+#define NULLVAL_SQL_TIME_STR                  "'235959999'"
+#define FORMAT_SQL_DATE_IFX                   "'%Y%m%d'"
+
+#endif // LIBABBAUW_ACCESSOR_DATETYPES_COMMON_H

@@ -1,0 +1,179 @@
+\page page1 csc_batches_edi_input
+________________________________________________________________________________________
+\version	00.00.02.09
+\date		10.01.2017
+\internal
+- introduce order protocol
+\endinternal
+\customer
+\de
+- Neueinführung Auftragsprotokoll
+- P-16000133: MOA-07-Segment (DE) ist nun wie spezifiziert irrelevant und wird überlesen.
+\en
+- Set orderdate always to the day when the order is read into ABBA-UW instead of using date segment value DTM137 
+  because sometimes manufacturers send very old and wrong data values. Then orders could be filtered off in ABBA-UW unintentionally. 
+\endcustomer
+
+________________________________________________________________________________________
+\version	00.00.02.08
+\date		26.02.2016
+\internal
+- In Germany change filename of Flatfiles: From „uewauf.nd.YYYYMMDDhhmm.UNIX“ to „uewauf.nd.YYYYMMDDhhmmssuu.UNIX“  (Four numbers more for second an centisecond)
+\endinternal
+\customer
+\de
+- Das Auftragsdatum AUFDAT der Aufträge in ABBA-UW wird ab jetzt nicht mehr aus dem EDIFACT-Datumssegment DTM137 entnommen
+  sondern prinzipiell auf das Einlesedatum in ABBA-UW gesetzt. Grund: Hersteller sendeten lang vergangene Datumsangaben, was die unbeabsichtigte 
+  Ausfilterung der Aufträge in ABBA bewirkte.
+\en
+- Set orderdate always to the day when the order is read into ABBA-UW instead of using date segment value DTM137 
+  because sometimes manufacturers send very old and wrong data values. Then orders could be filtered off in ABBA-UW unintentionally. 
+\endcustomer
+________________________________________________________________________________________
+\version	00.00.02.07
+\date		11.11.2015
+\internal
+- Set orderhead/orderdate always to "today" instead of segment value DTM137 because sometimes manufacturers send old and wrong data values.
+\endinternal
+\customer
+\de
+- Das Auftragsdatum AUFDAT der Aufträge in ABBA-UW wird ab jetzt nicht mehr aus dem EDIFACT-Datumssegment DTM137 entnommen
+  sondern prinzipiell auf das Einlesedatum in ABBA-UW gesetzt. Grund: Hersteller sendeten lang vergangene Datumsangaben, was die unbeabsichtigte 
+  Ausfilterung der Aufträge in ABBA bewirkte.
+\en
+- Set orderdate always to the day when the order is read into ABBA-UW instead of using date segment value DTM137 
+  because sometimes manufacturers send very old and wrong data values. Then orders could be filtered off in ABBA-UW unintentionally. 
+\endcustomer
+________________________________________________________________________________________
+\version	0.0.2.6
+\date		21.04.2015
+\internal
+- Bugfix Invoicetext on missing 04CN and 04BY pharmacyno.
+\endinternal 
+\customer
+\de
+- Bugfix: Positionstext in Feld "invoicetext" verbessert bei fehlenden Angaben zum Kunden (keine 04CN and 04BY-Segmente)
+\en
+- Bugfix: Invoicetext on missing 04CN and 04BY pharmacyno.
+\endcustomer 
+________________________________________________________________________________________
+
+\version	0.0.2.5
+\date      08.04.2015
+\internal
+- Allow UNOA2/3 in DE.
+\endinternal 
+\customer
+\de
+- Lasse EDIFACT-Saetze mit UNOA2/3 in DE zu.
+\en
+- Allow UNOA2/3 in DE.
+\endcustomer
+________________________________________________________________________________________
+
+\version	0.0.2.4
+\date      18.03.15
+\internal
+- Set Textfield when articleno is unknown.
+\endinternal 
+\customer
+\de
+- Zeige Information zu unbekanntem Artikel im Textfeld der Position an.
+\en
+- Set Textfield when articleno is unknown.
+\endcustomer
+________________________________________________________________________________________
+\version	0.0.2.3
+\date      06.03.15
+\internal
+- Accept NAD-lines with wrong NAD-CODELISTE (except for NAD_MF). Accept UNOB3 and UNOC3.
+\endinternal 
+\customer
+\de
+- Akzeptiere NAD-lines mit falscher NAD-CODELISTE (except for NAD_MF). Akzeptiere UNOB3- and UNOC3-Aufträge.
+\en
+- Accept NAD-lines with wrong NAD-CODELISTE (except for NAD_MF). Accept UNOB3 and UNOC3.
+\endcustomer
+________________________________________________________________________________________
+\version	0.0.2.2
+\date      27.02.2015
+\internal
+- First version of new German input interface to be installed at the UNIX test environment.
+\endinternal 
+\customer
+\de
+- Die erste Version der neuen deutschen EDIFACT-Einlese-Schnittstelle für die Installation im UNIX test environment.
+\en
+- First version of new German input interface to be installed at the UNIX test environment.
+\endcustomer
+________________________________________________________________________________________
+\version	0.0.2.1
+\date      20.02.2015:
+\internal
+-  Development of the German input interface is advanced but still not ready.
+\endinternal 
+\customer
+\de
+- Weitere Zwischenversion der neuen EDIFact-Einlese-Schnittstelle für DE. Ist noch nicht fertig.
+\en
+- Development of the German input interface is advanced but still not ready.
+\endcustomer
+________________________________________________________________________________________
+\version	0.0.2.0
+\date      05.01.15
+\internal
+- Development of the German input interface is advanced but not ready.
+\endinternal 
+\customer
+\de
+- Zwischenversion der neuen EDIFact-Einlese-Schnittstelle für DE. Ist noch nicht fertig.
+\en
+- Development of the German input interface is advanced but not ready.
+\endcustomer
+________________________________________________________________________________________
+\version	Version 0.0.1.0, kes
+\date      27.10.14
+\internal
+- Starting the development of the German input interface.
+\endinternal 
+\customer
+\de
+- Entwicklungsstart für die neue EDIFact-Einlese-Schnittstelle für DE. Ist noch nicht fertig.
+\en
+- Starting the development of the German input interface.
+\endcustomer
+________________________________________________________________________________________
+\version	0.0.0.x
+\internal
+- csc_batches_edi_input is only elaborated for use in CH.
+\endinternal 
+\customer
+\de
+- csc_batches_edi_input ist nur für den Einsatz in der Schweiz geeignet.
+\en
+- csc_batches_edi_input is only elaborated for use in CH
+\endcustomer
+________________________________________________________________________________________
+
+ */
+
+
+ /*
+ Here is the template for a version description.
+ Copy this section to the top of the version history to create a new version history entry.
+
+________________________________________________________________________________________
+\version XX.XX.XX.XX
+\date XXXX-XX-XX
+\internal
+- xxxxx 
+\endinternal
+\customer
+\de
+- Fehlerbehebung: Fxxx
+\en
+- Bugfix:xxxx
+\endcustomer
+
+
+ */

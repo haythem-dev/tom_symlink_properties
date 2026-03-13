@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="log4cplus">
+      <UniqueIdentifier>{c8b698e6-b731-49fb-8979-1bc1744f4fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unix">
+      <UniqueIdentifier>{651816cb-43c4-43fd-999a-bb2d43299b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cmnutil">
+      <UniqueIdentifier>{88796169-0989-46e0-b234-378a666186c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cmdLine">
+      <UniqueIdentifier>{44692f54-d4b7-49dc-9679-262737b022e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cmdLine\exceptions">
+      <UniqueIdentifier>{93bce5f3-4c82-4763-baa7-2553131c4254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="useradmin">
+      <UniqueIdentifier>{3f713406-fcf3-487f-bfbc-64395b046e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="useradmin\exceptions">
+      <UniqueIdentifier>{abce4a38-836c-4753-80b4-1e491dd4c634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dbconnection">
+      <UniqueIdentifier>{489b3aeb-3957-4eec-8505-af6bb64544d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="loggerpool.h">
+      <Filter>log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="classinfo_macros.h">
+      <Filter>cmnutil</Filter>
+    </ClInclude>
+    <ClInclude Include="libbatch_definitions.h">
+      <Filter>cmnutil</Filter>
+    </ClInclude>
+    <ClInclude Include="cmdlineconfiguration.h">
+      <Filter>cmdLine</Filter>
+    </ClInclude>
+    <ClInclude Include="cmdlineevaluator.h">
+      <Filter>cmdLine</Filter>
+    </ClInclude>
+    <ClInclude Include="cmdlineoption.h">
+      <Filter>cmdLine</Filter>
+    </ClInclude>
+    <ClInclude Include="cmdlineoption_definitions.h">
+      <Filter>cmdLine</Filter>
+    </ClInclude>
+    <ClInclude Include="cmdlineparser.h">
+      <Filter>cmdLine</Filter>
+    </ClInclude>
+    <ClInclude Include="cmdlineexception.h">
+      <Filter>cmdLine\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="useradmindbconfiguration.h">
+      <Filter>useradmin</Filter>
+    </ClInclude>
+    <ClInclude Include="useradmindbconfigurationptr.h">
+      <Filter>useradmin</Filter>
+    </ClInclude>
+    <ClInclude Include="useradminlogin.h">
+      <Filter>useradmin</Filter>
+    </ClInclude>
+    <ClInclude Include="useradminloginptr.h">
+      <Filter>useradmin</Filter>
+    </ClInclude>
+    <ClInclude Include="useradminparametergetter.h">
+      <Filter>useradmin</Filter>
+    </ClInclude>
+    <ClInclude Include="userloginconfiguration.h">
+      <Filter>useradmin</Filter>
+    </ClInclude>
+    <ClInclude Include="useradminfailureexception.h">
+      <Filter>useradmin\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="dbconnectionbase.h">
+      <Filter>dbconnection</Filter>
+    </ClInclude>
+    <ClInclude Include="dbconnectionbaseptr.h">
+      <Filter>dbconnection</Filter>
+    </ClInclude>
+    <ClInclude Include="dbconnectionconfiguration.h">
+      <Filter>dbconnection</Filter>
+    </ClInclude>
+    <ClInclude Include="dbconnectionconfiguration_definitions.h">
+      <Filter>dbconnection</Filter>
+    </ClInclude>
+    <ClInclude Include="useradminmailconfigurationptr.h">
+      <Filter>useradmin</Filter>
+    </ClInclude>
+    <ClInclude Include="useradminmailconfiguration.h">
+      <Filter>useradmin</Filter>
+    </ClInclude>
+    <ClInclude Include="usermailconfiguration.h">
+      <Filter>useradmin</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="loggerpool.cpp">
+      <Filter>log4cplus</Filter>
+    </ClCompile>
+    <ClCompile Include="cmdlineevaluator.cpp">
+      <Filter>cmdLine</Filter>
+    </ClCompile>
+    <ClCompile Include="cmdlineoption.cpp">
+      <Filter>cmdLine</Filter>
+    </ClCompile>
+    <ClCompile Include="cmdlineparser.cpp">
+      <Filter>cmdLine</Filter>
+    </ClCompile>
+    <ClCompile Include="cmdlineexception.cpp">
+      <Filter>cmdLine\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="useradmindbconfiguration.cpp">
+      <Filter>useradmin</Filter>
+    </ClCompile>
+    <ClCompile Include="useradminlogin.cpp">
+      <Filter>useradmin</Filter>
+    </ClCompile>
+    <ClCompile Include="useradminparametergetter.cpp">
+      <Filter>useradmin</Filter>
+    </ClCompile>
+    <ClCompile Include="useradminfailureexception.cpp">
+      <Filter>useradmin\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="dbconnectionbase.cpp">
+      <Filter>dbconnection</Filter>
+    </ClCompile>
+    <ClCompile Include="useradminmailconfiguration.cpp">
+      <Filter>useradmin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="makefile">
+      <Filter>unix</Filter>
+    </None>
+    <None Include="userloginconfiguration.inl">
+      <Filter>useradmin</Filter>
+    </None>
+    <None Include="dbconnectionbase.inl">
+      <Filter>dbconnection</Filter>
+    </None>
+    <None Include="dbconnectionconfiguration.inl">
+      <Filter>dbconnection</Filter>
+    </None>
+  </ItemGroup>
+</Project>
