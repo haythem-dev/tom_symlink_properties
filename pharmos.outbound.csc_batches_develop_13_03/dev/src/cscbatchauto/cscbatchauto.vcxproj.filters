@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="UseCases">
+      <UniqueIdentifier>{84ea1beb-170c-4be1-add1-bec67c9d40dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{ea69d9da-7bdc-4725-8b3e-922440a236f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="connect">
+      <UniqueIdentifier>{939db611-a09f-4c52-acca-604009b222d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="batchorderautouc.cpp">
+      <Filter>UseCases</Filter>
+    </ClCompile>
+    <ClCompile Include="usecasecontroller.cpp">
+      <Filter>UseCases</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="connection.cpp">
+      <Filter>connect</Filter>
+    </ClCompile>
+    <ClCompile Include="cscbatchautoappl.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="version.c">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="batchorderautouc.h">
+      <Filter>UseCases</Filter>
+    </ClInclude>
+    <ClInclude Include="usecasecontroller.h">
+      <Filter>UseCases</Filter>
+    </ClInclude>
+    <ClInclude Include="connection.h">
+      <Filter>connect</Filter>
+    </ClInclude>
+    <ClInclude Include="cscbatchautoappl.h">
+      <Filter>main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="makefile" />
+  </ItemGroup>
+</Project>

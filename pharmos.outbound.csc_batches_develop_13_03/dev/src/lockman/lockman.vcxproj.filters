@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ilockaccessor.h">
+      <Filter>Infrastructure\Accessor\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ilockaccessorptr.h">
+      <Filter>Infrastructure\Accessor\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="lockaccessor.h">
+      <Filter>Infrastructure\Accessor\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="liblockmanager_loggerpool.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="instancechecker.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="instancechecker_macro_definition.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="invalidinstanceexception.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="baseexception.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlbuilder.h">
+      <Filter>Infrastructure\Accessor\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="lockaccessorexception.h">
+      <Filter>Infrastructure\Accessor\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="metaclassmacro_definitions.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lockguard.h">
+      <Filter>Guard\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="ilockguard.h">
+      <Filter>Guard\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="apimisuseexception.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="key.h">
+      <Filter>Manager\Key\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="ikey.h">
+      <Filter>Manager\Key\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ikeyptr.h">
+      <Filter>Manager\Key\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ilockentry.h">
+      <Filter>Manager\LockEntry\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ilockentryptr.h">
+      <Filter>Manager\LockEntry\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="lockentry.h">
+      <Filter>Manager\LockEntry\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="ilockguardptr.h">
+      <Filter>Guard\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="lockguardfactory.h">
+      <Filter>Guard\Factory\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="ilockguardfactory.h">
+      <Filter>Guard\Factory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ilockguardfactoryptr.h">
+      <Filter>Guard\Factory\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="keyptr.h">
+      <Filter>Manager\Key\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="lockaccessorptr.h">
+      <Filter>Infrastructure\Accessor\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="iserializable.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="serializer.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="alreadylockedexception.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="lockmanager.h">
+      <Filter>Manager\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="ilockmanager.h">
+      <Filter>Manager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ilockmanagerptr.h">
+      <Filter>Manager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="lockmanagerptr.h">
+      <Filter>Manager\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="lockentryptr.h">
+      <Filter>Manager\LockEntry\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="lockguardfactoryptr.h">
+      <Filter>Guard\Factory\Impl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lockaccessor.cpp">
+      <Filter>Infrastructure\Accessor\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="liblockmanager_loggerpool.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="invalidinstanceexception.cpp">
+      <Filter>Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="baseexception.cpp">
+      <Filter>Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlbuilder.cpp">
+      <Filter>Infrastructure\Accessor\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="lockaccessorexception.cpp">
+      <Filter>Infrastructure\Accessor\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="lockguard.cpp">
+      <Filter>Guard\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="apimisuseexception.cpp">
+      <Filter>Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="key.cpp">
+      <Filter>Manager\Key\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="lockentry.cpp">
+      <Filter>Manager\LockEntry\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="lockguardfactory.cpp">
+      <Filter>Guard\Factory\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="serializer.cpp">
+      <Filter>Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="alreadylockedexception.cpp">
+      <Filter>Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="lockmanager.cpp">
+      <Filter>Manager\Impl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Infrastructure">
+      <UniqueIdentifier>{a8c76d2f-fb32-471c-8afb-c255f40e69ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor">
+      <UniqueIdentifier>{be925388-2ee6-48d1-8b30-70528b64f8ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\Impl">
+      <UniqueIdentifier>{753c164f-a16e-43ea-9502-ddfa0d55ee42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\Interface">
+      <UniqueIdentifier>{1bd27976-0488-44cb-b564-c7ad2bb09a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions">
+      <UniqueIdentifier>{cc65103d-e63f-41b1-9654-8b9ab4f83e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{143db4b5-392e-4c33-8100-8ce28da0a0f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{bbae9355-b8b2-41fd-b560-0bb89da19cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{69b5f8f7-063c-45bf-a845-34e88f54640a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Key">
+      <UniqueIdentifier>{6c636704-896d-4c65-a3dd-85b3779d7361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\LockEntry">
+      <UniqueIdentifier>{573c6d09-aeca-456c-8d32-41c7212154fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Accessor\Exceptions">
+      <UniqueIdentifier>{784ce218-f7f9-471c-a7fb-e01e7ac878a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Key\Impl">
+      <UniqueIdentifier>{d86c7e35-6301-4037-bfb0-58b7c12b13e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Key\Interface">
+      <UniqueIdentifier>{3cae88e1-d0e6-4351-8990-f7d99ef6a805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\LockEntry\Impl">
+      <UniqueIdentifier>{556e2340-8cab-4733-a17c-4cd57b460599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\LockEntry\Interface">
+      <UniqueIdentifier>{0dd412f9-2777-41fe-a35b-c50157e8180d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guard">
+      <UniqueIdentifier>{21785b41-fe20-4e8f-ae12-3eed2dea0411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guard\Impl">
+      <UniqueIdentifier>{936da6c6-6517-4dda-9c6e-b61e8df3da04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guard\Interface">
+      <UniqueIdentifier>{de311cc1-aedf-40d1-8401-eff51477bdb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guard\Factory">
+      <UniqueIdentifier>{911c5437-f923-48cc-bad5-834b249d1691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guard\Factory\Interface">
+      <UniqueIdentifier>{abf230d0-78e9-4f05-8edb-ca6bf39125a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guard\Factory\Impl">
+      <UniqueIdentifier>{74c527d9-1baf-4f4b-befd-1af72ef43bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization">
+      <UniqueIdentifier>{edf402a2-0739-4ab6-a5bb-1e2eaf33214a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Impl">
+      <UniqueIdentifier>{1cb48df5-4158-4457-a975-1803f382fcb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Interface">
+      <UniqueIdentifier>{30a1b5e9-5d10-475e-89ae-66fef0bfdce9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

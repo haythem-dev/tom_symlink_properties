@@ -1,0 +1,117 @@
+\page page4 CSC-Batches-History
+
+________________________________________________________________________________________
+\version	01.00.01.09
+\date		10.11.2016
+\internal
+- Protokollierung implementiert.
+\endinternal 
+
+________________________________________________________________________________________
+\version	01.00.01.08
+\date		03.05.2016
+\internal
+- Versionsabfrage verbessert.
+\endinternal 
+
+________________________________________________________________________________________
+\version	01.00.01.07
+\date		11.03.2016
+\internal
+- CR Intern 2014 ID 49: Analyze jobs with early start time.
+\endinternal 
+
+________________________________________________________________________________________
+\version	01.00.01.06
+\date		01.12.2015
+\internal
+- ABBA-UW DE, EK-32: Bugfixes around new completed field.
+\endinternal 
+
+________________________________________________________________________________________
+\version	01.00.01.05
+\date		18.11.2015
+\internal
+- ABBA-UW DE, EK-32: new: Archive orderproposals that are marked as "completed" in new orderproposal-tablefield.
+\endinternal 
+
+________________________________________________________________________________________
+\version	01.00.01.04
+\date		18.11.2015
+\internal
+- cleanup and version management
+\endinternal 
+
+________________________________________________________________________________________
+\version	01.00.01.03
+\date		17.08.2015
+\internal
+- New databasefield orderhead.purchaseorderno has to be archived too.
+-  Adaption to SSUK 01.10.01.00
+\endinternal
+
+________________________________________________________________________________________
+\version	01.00.01.02
+\date		22.09.2014
+\internal
+- New databasefields orderpos/batch & expirydate have to be archived also.
+- Adaption to SSUK 01.10.00.00
+\endinternal
+
+________________________________________________________________________________________
+\version	01.00.01.01
+\date		27.06.2014
+\internal
+- New databasefield orderhead/pharmacynomf has to be archived also.
+\endinternal
+
+________________________________________________________________________________________
+\version	01.00.01.00
+\date		28.01.2014
+\internal
+- Anpassungen für ABBA-UW
+- ssuk-Version: 1.9.0.0
+\endinternal
+
+________________________________________________________________________________________
+\version	00.05.00.00
+\date		28.08.2012
+\internal
+- Anpassungen für Unix Foundation
+- Anheben der ssuk-Version von 1.5.1.0 auf 1.8.2.0
+\endinternal
+
+________________________________________________________________________________________
+\version	00.04.00.00
+\date		17.08.2010
+\internal
+- ?
+\endinternal
+
+________________________________________________________________________________________
+\version	00.03.00.00
+\date		01.07.2010
+\internal
+- utils.h entfernt
+\endinternal
+
+________________________________________________________________________________________
+\version	00.02.00.00
+\date		12.08.2009
+\internal
+- Archivierung kann unabhängig vom Auftragsdatum erfolgen. 
+    - In diesem Fall ist für Parameter -ltorderdate 0 mitzugeben.
+    - In diesem Fall werden alle Aufträge archiviert, die Status "ER" oder "ST" haben, 
+    - auch wenn das Auftragsdatum in der Zukunft liegt.
+    - Hintergrund: Stammhausaufträge werden oft vordatiert, also vor dem Auftragsdatum bearbeitet. 
+    - Die sollen anschließend nicht mehr sichtbar sein.
+\endinternal
+
+________________________________________________________________________________________
+\version	00.01.00.01
+\date		15.12.2008
+\internal
+- erste Version
+\endinternal
+
+*/

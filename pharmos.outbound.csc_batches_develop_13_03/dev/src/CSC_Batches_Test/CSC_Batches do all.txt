@@ -1,0 +1,295 @@
+-- ******************************************************************************
+--
+-- 				Drop Tables
+--
+-- ******************************************************************************
+CREATE PROCEDURE drop_table()
+  DEFINE c INT;
+
+  set debug file to "SQLDebugLogfile";
+  trace on;
+
+  SELECT count(*) into c from systables where lower(tabname)="orderhead";
+  if c=1 then
+    drop table orderhead;
+  end if;
+
+  SELECT count(*) into c from systables where lower(tabname)="orderpos";
+  if c=1 then
+    drop table orderpos;
+  end if;
+
+  SELECT count(*) into c from systables where lower(tabname)="cscini";
+  if c=1 then
+    drop table cscini;
+  end if;
+
+  SELECT count(*) into c from systables where lower(tabname)="csctransaction";
+  if c=1 then
+    drop table csctransaction;
+  end if;
+
+END PROCEDURE;
+EXECUTE PROCEDURE drop_table();
+DROP PROCEDURE drop_table();
+
+
+-- ******************************************************************************
+--
+-- 				Create Table OrderHead
+--
+-- ******************************************************************************
+
+CREATE TABLE OrderHead (
+BranchNo smallint not null,			-- Filialnummer
+OrderNo int not null,				-- Auftragsnummer
+Status char(1) not null,			-- Status
+OrderType char(2) default "NO" not null,	-- Auftragsart
+OrderPickingType char(1) default "0" not null,	-- Kommi-Art
+BookEntryType char(1) default "0" not null,	-- Buchungs-Art
+OrderDate int default 0 not null,		-- Auftrags-Datum
+OrderValue int default 0 not null,		-- Auftrags-Wert in Cent
+DeferredPaymentDate int default 0 not null,	-- Auftrags-Valuta-Datum
+Containers smallint default 0 not null, 	-- Anz Container (Beipack) groﬂr‰umig
+NarcoticsQty smallint default 0 not null, 	-- Anz Betaeubungsmittel
+TotalWeight int default 0 not null,		-- Gesamtgewicht in Gramm
+PharmacyNo int default 0 not null, 		-- IDF-Nummer
+HeaderText char(40) default "" not null,	-- Kopf-Text  
+DeliveryRunReference char(30) default "" not null,	-- Touren-Referenz
+DeliveryRun char(6) default "" not null,		-- Tour 
+ReadoutStatus char(1) default "" not null,	-- Einstell-Status
+DeliveryRunSequenceNo int default 0 not null,		-- Auftragsreihenf. in Tour
+CustomerGroup smallint default 0 not null,	-- Kundengruppe
+SalesmanNo int default 0 not null,		-- Vertreter-Nr.
+IMSAreaNo int default 0 not null,		-- IMS-Bezirksnummer
+TaxType smallint default 0 not null,		-- Mwst-Kz
+OrderAcquisitionDate int default 0 not null,	-- Datum Auftragserfassung 
+DataSourceType char(2) default "" not null,	-- Datenherkunftsart
+RecordType char(2) default "" not null,		-- Satzart 
+BranchNoOrig smallint default 0 not null,	-- Ursprungsfiliale 
+CustomerType char(1) default "" not null,	-- Kundenkennzeichen
+RekBNo int default 0 not null, 			-- BNR aus REK (WE-Optimierung)
+MainWarehouseFlag char(1) default "" not null,	-- Kzch. Stammhausauftrag 
+EDIDeliveryDate int default 0 not null,		-- Lieferdatum (aus EDI) 
+IsDeliveryNoteFlag char(1) default "" not null,	-- Kzch. EDI-Lieferschein J/N
+IsEDICopyFlag char(1) default "" not null,	-- Kzch. UEWAUF ist Kopie J/N
+IsLKMailFlag char(1) default "" not null,	-- LK-MAIL mit PVX600? J/N
+EstorelFlashFlag char(1) default "" not null,	-- Kzch. Estorel-Flash
+IsEstorelBulkOrderFlag char(1) default "" not null,	--  Kzch. Estorel-Grossauftrag
+IsInvoicedFlag char(1) default "" not null,	-- Kzch. Batchauftrag fakturiert
+SplittedIntoQty smallint default 0 not null	-- Anz. gesplittete Bestellungen bei Grossauftrag
+);
+
+CREATE UNIQUE INDEX XPKOrderHead  ON OrderHead 
+(
+        BranchNo               ASC,
+        OrderNo                ASC
+);
+
+-- ******************************************************************************
+--
+-- 				Create Table OrderPos 
+--
+-- ******************************************************************************
+CREATE TABLE OrderPos (
+BranchNo smallint not null,				-- Filialnummer
+OrderNo int not null,				-- Auftrags-Nummer
+PosNo int not null,				-- Positions-Nummer
+ArticleNo int default 0 not null,			-- Pharma-Zentral-Nummer
+OrderedQty int default 0 not null,			-- Bestellmenge
+NonChargedQty int default 0 not null,		-- Menge ohne Berechnung(NR)
+BranchNoOrig smallint default 0 not null,	-- Ursprungs-Filialnummer 
+PharmacyNo int default 0 not null,		-- IDF-Nummer
+TextField char(30) default "" not null,		-- Textfeld 
+IBTRecordType char(2) default "" not null,	-- Verbundsatzart
+SellOffRiseFlag char(1) default "" not null,	-- Kzch Abverkaufserhoehung J/N
+CustomerOrderNo int default 0 not null,		-- Auftragsnummer des Kunden
+CustomerPosNo int default 0 not null,		-- Positionsnummer im Kundenauftrag
+SubsequentDeliveryQty int default 0 not null,	-- Nachliefer- (WAFO)/Defekt-Menge
+BookingFlag char(1) default "" not null,		--  Kzch. nicht buchen
+WholesalerPurchasePrice dec(7,2) default 0.0 not null,	-- GEP des Herstellers fuer EDI-Ueberweiser
+SubsequentDeliveryFlag char(1) default "" not null,	-- Herkunft WAFO J/N
+CustomerOrderNoAdd smallint default 0 not null,	-- Auftragsnr des Kunden Erg. ???
+EstorelFlashCode char(1) default "" not null,	-- Kzch. Estorel-Flash ??? ist das ein J/N-Flag?	
+LKMailShortageQty int default 0 not null		-- Defektmenge bei LK-Mail
+);
+
+
+CREATE UNIQUE INDEX XPKOrderPos ON OrderPos 
+(
+        BranchNo               ASC,
+        OrderNo                ASC,
+        PosNo                  ASC
+);
+
+-- ******************************************************************************
+--
+-- 				Create Table CscIni
+--
+-- This is an ini table for csc programs. The table consists of key/value pairs.
+-- Example:
+-- If in Branch no 5 there should be visible only ordertype "UE" and "ER" these 
+-- the recordsets to be inserted:
+-- 	BranchNo=5, Key="ordertype", Value="UE"
+--	BranchNo=5, Key="ordertype", Value="ER"
+--
+--
+-- ******************************************************************************
+
+CREATE TABLE CscIni(
+BranchNo smallint not null,		-- Branch number
+Key char(20) not null,			-- Key of key/value pair
+Value char(20) not null			-- Value of key/value pair
+);
+
+CREATE UNIQUE INDEX XPKCscIni ON CscIni
+(
+        BranchNo           ASC,
+        Key                ASC,
+        Value              ASC
+)
+;
+
+-- ******************************************************************************
+--
+-- 				Create Table CscTransaction
+--
+-- This is a table for realizing transactions in csc batch order processing. 
+-- The table rows consist of an order numbers and an application id.
+-- Example:
+-- If application csc_batch starts a transaction for order no 112, 
+-- there is an entry 'csc_batch', 112 in the table.
+-- When the transaction is committed, the row is deleted.
+--
+-- ******************************************************************************
+
+CREATE TABLE CscTransaction (
+BranchNo smallint not null,		-- Branch number
+OrderNo int not null,		-- Order number
+PosNo int not null,		-- Position number
+Application char(20) not null	-- Name of Application
+);
+
+CREATE UNIQUE INDEX XPKCscTransaction ON CscTransaction
+(
+        BranchNo           ASC,
+        OrderNo            ASC,
+        PosNo              ASC,
+        Application        ASC
+)
+;
+
+
+-- ******************************************************************************
+--
+-- 				Insert into Table OrderHead
+--
+-- ******************************************************************************
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, OrderValue, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (5,111,"0","NO",20080520, 109515, 4489587,20080519,"ER");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (5,112,"0","NO",20080520, 9669816, 20080519,"SH");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (5,113,"2","NO",20080520,1821,20080519,"CL");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType, EDIDeliveryDate) values (5,114,"9","NO",20080520, 4489587, 20080519,"UE",20080731);
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (51,111,"0","NO",20080520,20830,20080519,"SH");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (51,113,"0","NO",20080520,483,20080519,"IR");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (5,115,"0","NO",20080521,0056265,20080519,"ER");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, OrderValue, PharmacyNo, HeaderText, OrderAcquisitionDate, DataSourceType, EDIDeliveryDate) values (5,116,"1","NO",20080521,45899, 4545989, "Unbequemer Kunde!",20080519,"UE",20080731);
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (5,117,"0","NO",20080521,9496600,20080519,"IR");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (5,118,"0","NO",20080521, 1436, 20080519,"SH");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (5,119,"0","NO",20080521, 2252, 20080519,"CL");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType, EDIDeliveryDate) values (5,120,"9","NO",20080521,9670328,20080519,"UE",20080821);
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (5,121,"9","NO",20080521, 9670802, 20080519,"CL");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (5,122,"9","NO",20080521, 9670802, 20080519,"SH");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (5,123,"2","NO",20080521,9670802, 20080519,"SH");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (5,124,"2","NO",20080521,9670802, 20080519,"SH");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (5,125,"0","NO",20080521,9670802, 20080519,"SH");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (5,126,"0","NO",20080709,105124,20080731,"UE");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (5,127,"0","NO",20080709,105124,20080730,"UE");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (5,128,"0","NO",20080709,3258213,20080731,"UE");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (5,129,"0","NO",20080709,22013,20080731,"UE");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (5,130,"0","NO",20080709,22013,20080731,"UE");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (5,131,"0","NO",20080709,22013,20080731,"UE");
+insert into OrderHead (BranchNo, OrderNo, Status, OrderType, OrderDate, PharmacyNo, OrderAcquisitionDate, DataSourceType) values (5,132,"0","NO",20080709,22013,20080519,"CL");
+select * from OrderHead;
+
+-- ******************************************************************************
+--
+-- 				Insert into Table OrderPos
+--
+-- ******************************************************************************
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,111,1,3681911,1);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,111,2,4590116,8);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,111,3,2339725,10);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,111,4,2414059,2);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,111,5,3922361,5);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,111,6,0,1);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,111,7,3413582,1);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,111,8,3413487,1);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,111,9,0,1);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,111,10,7219581,12);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,111,11,4544317,1);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,111,12,2073486,3);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,112,1,4939576,1);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,113,1,4512234,1);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,113,2,3728564,3);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,116,1,4512346,3);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,116,2,3728564,10);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,116,3,1420081,5);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,116,4,996867,2);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,126,1,4512346,3);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,126,2,3728564,10);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,126,3,1420081,5);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,126,4,996867,2);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,127,1,3681911,1);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,127,2,4590116,8);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,127,3,2339725,10);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,128,1,3681911,1);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,128,2,4590116,8);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,128,3,2339725,10);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,129,1,3413487,3);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,129,2,4590116,5);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,130,1,2339725,1);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,131,1,996867,2);
+insert into OrderPos (BranchNo, OrderNo, PosNo, ArticleNo, OrderedQty) values (5,132,1,996867,2);
+select * from OrderPos;
+
+-- ******************************************************************************
+--
+-- 				Insert into Table CscIni
+--
+-- ******************************************************************************
+insert into CscIni(BranchNo, Key, Value) values (5,"ordertype","UE");
+insert into CscIni(BranchNo, Key, Value) values (5,"ordertype","ER");
+insert into CscIni(BranchNo, Key, Value) values (5,"ordertype","CL");
+insert into CscIni(BranchNo, Key, Value) values (5,"ordertype","SH");
+select * from CscIni;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

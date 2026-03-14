@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8F83AFE3-0FD7-4DE2-99C3-80D9C1D61409}</ProjectGuid>
+    <RootNamespace>CSC_Batches_Edi_Input</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>.\$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>.\$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(QTDIR)\include;$(SolutionDir)..\..\ext\ssuk\log4cplus\include;$(SolutionDir)..\..\ext\ssuk\basar\include;$(SolutionDir)..\..\ext\ssuk\boost;$(SolutionDir)..\..\src\libcscbatch;$(SolutionDir)..\..\src\libbatch;$(SolutionDir)..\..\src\libabbauw;$(SolutionDir)..\..\ext\libutil\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>Cdecl</CallingConvention>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libbasarcmnutil.lib;libbasardbaspect.lib;libbasarproperty.lib;libbasardbsql.lib;libbasarlogin.lib;libbasarappl.lib;liblog4cplus.lib;libutil.lib;Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;$(SolutionDir)\..\..\ext\ssuk\basar\lib\$(Configuration);$(SolutionDir)\..\..\ext\ssuk\log4cplus\lib\$(Configuration);$(SolutionDir)\..\..\ext\ssuk\boost\lib;$(SolutionDir)\..\..\ext\libutil\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(QTDIR)\include;$(SolutionDir)..\..\ext\log4cplus\include;$(SolutionDir)..\..\ext\ssuk\basar\include;$(SolutionDir)..\..\ext\boost\include;$(SolutionDir)..\..\ext\libutil\include;$(SolutionDir)..\..\src\libcscbatch;$(SolutionDir)..\..\src\libbatch;$(SolutionDir)..\..\src\libabbauw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>Cdecl</CallingConvention>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libbasarcmnutil.lib;libbasardbaspect.lib;libbasarproperty.lib;libbasardbsql.lib;libbasarlogin.lib;libbasarappl.lib;log4cplusD.lib;libutil.lib;Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;$(SolutionDir)\..\..\ext\ssuk\basar\lib\$(Configuration);$(SolutionDir)\..\..\ext\log4cplus\lib\$(Configuration);$(SolutionDir)\..\..\ext\boost\lib;$(SolutionDir)\..\..\ext\libutil\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(QTDIR)\include;$(QTDIR)\include\QtCore;$(SolutionDir)..\..\ext\ssuk\log4cplus\include;$(SolutionDir)..\..\ext\ssuk\basar\include;$(SolutionDir)..\..\ext\ssuk\boost;$(SolutionDir)..\..\src\libcscbatch;$(SolutionDir)..\..\src\libbatch;$(SolutionDir)..\..\src\libabbauw;$(SolutionDir)..\..\ext\libutil\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;BOOST_FILESYSTEM_NO_DEPRECATED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <CompileAsManaged>false</CompileAsManaged>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libbasarcmnutil.lib;libbasardbaspect.lib;libbasarproperty.lib;libbasardbsql.lib;libbasarlogin.lib;libbasarappl.lib;liblog4cplus.lib;libutil.lib;Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;$(SolutionDir)\..\..\ext\ssuk\basar\lib\$(Configuration);$(SolutionDir)\..\..\ext\ssuk\log4cplus\lib\$(Configuration);$(SolutionDir)\..\..\ext\ssuk\boost\lib;$(SolutionDir)\..\..\ext\libutil\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(QTDIR)\include;$(QTDIR)\include\QtCore;$(SolutionDir)..\..\ext\log4cplus\include;$(SolutionDir)..\..\ext\ssuk\basar\include;$(SolutionDir)..\..\ext\boost\include;$(SolutionDir)..\..\src\libcscbatch;$(SolutionDir)..\..\src\libbatch;$(SolutionDir)..\..\src\libabbauw;$(SolutionDir)..\..\ext\libutil\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;BOOST_FILESYSTEM_NO_DEPRECATED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <CompileAsManaged>false</CompileAsManaged>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libbasarcmnutil.lib;libbasardbaspect.lib;libbasarproperty.lib;libbasardbsql.lib;libbasarlogin.lib;libbasarappl.lib;log4cplus.lib;libutil.lib;Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;$(SolutionDir)\..\..\ext\ssuk\basar\lib\$(Configuration);$(SolutionDir)\..\..\ext\log4cplus\lib\$(Configuration);$(SolutionDir)\..\..\ext\boost\lib;$(SolutionDir)\..\..\ext\libutil\lib\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="alc_05_line.cpp" />
+    <ClCompile Include="bgm_02_line.cpp" />
+    <ClCompile Include="delivereracc.cpp" />
+    <ClCompile Include="delivererconsultantdm.cpp" />
+    <ClCompile Include="dtm_03_line.cpp" />
+    <ClCompile Include="editransferorder.cpp" />
+    <ClCompile Include="ftx_11_line.cpp" />
+    <ClCompile Include="imd_09_line.cpp" />
+    <ClCompile Include="infrastructure\mail\mailalert.cpp" />
+    <ClCompile Include="irrelevant_de_line.cpp" />
+    <ClCompile Include="lin_08_line.cpp" />
+    <ClCompile Include="nad_04_line.cpp" />
+    <ClCompile Include="orderheadprotocolacc.cpp" />
+    <ClCompile Include="orderheadprotocoldm.cpp" />
+    <ClCompile Include="orderposcollectionprotocolacc.cpp" />
+    <ClCompile Include="orderposcollectionprotocoldm.cpp" />
+    <ClCompile Include="orderprotocolexception.cpp" />
+    <ClCompile Include="pcd_06_line.cpp" />
+    <ClCompile Include="positionsegment.cpp" />
+    <ClCompile Include="bgmline.cpp" />
+    <ClCompile Include="dtmline.cpp" />
+    <ClCompile Include="imdline.cpp" />
+    <ClCompile Include="irrelevantline.cpp" />
+    <ClCompile Include="linline.cpp" />
+    <ClCompile Include="nadline.cpp" />
+    <ClCompile Include="pcdline.cpp" />
+    <ClCompile Include="qtyline.cpp" />
+    <ClCompile Include="qty_10_line.cpp" />
+    <ClCompile Include="unbline.cpp" />
+    <ClCompile Include="unb_00_line.cpp" />
+    <ClCompile Include="unhline.cpp" />
+    <ClCompile Include="unh_01_line.cpp" />
+    <ClCompile Include="unsline.cpp" />
+    <ClCompile Include="uns_97_line.cpp" />
+    <ClCompile Include="untline.cpp" />
+    <ClCompile Include="unzline.cpp" />
+    <ClCompile Include="edilinefactory.cpp" />
+    <ClCompile Include="edilineidentifier.cpp" />
+    <ClCompile Include="editransferordermapper.cpp" />
+    <ClCompile Include="articleconsultantdm.cpp" />
+    <ClCompile Include="articleacc.cpp" />
+    <ClCompile Include="customerconsultantdm.cpp" />
+    <ClCompile Include="customeracc.cpp" />
+    <ClCompile Include="manufacturerconsultantdm.cpp" />
+    <ClCompile Include="manufactureracc.cpp" />
+    <ClCompile Include="abbauworderdm.cpp" />
+    <ClCompile Include="orderheadacc.cpp" />
+    <ClCompile Include="orderposacc.cpp" />
+    <ClCompile Include="abbauwexception.cpp" />
+    <ClCompile Include="dataacquisitionexception.cpp" />
+    <ClCompile Include="datastoringexception.cpp" />
+    <ClCompile Include="flatfileordirexception.cpp" />
+    <ClCompile Include="unprocessableexception.cpp" />
+    <ClCompile Include="transactionguard.cpp" />
+    <ClCompile Include="abbauwappl.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="abbauwcmdlineevaluator.cpp" />
+    <ClCompile Include="appinitializer.cpp" />
+    <ClCompile Include="appinitializerexception.cpp" />
+    <ClCompile Include="appsession.cpp" />
+    <ClCompile Include="dbifxconnection.cpp" />
+    <ClCompile Include="loggerpool.cpp" />
+    <ClCompile Include="version.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alc_05_line.h" />
+    <ClInclude Include="bgm_02_line.h" />
+    <ClInclude Include="delivereracc.h" />
+    <ClInclude Include="delivererconsultantdm.h" />
+    <ClInclude Include="dtm_03_line.h" />
+    <ClInclude Include="editransferorder.h" />
+    <ClInclude Include="ftx_11_line.h" />
+    <ClInclude Include="imd_09_line.h" />
+    <ClInclude Include="infrastructure\mail\imailalert.h" />
+    <ClInclude Include="infrastructure\mail\imailalertptr.h" />
+    <ClInclude Include="infrastructure\mail\mailalert.h" />
+    <ClInclude Include="infrastructure\mail\mailalertptr.h" />
+    <ClInclude Include="infrastructure\mail\mailparameterkeys.h" />
+    <ClInclude Include="irrelevant_de_line.h" />
+    <ClInclude Include="lin_08_line.h" />
+    <ClInclude Include="nad_04_line.h" />
+    <ClInclude Include="orderheadprotocolacc.h" />
+    <ClInclude Include="orderheadprotocoldm.h" />
+    <ClInclude Include="orderposcollectionprotocolacc.h" />
+    <ClInclude Include="orderposcollectionprotocoldm.h" />
+    <ClInclude Include="orderprotocolexception.h" />
+    <ClInclude Include="orderprotocol_definitions.h" />
+    <ClInclude Include="pcd_06_line.h" />
+    <ClInclude Include="positionsegment.h" />
+    <ClInclude Include="bgmline.h" />
+    <ClInclude Include="dtmline.h" />
+    <ClInclude Include="edifactline.h" />
+    <ClInclude Include="imdline.h" />
+    <ClInclude Include="irrelevantline.h" />
+    <ClInclude Include="linline.h" />
+    <ClInclude Include="nadline.h" />
+    <ClInclude Include="pcdline.h" />
+    <ClInclude Include="qtyline.h" />
+    <ClInclude Include="qty_10_line.h" />
+    <ClInclude Include="unbline.h" />
+    <ClInclude Include="unb_00_line.h" />
+    <ClInclude Include="unhline.h" />
+    <ClInclude Include="unh_01_line.h" />
+    <ClInclude Include="unsline.h" />
+    <ClInclude Include="uns_97_line.h" />
+    <ClInclude Include="untline.h" />
+    <ClInclude Include="unzline.h" />
+    <ClInclude Include="edilinefactory.h" />
+    <ClInclude Include="ediline_definitions.h" />
+    <ClInclude Include="edilineidentifier.h" />
+    <ClInclude Include="editransferordermapper.h" />
+    <ClInclude Include="editransferordermapper_definitions.h" />
+    <ClInclude Include="transferordermapperbase.h" />
+    <ClInclude Include="edi_input_accessor_definitions.h" />
+    <ClInclude Include="edi_input_definitions.h" />
+    <ClInclude Include="edi_input_properties_definitions.h" />
+    <ClInclude Include="articleconsultantdm.h" />
+    <ClInclude Include="articleacc.h" />
+    <ClInclude Include="customerconsultantdm.h" />
+    <ClInclude Include="customeracc.h" />
+    <ClInclude Include="manufacturerconsultantdm.h" />
+    <ClInclude Include="manufactureracc.h" />
+    <ClInclude Include="abbauworderdm.h" />
+    <ClInclude Include="orderheadacc.h" />
+    <ClInclude Include="orderposacc.h" />
+    <ClInclude Include="abbauwexception.h" />
+    <ClInclude Include="dataacquisitionexception.h" />
+    <ClInclude Include="datastoringexception.h" />
+    <ClInclude Include="flatfileordirexception.h" />
+    <ClInclude Include="unprocessableexception.h" />
+    <ClInclude Include="transactionguard.h" />
+    <ClInclude Include="abbauwappl.h" />
+    <ClInclude Include="abbauwappl_definitions.h" />
+    <ClInclude Include="abbauwcmdlineevaluator.h" />
+    <ClInclude Include="abbauwcmdlineevaluatorptr.h" />
+    <ClInclude Include="abbauwcmdlineoption_definitions.h" />
+    <ClInclude Include="appargs.h" />
+    <ClInclude Include="appinitializer.h" />
+    <ClInclude Include="appinitializerexception.h" />
+    <ClInclude Include="useradminlogin_definitions.h" />
+    <ClInclude Include="appsession.h" />
+    <ClInclude Include="appsessionptr.h" />
+    <ClInclude Include="dbifxconnection.h" />
+    <ClInclude Include="loggerpool.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="appargs.inl" />
+    <None Include="appsession.inl" />
+    <None Include="cscbatchesediinput.cfg" />
+    <None Include="makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\libbatch\libbatch.vcxproj">
+      <Project>{e13f264c-8464-442d-9e8a-183b08e5c7d2}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Qt5Version_x0020_Win32="5.2.0" Qt5Version_x0020_x64="$(DefaultQtVersion)" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

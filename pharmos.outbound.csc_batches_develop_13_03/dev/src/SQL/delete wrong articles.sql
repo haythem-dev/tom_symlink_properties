@@ -1,0 +1,2 @@
+delete from artikellokal where artikel_nr = 0 and filialnr in (5, 44, 51, 52, 54, 56, 57, 58, 81, 82)
+delete from artikellokal where artikel_nr = 0 and filialnr in (6, 8, 9, 31, 33, 40, 46, 56, 59, 70, 78)

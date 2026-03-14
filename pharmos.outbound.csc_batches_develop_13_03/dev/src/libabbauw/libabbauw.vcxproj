@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|x64">
+      <Configuration>Template</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A1979F59-C89D-4C1F-8182-E052B07DD948}</ProjectGuid>
+    <Keyword>Qt4VS</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="Configuration">
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|x64'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\libabbauw;$(SolutionDir)..\lockman;$(SolutionDir)..\..\ext\ssuk\basar\include;$(SolutionDir)..\..\ext\ssuk\boost;$(SolutionDir)..\..\ext\ssuk\log4cplus\include;$(SolutionDir)..\..\ext\libutil\include;$(QTDIR)\include;$(SolutionDir)..\..\ext\pplib\include;$(SolutionDir)..\..\ext\kscclient\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <PostBuildEvent>
+      <Message>Copy language and config file</Message>
+      <Command>xcopy /s /q /y $(ProjectDir)\multilang\*.qm $(SolutionDir)\$(Configuration)\multilang\</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\libabbauw;$(SolutionDir)..\lockman;$(SolutionDir)..\..\ext\ssuk\basar\include;$(SolutionDir)..\..\ext\boost\include;$(SolutionDir)..\..\ext\log4cplus\include;$(SolutionDir)..\..\ext\libutil\include;$(QTDIR)\include;$(SolutionDir)..\..\ext\pplib\include;$(SolutionDir)..\..\ext\kscclient\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <PostBuildEvent>
+      <Message>Copy language and config file</Message>
+      <Command>xcopy /s /q /y $(ProjectDir)\multilang\*.qm $(SolutionDir)\$(Configuration)\multilang\</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\libabbauw;$(SolutionDir)..\lockman;$(QTDIR)\include;$(SolutionDir)..\..\ext\ssuk\basar\include;$(SolutionDir)..\..\ext\ssuk\boost;$(SolutionDir)..\..\ext\ssuk\log4cplus\include;$(SolutionDir)..\..\ext\libutil\include;$(QTDIR)\include\QtCore;$(SolutionDir)..\..\ext\pplib\include;$(SolutionDir)..\..\ext\kscclient\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>xcopy /s /q /y $(ProjectDir)\multilang\*.qm $(SolutionDir)\$(Configuration)\multilang\</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copy language and config file</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\libabbauw;$(SolutionDir)..\lockman;$(QTDIR)\include;$(SolutionDir)..\..\ext\ssuk\basar\include;$(SolutionDir)..\..\ext\boost\include;$(SolutionDir)..\..\ext\log4cplus\include;$(SolutionDir)..\..\ext\libutil\include;$(QTDIR)\include\QtCore;$(SolutionDir)..\..\ext\pplib\include;$(SolutionDir)..\..\ext\kscclient\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>xcopy /s /q /y $(ProjectDir)\multilang\*.qm $(SolutionDir)\$(Configuration)\multilang\</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copy language and config file</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\ext\ssuk\basar\include;$(SolutionDir)..\ext\ssuk\boost;$(SolutionDir)..\ext\ssuk\log4cplus\include;$(SolutionDir)..\ext\libutil\include;$(SolutionDir)..\src\libbatch\;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\ext\ssuk\basar\include;$(SolutionDir)..\ext\ssuk\boost;$(SolutionDir)..\ext\ssuk\log4cplus\include;$(SolutionDir)..\ext\libutil\include;$(SolutionDir)..\src\libbatch\;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="articlecollectionacc.cpp" />
+    <ClCompile Include="articlecollectiondm.cpp" />
+    <ClCompile Include="articleconsultantacc.cpp" />
+    <ClCompile Include="articleconsultantdm.cpp" />
+    <ClCompile Include="bitfieldresolver.cpp" />
+    <ClCompile Include="cmnaccessor.cpp" />
+    <ClCompile Include="cmndm.cpp" />
+    <ClCompile Include="colorsplittingpolicy.cpp" />
+    <ClCompile Include="componentmanager\batchorderconnectedfactory.cpp" />
+    <ClCompile Include="componentmanager\dmcomponentmanager.cpp" />
+    <ClCompile Include="componentmanager\orderproposalcollectionfactory.cpp" />
+    <ClCompile Include="componentmanager\orderproposalfactory.cpp" />
+    <ClCompile Include="componentmanager\transferorderdmgetter.cpp" />
+    <ClCompile Include="componentmanager\transferorderfactory.cpp" />
+    <ClCompile Include="componentmanager\transferorderheadcollectiondmgetter.cpp" />
+    <ClCompile Include="componentmanager\transferorderheadcollectionfactory.cpp" />
+    <ClCompile Include="componentmanager\transferorderheadcollectionlockeddmgetter.cpp" />
+    <ClCompile Include="componentmanager\transferorderheadfactory.cpp" />
+    <ClCompile Include="componentmanager\transferorderlockeddmgetter.cpp" />
+    <ClCompile Include="componentmanager\transferorderpositionconnectedfactory.cpp" />
+    <ClCompile Include="customeracc.cpp" />
+    <ClCompile Include="customerdm.cpp" />
+    <ClCompile Include="customerlockedexception.cpp" />
+    <ClCompile Include="dmbase.cpp" />
+    <ClCompile Include="domainmodule\batchorder\batchordercollectiondm.cpp" />
+    <ClCompile Include="domainmodule\batchorder\batchorderdm.cpp" />
+    <ClCompile Include="domainmodule\batchorder\batchorderhead.cpp" />
+    <ClCompile Include="domainmodule\batchorder\batchorderpositioncollection.cpp" />
+    <ClCompile Include="domainmodule\batchorder\batchorderprotectionproxy.cpp" />
+    <ClCompile Include="domainmodule\orderprotocol\orderheadprotocoldm.cpp" />
+    <ClCompile Include="domainmodule\orderprotocol\orderposcollectionprotocoldm.cpp" />
+    <ClCompile Include="domainmodule\orderprotocol\orderprotocoldm.cpp" />
+    <ClCompile Include="exceptions\orderlockedexception.cpp" />
+    <ClCompile Include="exceptions\ordernotfoundexception.cpp" />
+    <ClCompile Include="exceptions\orderproposalexception.cpp" />
+    <ClCompile Include="exceptions\orderreleaseexception.cpp" />
+    <ClCompile Include="exceptions\ordersplitexception.cpp" />
+    <ClCompile Include="exceptions\outofsyncexception.cpp" />
+    <ClCompile Include="exceptions\parameterexception.cpp" />
+    <ClCompile Include="exceptions\tendercreationexception.cpp" />
+    <ClCompile Include="infrastructure\accessor\batchorder\batchorderheadacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\batchorder\batchordercollectionacc.cpp" />
+    <ClCompile Include="domainmodule\orderproposal\orderproposalcollectiondm.cpp" />
+    <ClCompile Include="domainmodule\orderproposal\orderproposalcollectionprotectionproxy.cpp" />
+    <ClCompile Include="domainmodule\orderproposal\orderproposalcreatordm.cpp" />
+    <ClCompile Include="domainmodule\orderproposal\orderproposaldm.cpp" />
+    <ClCompile Include="domainmodule\orderproposal\orderproposalupdatedm.cpp" />
+    <ClCompile Include="infrastructure\accessor\batchorder\batchorderpositioncollectionacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\orderproposal\orderproposalacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\orderproposal\orderproposalcollectionacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\orderprotocol\orderheadprotocolacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\orderprotocol\orderposprotocolacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\purchasebatchorder\purchasebatchorderposacc.cpp" />
+    <ClCompile Include="infrastructure\accessor\transferorder\transferorderpositionacc.cpp" />
+    <ClCompile Include="infrastructure\cscclient\cscclient.cpp" />
+    <ClCompile Include="infrastructure\cscclient\cscclientexception.cpp" />
+    <ClCompile Include="infrastructure\cscclient\outofboundsexception.cpp" />
+    <ClCompile Include="itransferorderposinpreparationcollection.h" />
+    <ClCompile Include="loggerpool\libabbauw_loggerpool.cpp" />
+    <ClCompile Include="narcoticsrefrigeratedsplittingpolicy.cpp" />
+    <ClCompile Include="orderstatus.cpp" />
+    <ClCompile Include="purchasebatchorderposdm.cpp" />
+    <ClCompile Include="purchaseordersupplieracc.cpp" />
+    <ClCompile Include="purchaseordersupplierdm.cpp" />
+    <ClCompile Include="reservequantityfactorgetter.cpp" />
+    <ClCompile Include="transferordercreationdm.cpp" />
+    <ClCompile Include="transferorderdm.cpp" />
+    <ClCompile Include="transferorderhead.cpp" />
+    <ClCompile Include="transferorderheadacc.cpp" />
+    <ClCompile Include="transferorderheadcollectionprotectionproxy.cpp" />
+    <ClCompile Include="transferorderheadpropertystatechecker.cpp" />
+    <ClCompile Include="transferorderinpreparationdm.cpp" />
+    <ClCompile Include="orderlockfactory.cpp" />
+    <ClCompile Include="transferorderposcollectionpropertystatechecker.cpp" />
+    <ClCompile Include="transferorderposinpreparationcollection.cpp" />
+    <ClCompile Include="transferorderheadcollectiondm.cpp" />
+    <ClCompile Include="transferorderheadcollectionacc.cpp" />
+    <ClCompile Include="transferorderheadinpreparationacc.cpp" />
+    <ClCompile Include="transferorderheadinpreparation.cpp" />
+    <ClCompile Include="transferorderheadinpreparationpropertystatechecker.cpp" />
+    <ClCompile Include="transferorderposcollection.cpp" />
+    <ClCompile Include="transferorderposcollectionacc.cpp" />
+    <ClCompile Include="stockcollectiondm.cpp" />
+    <ClCompile Include="stockcollectionacc.cpp" />
+    <ClCompile Include="manufacturerdm.cpp" />
+    <ClCompile Include="manufactureracc.cpp" />
+    <ClCompile Include="customercollectiondm.cpp" />
+    <ClCompile Include="customercollectionacc.cpp" />
+    <ClCompile Include="parameterdm.cpp" />
+    <ClCompile Include="parameteracc.cpp" />
+    <ClCompile Include="cscorderdm.cpp" />
+    <ClCompile Include="transferorderposinpreparationcollectionacc.cpp" />
+    <ClCompile Include="transferorderposinpreparationcollectionpropertystatechecker.cpp" />
+    <ClCompile Include="sortorder.cpp" />
+    <ClCompile Include="transferorderpositiondm.cpp" />
+    <ClCompile Include="transferorderprotectionproxy.cpp" />
+    <ClCompile Include="transferordersplitdm.cpp" />
+    <ClCompile Include="yiteratormatcher.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="accessor_datetypes_common.h" />
+    <ClInclude Include="articlecollectionacc.h" />
+    <ClInclude Include="articlecollectiondm.h" />
+    <ClInclude Include="articlecollectiondmptr.h" />
+    <ClInclude Include="articleconsultantacc.h" />
+    <ClInclude Include="articleconsultantdm.h" />
+    <ClInclude Include="articleconsultantdmptr.h" />
+    <ClInclude Include="articleconsultantinitparams.h" />
+    <ClInclude Include="articleconsultantdm_definitions.h" />
+    <ClInclude Include="articleinitparams.h" />
+    <ClInclude Include="articlecollectiondm_definitions.h" />
+    <ClInclude Include="bitfieldresolver.h" />
+    <ClInclude Include="cmnaccessor.h" />
+    <ClInclude Include="cmndm.h" />
+    <ClInclude Include="accessorexecuteparameterization.h" />
+    <ClInclude Include="colorsplittingpolicy.h" />
+    <ClInclude Include="componentmanager\batchorderconnectedfactory.h" />
+    <ClInclude Include="componentmanager\batchorderconnectedfactoryptr.h" />
+    <ClInclude Include="componentmanager\dmcomponentmanager.h" />
+    <ClInclude Include="componentmanager\dmcomponentmanagerptr.h" />
+    <ClInclude Include="componentmanager\ibatchorderconnectedfactory.h" />
+    <ClInclude Include="componentmanager\ibatchorderconnectedfactoryptr.h" />
+    <ClInclude Include="componentmanager\icreatesplittedheadfactory.h" />
+    <ClInclude Include="componentmanager\icreatesplittedheadfactoryptr.h" />
+    <ClInclude Include="componentmanager\icscordergetter.h" />
+    <ClInclude Include="componentmanager\icscordergetterptr.h" />
+    <ClInclude Include="componentmanager\iorderproposalcollectionfactory.h" />
+    <ClInclude Include="componentmanager\iorderproposalcollectionfactoryptr.h" />
+    <ClInclude Include="componentmanager\iorderproposalcollectionprotectionproxygetter.h" />
+    <ClInclude Include="componentmanager\iorderproposalcollectionprotectionproxygetterptr.h" />
+    <ClInclude Include="componentmanager\iorderproposalfactory.h" />
+    <ClInclude Include="componentmanager\iorderproposalfactoryptr.h" />
+    <ClInclude Include="componentmanager\ireservequantityfactorgetterfactory.h" />
+    <ClInclude Include="componentmanager\ireservequantityfactorgetterfactoryptr.h" />
+    <ClInclude Include="componentmanager\itransferorderdmgetter.h" />
+    <ClInclude Include="componentmanager\itransferorderdmgetterptr.h" />
+    <ClInclude Include="componentmanager\itransferorderfactory.h" />
+    <ClInclude Include="componentmanager\itransferorderfactoryptr.h" />
+    <ClInclude Include="componentmanager\itransferorderheadcollectiondmgetter.h" />
+    <ClInclude Include="componentmanager\itransferorderheadcollectiondmgetterptr.h" />
+    <ClInclude Include="componentmanager\itransferorderheadcollectionfactory.h" />
+    <ClInclude Include="componentmanager\itransferorderheadcollectionfactoryptr.h" />
+    <ClInclude Include="componentmanager\itransferorderheadfactory.h" />
+    <ClInclude Include="componentmanager\itransferorderheadfactoryptr.h" />
+    <ClInclude Include="componentmanager\itransferorderheadgetter.h" />
+    <ClInclude Include="componentmanager\itransferorderheadgetterptr.h" />
+    <ClInclude Include="componentmanager\itransferorderposcollectiongetter.h" />
+    <ClInclude Include="componentmanager\itransferorderposcollectiongetterptr.h" />
+    <ClInclude Include="componentmanager\itransferorderpositionconnectedfactory.h" />
+    <ClInclude Include="componentmanager\itransferorderpositionconnectedfactoryptr.h" />
+    <ClInclude Include="componentmanager\orderproposalcollectionfactory.h" />
+    <ClInclude Include="componentmanager\orderproposalfactory.h" />
+    <ClInclude Include="componentmanager\orderproposalfactoryptr.h" />
+    <ClInclude Include="componentmanager\transferorderdmgetter.h" />
+    <ClInclude Include="componentmanager\transferorderfactory.h" />
+    <ClInclude Include="componentmanager\transferorderfactoryptr.h" />
+    <ClInclude Include="componentmanager\transferorderheadcollectiondmgetter.h" />
+    <ClInclude Include="componentmanager\transferorderheadcollectionfactory.h" />
+    <ClInclude Include="componentmanager\transferorderheadcollectionfactoryptr.h" />
+    <ClInclude Include="componentmanager\transferorderheadcollectionlockeddmgetter.h" />
+    <ClInclude Include="componentmanager\transferorderheadfactory.h" />
+    <ClInclude Include="componentmanager\transferorderheadfactoryptr.h" />
+    <ClInclude Include="componentmanager\transferorderlockeddmgetter.h" />
+    <ClInclude Include="componentmanager\transferorderpositionconnectedfactory.h" />
+    <ClInclude Include="componentmanager\transferorderpositionconnectedfactoryptr.h" />
+    <ClInclude Include="customeracc.h" />
+    <ClInclude Include="customerdm.h" />
+    <ClInclude Include="customerdm_definitions.h" />
+    <ClInclude Include="customerinitparams.h" />
+    <ClInclude Include="customerlockedexception.h" />
+    <ClInclude Include="dmbase.h" />
+    <ClInclude Include="domainmodule\batchorder\batchordercollectiondm.h" />
+    <ClInclude Include="domainmodule\batchorder\batchordercollectiondmptr.h" />
+    <ClInclude Include="domainmodule\batchorder\batchorderdm.h" />
+    <ClInclude Include="domainmodule\batchorder\batchorderdmptr.h" />
+    <ClInclude Include="domainmodule\batchorder\batchorderhead.h" />
+    <ClInclude Include="domainmodule\batchorder\batchorderheadptr.h" />
+    <ClInclude Include="domainmodule\batchorder\batchorderpositioncollection.h" />
+    <ClInclude Include="domainmodule\batchorder\batchorderprotectionproxy.h" />
+    <ClInclude Include="domainmodule\batchorder\batchorderprotectionproxyptr.h" />
+    <ClInclude Include="domainmodule\batchorder\ibatchorderheadfinder.h" />
+    <ClInclude Include="domainmodule\batchorder\ibatchorderheadfinderptr.h" />
+    <ClInclude Include="domainmodule\batchorder\ibatchorderpositioncollectionfinder.h" />
+    <ClInclude Include="domainmodule\batchorder\ibatchorderpositioncollectionfinderptr.h" />
+    <ClInclude Include="domainmodule\batchorder\batchorderpositioncollectionptr.h" />
+    <ClInclude Include="domainmodule\batchorder\ibatchorder.h" />
+    <ClInclude Include="domainmodule\batchorder\ibatchordercollectionfinder.h" />
+    <ClInclude Include="domainmodule\batchorder\ibatchordercollectionfinderptr.h" />
+    <ClInclude Include="domainmodule\batchorder\ibatchorderptr.h" />
+    <ClInclude Include="domainmodule\orderprotocol\iorderheadprotocol.h" />
+    <ClInclude Include="domainmodule\orderprotocol\iorderheadprotocolptr.h" />
+    <ClInclude Include="domainmodule\orderprotocol\iorderposcollectionprotocol.h" />
+    <ClInclude Include="domainmodule\orderprotocol\iorderposcollectionprotocolptr.h" />
+    <ClInclude Include="domainmodule\orderprotocol\iorderprotocol.h" />
+    <ClInclude Include="domainmodule\orderprotocol\iorderprotocolptr.h" />
+    <ClInclude Include="domainmodule\orderprotocol\orderheadprotocoldm.h" />
+    <ClInclude Include="domainmodule\orderprotocol\orderheadprotocoldmptr.h" />
+    <ClInclude Include="domainmodule\orderprotocol\orderposcollectionprotocoldm.h" />
+    <ClInclude Include="domainmodule\orderprotocol\orderposcollectionprotocoldmptr.h" />
+    <ClInclude Include="domainmodule\orderprotocol\orderprotocoldm.h" />
+    <ClInclude Include="domainmodule\orderprotocol\orderprotocoldmptr.h" />
+    <ClInclude Include="domainmodule\orderprotocol\orderprotocolenums.h" />
+    <ClInclude Include="exceptions\orderlockedexception.h" />
+    <ClInclude Include="exceptions\ordernotfoundexception.h" />
+    <ClInclude Include="exceptions\orderproposalexception.h" />
+    <ClInclude Include="exceptions\orderreleaseexception.h" />
+    <ClInclude Include="exceptions\ordersplitexception.h" />
+    <ClInclude Include="exceptions\outofsyncexception.h" />
+    <ClInclude Include="exceptions\parameterexception.h" />
+    <ClInclude Include="domainmodule\orderproposal\iorderproposal.h" />
+    <ClInclude Include="domainmodule\orderproposal\iorderproposalcollection.h" />
+    <ClInclude Include="domainmodule\orderproposal\iorderproposalcollectionfinder.h" />
+    <ClInclude Include="domainmodule\orderproposal\iorderproposalcollectionfinderptr.h" />
+    <ClInclude Include="domainmodule\orderproposal\iorderproposalcollectionprotectionproxy.h" />
+    <ClInclude Include="domainmodule\orderproposal\iorderproposalcollectionprotectionproxyptr.h" />
+    <ClInclude Include="domainmodule\orderproposal\iorderproposalcollectionptr.h" />
+    <ClInclude Include="domainmodule\orderproposal\iorderproposalcreator.h" />
+    <ClInclude Include="domainmodule\orderproposal\orderproposalcollectiondm.h" />
+    <ClInclude Include="domainmodule\orderproposal\orderproposalcollectiondmptr.h" />
+    <ClInclude Include="domainmodule\orderproposal\orderproposalcollectionprotectionproxy.h" />
+    <ClInclude Include="domainmodule\orderproposal\orderproposalcollectionprotectionproxyptr.h" />
+    <ClInclude Include="domainmodule\orderproposal\orderproposalcreatordmptr.h" />
+    <ClInclude Include="domainmodule\orderproposal\iorderproposalcreatorptr.h" />
+    <ClInclude Include="domainmodule\orderproposal\iorderproposalptr.h" />
+    <ClInclude Include="domainmodule\orderproposal\orderproposalcreatordm.h" />
+    <ClInclude Include="domainmodule\orderproposal\orderproposaldm.h" />
+    <ClInclude Include="domainmodule\orderproposal\orderproposaldmptr.h" />
+    <ClInclude Include="domainmodule\orderproposal\orderproposalupdatedm.h" />
+    <ClInclude Include="domainmodule\orderproposal\orderproposalupdatedmptr.h" />
+    <ClInclude Include="exceptions\tendercreationexception.h" />
+    <ClInclude Include="icustomerfinder.h" />
+    <ClInclude Include="icustomerfinderptr.h" />
+    <ClInclude Include="icustomergetter.h" />
+    <ClInclude Include="icustomergetterptr.h" />
+    <ClInclude Include="idaystocolorparameter.h" />
+    <ClInclude Include="idaystocolorparameterptr.h" />
+    <ClInclude Include="ifindarticle.h" />
+    <ClInclude Include="ifindarticleptr.h" />
+    <ClInclude Include="ifindpurchaseordersupplier.h" />
+    <ClInclude Include="ifindpurchaseordersupplierptr.h" />
+    <ClInclude Include="iinterfacesettings.h" />
+    <ClInclude Include="iinterfacesettingsptr.h" />
+    <ClInclude Include="infrastructure\accessor\batchorder\batchorderheadacc.h" />
+    <ClInclude Include="infrastructure\accessor\batchorder\batchorderheadacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\batchorder\batchordercollectionacc.h" />
+    <ClInclude Include="infrastructure\accessor\batchorder\batchordercollectionacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\batchorder\batchorderpositioncollectionacc.h" />
+    <ClInclude Include="infrastructure\accessor\batchorder\batchorderpositioncollectionacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\orderproposal\orderproposalacc.h" />
+    <ClInclude Include="infrastructure\accessor\orderproposal\orderproposalacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\orderproposal\orderproposalcollectionacc.h" />
+    <ClInclude Include="infrastructure\accessor\orderproposal\orderproposalcollectionacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\orderprotocol\orderheadprotocolacc.h" />
+    <ClInclude Include="infrastructure\accessor\orderprotocol\orderheadprotocolacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\orderprotocol\orderposprotocolacc.h" />
+    <ClInclude Include="infrastructure\accessor\orderprotocol\orderposprotocolacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\purchasebatchorder\purchasebatchorderposacc.h" />
+    <ClInclude Include="infrastructure\accessor\purchasebatchorder\purchasebatchorderposacc_definitions.h" />
+    <ClInclude Include="infrastructure\accessor\transferorder\transferorderpositionacc.h" />
+    <ClInclude Include="infrastructure\accessor\transferorder\transferorderpositionacc_definitions.h" />
+    <ClInclude Include="infrastructure\cscclient\cscclient.h" />
+    <ClInclude Include="infrastructure\cscclient\cscclientexception.h" />
+    <ClInclude Include="infrastructure\cscclient\outofboundsexception.h" />
+    <ClInclude Include="iordercheckparameter.h" />
+    <ClInclude Include="iordercheckparameterptr.h" />
+    <ClInclude Include="iordercreationparameter.h" />
+    <ClInclude Include="iordercreationparameterptr.h" />
+    <ClInclude Include="iorderreleaseparameter.h" />
+    <ClInclude Include="iorderreleaseparameterptr.h" />
+    <ClInclude Include="ipurchasebatchorderposupdater.h" />
+    <ClInclude Include="ipurchasebatchorderposupdaterptr.h" />
+    <ClInclude Include="ireserveqtyfactorparameter.h" />
+    <ClInclude Include="ireserveqtyfactorparameterptr.h" />
+    <ClInclude Include="ireservequantityfactorgetter.h" />
+    <ClInclude Include="ireservequantityfactorgetterptr.h" />
+    <ClInclude Include="isplittingpolicy.h" />
+    <ClInclude Include="isplittingpolicyptr.h" />
+    <ClInclude Include="iorderlockfactory.h" />
+    <ClInclude Include="iorderlockfactoryptr.h" />
+    <ClInclude Include="itransferordergetter.h" />
+    <ClInclude Include="itransferordergetterptr.h" />
+    <ClInclude Include="itransferorderheadcollectiondm.h" />
+    <ClInclude Include="itransferorderheadcollectiondmptr.h" />
+    <ClInclude Include="itransferorderheadcollectionfinder.h" />
+    <ClInclude Include="itransferorderheadcollectionfinderptr.h" />
+    <ClInclude Include="itransferorderheadcollectiongetter.h" />
+    <ClInclude Include="itransferorderheadcollectiongetterptr.h" />
+    <ClInclude Include="itransferorderposition.h" />
+    <ClInclude Include="itransferorderpositionptr.h" />
+    <ClInclude Include="loggerpool\libabbauw_loggerpool.h" />
+    <ClInclude Include="narcoticsrefrigeratedsplittingpolicy.h" />
+    <ClInclude Include="iordertypecollectionparameter.h" />
+    <ClInclude Include="iordertypecollectionparameterptr.h" />
+    <ClInclude Include="ifindarticleprice.h" />
+    <ClInclude Include="ifindarticlepriceptr.h" />
+    <ClInclude Include="iordertypegetter.h" />
+    <ClInclude Include="iordertypegetterptr.h" />
+    <ClInclude Include="itransferordercreationdm.h" />
+    <ClInclude Include="itransferordercreationdmptr.h" />
+    <ClInclude Include="itransferorder.h" />
+    <ClInclude Include="itransferorderptr.h" />
+    <ClInclude Include="itransferorderhead.h" />
+    <ClInclude Include="itransferorderheadcollectionchanger.h" />
+    <ClInclude Include="itransferorderheadcollectionchangerptr.h" />
+    <ClInclude Include="itransferorderheadinpreparation.h" />
+    <ClInclude Include="itransferorderheadinpreparationptr.h" />
+    <ClInclude Include="itransferorderheadptr.h" />
+    <ClInclude Include="itransferorderinpreparationdm.h" />
+    <ClInclude Include="itransferorderinpreparationdmptr.h" />
+    <ClInclude Include="itransferorderposinpreparationcollectionptr.h" />
+    <ClInclude Include="itransferordersplitdm.h" />
+    <ClInclude Include="itransferordersplitdmptr.h" />
+    <ClInclude Include="iordergetter.h" />
+    <ClInclude Include="iordergetterptr.h" />
+    <ClInclude Include="orderstatus.h" />
+    <ClInclude Include="purchasebatchorderposdm.h" />
+    <ClInclude Include="purchasebatchorderposdmptr.h" />
+    <ClInclude Include="purchaseordersupplieracc.h" />
+    <ClInclude Include="purchaseordersupplierdm.h" />
+    <ClInclude Include="purchaseordersupplierdmptr.h" />
+    <ClInclude Include="purchaseordersupplierdm_definitions.h" />
+    <ClInclude Include="reservequantityfactorgetter.h" />
+    <ClInclude Include="reservequantityfactorgetterptr.h" />
+    <ClInclude Include="reservequantityfactortype.h" />
+    <ClInclude Include="trafficlightcolorsenum.h" />
+    <ClInclude Include="transferordercreationdm.h" />
+    <ClInclude Include="transferordercreationdmptr.h" />
+    <ClInclude Include="transferorderdm.h" />
+    <ClInclude Include="transferorderhead.h" />
+    <ClInclude Include="transferorderheadacc.h" />
+    <ClInclude Include="transferorderheadcollectionprotectionproxy.h" />
+    <ClInclude Include="transferorderheadcollectionprotectionproxyptr.h" />
+    <ClInclude Include="transferorderheadinitparams.h" />
+    <ClInclude Include="transferorderheadpropertystatechecker.h" />
+    <ClInclude Include="transferorderheadptr.h" />
+    <ClInclude Include="transferorderhead_definitions.h" />
+    <ClInclude Include="transferorderdmptr.h" />
+    <ClInclude Include="transferorderheadinpreparationacc.h" />
+    <ClInclude Include="transferorderheadinpreparation.h" />
+    <ClInclude Include="transferorderheadinpreparationptr.h" />
+    <ClInclude Include="transferorderheadinpreparationinitparams.h" />
+    <ClInclude Include="transferorderheadinpreparationpropertystatechecker.h" />
+    <ClInclude Include="transferorderheadinpreparation_definitions.h" />
+    <ClInclude Include="transferorderinpreparationdm.h" />
+    <ClInclude Include="transferorderinpreparationdmptr.h" />
+    <ClInclude Include="transferorderinpreparationinitparams.h" />
+    <ClInclude Include="orderlockfactory.h" />
+    <ClInclude Include="orderlockfactoryptr.h" />
+    <ClInclude Include="transferorderposcollectionpropertystatechecker.h" />
+    <ClInclude Include="transferorderposinpreparationcollection.h" />
+    <ClInclude Include="transferorderposinpreparationcollectionacc.h" />
+    <ClInclude Include="transferorderposinpreparationcollectioninitparams.h" />
+    <ClInclude Include="transferorderposinpreparationcollectionpropertystatechecker.h" />
+    <ClInclude Include="transferorderposinpreparationcollectionptr.h" />
+    <ClInclude Include="transferorderposinpreparationcollection_definitions.h" />
+    <ClInclude Include="transferorderheadcollection_definitions.h" />
+    <ClInclude Include="transferorderheadcollectiondm.h" />
+    <ClInclude Include="transferorderheadcollectiondmptr.h" />
+    <ClInclude Include="transferorderheadcollectioninitparams.h" />
+    <ClInclude Include="transferorderheadcollectionacc.h" />
+    <ClInclude Include="transferorderposcollection_definitions.h" />
+    <ClInclude Include="transferorderposcollection.h" />
+    <ClInclude Include="transferorderposcollectionptr.h" />
+    <ClInclude Include="transferorderposcollectioninitparams.h" />
+    <ClInclude Include="transferorderposcollectionacc.h" />
+    <ClInclude Include="itransferorderposcollection.h" />
+    <ClInclude Include="itransferorderposcollectionptr.h" />
+    <ClInclude Include="istockcollectiondm.h" />
+    <ClInclude Include="istockcollectiondmptr.h" />
+    <ClInclude Include="stockcollection_definitions.h" />
+    <ClInclude Include="stockcollectiondm.h" />
+    <ClInclude Include="stockcollectiondmptr.h" />
+    <ClInclude Include="stockcollectioninitparams.h" />
+    <ClInclude Include="stockcollectionacc.h" />
+    <ClInclude Include="manufacturerdm.h" />
+    <ClInclude Include="manufacturerdm_definitions.h" />
+    <ClInclude Include="manufacturerinitparams.h" />
+    <ClInclude Include="manufactureracc.h" />
+    <ClInclude Include="ifindmanufacturer.h" />
+    <ClInclude Include="ifindmanufacturerptr.h" />
+    <ClInclude Include="customercollectiondm.h" />
+    <ClInclude Include="customercollectiondm_definitions.h" />
+    <ClInclude Include="customercollectioninitparams.h" />
+    <ClInclude Include="customercollectionacc.h" />
+    <ClInclude Include="icustomercollectionfinder.h" />
+    <ClInclude Include="icustomercollectionfinderptr.h" />
+    <ClInclude Include="parameter_definitions.h" />
+    <ClInclude Include="parameterdm.h" />
+    <ClInclude Include="parameterdmptr.h" />
+    <ClInclude Include="parameterinitparams.h" />
+    <ClInclude Include="parameteracc.h" />
+    <ClInclude Include="iorderparameter.h" />
+    <ClInclude Include="iorderparameterptr.h" />
+    <ClInclude Include="iparameter.h" />
+    <ClInclude Include="iparameterdm.h" />
+    <ClInclude Include="iparameterdmptr.h" />
+    <ClInclude Include="iparameteredit.h" />
+    <ClInclude Include="iparametereditptr.h" />
+    <ClInclude Include="iparameterptr.h" />
+    <ClInclude Include="istockparameter.h" />
+    <ClInclude Include="istockparameterptr.h" />
+    <ClInclude Include="iuserfiltersettings.h" />
+    <ClInclude Include="iuserfiltersettingsptr.h" />
+    <ClInclude Include="icscorderreleaser.h" />
+    <ClInclude Include="icscorderreleaserptr.h" />
+    <ClInclude Include="cscorderdm.h" />
+    <ClInclude Include="cscorderdmptr.h" />
+    <ClInclude Include="cscorderinitparams.h" />
+    <ClInclude Include="icscordercreator.h" />
+    <ClInclude Include="icscordercreatorptr.h" />
+    <ClInclude Include="sortorder.h" />
+    <ClInclude Include="libabbauw_definitions.h" />
+    <ClInclude Include="libabbauw_properties_definitions.h" />
+    <ClInclude Include="transferorderpositiondm.h" />
+    <ClInclude Include="transferorderpositiondmptr.h" />
+    <ClInclude Include="transferorderprotectionproxy.h" />
+    <ClInclude Include="transferorderprotectionproxyptr.h" />
+    <ClInclude Include="transferordersplitdm.h" />
+    <ClInclude Include="transferordersplitdmptr.h" />
+    <ClInclude Include="yiteratormatcher.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="multilang\libabbauw_de.ts">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\lrelease" -verbose %(FullPath) -qm %(RootDir)%(Directory)\%(Filename).qm</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\lrelease" -verbose %(FullPath) -qm %(RootDir)%(Directory)\%(Filename).qm</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\lrelease" -verbose %(FullPath) -qm %(RootDir)%(Directory)\%(Filename).qm</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\lrelease" -verbose %(FullPath) -qm %(RootDir)%(Directory)\%(Filename).qm</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(RootDir)%(Directory)\%(Filename).qm;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(RootDir)%(Directory)\%(Filename).qm;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="componentmanager\orderproposalcollectionfactoryptr.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Qt5Version_x0020_Win32="5.2.0" Qt5Version_x0020_x64="$(DefaultQtVersion)" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

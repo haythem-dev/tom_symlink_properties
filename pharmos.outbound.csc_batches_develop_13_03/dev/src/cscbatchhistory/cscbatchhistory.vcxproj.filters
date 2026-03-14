@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="UseCases">
+      <UniqueIdentifier>{7c4e0ffe-a8ec-4ceb-a3c2-9876dcdbccf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules">
+      <UniqueIdentifier>{ec355910-9f5d-4687-a0fc-2f127e2fba3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\Accessoren">
+      <UniqueIdentifier>{d967d02c-13e7-4296-a051-1a0b28a6b56d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainModules\SearchYIterator">
+      <UniqueIdentifier>{a8892bc7-aab3-4e51-bef8-085e40f2fc44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{ce8cc8d0-6d0d-4d19-b09e-ddbf06529d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="connect">
+      <UniqueIdentifier>{6bf37730-2f3b-486a-a72b-4126688bd201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log4cplus">
+      <UniqueIdentifier>{f4c7be0f-9626-4716-b23e-cab30e48be25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log4cplus\ConfigFile">
+      <UniqueIdentifier>{e8747be1-922e-48d4-a8c5-6632b09203a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="copybatchorderacc.cpp">
+      <Filter>DomainModules\Accessoren</Filter>
+    </ClCompile>
+    <ClCompile Include="orderproposalacc.cpp">
+      <Filter>DomainModules\Accessoren</Filter>
+    </ClCompile>
+    <ClCompile Include="searchyiterator.cpp">
+      <Filter>DomainModules\SearchYIterator</Filter>
+    </ClCompile>
+    <ClCompile Include="cscbatcheshistoryappl.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="copybatchordersdm.cpp">
+      <Filter>DomainModules</Filter>
+    </ClCompile>
+    <ClCompile Include="orderproposaldm.cpp">
+      <Filter>DomainModules</Filter>
+    </ClCompile>
+    <ClCompile Include="connection.cpp">
+      <Filter>connect</Filter>
+    </ClCompile>
+    <ClCompile Include="loggerpool.cpp">
+      <Filter>log4cplus</Filter>
+    </ClCompile>
+    <ClCompile Include="cscbatcheshistoryuc.cpp">
+      <Filter>UseCases</Filter>
+    </ClCompile>
+    <ClCompile Include="usecasecontroller.cpp">
+      <Filter>UseCases</Filter>
+    </ClCompile>
+    <ClCompile Include="orderheadprotocolacc.cpp">
+      <Filter>DomainModules\Accessoren</Filter>
+    </ClCompile>
+    <ClCompile Include="orderposprotocolacc.cpp">
+      <Filter>DomainModules\Accessoren</Filter>
+    </ClCompile>
+    <ClCompile Include="orderheadprotocoldm.cpp">
+      <Filter>DomainModules</Filter>
+    </ClCompile>
+    <ClCompile Include="orderposprotocoldm.cpp">
+      <Filter>DomainModules</Filter>
+    </ClCompile>
+    <ClCompile Include="version.c">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="archivedm.cpp">
+      <Filter>DomainModules</Filter>
+    </ClCompile>
+    <ClCompile Include="archiveacc.cpp">
+      <Filter>DomainModules\Accessoren</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="copybatchorderacc.h">
+      <Filter>DomainModules\Accessoren</Filter>
+    </ClInclude>
+    <ClInclude Include="orderproposalacc.h">
+      <Filter>DomainModules\Accessoren</Filter>
+    </ClInclude>
+    <ClInclude Include="searchyiterator.h">
+      <Filter>DomainModules\SearchYIterator</Filter>
+    </ClInclude>
+    <ClInclude Include="searchyiteratorptr.h">
+      <Filter>DomainModules\SearchYIterator</Filter>
+    </ClInclude>
+    <ClInclude Include="cscbatcheshistoryappl.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="copybatchordersdm.h">
+      <Filter>DomainModules</Filter>
+    </ClInclude>
+    <ClInclude Include="orderproposaldm.h">
+      <Filter>DomainModules</Filter>
+    </ClInclude>
+    <ClInclude Include="connection.h">
+      <Filter>connect</Filter>
+    </ClInclude>
+    <ClInclude Include="loggerpool.h">
+      <Filter>log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="cscbatcheshistoryuc.h">
+      <Filter>UseCases</Filter>
+    </ClInclude>
+    <ClInclude Include="usecasecontroller.h">
+      <Filter>UseCases</Filter>
+    </ClInclude>
+    <ClInclude Include="orderheadprotocolacc.h">
+      <Filter>DomainModules\Accessoren</Filter>
+    </ClInclude>
+    <ClInclude Include="orderposprotocolacc.h">
+      <Filter>DomainModules\Accessoren</Filter>
+    </ClInclude>
+    <ClInclude Include="orderheadprotocoldm.h">
+      <Filter>DomainModules</Filter>
+    </ClInclude>
+    <ClInclude Include="orderposprotocoldm.h">
+      <Filter>DomainModules</Filter>
+    </ClInclude>
+    <ClInclude Include="orderprotocol_definitions.h">
+      <Filter>DomainModules</Filter>
+    </ClInclude>
+    <ClInclude Include="archivedm.h">
+      <Filter>DomainModules</Filter>
+    </ClInclude>
+    <ClInclude Include="archiveacc.h">
+      <Filter>DomainModules\Accessoren</Filter>
+    </ClInclude>
+    <ClInclude Include="properties_definitions.h">
+      <Filter>main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ini\cscbatchhistory.cfg">
+      <Filter>log4cplus\ConfigFile</Filter>
+    </None>
+    <None Include="makefile" />
+  </ItemGroup>
+</Project>

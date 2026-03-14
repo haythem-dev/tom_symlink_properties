@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/Icons">
+        <file>ico.bmp</file>
+        <file>CSC_Batches.png</file>
+    </qresource>
+    <qresource prefix="/widget">
+        <file>status_exclamation.png</file>
+        <file>status_okay.png</file>
+    </qresource>
+</RCC>
